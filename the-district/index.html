@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The District Bites &amp; Brew — Tucson's Neighborhood Gastropub on Campbell</title>
+  <meta name="description" content="Craft burgers, small-batch cocktails, and happy hour on N Campbell. Reserve a table, catch the game, or swing by for dinner. Open until 11 PM." />
+  <meta name="theme-color" content="#0E0B0B" />
+
+  <meta property="og:title" content="The District Bites &amp; Brew — Tucson" />
+  <meta property="og:description" content="Burgers, wings, flatbreads, and a killer bar program on N Campbell Ave." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" />
+  <meta property="og:type" content="restaurant.restaurant" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The District Bites &amp; Brew" />
+  <meta name="twitter:description" content="Tucson gastropub · Burgers · Cocktails · Happy Hour" />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1600&amp;q=80&amp;auto=format&amp;fit=crop" />
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230E0B0B'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia' font-weight='900' font-size='34' fill='%23D4A259'%3ED%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;0,9..144,900;1,9..144,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured data: LocalBusiness / Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "The District Bites & Brew",
+    "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1600&q=80",
+    "telephone": "+1-520-710-9090",
+    "priceRange": "$20–30",
+    "servesCuisine": ["American", "Gastropub", "Burgers", "Cocktails"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3025 N Campbell Ave #121",
+      "addressLocality": "Tucson",
+      "addressRegion": "AZ",
+      "postalCode": "85719",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 32.2699,
+      "longitude": -110.9438
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "11:00", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "11:00", "closes": "00:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "22:00" }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "235"
+    },
+    "acceptsReservations": "True"
+  }
+  </script>
+
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+  <!-- Top marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Happy Hour 3–6 Daily</span><span>✦</span>
+      <span>Craft Cocktails</span><span>✦</span>
+      <span>Spin Burgers</span><span>✦</span>
+      <span>Derby Party May 3</span><span>✦</span>
+      <span>Vegan Options</span><span>✦</span>
+      <span>Open Late</span><span>✦</span>
+      <span>Happy Hour 3–6 Daily</span><span>✦</span>
+      <span>Craft Cocktails</span><span>✦</span>
+      <span>Spin Burgers</span><span>✦</span>
+      <span>Derby Party May 3</span><span>✦</span>
+      <span>Vegan Options</span><span>✦</span>
+      <span>Open Late</span><span>✦</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand" aria-label="The District Bites and Brew — Home">
+        <span class="nav__mark">D</span>
+        <span class="nav__word">The District</span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#visit">Visit</a>
+        <a href="#reserve" class="nav__cta">Reserve</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bg">
+        <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1920&q=85&auto=format&fit=crop"
+             alt="Dimly lit bar with warm amber lighting"
+             loading="eager" fetchpriority="high" />
+        <div class="hero__scrim"></div>
+        <div class="hero__grain"></div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__eyebrow">
+          <span class="dot" aria-hidden="true"></span>
+          <span>Open now · Closes 11 PM</span>
+          <span class="sep">/</span>
+          <span>Tucson, AZ</span>
+        </div>
+
+        <h1 class="hero__title">
+          <span class="line">Bites, Brews</span>
+          <span class="line italic">&amp; the best</span>
+          <span class="line">seat in the house.</span>
+        </h1>
+
+        <p class="hero__sub">
+          A neighborhood gastropub on N Campbell pouring craft cocktails, pulling the game on every screen, and flipping the burgers Tucson keeps coming back for.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#reserve" class="btn btn--primary">
+            <span>Reserve a Table</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="tel:+15207109090" class="btn btn--ghost">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            <span>(520) 710-9090</span>
+          </a>
+        </div>
+
+        <div class="hero__meta">
+          <div class="meta">
+            <span class="meta__value">4.7<span class="star">★</span></span>
+            <span class="meta__label">235 Google reviews</span>
+          </div>
+          <div class="meta__divider" aria-hidden="true"></div>
+          <div class="meta">
+            <span class="meta__value">$20–30</span>
+            <span class="meta__label">per person</span>
+          </div>
+          <div class="meta__divider" aria-hidden="true"></div>
+          <div class="meta">
+            <span class="meta__value">Happy Hour</span>
+            <span class="meta__label">3–6 PM daily</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#menu" class="hero__scroll" aria-label="Scroll to menu">
+        <span>Scroll</span>
+        <span class="hero__scrollLine" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="section__inner about__grid">
+        <div class="about__media">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=80&auto=format&fit=crop"
+               alt="Interior of The District Bites and Brew with warm lighting"
+               loading="lazy" />
+          <div class="about__tag">
+            <span class="about__tagLabel">Est.</span>
+            <span class="about__tagYear">2019</span>
+          </div>
+        </div>
+
+        <div class="about__copy">
+          <span class="eyebrow">About The District</span>
+          <h2 class="display">The corner of Campbell where flavor meets fun.</h2>
+          <p class="lede">
+            We opened The District to bring the neighborhood something real — a place where the burgers are built by hand, the cocktails are poured by people who actually care, and the game is always on.
+          </p>
+          <p>
+            Whether you're rolling in for happy hour, crashing our patio on a Saturday night, or sneaking away for a Tuesday date, we'll treat you like a regular from the first pour.
+          </p>
+          <ul class="chips">
+            <li>Happy Hour Food</li>
+            <li>Great Cocktails</li>
+            <li>Vegan Options</li>
+            <li>Games &amp; TVs</li>
+            <li>Patio Seating</li>
+            <li>Late Night</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="section menu" id="menu">
+      <div class="section__inner">
+        <header class="section__head">
+          <span class="eyebrow">The Menu</span>
+          <h2 class="display">What we're known for.</h2>
+          <p class="section__lede">
+            Signature plates and cocktails from the kitchen and bar. Full menu online — daily specials on the chalkboard.
+          </p>
+        </header>
+
+        <div class="menuTabs" role="tablist" aria-label="Menu categories">
+          <button class="menuTab is-active" role="tab" aria-selected="true" data-tab="eats">Eats</button>
+          <button class="menuTab" role="tab" aria-selected="false" data-tab="sips">Sips</button>
+          <button class="menuTab" role="tab" aria-selected="false" data-tab="shares">Shares</button>
+        </div>
+
+        <!-- Eats -->
+        <div class="menuPanel is-active" data-panel="eats">
+          <article class="dish dish--lg">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1200&q=80&auto=format&fit=crop" alt="The District Burger" loading="lazy" />
+              <span class="dish__badge">Staff pick</span>
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>The District Burger</h3>
+                <span class="dish__price">$16</span>
+              </div>
+              <p>Double smash patty, aged cheddar, house bacon jam, shredded lettuce, dill pickle, secret sauce on a toasted brioche bun.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1000&q=80&auto=format&fit=crop" alt="Spin Burger" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>The Spin Burger</h3>
+                <span class="dish__price">$17</span>
+              </div>
+              <p>Our rotating chef's burger. Ask your server what's on deck tonight — it always sells out.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=1000&q=80&auto=format&fit=crop" alt="Beef skirt steak" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>Beef Skirt Steak</h3>
+                <span class="dish__price">$28</span>
+              </div>
+              <p>Chimichurri, smashed fingerlings, charred scallion. Medium rare, always.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=1000&q=80&auto=format&fit=crop" alt="Margherita flatbread" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>Margherita Flatbread</h3>
+                <span class="dish__price">$15</span>
+              </div>
+              <p>Fresh mozzarella, San Marzano, torn basil, flaky olive oil crust. Also available vegan.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Sips -->
+        <div class="menuPanel" data-panel="sips">
+          <article class="dish dish--lg">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1200&q=80&auto=format&fit=crop" alt="Prickly pear margarita" loading="lazy" />
+              <span class="dish__badge">Tucson favorite</span>
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>Prickly Pear Margarita</h3>
+                <span class="dish__price">$13</span>
+              </div>
+              <p>Blanco tequila, fresh lime, house prickly pear syrup, tajín rim. The desert in a glass.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=1000&q=80&auto=format&fit=crop" alt="Smoked paloma cocktail" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>Smoked Paloma</h3>
+                <span class="dish__price">$14</span>
+              </div>
+              <p>Mezcal, grapefruit, lime, Topo Chico, salted rim. Finished with a cherrywood smoke.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1536935338788-846bb9981813?w=1000&q=80&auto=format&fit=crop" alt="Old fashioned cocktail" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>District Old Fashioned</h3>
+                <span class="dish__price">$14</span>
+              </div>
+              <p>Bulleit bourbon, demerara, chocolate bitters, orange peel. Stirred, never shaken.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1000&q=80&auto=format&fit=crop" alt="Espresso martini" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>Espresso Martini</h3>
+                <span class="dish__price">$13</span>
+              </div>
+              <p>Vodka, Kahlúa, Presta espresso, vanilla. Dessert and a nightcap in one.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Shares -->
+        <div class="menuPanel" data-panel="shares">
+          <article class="dish dish--lg">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1625944525533-473f1a3d54e7?w=1200&q=80&auto=format&fit=crop" alt="Fried pickles" loading="lazy" />
+              <span class="dish__badge">Fan favorite</span>
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>Fried Pickles</h3>
+                <span class="dish__price">$9</span>
+              </div>
+              <p>Crispy dill chips, buttermilk batter, chipotle ranch. The snack people drive across town for.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1608039755401-742074f0548d?w=1000&q=80&auto=format&fit=crop" alt="Hot honey wings" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>Hot Honey Wings</h3>
+                <span class="dish__price">$14</span>
+              </div>
+              <p>Six wings, tossed in local hot honey, blue cheese crumbles, celery.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?w=1000&q=80&auto=format&fit=crop" alt="Loaded fries" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>District Loaded Fries</h3>
+                <span class="dish__price">$12</span>
+              </div>
+              <p>Hand-cut fries, queso, bacon, scallion, house crema, pickled jalapeño.</p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=1000&q=80&auto=format&fit=crop" alt="Charcuterie board" loading="lazy" />
+            </div>
+            <div class="dish__body">
+              <div class="dish__row">
+                <h3>The Board</h3>
+                <span class="dish__price">$22</span>
+              </div>
+              <p>Rotating meats, Arizona cheeses, seasonal jam, honeycomb, grilled sourdough.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="menu__foot">
+          <a href="#" class="btn btn--ghost btn--sm" aria-label="Download full menu PDF">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>Full Menu (PDF)</span>
+          </a>
+          <a href="#reserve" class="btn btn--primary btn--sm">Reserve a Table</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Derby Event -->
+    <section class="section event" id="events">
+      <div class="section__inner event__grid">
+        <div class="event__media">
+          <img src="https://images.unsplash.com/photo-1533619043865-1f0c2ba3c1d5?w=1200&q=80&auto=format&fit=crop" alt="Kentucky Derby hats and mint juleps" loading="lazy" />
+        </div>
+        <div class="event__copy">
+          <span class="eyebrow eyebrow--red">Next Weekend</span>
+          <h2 class="display">Derby Party <span class="italic">at The District</span></h2>
+          <p class="lede">
+            Big hats, bigger juleps. Join us Saturday, May 3 for the Run for the Roses — live on every screen, with a Derby-only cocktail list, southern snack spread, and prizes for best hat &amp; best bow tie.
+          </p>
+          <ul class="event__details">
+            <li><strong>Sat, May 3</strong><span>Gates open 12 PM</span></li>
+            <li><strong>Post Time 3:45 PM</strong><span>Arrive early — standing room goes fast</span></li>
+            <li><strong>$12 Mint Juleps</strong><span>Plus a full Derby cocktail menu</span></li>
+          </ul>
+          <div class="event__cta">
+            <a href="#reserve" class="btn btn--primary">RSVP a Table</a>
+            <a href="tel:+15207109090" class="btn btn--ghost">Call to reserve</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section reviews">
+      <div class="section__inner">
+        <header class="section__head section__head--center">
+          <span class="eyebrow">The Word</span>
+          <h2 class="display">4.7 stars and counting.</h2>
+          <p class="section__lede">Real reviews from real regulars on Google.</p>
+        </header>
+
+        <div class="reviewGrid">
+          <figure class="review">
+            <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>The service, food, and drinks are absolutely delicious.</blockquote>
+            <figcaption>
+              <span>Google Review</span>
+            </figcaption>
+          </figure>
+
+          <figure class="review review--featured">
+            <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>My husband ordered the District Burger and I ordered the beef skirt steak. Incredible.</blockquote>
+            <figcaption>
+              <span>Google Review</span>
+            </figcaption>
+          </figure>
+
+          <figure class="review">
+            <div class="review__stars" aria-label="4 out of 5 stars">★★★★<span class="dim">★</span></div>
+            <blockquote>The prices for the entrees are a little pricey, but what place isn't these days — worth it.</blockquote>
+            <figcaption>
+              <span>Google Review</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="reviews__foot">
+          <a href="https://www.google.com/maps/place/?q=place_id:YOUR_GOOGLE_PLACE_ID" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">
+            <span>Read all 235 reviews</span>
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit / Contact -->
+    <section class="section visit" id="visit">
+      <div class="section__inner visit__grid">
+        <div class="visit__info">
+          <span class="eyebrow">Visit</span>
+          <h2 class="display">Come say hi.</h2>
+          <p class="lede">We're on the corner of Campbell &amp; Ft. Lowell. Easy parking out front, patio around the side.</p>
+
+          <ul class="visit__facts">
+            <li>
+              <span class="visit__label">Address</span>
+              <a href="https://maps.google.com/?q=3025+N+Campbell+Ave+%23121+Tucson+AZ+85719" target="_blank" rel="noopener">
+                3025 N Campbell Ave #121<br />Tucson, AZ 85719
+              </a>
+            </li>
+            <li>
+              <span class="visit__label">Phone</span>
+              <a href="tel:+15207109090">(520) 710-9090</a>
+            </li>
+            <li>
+              <span class="visit__label">Hours</span>
+              <span>
+                Mon–Thu · 11 AM – 11 PM<br />
+                Fri–Sat · 11 AM – Midnight<br />
+                Sunday · 10 AM – 10 PM
+              </span>
+            </li>
+            <li>
+              <span class="visit__label">Follow</span>
+              <span class="socials">
+                <a href="https://instagram.com/thedistrictbitesandbrew" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+                <span aria-hidden="true">·</span>
+                <a href="https://facebook.com/thedistrictbitesandbrew" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+                <span aria-hidden="true">·</span>
+                <a href="https://www.yelp.com/biz/the-district-bites-and-brew-tucson" target="_blank" rel="noopener" aria-label="Yelp">Yelp</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="visit__map">
+          <iframe
+            title="Map of The District Bites and Brew"
+            src="https://www.google.com/maps?q=3025+N+Campbell+Ave+%23121+Tucson+AZ+85719&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reserve / Contact form -->
+    <section class="section reserve" id="reserve">
+      <div class="section__inner reserve__grid">
+        <div class="reserve__copy">
+          <span class="eyebrow">Reserve</span>
+          <h2 class="display">Hold the table, we'll handle the rest.</h2>
+          <p class="lede">Parties up to 8 book online. For larger groups, private dining, or event buyouts, drop us a note and we'll follow up within 24 hours.</p>
+          <div class="reserve__cards">
+            <div class="reserveCard">
+              <span class="reserveCard__k">Walk-ins</span>
+              <span class="reserveCard__v">Always welcome at the bar</span>
+            </div>
+            <div class="reserveCard">
+              <span class="reserveCard__k">Large parties</span>
+              <span class="reserveCard__v">9+? Use the form →</span>
+            </div>
+            <div class="reserveCard">
+              <span class="reserveCard__k">Private events</span>
+              <span class="reserveCard__v">Full buyouts available</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="form" id="contactForm" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" novalidate>
+          <div class="form__row">
+            <label class="field">
+              <span>Name</span>
+              <input type="text" name="name" required autocomplete="name" />
+            </label>
+            <label class="field">
+              <span>Phone</span>
+              <input type="tel" name="phone" autocomplete="tel" />
+            </label>
+          </div>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <div class="form__row">
+            <label class="field">
+              <span>Date</span>
+              <input type="date" name="date" />
+            </label>
+            <label class="field">
+              <span>Party Size</span>
+              <select name="party">
+                <option>1–2</option>
+                <option>3–4</option>
+                <option>5–6</option>
+                <option>7–8</option>
+                <option>9+</option>
+              </select>
+            </label>
+          </div>
+          <label class="field">
+            <span>Anything we should know?</span>
+            <textarea name="message" rows="4" placeholder="Birthdays, dietary needs, private event details…"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary btn--block">
+            <span>Request Reservation</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <p class="form__note">We'll confirm your table by phone or email within 24 hours.</p>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="footer__mark">D</span>
+        <div>
+          <p class="footer__name">The District Bites &amp; Brew</p>
+          <p class="footer__tag">Tucson · Est. 2019</p>
+        </div>
+      </div>
+
+      <div class="footer__cols">
+        <div>
+          <h4>Visit</h4>
+          <p>3025 N Campbell Ave #121<br />Tucson, AZ 85719</p>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <p>Mon–Thu · 11 AM – 11 PM<br />Fri–Sat · 11 AM – Midnight<br />Sunday · 10 AM – 10 PM</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>
+            <a href="tel:+15207109090">(520) 710-9090</a><br />
+            <a href="mailto:hello@thedistricttucson.com">hello@thedistricttucson.com</a>
+          </p>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <p>
+            <a href="https://instagram.com/thedistrictbitesandbrew" target="_blank" rel="noopener">Instagram</a><br />
+            <a href="https://facebook.com/thedistrictbitesandbrew" target="_blank" rel="noopener">Facebook</a><br />
+            <a href="https://www.yelp.com/biz/the-district-bites-and-brew-tucson" target="_blank" rel="noopener">Yelp</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> The District Bites &amp; Brew. All rights reserved.</p>
+        <p class="footer__credit">Site by local hands in Tucson.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA -->
+  <a href="tel:+15207109090" class="stickyCall" aria-label="Call The District">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    <span>Call</span>
+  </a>
+
+  <script src="script.js" defer></script>
+
+  <!-- Tidio Live Chat — replace YOUR_TIDIO_PUBLIC_KEY with client's public key from tidio.com → Settings → Live Chat -->
+  <script src="//code.tidio.co/YOUR_TIDIO_PUBLIC_KEY.js" async></script>
+</body>
+</html>

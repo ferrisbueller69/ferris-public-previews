@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boutique 816 — Tucson's Boho-Edgy Boutique on University Blvd</title>
+<meta name="description" content="Boutique 816 is a women-owned, hand-curated boutique in Main Gate Square, steps from the University of Arizona. Effortlessly cool styles, exclusive Frankie's Bikinis in Tucson.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sand:#efe5d7;
+  --cream:#f8f2e8;
+  --terracotta:#b35a3a;
+  --terracotta-deep:#8d3f25;
+  --sage:#7a8268;
+  --ink:#2b201a;
+  --muted:#6b5a4a;
+  --line:#d8c9b6;
+  --shadow:0 18px 48px -28px rgba(43,32,26,.35);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  color:var(--ink);
+  background:var(--cream);
+  -webkit-font-smoothing:antialiased;
+  font-size:16px;
+  line-height:1.55;
+}
+img{max-width:100%;display:block}
+a{color:var(--terracotta-deep);text-decoration:none}
+a:hover{color:var(--ink)}
+h1,h2,h3,h4{font-family:'Cormorant Garamond',serif;font-weight:500;letter-spacing:-.01em;margin:0}
+.container{max-width:1180px;margin:0 auto;padding:0 28px}
+.eyebrow{
+  font-family:'Inter',sans-serif;font-weight:500;font-size:11px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--terracotta);
+}
+
+/* nav */
+.nav{
+  position:sticky;top:0;z-index:30;
+  background:rgba(248,242,232,.92);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;max-width:1180px;margin:0 auto}
+.brand{font-family:'Cormorant Garamond',serif;font-size:26px;letter-spacing:.16em;color:var(--ink)}
+.brand b{font-weight:500}
+.brand i{font-style:normal;color:var(--terracotta)}
+.nav-links{display:flex;gap:30px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+.nav-links a{color:var(--ink)}
+.nav-cta{
+  background:var(--ink);color:var(--cream);padding:10px 18px;border-radius:999px;
+  font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+}
+.nav-cta:hover{background:var(--terracotta-deep);color:var(--cream)}
+@media (max-width:780px){.nav-links{display:none}}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero-grid{
+  display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center;
+  padding:72px 0 84px;
+}
+.hero-eyebrow{margin-bottom:18px}
+.hero h1{font-size:clamp(44px,6.4vw,84px);line-height:1;margin-bottom:22px}
+.hero h1 em{font-style:italic;color:var(--terracotta)}
+.hero p{max-width:520px;color:var(--muted);font-size:17px;margin-bottom:30px}
+.hero .cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:14px 24px;border-radius:999px;font-size:13px;letter-spacing:.16em;
+  text-transform:uppercase;font-weight:500;transition:all .2s;
+}
+.btn-dark{background:var(--ink);color:var(--cream)}
+.btn-dark:hover{background:var(--terracotta-deep);color:var(--cream)}
+.btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--cream)}
+.hero-meta{display:flex;gap:28px;margin-top:36px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+.hero-meta span b{color:var(--ink);font-weight:600;letter-spacing:.04em}
+
+.hero-art{
+  position:relative;aspect-ratio:4/5;border-radius:6px;overflow:hidden;
+  box-shadow:var(--shadow);
+  background:
+    radial-gradient(120% 80% at 0% 0%,#d6b696 0%,transparent 60%),
+    radial-gradient(140% 100% at 100% 100%,#a64f30 0%,#5a2715 70%);
+}
+.hero-art .tag{
+  position:absolute;left:24px;bottom:24px;
+  background:var(--cream);padding:14px 18px;border-radius:999px;
+  font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink);
+  box-shadow:var(--shadow);
+}
+.hero-art .tag em{color:var(--terracotta);font-style:normal;font-weight:600}
+.hero-art .float{
+  position:absolute;right:24px;top:24px;
+  background:rgba(248,242,232,.95);padding:18px 20px;border-radius:6px;
+  box-shadow:var(--shadow);max-width:200px;
+}
+.hero-art .float h4{font-size:18px;margin-bottom:4px}
+.hero-art .float p{font-size:12px;color:var(--muted);margin:0}
+
+@media (max-width:880px){
+  .hero-grid{grid-template-columns:1fr;gap:32px;padding:48px 0 56px}
+  .hero-art{max-height:560px}
+}
+
+/* marquee */
+.marquee{
+  background:var(--ink);color:var(--cream);
+  padding:14px 0;overflow:hidden;border-bottom:1px solid var(--ink);
+}
+.marquee-track{
+  display:flex;gap:48px;font-size:12px;letter-spacing:.3em;text-transform:uppercase;
+  white-space:nowrap;animation:slide 32s linear infinite;
+}
+.marquee-track span{display:inline-flex;align-items:center;gap:12px}
+.marquee-track span::before{content:"●";color:var(--terracotta);font-size:8px}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* about */
+.about{padding:96px 0;background:var(--sand)}
+.about-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}
+.about-grid h2{font-size:clamp(34px,4vw,52px);line-height:1.05;margin-bottom:24px}
+.about p{color:var(--muted);font-size:16px;margin:0 0 18px}
+.about .lede{color:var(--ink);font-size:19px;line-height:1.55;font-family:'Cormorant Garamond',serif;font-style:italic}
+.about-side .stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.stat{background:var(--cream);padding:22px 20px;border-radius:4px;border:1px solid var(--line)}
+.stat b{font-family:'Cormorant Garamond',serif;font-size:32px;color:var(--ink);display:block;line-height:1;margin-bottom:6px}
+.stat span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:780px){.about-grid{grid-template-columns:1fr;gap:32px}.about{padding:64px 0}}
+
+/* edits / collection grid */
+.edits{padding:96px 0}
+.section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:40px;gap:24px;flex-wrap:wrap}
+.section-head h2{font-size:clamp(34px,4vw,52px);line-height:1.05}
+.section-head p{color:var(--muted);max-width:440px;margin:0}
+.edits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.edit-card{
+  position:relative;border-radius:4px;overflow:hidden;aspect-ratio:3/4;
+  cursor:pointer;transition:transform .4s ease;
+}
+.edit-card:hover{transform:translateY(-6px)}
+.edit-card .bg{
+  position:absolute;inset:0;
+  background-size:cover;background-position:center;
+  transition:transform .8s ease;
+}
+.edit-card:hover .bg{transform:scale(1.06)}
+.edit-card .overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(43,32,26,.7) 0%,rgba(43,32,26,.05) 50%);
+}
+.edit-card .label{
+  position:absolute;left:24px;right:24px;bottom:24px;color:var(--cream);
+}
+.edit-card .label .eyebrow{color:#f1c5a8}
+.edit-card h3{font-size:28px;color:var(--cream);margin-top:6px}
+.edit-card p{color:rgba(248,242,232,.85);font-size:13px;margin-top:6px}
+
+.edit-1 .bg{background:
+  radial-gradient(80% 60% at 30% 30%,#e3b591 0%,transparent 70%),
+  linear-gradient(160deg,#a8755a 0%,#5d3220 100%);}
+.edit-2 .bg{background:
+  radial-gradient(60% 60% at 70% 30%,#c9b598 0%,transparent 70%),
+  linear-gradient(160deg,#7a8268 0%,#3d4734 100%);}
+.edit-3 .bg{background:
+  radial-gradient(70% 70% at 50% 60%,#f0d4b6 0%,transparent 70%),
+  linear-gradient(160deg,#c47a55 0%,#7a3019 100%);}
+.edit-4 .bg{background:
+  radial-gradient(90% 70% at 70% 30%,#e8c8a3 0%,transparent 70%),
+  linear-gradient(160deg,#3d342c 0%,#1a1310 100%);}
+.edit-5 .bg{background:
+  radial-gradient(70% 70% at 30% 50%,#e8d6c0 0%,transparent 70%),
+  linear-gradient(160deg,#9c5036 0%,#4d2412 100%);}
+.edit-6 .bg{background:
+  radial-gradient(70% 60% at 50% 30%,#dcc7a8 0%,transparent 70%),
+  linear-gradient(160deg,#56624c 0%,#2b3225 100%);}
+@media (max-width:880px){.edits-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.edits-grid{grid-template-columns:1fr}}
+
+/* brands strip */
+.brands{padding:64px 0;background:var(--ink);color:var(--cream)}
+.brands h3{font-family:'Cormorant Garamond',serif;font-style:italic;text-align:center;font-size:24px;color:#f0d4b6;margin-bottom:34px;font-weight:400}
+.brand-grid{
+  display:grid;grid-template-columns:repeat(6,1fr);gap:20px;align-items:center;
+  font-family:'Cormorant Garamond',serif;font-size:22px;letter-spacing:.04em;text-align:center;
+  color:rgba(248,242,232,.75);
+}
+.brand-grid .b{padding:14px 8px;border-top:1px solid rgba(248,242,232,.18);border-bottom:1px solid rgba(248,242,232,.18)}
+.brand-grid .b.exclusive{color:#f0c4a3}
+.brand-grid .b.exclusive::after{
+  content:"Tucson exclusive";display:block;font-family:'Inter',sans-serif;font-size:9px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--terracotta);margin-top:4px;
+}
+@media (max-width:780px){.brand-grid{grid-template-columns:repeat(3,1fr)}}
+
+/* feature lookbook */
+.feature{padding:96px 0;background:var(--sand)}
+.feature-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.feature-art{
+  aspect-ratio:1/1;border-radius:4px;overflow:hidden;position:relative;
+  background:
+    radial-gradient(80% 80% at 30% 30%,#f3d9bd 0%,transparent 70%),
+    linear-gradient(140deg,#e1a07a 0%,#824426 100%);
+  box-shadow:var(--shadow);
+}
+.feature-art .pill{
+  position:absolute;left:24px;top:24px;
+  background:var(--cream);color:var(--ink);
+  padding:10px 16px;border-radius:999px;
+  font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+}
+.feature h2{font-size:clamp(34px,4vw,54px);line-height:1.05;margin-bottom:22px}
+.feature h2 em{color:var(--terracotta);font-style:italic}
+.feature p{color:var(--muted);font-size:16px;margin-bottom:20px;max-width:480px}
+.feature ul{list-style:none;padding:0;margin:24px 0;display:grid;gap:10px}
+.feature ul li{display:flex;gap:12px;align-items:start;font-size:15px}
+.feature ul li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--terracotta);margin-top:9px;flex:none}
+@media (max-width:880px){.feature-grid{grid-template-columns:1fr;gap:32px}.feature{padding:64px 0}}
+
+/* socials / IG strip */
+.social{padding:96px 0}
+.social .section-head{margin-bottom:32px}
+.ig-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.ig-tile{
+  aspect-ratio:1/1;position:relative;overflow:hidden;border-radius:2px;
+  cursor:pointer;
+}
+.ig-tile .bg{position:absolute;inset:0;transition:transform .5s ease}
+.ig-tile:hover .bg{transform:scale(1.08)}
+.ig-tile .ic{
+  position:absolute;inset:0;background:rgba(43,32,26,.45);
+  display:flex;align-items:center;justify-content:center;color:var(--cream);
+  opacity:0;transition:opacity .25s;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+}
+.ig-tile:hover .ic{opacity:1}
+.ig-1 .bg{background:linear-gradient(135deg,#e3b591,#a8755a)}
+.ig-2 .bg{background:linear-gradient(135deg,#c9b598,#56624c)}
+.ig-3 .bg{background:linear-gradient(135deg,#f0d4b6,#c47a55)}
+.ig-4 .bg{background:linear-gradient(135deg,#9c5036,#4d2412)}
+.ig-5 .bg{background:linear-gradient(135deg,#dcc7a8,#7a8268)}
+.ig-6 .bg{background:linear-gradient(135deg,#e8d6c0,#824426)}
+@media (max-width:780px){.ig-grid{grid-template-columns:repeat(3,1fr)}}
+
+/* visit */
+.visit{padding:96px 0;background:var(--ink);color:var(--cream)}
+.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.visit h2{font-size:clamp(34px,4vw,54px);line-height:1.05;color:var(--cream);margin-bottom:24px}
+.visit h2 em{font-style:italic;color:#f0c4a3}
+.visit p{color:rgba(248,242,232,.78);font-size:16px;margin-bottom:18px;max-width:460px}
+.visit .info{display:grid;gap:18px;margin-top:30px}
+.visit .info .row{display:flex;gap:16px;align-items:start}
+.visit .info .row .lab{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#f0c4a3;min-width:90px;padding-top:3px}
+.visit .info .row .val{color:var(--cream);font-size:16px}
+.visit .info .row .val a{color:var(--cream);border-bottom:1px solid rgba(248,242,232,.4)}
+.visit .map{
+  aspect-ratio:1/1;border-radius:4px;overflow:hidden;position:relative;
+  background:
+    radial-gradient(60% 60% at 60% 40%,rgba(240,196,163,.35) 0%,transparent 70%),
+    linear-gradient(160deg,#3a2d24 0%,#1a1310 100%);
+  border:1px solid rgba(248,242,232,.12);
+}
+.visit .map svg{position:absolute;inset:0;width:100%;height:100%}
+.visit .pin{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-100%);
+  background:var(--terracotta);color:var(--cream);
+  padding:10px 14px;border-radius:999px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);white-space:nowrap;
+}
+.visit .pin::after{
+  content:"";position:absolute;left:50%;bottom:-6px;transform:translateX(-50%) rotate(45deg);
+  width:10px;height:10px;background:var(--terracotta);
+}
+.visit .map-tag{position:absolute;left:24px;bottom:24px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:rgba(248,242,232,.6)}
+@media (max-width:880px){.visit-grid{grid-template-columns:1fr;gap:32px}.visit{padding:64px 0}}
+
+/* footer */
+footer{background:#1a1310;color:rgba(248,242,232,.7);padding:56px 0 32px;font-size:13px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
+.foot-grid h5{color:var(--cream);font-family:'Inter',sans-serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:14px;font-weight:600}
+.foot-grid a{color:rgba(248,242,232,.7);display:block;margin-bottom:8px}
+.foot-grid a:hover{color:#f0c4a3}
+.foot-brand{font-family:'Cormorant Garamond',serif;color:var(--cream);font-size:26px;letter-spacing:.18em;margin-bottom:10px}
+.foot-brand i{font-style:normal;color:#f0c4a3}
+.foot-bottom{border-top:1px solid rgba(248,242,232,.15);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12px;color:rgba(248,242,232,.45)}
+@media (max-width:780px){.foot-grid{grid-template-columns:1fr 1fr;gap:28px}}
+
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#"><b>BOUTIQUE</b> <i>816</i></a>
+    <nav class="nav-links">
+      <a href="#shop">The Edit</a>
+      <a href="#brands">Brands</a>
+      <a href="#feature">Frankie's</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="nav-cta" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">Follow @boutique816</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow hero-eyebrow">Main Gate Square · Tucson, AZ</div>
+        <h1>Where boho<br>meets <em>edge.</em></h1>
+        <p>A hand-curated boutique steps from the University of Arizona. Effortlessly cool styles, exclusive labels, and the only place in Tucson you'll find Frankie's Bikinis — picked by women who actually wear them.</p>
+        <div class="cta-row">
+          <a class="btn btn-dark" href="#feature">See What's New →</a>
+          <a class="btn btn-ghost" href="#visit">Visit the Shop</a>
+        </div>
+        <div class="hero-meta">
+          <span><b>Open</b> · Mon–Sat 11–8 · Sun 12–6</span>
+          <span><b>Find us</b> · 943 E University Blvd, #145</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="float">
+          <h4>SS '26 drop</h4>
+          <p>Resort & festival edits in store now — limited runs, restocked weekly.</p>
+        </div>
+        <div class="tag"><em>Tucson exclusive</em> · Frankie's Bikinis</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Free People</span><span>Frankie's Bikinis</span><span>Beach Riot</span><span>Show Me Your Mumu</span><span>BB Dakota</span><span>Splendid</span><span>Jack</span><span>Trinity</span><span>Free People</span><span>Frankie's Bikinis</span><span>Beach Riot</span><span>Show Me Your Mumu</span><span>BB Dakota</span><span>Splendid</span><span>Jack</span><span>Trinity</span>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div>
+      <div class="eyebrow">The Boutique</div>
+      <h2>Curated like a closet.<br>Run like a community.</h2>
+      <p class="lede">Boutique 816 opened in 2012 as the more laid-back sister to Collette — same eye, different tempo. Easier silhouettes, beachier prints, festival staples that don't try too hard.</p>
+    </div>
+    <div class="about-side">
+      <p>Owner Amy DeVries Jesionowski opened the original Collette in 2011, and four doors east, Boutique 816 followed a year later. The shops are part of the rhythm of University Boulevard — first-time freshmen, fifth-year seniors, alumni back for game day, anyone hunting that one perfect coverup before a Catalina trip.</p>
+      <p>Every piece is hand-selected, the sizes are real, and the fitting room playlist is chronically debated by everyone on staff.</p>
+      <div class="stat-row">
+        <div class="stat"><b>2012</b><span>Opened</span></div>
+        <div class="stat"><b>4K+</b><span>On the 'gram</span></div>
+        <div class="stat"><b>1,063</b><span>IG posts &amp; counting</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="edits" id="shop">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Shop the Vibe</div>
+        <h2>This week's edits.</h2>
+      </div>
+      <p>Six rotating capsules. Restocked Mondays — what sells out is gone. The fastest way to see what's actually on the floor is the 'gram, but here's a taste.</p>
+    </div>
+    <div class="edits-grid">
+      <a class="edit-card edit-1" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">
+        <div class="bg"></div><div class="overlay"></div>
+        <div class="label"><div class="eyebrow">Capsule 01</div><h3>Desert Festival</h3><p>Crochet, fringe, lace-trimmed slips.</p></div>
+      </a>
+      <a class="edit-card edit-2" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">
+        <div class="bg"></div><div class="overlay"></div>
+        <div class="label"><div class="eyebrow">Capsule 02</div><h3>Sage &amp; Stone</h3><p>Earthy linen sets, soft tailoring.</p></div>
+      </a>
+      <a class="edit-card edit-3" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">
+        <div class="bg"></div><div class="overlay"></div>
+        <div class="label"><div class="eyebrow">Capsule 03</div><h3>Catalina Coast</h3><p>Bikinis, kimonos, Mexico-week-ready.</p></div>
+      </a>
+      <a class="edit-card edit-4" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">
+        <div class="bg"></div><div class="overlay"></div>
+        <div class="label"><div class="eyebrow">Capsule 04</div><h3>Game Day Gold</h3><p>Wildcat-ready in red, navy, &amp; gold.</p></div>
+      </a>
+      <a class="edit-card edit-5" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">
+        <div class="bg"></div><div class="overlay"></div>
+        <div class="label"><div class="eyebrow">Capsule 05</div><h3>Sunset Strip</h3><p>Rust, terracotta, denim shorts.</p></div>
+      </a>
+      <a class="edit-card edit-6" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">
+        <div class="bg"></div><div class="overlay"></div>
+        <div class="label"><div class="eyebrow">Capsule 06</div><h3>Date Night Dark</h3><p>Black silk, leather, the good ones.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="brands" id="brands">
+  <div class="container">
+    <h3>Labels we love &amp; carry</h3>
+    <div class="brand-grid">
+      <div class="b">Free People</div>
+      <div class="b exclusive">Frankie's Bikinis</div>
+      <div class="b">Beach Riot</div>
+      <div class="b">Show Me Your Mumu</div>
+      <div class="b">BB Dakota</div>
+      <div class="b">Splendid</div>
+      <div class="b">Jack</div>
+      <div class="b">Trinity</div>
+      <div class="b">Theme</div>
+      <div class="b">+ rotating drops</div>
+      <div class="b">Cleobella</div>
+      <div class="b">House of Harlow</div>
+    </div>
+  </div>
+</section>
+
+<section class="feature" id="feature">
+  <div class="container feature-grid">
+    <div class="feature-art">
+      <div class="pill">Tucson exclusive</div>
+    </div>
+    <div>
+      <div class="eyebrow">Frankie's Bikinis</div>
+      <h2>The only place in Tucson you'll find <em>Frankie's.</em></h2>
+      <p>From Malibu to Main Gate. Boutique 816 is the exclusive Tucson stockist of Frankie's Bikinis — every silhouette, every restock, before they hit the wider market.</p>
+      <ul>
+        <li>New drops land in store within 48 hours of release.</li>
+        <li>Try-on appointments available — DM us on Instagram.</li>
+        <li>If your size sells out online, we probably still have it on the rack.</li>
+      </ul>
+      <a class="btn btn-dark" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">DM to reserve a fitting →</a>
+    </div>
+  </div>
+</section>
+
+<section class="social">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">@boutique816 on the 'gram</div>
+        <h2>The unofficial catalog.</h2>
+      </div>
+      <p>Until the online shop is ready, our Instagram is where everything lives — fits, restocks, sale alerts, and the inside jokes only regulars get.</p>
+    </div>
+    <div class="ig-grid">
+      <a class="ig-tile ig-1" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener"><div class="bg"></div><div class="ic">View on Instagram</div></a>
+      <a class="ig-tile ig-2" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener"><div class="bg"></div><div class="ic">View on Instagram</div></a>
+      <a class="ig-tile ig-3" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener"><div class="bg"></div><div class="ic">View on Instagram</div></a>
+      <a class="ig-tile ig-4" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener"><div class="bg"></div><div class="ic">View on Instagram</div></a>
+      <a class="ig-tile ig-5" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener"><div class="bg"></div><div class="ic">View on Instagram</div></a>
+      <a class="ig-tile ig-6" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener"><div class="bg"></div><div class="ic">View on Instagram</div></a>
+    </div>
+    <div style="text-align:center;margin-top:36px">
+      <a class="btn btn-ghost" href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">Follow @boutique816 →</a>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="container visit-grid">
+    <div>
+      <div class="eyebrow" style="color:#f0c4a3">Find us</div>
+      <h2>Across the street from <em>the U of A.</em></h2>
+      <p>Right in the middle of Main Gate Square, four doors east of Collette. Pop in between classes, after the Wildcat game, or on your way to a Catalina weekend.</p>
+      <div class="info">
+        <div class="row"><div class="lab">Address</div><div class="val">943 E University Blvd, Suite&nbsp;145<br>Tucson, AZ 85719</div></div>
+        <div class="row"><div class="lab">Call</div><div class="val"><a href="tel:+15206244006">(520) 624-4006</a></div></div>
+        <div class="row"><div class="lab">Hours</div><div class="val">Mon–Sat&nbsp;11a–8p · Sun&nbsp;12p–6p</div></div>
+        <div class="row"><div class="lab">Social</div><div class="val">
+          <a href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">Instagram</a> ·
+          <a href="https://www.facebook.com/boutique816/" target="_blank" rel="noopener">Facebook</a> ·
+          <a href="https://www.tiktok.com/@boutique816" target="_blank" rel="noopener">TikTok</a>
+        </div></div>
+      </div>
+    </div>
+    <div class="map" aria-hidden="true">
+      <svg viewBox="0 0 400 400" preserveAspectRatio="none">
+        <defs>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(240,196,163,.12)" stroke-width="1"/>
+          </pattern>
+        </defs>
+        <rect width="400" height="400" fill="url(#grid)"/>
+        <path d="M 0 200 L 400 200" stroke="rgba(240,196,163,.35)" stroke-width="2"/>
+        <path d="M 200 0 L 200 400" stroke="rgba(240,196,163,.2)" stroke-width="1"/>
+        <text x="206" y="195" font-family="Inter" font-size="9" fill="rgba(240,196,163,.55)" letter-spacing="2">UNIVERSITY BLVD</text>
+        <text x="208" y="60" font-family="Inter" font-size="9" fill="rgba(240,196,163,.4)" letter-spacing="2" transform="rotate(90,208,60)">PARK AVE</text>
+        <rect x="220" y="60" width="160" height="120" fill="rgba(122,130,104,.25)" stroke="rgba(240,196,163,.3)" stroke-dasharray="3 3"/>
+        <text x="300" y="125" font-family="Cormorant Garamond" font-size="13" fill="rgba(240,196,163,.7)" text-anchor="middle" font-style="italic">U of A Campus</text>
+      </svg>
+      <div class="pin">Boutique 816 · 943 E University</div>
+      <div class="map-tag">Main Gate Square</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand"><b>BOUTIQUE</b> <i>816</i></div>
+        <p>Hand-curated, women-owned. Steps from U of A's Main Gate since 2012.</p>
+      </div>
+      <div>
+        <h5>Shop</h5>
+        <a href="#shop">This week's edits</a>
+        <a href="#brands">Brands</a>
+        <a href="#feature">Frankie's Bikinis</a>
+      </div>
+      <div>
+        <h5>Visit</h5>
+        <a href="#visit">Hours &amp; address</a>
+        <a href="tel:+15206244006">(520) 624-4006</a>
+        <a href="https://www.google.com/maps/place/943+E+University+Blvd,+Tucson,+AZ+85719" target="_blank" rel="noopener">Get directions</a>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <a href="https://www.instagram.com/boutique816/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/boutique816/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com/@boutique816" target="_blank" rel="noopener">TikTok</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© Boutique 816 · 943 E University Blvd, Tucson, AZ</div>
+      <div>Mockup site · not yet live</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
