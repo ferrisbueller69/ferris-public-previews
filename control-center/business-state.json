@@ -1,10 +1,12 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-26 20:24 MST"
+    "lastUpdated": "2026-04-26 20:36 MST"
   },
   "earnings": {
     "currentRevenue": 950,
-    "goal": 50000
+    "goal": 50000,
+    "currentCost": 300,
+    "profit": 650
   },
   "leads": {
     "total": 9,
@@ -107,6 +109,29 @@
       "author": "Ferris",
       "message": "Stable preview hosting moved off temporary tunnels.",
       "time": "Tonight"
+    }
+  ],
+  "currentWork": {
+    "title": "Control Center expansion + multi-device rollout",
+    "status": "In progress",
+    "note": "Updating widget layout, live sync behavior, and MacBook/phone-ready architecture."
+  },
+  "taskMetrics": [
+    {
+      "label": "Lead count",
+      "value": "9"
+    },
+    {
+      "label": "Closed deals",
+      "value": "1"
+    },
+    {
+      "label": "Widget scope",
+      "value": "Mac live / phone next"
+    },
+    {
+      "label": "Remote sync",
+      "value": "GitHub-backed live source"
     }
   ]
 }
