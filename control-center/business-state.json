@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "lastUpdated": "2026-04-26 18:53 MST"
+  },
+  "earnings": {
+    "currentRevenue": 950,
+    "goal": 50000
+  },
+  "leads": {
+    "total": 8,
+    "hot": 2,
+    "warm": 3,
+    "cold": 3,
+    "closed": 1
+  },
+  "today": [
+    {
+      "title": "Track first signed deal in dashboard",
+      "note": "Use contract details + monthly software spend as baseline operating data"
+    },
+    {
+      "title": "Decide live sync architecture for 3 Macs",
+      "note": "Shared source of truth for revenue, leads, tasks, and contracts"
+    },
+    {
+      "title": "Follow up with District contact",
+      "note": "Keep stable preview link ready"
+    },
+    {
+      "title": "Build next Tucson mockup",
+      "note": "Target: near UofA, verified no website"
+    },
+    {
+      "title": "Update lead statuses",
+      "note": "Hot / warm / cold after outreach"
+    }
+  ],
+  "bestProspects": [
+    {
+      "name": "Signed client",
+      "status": "Closed",
+      "note": "First signed contract on file."
+    },
+    {
+      "name": "The District",
+      "status": "Hot",
+      "note": "Preview link live, owner review in progress"
+    },
+    {
+      "name": "Boutique 816",
+      "status": "Warm",
+      "note": "Custom mockup built and hosted"
+    },
+    {
+      "name": "Next Tucson lead",
+      "status": "In research",
+      "note": "Verifying no website + socials"
+    }
+  ],
+  "pipeline": [
+    {
+      "label": "Mockups built",
+      "value": "2 complete"
+    },
+    {
+      "label": "Stable hosted previews",
+      "value": "GitHub Pages live for District + Boutique 816"
+    },
+    {
+      "label": "Current sprint goal",
+      "value": "Turn signed work into repeatable process + close more Tucson clients"
+    },
+    {
+      "label": "Blockers",
+      "value": "Need faster build cadence and cleaner lead tracking"
+    },
+    {
+      "label": "Closed deals",
+      "value": "1 closed deal"
+    },
+    {
+      "label": "Subscriptions",
+      "value": "$300/month current recurring software spend"
+    },
+    {
+      "label": "Revenue booked",
+      "value": "$950 earned"
+    }
+  ],
+  "operatorFeed": [
+    {
+      "author": "Winston",
+      "message": "Uploaded first signed contract. Confirmed current subscription spend is $300/month. Dashboard updated.",
+      "time": "Now"
+    },
+    {
+      "author": "Levi",
+      "message": "Control Center requested with live business updates.",
+      "time": "Tonight"
+    },
+    {
+      "author": "Winston",
+      "message": "Confirmed as full admin / operator.",
+      "time": "Tonight"
+    },
+    {
+      "author": "Ferris",
+      "message": "Stable preview hosting moved off temporary tunnels.",
+      "time": "Tonight"
+    }
+  ]
+}
