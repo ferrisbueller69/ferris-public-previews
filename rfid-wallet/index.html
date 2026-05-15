@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>RFID → Apple Wallet (Prototype)</title>
+  <meta name="theme-color" content="#0b0b10" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b10'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-family='system-ui' font-weight='700' font-size='32' fill='%23ffffff'%3E%E2%9F%A1%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="badge">Prototype</div>
+      <h1>RFID → Apple Wallet</h1>
+      <p class="lede">Scan an RFID/NFC chip and bundle its UID into a Wallet event ticket pass.</p>
+    </header>
+
+    <section class="card" id="capture-card">
+      <h2>1 · Capture chip UID</h2>
+
+      <div class="capability" id="capability"></div>
+
+      <div class="row">
+        <button id="scan-btn" class="primary" type="button" hidden>Scan NFC chip</button>
+      </div>
+
+      <div class="divider"><span>or enter manually</span></div>
+
+      <label class="field">
+        <span>Chip UID</span>
+        <input id="uid-input" type="text" inputmode="text" autocomplete="off"
+               placeholder="e.g. 04:A2:1B:7C:5E:80:00" />
+      </label>
+
+      <div id="scan-status" class="status" aria-live="polite"></div>
+    </section>
+
+    <section class="card" id="config-card">
+      <h2>2 · Pass details</h2>
+      <div class="grid">
+        <label class="field">
+          <span>Event name</span>
+          <input id="event-name" type="text" value="Sample Event" />
+        </label>
+        <label class="field">
+          <span>Holder name</span>
+          <input id="holder-name" type="text" value="Guest" />
+        </label>
+        <label class="field">
+          <span>Venue</span>
+          <input id="venue" type="text" value="Main Hall" />
+        </label>
+        <label class="field">
+          <span>Date / time</span>
+          <input id="event-date" type="datetime-local" />
+        </label>
+        <label class="field">
+          <span>Organization</span>
+          <input id="org-name" type="text" value="Your Org" />
+        </label>
+        <label class="field">
+          <span>Pass Type Identifier</span>
+          <input id="pass-type-id" type="text" value="pass.com.example.eventticket" />
+        </label>
+      </div>
+    </section>
+
+    <section class="card" id="build-card">
+      <h2>3 · Build pass</h2>
+      <div class="row build-row">
+        <button id="download-pkpass" class="primary" type="button" disabled>Download .pkpass</button>
+        <button id="download-json" class="ghost" type="button" disabled>Download pass.json only</button>
+      </div>
+      <div id="build-status" class="status" aria-live="polite"></div>
+    </section>
+
+    <section class="card warning">
+      <h2>Heads up — read this</h2>
+      <ul>
+        <li><strong>Web NFC works on Android Chrome only.</strong> iOS Safari does not expose NFC to websites; iPhone users must paste the UID manually (or scan via a native iOS app using Core NFC).</li>
+        <li><strong>This pass is unsigned.</strong> A real iPhone will refuse to add it to Wallet. To install on a device you need an Apple Developer account, a Pass Type ID, the WWDR cert, and a server-side signing step (CMS detached signature over <code>manifest.json</code>).</li>
+        <li><strong>Apple Pay payment cards cannot be provisioned from a website.</strong> That is restricted to issuing banks via Apple's PassKit issuer program. Event tickets / loyalty / coupons are fine.</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
