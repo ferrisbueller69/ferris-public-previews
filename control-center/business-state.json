@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 04:56 MDT",
-    "generatedAt": "2026-06-22T05:20:04-06:00",
+    "lastUpdated": "2026-06-22 05:20 MDT",
+    "generatedAt": "2026-06-22T05:21:06-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -14,13 +14,13 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "6h 16m",
+          "age": "6h 17m",
           "status": "stale"
         },
         {
           "key": "fulfillment",
           "label": "fulfillment logger",
-          "age": "1h 8m",
+          "age": "1h 9m",
           "status": "aging"
         }
       ]
@@ -135,44 +135,44 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 04:56 MDT",
-        "ageMinutes": 24,
-        "ageText": "24m",
+        "timestamp": "2026-06-22 05:20 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 04:20 MDT",
-        "ageMinutes": 60,
-        "ageText": "1h 0m",
+        "ageMinutes": 61,
+        "ageText": "1h 1m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-21 23:04 MDT",
-        "ageMinutes": 376,
-        "ageText": "6h 16m",
+        "ageMinutes": 377,
+        "ageText": "6h 17m",
         "status": "stale"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T05:00:06-06:00",
-        "ageMinutes": 19,
-        "ageText": "19m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T05:00:06-06:00",
-        "ageMinutes": 19,
-        "ageText": "19m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22 04:12 MDT",
-        "ageMinutes": 68,
-        "ageText": "1h 8m",
+        "ageMinutes": 69,
+        "ageText": "1h 9m",
         "status": "aging"
       }
     }
