@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 04:31 MDT",
-    "generatedAt": "2026-06-22T04:41:06-06:00",
+    "generatedAt": "2026-06-22T04:42:08-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -18,7 +18,13 @@
     "stagedAssets": 4,
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
-    "merchState": "4 live Etsy POD listings in the current active set"
+    "merchState": "4 live Etsy POD listings in the current active set",
+    "liveSurfaceCheckAt": "unknown",
+    "healthyPublicSurfaces": 0,
+    "totalPublicSurfaces": 0,
+    "healthyEtsyPodRoutes": 0,
+    "totalEtsyPodRoutes": 0,
+    "etsyPodRoutes": []
   },
   "outreach": {
     "verifiedSends": 15,
@@ -67,6 +73,16 @@
     "nextMove": "Clean up the public Gumroad post description/body source if a seller-side edit can remove the clipped meta text without faking traction.",
     "rootTitle": "Levi Kritzik | Ferris Automations",
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
+  },
+  "surfaceHealth": {
+    "checkedAt": "unknown",
+    "healthy": 0,
+    "total": 0,
+    "mismatch": 0,
+    "down": 0,
+    "healthyEtsyPod": 0,
+    "totalEtsyPod": 0,
+    "nextMove": "unknown"
   },
   "sourceTruth": {
     "currentStateTimestamp": "2026-06-22 04:20 MDT",
