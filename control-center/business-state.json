@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 08:51 MDT",
-    "generatedAt": "2026-06-22T08:51:20-06:00",
+    "generatedAt": "2026-06-22T08:52:21-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -12,12 +12,24 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/runtime-health.json"
     ],
     "freshness": {
-      "staleSourceCount": 1,
+      "staleSourceCount": 3,
       "staleSources": [
         {
           "key": "emailWatch",
           "label": "outreach watch",
-          "age": "1h 39m",
+          "age": "1h 40m",
+          "status": "aging"
+        },
+        {
+          "key": "publicMetadata",
+          "label": "public metadata",
+          "age": "30m",
+          "status": "aging"
+        },
+        {
+          "key": "liveSurfaces",
+          "label": "live surfaces",
+          "age": "30m",
           "status": "aging"
         }
       ]
@@ -349,63 +361,63 @@
     ]
   },
   "sourceTruth": {
-    "currentStateTimestamp": "2026-06-22 08:21 MDT",
+    "currentStateTimestamp": "2026-06-22 08:51 MDT",
     "storefrontStatusTimestamp": "2026-06-22 08:21 MDT",
     "freshness": {
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 08:31 MDT",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
-        "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 30,
-        "ageText": "30m",
+        "timestamp": "2026-06-22 08:51 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 30,
-        "ageText": "30m",
+        "ageMinutes": 31,
+        "ageText": "31m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 99,
-        "ageText": "1h 39m",
+        "ageMinutes": 100,
+        "ageText": "1h 40m",
         "status": "aging"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T08:21:33-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
-        "status": "fresh"
+        "ageMinutes": 30,
+        "ageText": "30m",
+        "status": "aging"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T08:21:34-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
-        "status": "fresh"
+        "ageMinutes": 30,
+        "ageText": "30m",
+        "status": "aging"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T08:21:32-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T08:51:07-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       }
     }
