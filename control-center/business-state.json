@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 08:03 MDT",
-    "generatedAt": "2026-06-22T08:04:01-06:00",
+    "lastUpdated": "2026-06-22 08:04 MDT",
+    "generatedAt": "2026-06-22T08:05:03-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -61,7 +61,7 @@
     "fulfillmentCheckAt": "2026-06-22T07:40:40-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T08:03:00-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T08:04:15-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2
   },
@@ -217,9 +217,9 @@
     }
   ],
   "pulseNotes": [
-    "2026-06-22 07:50 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 07:39 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 07:26 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
+    "2026-06-22 08:04 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
+    "2026-06-22 08:04 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
+    "2026-06-22 08:04 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T07:40:32-06:00",
@@ -256,7 +256,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T08:03:00-06:00",
+    "checkedAt": "2026-06-22T08:04:15-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -275,7 +275,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22648,
+        "runs": 22649,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -298,9 +298,9 @@
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json"
         ],
-        "launchctlState": "running",
+        "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 44689,
+        "runs": 44690,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -333,57 +333,57 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 07:50 MDT",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 72,
-        "ageText": "1h 12m",
+        "ageMinutes": 73,
+        "ageText": "1h 13m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 07:40 MDT",
-        "ageMinutes": 24,
-        "ageText": "24m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 52,
-        "ageText": "52m",
+        "ageMinutes": 53,
+        "ageText": "53m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T07:40:40-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T08:03:00-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "timestamp": "2026-06-22T08:04:15-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       }
     }
