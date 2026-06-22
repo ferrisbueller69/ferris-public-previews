@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 03:00 MDT",
-    "generatedAt": "2026-06-22T03:05:45-06:00",
+    "generatedAt": "2026-06-22T03:06:47-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -45,9 +45,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 03:05 MDT: Verified the Gumroad public profile post directly. The page title is `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the H1 is `Faster customer replies for local businesses`, and the meta description still clips at `reactivati`, so the public post remains the weakest live discovery surface. The bundle page and public root still look healthy, so the next reversible Gumroad pass should inspect seller-side post source only; otherwise stay on reply/bounce watch or the next open revenue lane.",
     "2026-06-22 03:00 MDT: Re-ran the public metadata checker and the live fulfillment monitor. Gumroad root metadata is still improved, the public Gumroad post still remains the weakest live discovery surface because its description meta clips at `reactivati`, the bundle page still holds the strongest live discovery copy, and the fulfillment monitor again stayed unchanged at 3 commerce signals with 0 rows appended. Next move: if Gumroad gets the next reversible pass, inspect the seller-side source for the public post description only; otherwise stay on reply/bounce watch or the next open revenue lane.",
-    "2026-06-22 02:52 MDT: Rechecked the Gumroad profile root and bundle page with fresh direct fetches. The root still serves the Ferris Automations discovery meta description and the bundle page still resolves live at $59 with the same local-business bundle copy, so there is no publish-side drift to chase this heartbeat. Next move: stay on reply/bounce watch or the next open revenue lane.",
-    "2026-06-22 02:40 MDT: Direct HTTP recheck of the Gumroad profile root and bundle page confirmed the root still titles `Levi Kritzik | Ferris Automations`, exposes `Posts` and `Products`, and serves Ferris Automations discovery copy; the bundle page still resolves live with the stronger local-business description. Next move: keep the Gumroad root on drift watch and spend the next heartbeat on reply/bounce watch or the next open revenue lane."
+    "2026-06-22 02:52 MDT: Rechecked the Gumroad profile root and bundle page with fresh direct fetches. The root still serves the Ferris Automations discovery meta description and the bundle page still resolves live at $59 with the same local-business bundle copy, so there is no publish-side drift to chase this heartbeat. Next move: stay on reply/bounce watch or the next open revenue lane."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T03:00:24-06:00",
