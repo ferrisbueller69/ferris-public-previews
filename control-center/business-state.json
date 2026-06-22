@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 07:40 MDT",
-    "generatedAt": "2026-06-22T07:51:18-06:00",
+    "lastUpdated": "2026-06-22 07:50 MDT",
+    "generatedAt": "2026-06-22T07:51:42-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -205,8 +205,8 @@
     }
   ],
   "pulseNotes": [
-    "2026-06-22 07:39 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 07:26 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
+    "2026-06-22 07:50 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
+    "2026-06-22 07:50 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
     "2026-06-22 07:01 MDT: Fresh direct browser recheck of the Gumroad public post still shows title `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, H1 `Faster customer replies for local businesses`, and meta description clipped at `If you run a local business, this bundle gives you ready-to-use templates for review replies, follow-ups, missed-call texts, reminders, and reactivati`; the body text still contains the full `reactivation outreach` phrase, so the weak surface remains metadata only. No material Gumroad state changed."
   ],
   "discovery": {
@@ -264,9 +264,9 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 07:39 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22 07:50 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
@@ -293,22 +293,22 @@
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T07:40:40-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       }
     }
