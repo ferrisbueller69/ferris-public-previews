@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 13:14 MDT",
-    "generatedAt": "2026-06-22T13:14:31-06:00",
+    "lastUpdated": "2026-06-22 13:15 MDT",
+    "generatedAt": "2026-06-22T13:15:32-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -30,7 +30,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T13:01:45-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T13:15:26-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -62,13 +62,13 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T13:14:30-06:00",
+    "fulfillmentCheckAt": "2026-06-22T13:15:19-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T13:01:45-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T13:15:26-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2,
-    "merchExpansionCheckedAt": "2026-06-22T13:01:45-06:00",
+    "merchExpansionCheckedAt": "2026-06-22T13:15:26-06:00",
     "merchQueueHead": "CHAD",
     "saferMerchExpansionHead": "LOOKSMAXING",
     "seasonalMerchHead": "4th of July funny family BBQ tee",
@@ -107,13 +107,13 @@
       "MTN",
       "HTN"
     ],
-    "skillOutputCheckedAt": "2026-06-22T13:01:45-06:00",
-    "skillRegistryCheckedAt": "2026-06-22T13:14:24-06:00",
+    "skillOutputCheckedAt": "2026-06-22T13:15:26-06:00",
+    "skillRegistryCheckedAt": "2026-06-22T13:15:26-06:00",
     "skillTouchesToday": 17,
     "skillTouches24h": 17,
     "latestSkillTouch": "ferris-merch-window-check",
-    "staleSkillCandidateNotes": 2,
-    "latestSkillRegistryDrift": "ferris-merch-window-check"
+    "staleSkillCandidateNotes": 0,
+    "latestSkillRegistryDrift": "none"
   },
   "outreach": {
     "verifiedSends": 30,
@@ -122,7 +122,7 @@
     "highTicketShare": "88.24%",
     "visibleBounces": 1,
     "verifiedReplies": 0,
-    "lastChecked": "2026-06-22T13:01:43-06:00",
+    "lastChecked": "2026-06-22T13:15:24-06:00",
     "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages.",
     "newestSent": {
       "id": "86",
@@ -167,7 +167,7 @@
     "etsy": "No verified Product 3 draft row yet; latest signed-in seller proof still shows Draft0 / No listings matched these filters.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T13:14:30-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T13:15:19-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -207,8 +207,8 @@
     },
     "controlRuntime": {
       "label": "Control runtime",
-      "status": "warning",
-      "proof": "2/2 control agents healthy; widget watchdog exit=0, publish loop exit=0, published preview=warning",
+      "status": "healthy",
+      "proof": "2/2 control agents healthy; widget watchdog exit=0, publish loop exit=0, published preview=healthy",
       "nextMove": "Keep the control-layer runtime on watch only; only intervene again if stderr refills, launchctl last exit code drifts above 0, publish lines stop advancing, or the published preview drifts from local state.",
       "constraint": "Treat runtime health as infrastructure truth; do not count it as storefront progress."
     }
@@ -226,7 +226,7 @@
       "live-stable": 1,
       "watch-only": 1,
       "parked": 1,
-      "warning": 1
+      "healthy": 1
     },
     "nextAttention": [
       "Etsy Product 3",
@@ -308,12 +308,12 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 13:14 MDT: Ran the operator sweep again; fulfillment stayed at 3 signals / 0 appended rows, outreach watch still shows no owner/manager replies with 1 visible bounce, Gumroad discovery stayed usable, live surfaces held at 4/9 healthy, runtime stayed 2/2 healthy with 0s published-preview lag, merch expansion stayed stable with active queue head `CHAD`, skill registry drift surfaced 2 stale candidate notes, and business-state rebuilt cleanly. Next move: watch only; intervene if a new real signal appears or the skill registry drift becomes relevant to active operator work.",
     "2026-06-22 13:01 MDT: Ran the full operator sweep again; fulfillment stayed at 3 signals / 0 appended rows, outreach watch still shows no owner/manager replies with 1 visible bounce, Gumroad discovery stayed usable, live surfaces held at 4/9 healthy, runtime stayed 2/2 healthy with a 25s published-preview lag warning, merch expansion stayed stable with active queue head `CHAD`, and business-state rebuilt cleanly. Next move: watch only; intervene if preview lag grows, stderr refills, exit codes drift, or a new real signal appears.",
-    "2026-06-22 12:49 MDT: Re-ran the control-layer runtime health check; 2/2 agents stayed healthy, both last exit codes remained 0, stderr stayed empty, and the published preview still matched local state with 0s lag. Next move: watch only; intervene again only if stderr refills, launchctl last exit code drifts above 0, publish lines stop advancing, or the preview drifts.",
-    "2026-06-22 12:36 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current again. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears."
+    "2026-06-22 12:49 MDT: Re-ran the control-layer runtime health check; 2/2 agents stayed healthy, both last exit codes remained 0, stderr stayed empty, and the published preview still matched local state with 0s lag. Next move: watch only; intervene again only if stderr refills, launchctl last exit code drifts above 0, publish lines stop advancing, or the preview drifts."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T13:01:44-06:00",
+    "checkedAt": "2026-06-22T13:15:25-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "usable",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -335,7 +335,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T13:01:45-06:00",
+    "checkedAt": "2026-06-22T13:15:26-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -347,23 +347,23 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T13:01:45-06:00",
+    "checkedAt": "2026-06-22T13:15:26-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
-    "allHealthy": false,
-    "publishedPreviewStatus": "warning",
+    "allHealthy": true,
+    "publishedPreviewStatus": "healthy",
     "publishedPreview": {
       "url": "https://raw.githubusercontent.com/ferrisbueller69/ferris-public-previews/main/control-center/business-state.json",
-      "status": "warning",
-      "reason": "Published preview does not fully match local control-layer state yet.",
+      "status": "healthy",
+      "reason": "Published preview matches local business state and only lags the latest local rebuild by a short publish interval.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-22T13:01:08-06:00",
-      "remoteLastUpdated": "2026-06-22 12:52 MDT",
-      "localGeneratedAt": "2026-06-22T13:01:33-06:00",
-      "localLastUpdated": "2026-06-22 13:01 MDT",
+      "remoteGeneratedAt": "2026-06-22T13:14:31-06:00",
+      "remoteLastUpdated": "2026-06-22 13:14 MDT",
+      "localGeneratedAt": "2026-06-22T13:14:37-06:00",
+      "localLastUpdated": "2026-06-22 13:14 MDT",
       "matchesLocalGeneratedAt": false,
-      "matchesLocalLastUpdated": false,
-      "lagSeconds": 25
+      "matchesLocalLastUpdated": true,
+      "lagSeconds": 6
     },
     "nextMove": "Keep the control-layer runtime on watch only; only intervene again if stderr refills, launchctl last exit code drifts above 0, publish lines stop advancing, or the published preview drifts from local state.",
     "agents": {
@@ -380,7 +380,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22797,
+        "runs": 22804,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -405,7 +405,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 44979,
+        "runs": 44992,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -417,7 +417,7 @@
     }
   },
   "merchExpansion": {
-    "checkedAt": "2026-06-22T13:01:45-06:00",
+    "checkedAt": "2026-06-22T13:15:26-06:00",
     "liveSet": {
       "terms": [
         "SUB-5",
@@ -572,7 +572,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/CHAD-tee-packet.md",
         "updated": "2026-06-22 11:02 MDT",
-        "ageMinutes": 119,
+        "ageMinutes": 133,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -589,7 +589,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/4th-of-july-family-bbq-tee-packet.md",
         "updated": "2026-06-22 11:02 MDT",
-        "ageMinutes": 119,
+        "ageMinutes": 133,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -606,7 +606,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/LOOKSMAXING-tee-packet.md",
         "updated": "2026-06-22 11:09 MDT",
-        "ageMinutes": 112,
+        "ageMinutes": 126,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -623,7 +623,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/summer-of-soccer-2026-tee-packet.md",
         "updated": "2026-06-22 11:19 MDT",
-        "ageMinutes": 102,
+        "ageMinutes": 116,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -640,7 +640,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/back-to-school-office-mug-packet.md",
         "updated": "2026-06-22 11:29 MDT",
-        "ageMinutes": 92,
+        "ageMinutes": 106,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -657,7 +657,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/CHADLIGHT-tee-packet.md",
         "updated": "2026-06-22 11:39 MDT",
-        "ageMinutes": 82,
+        "ageMinutes": 96,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -674,7 +674,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/tung-tung-tung-tee-packet.md",
         "updated": "2026-06-22 11:39 MDT",
-        "ageMinutes": 82,
+        "ageMinutes": 96,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -691,14 +691,14 @@
         "draftBacked": true,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/missed-calls-cost-money-sticker-packet.md",
         "updated": "2026-06-22 12:05 MDT",
-        "ageMinutes": 56,
+        "ageMinutes": 70,
         "freshness": "fresh",
         "updatedToday": true
       }
     ]
   },
   "skillOutput": {
-    "checkedAt": "2026-06-22T13:01:45-06:00",
+    "checkedAt": "2026-06-22T13:15:26-06:00",
     "summary": {
       "status": "fresh",
       "note": "Tracked Ferris/Hermes skill flow is active today.",
@@ -707,7 +707,7 @@
       "touches24h": 17,
       "latestSkill": "ferris-merch-window-check",
       "latestTouchedAt": "2026-06-22T13:00:41-06:00",
-      "latestAgeMinutes": 1,
+      "latestAgeMinutes": 14,
       "nextMove": "Keep converting stable repeated Ferris workflows into real skills; log unstable ones as candidates only."
     },
     "skills": [
@@ -715,163 +715,136 @@
         "name": "ferris-merch-window-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
         "touchedAt": "2026-06-22T13:00:41-06:00",
-        "ageMinutes": 1
+        "ageMinutes": 14
       },
       {
         "name": "ferris-operator-sweep",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-operator-sweep/SKILL.md",
         "touchedAt": "2026-06-22T12:38:24-06:00",
-        "ageMinutes": 23
+        "ageMinutes": 37
       },
       {
         "name": "ferris-merch-session-routing",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-session-routing/SKILL.md",
         "touchedAt": "2026-06-22T12:30:57-06:00",
-        "ageMinutes": 30
+        "ageMinutes": 44
       },
       {
         "name": "ferris-draft-backed-merch-packet",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-draft-backed-merch-packet/SKILL.md",
         "touchedAt": "2026-06-22T12:11:30-06:00",
-        "ageMinutes": 50
+        "ageMinutes": 63
       },
       {
         "name": "ferris-merch-bench-balance",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-bench-balance/SKILL.md",
         "touchedAt": "2026-06-22T11:41:57-06:00",
-        "ageMinutes": 79
+        "ageMinutes": 93
       },
       {
         "name": "ferris-dashboard-truth-sync",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-dashboard-truth-sync/SKILL.md",
         "touchedAt": "2026-06-22T11:26:21-06:00",
-        "ageMinutes": 95
+        "ageMinutes": 109
       },
       {
         "name": "ferris-merch-packet-prep",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-packet-prep/SKILL.md",
         "touchedAt": "2026-06-22T11:11:22-06:00",
-        "ageMinutes": 110
+        "ageMinutes": 124
       },
       {
         "name": "ferris-skill-output-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-skill-output-check/SKILL.md",
         "touchedAt": "2026-06-22T10:24:23-06:00",
-        "ageMinutes": 157
+        "ageMinutes": 171
       },
       {
         "name": "ferris-merch-expansion-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-expansion-check/SKILL.md",
         "touchedAt": "2026-06-22T10:10:56-06:00",
-        "ageMinutes": 170
+        "ageMinutes": 184
       },
       {
         "name": "ferris-control-runtime-health",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-control-runtime-health/SKILL.md",
         "touchedAt": "2026-06-22T08:04:02-06:00",
-        "ageMinutes": 297
+        "ageMinutes": 311
       },
       {
         "name": "ferris-cheap-truth-sweep",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-cheap-truth-sweep/SKILL.md",
         "touchedAt": "2026-06-22T06:52:36-06:00",
-        "ageMinutes": 369
+        "ageMinutes": 382
       },
       {
         "name": "ferris-outreach-reply-watch",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-outreach-reply-watch/SKILL.md",
         "touchedAt": "2026-06-22T05:25:23-06:00",
-        "ageMinutes": 456
+        "ageMinutes": 470
       },
       {
         "name": "ferris-live-surface-health-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-live-surface-health-check/SKILL.md",
         "touchedAt": "2026-06-22T04:51:13-06:00",
-        "ageMinutes": 490
+        "ageMinutes": 504
       },
       {
         "name": "ferris-sales-intake-watch",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-sales-intake-watch/SKILL.md",
         "touchedAt": "2026-06-22T04:21:04-06:00",
-        "ageMinutes": 520
+        "ageMinutes": 534
       },
       {
         "name": "ferris-bridge-brief-hygiene",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-bridge-brief-hygiene/SKILL.md",
         "touchedAt": "2026-06-22T04:01:42-06:00",
-        "ageMinutes": 540
+        "ageMinutes": 553
       },
       {
         "name": "etsy-seller-state-verification",
         "path": "/Users/levikritzik/.hermes/skills/productivity/etsy-seller-state-verification/SKILL.md",
         "touchedAt": "2026-06-22T03:51:09-06:00",
-        "ageMinutes": 550
+        "ageMinutes": 564
       },
       {
         "name": "gumroad-public-metadata-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
         "touchedAt": "2026-06-22T03:41:52-06:00",
-        "ageMinutes": 559
+        "ageMinutes": 573
       },
       {
         "name": "ferris-non-email-acquisition",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-non-email-acquisition/SKILL.md",
         "touchedAt": "2026-06-20T18:10:54-06:00",
-        "ageMinutes": 2570
+        "ageMinutes": 2584
       },
       {
         "name": "ferris-digital-product-workflow",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-digital-product-workflow/SKILL.md",
         "touchedAt": "2026-06-19T12:16:31-06:00",
-        "ageMinutes": 4365
+        "ageMinutes": 4378
       },
       {
         "name": "ferris-cross-marketplace-audit",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-cross-marketplace-audit/SKILL.md",
         "touchedAt": "2026-06-19T00:03:58-06:00",
-        "ageMinutes": 5097
+        "ageMinutes": 5111
       }
     ]
   },
   "skillRegistry": {
-    "checkedAt": "2026-06-22T13:14:24-06:00",
+    "checkedAt": "2026-06-22T13:15:26-06:00",
     "summary": {
-      "status": "drifted",
+      "status": "clean",
       "installedSkills": 32,
       "candidateNotes": 5,
-      "staleCandidateNotes": 2,
-      "latestDriftSkill": "ferris-merch-window-check",
-      "note": "2 candidate note(s) still claim missing/pending skill state even though a matching local Hermes skill already exists.",
-      "nextMove": "Update or supersede the stale candidate notes so Ferris truth files stop under-reporting real skill coverage."
+      "staleCandidateNotes": 0,
+      "latestDriftSkill": "none",
+      "note": "Candidate-note skill registry is aligned with installed local Hermes skills.",
+      "nextMove": "Keep candidate notes only for workflows that are still genuinely unformalized."
     },
-    "staleCandidateNotes": [
-      {
-        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/ferris-merch-window-check-candidate.md",
-        "name": "ferris-merch-window-check-candidate.md",
-        "skillName": "ferris-merch-window-check",
-        "statusLine": "candidate only; not a real Hermes skill yet.",
-        "updatedAt": "2026-06-22T12:53:15-06:00",
-        "ageMinutes": 21,
-        "installedSkill": true,
-        "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
-        "drift": true,
-        "note": "Candidate note still claims the workflow is not a real skill even though the local Hermes skill exists.",
-        "nextMove": "Mark this note as superseded-by-skill or update it to reference the installed skill directly."
-      },
-      {
-        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/gumroad-public-metadata-check-candidate.md",
-        "name": "gumroad-public-metadata-check-candidate.md",
-        "skillName": "gumroad-public-metadata-check",
-        "statusLine": "candidate proven; seller-side/public-fetch evidence threshold met; formal Hermes skill creation still pending",
-        "updatedAt": "2026-06-22T02:31:24-06:00",
-        "ageMinutes": 642,
-        "installedSkill": true,
-        "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
-        "drift": true,
-        "note": "Candidate note still claims the workflow is not a real skill even though the local Hermes skill exists.",
-        "nextMove": "Mark this note as superseded-by-skill or update it to reference the installed skill directly."
-      }
-    ],
+    "staleCandidateNotes": [],
     "candidateNotes": [
       {
         "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/brainrot-shirt-batch-2-candidates.md",
@@ -879,7 +852,7 @@
         "skillName": "brainrot-shirt-batch-2",
         "statusLine": "candidate-only; do not let this block batch 1",
         "updatedAt": "2026-06-19T13:45:52-06:00",
-        "ageMinutes": 4288,
+        "ageMinutes": 4289,
         "installedSkill": false,
         "installedSkillPath": "",
         "drift": false,
@@ -890,14 +863,14 @@
         "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/ferris-merch-window-check-candidate.md",
         "name": "ferris-merch-window-check-candidate.md",
         "skillName": "ferris-merch-window-check",
-        "statusLine": "candidate only; not a real Hermes skill yet.",
-        "updatedAt": "2026-06-22T12:53:15-06:00",
-        "ageMinutes": 21,
+        "statusLine": "superseded by real Hermes skill `productivity/ferris-merch-window-check`",
+        "updatedAt": "2026-06-22T13:14:46-06:00",
+        "ageMinutes": 0,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
-        "drift": true,
-        "note": "Candidate note still claims the workflow is not a real skill even though the local Hermes skill exists.",
-        "nextMove": "Mark this note as superseded-by-skill or update it to reference the installed skill directly."
+        "drift": false,
+        "note": "Candidate note exists, but it does not currently claim the skill is missing.",
+        "nextMove": "Keep the note only if it still adds historical context beyond the real skill."
       },
       {
         "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/fiverr-gallery-upload-pattern-candidate.md",
@@ -905,7 +878,7 @@
         "skillName": "fiverr-gallery-upload-pattern",
         "statusLine": "candidate note only — not a reusable skill yet",
         "updatedAt": "2026-06-21T21:35:28-06:00",
-        "ageMinutes": 938,
+        "ageMinutes": 939,
         "installedSkill": false,
         "installedSkillPath": "",
         "drift": false,
@@ -916,14 +889,14 @@
         "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/gumroad-public-metadata-check-candidate.md",
         "name": "gumroad-public-metadata-check-candidate.md",
         "skillName": "gumroad-public-metadata-check",
-        "statusLine": "candidate proven; seller-side/public-fetch evidence threshold met; formal Hermes skill creation still pending",
-        "updatedAt": "2026-06-22T02:31:24-06:00",
-        "ageMinutes": 642,
+        "statusLine": "superseded by real Hermes skill `productivity/gumroad-public-metadata-check`",
+        "updatedAt": "2026-06-22T13:14:52-06:00",
+        "ageMinutes": 0,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
-        "drift": true,
-        "note": "Candidate note still claims the workflow is not a real skill even though the local Hermes skill exists.",
-        "nextMove": "Mark this note as superseded-by-skill or update it to reference the installed skill directly."
+        "drift": false,
+        "note": "Candidate note exists, but it does not currently claim the skill is missing.",
+        "nextMove": "Keep the note only if it still adds historical context beyond the real skill."
       },
       {
         "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/printify-safari-repair-pattern-candidate.md",
@@ -931,7 +904,7 @@
         "skillName": "printify-safari-repair-pattern",
         "statusLine": "unknown",
         "updatedAt": "2026-06-21T21:28:09-06:00",
-        "ageMinutes": 946,
+        "ageMinutes": 947,
         "installedSkill": false,
         "installedSkillPath": "",
         "drift": false,
@@ -952,8 +925,8 @@
     "skillFlow": [
       "Tracked Ferris/Hermes skill flow is active today.",
       "Keep converting stable repeated Ferris workflows into real skills; log unstable ones as candidates only.",
-      "2 candidate note(s) still claim missing/pending skill state even though a matching local Hermes skill already exists.",
-      "Update or supersede the stale candidate notes so Ferris truth files stop under-reporting real skill coverage."
+      "Candidate-note skill registry is aligned with installed local Hermes skills.",
+      "Keep candidate notes only for workflows that are still genuinely unformalized."
     ],
     "falseMotionRisks": [
       "Do not count fulfillment signals as new sales unless rows_appended increases above 0.",
@@ -967,77 +940,77 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 13:01 MDT",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "timestamp": "2026-06-22 13:14 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 12:42 MDT",
-        "ageMinutes": 32,
-        "ageText": "32m",
+        "ageMinutes": 33,
+        "ageText": "33m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 12:22 MDT",
-        "ageMinutes": 52,
-        "ageText": "52m",
+        "ageMinutes": 53,
+        "ageText": "53m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
-        "timestamp": "2026-06-22T13:01:43-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22T13:15:24-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T13:01:44-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22T13:15:25-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-22T13:01:45-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22T13:15:26-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T13:14:30-06:00",
+        "timestamp": "2026-06-22T13:15:19-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T13:01:45-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22T13:15:26-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
-        "timestamp": "2026-06-22T13:01:45-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22T13:15:26-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
-        "timestamp": "2026-06-22T13:01:45-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22T13:15:26-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
-        "timestamp": "2026-06-22T13:14:24-06:00",
+        "timestamp": "2026-06-22T13:15:26-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
