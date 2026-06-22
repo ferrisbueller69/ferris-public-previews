@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 07:50 MDT",
-    "generatedAt": "2026-06-22T07:51:42-06:00",
+    "generatedAt": "2026-06-22T07:52:43-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -206,8 +206,8 @@
   ],
   "pulseNotes": [
     "2026-06-22 07:50 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 07:50 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 07:01 MDT: Fresh direct browser recheck of the Gumroad public post still shows title `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, H1 `Faster customer replies for local businesses`, and meta description clipped at `If you run a local business, this bundle gives you ready-to-use templates for review replies, follow-ups, missed-call texts, reminders, and reactivati`; the body text still contains the full `reactivation outreach` phrase, so the weak surface remains metadata only. No material Gumroad state changed."
+    "2026-06-22 07:39 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
+    "2026-06-22 07:26 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T07:40:32-06:00",
@@ -265,50 +265,50 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 07:50 MDT",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 59,
-        "ageText": "59m",
+        "ageMinutes": 60,
+        "ageText": "1h 0m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 07:40 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 39,
-        "ageText": "39m",
+        "ageMinutes": 40,
+        "ageText": "40m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T07:40:40-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       }
     }
