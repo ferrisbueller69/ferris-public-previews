@@ -1,13 +1,14 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 06:50 MDT",
-    "generatedAt": "2026-06-22T06:51:23-06:00",
+    "generatedAt": "2026-06-22T06:52:25-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/storefront-lane-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/work-queue.md",
-      "/Users/levikritzik/.openclaw/workspace/ferris-team/email-watch-status.md"
+      "/Users/levikritzik/.openclaw/workspace/ferris-team/email-watch-status.md",
+      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/fulfillment-check.json"
     ],
     "freshness": {
       "staleSourceCount": 1,
@@ -15,7 +16,7 @@
         {
           "key": "fulfillment",
           "label": "fulfillment logger",
-          "age": "1h 27m",
+          "age": "1h 28m",
           "status": "aging"
         }
       ]
@@ -62,7 +63,10 @@
         "title": "etsy.com",
         "classification": "fetch-blocked"
       }
-    ]
+    ],
+    "fulfillmentCheckAt": "unknown",
+    "commerceSignalsFound": 0,
+    "fulfillmentRowsAppended": 0
   },
   "outreach": {
     "verifiedSends": 30,
@@ -78,7 +82,7 @@
     "etsy": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22 05:24 MDT."
+    "fulfillment": "Logger current through 2026-06-22 05:24 MDT; signals 0, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -188,50 +192,50 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 06:50 MDT",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:31 MDT",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 41,
-        "ageText": "41m",
+        "ageMinutes": 42,
+        "ageText": "42m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 41,
-        "ageText": "41m",
+        "ageMinutes": 42,
+        "ageText": "42m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T06:50:20-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T06:50:21-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22 05:24 MDT",
-        "ageMinutes": 87,
-        "ageText": "1h 27m",
+        "ageMinutes": 88,
+        "ageText": "1h 28m",
         "status": "aging"
       }
     }
