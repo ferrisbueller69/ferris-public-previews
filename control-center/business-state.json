@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 09:24 MDT",
-    "generatedAt": "2026-06-22T09:34:29-06:00",
+    "lastUpdated": "2026-06-22 09:34 MDT",
+    "generatedAt": "2026-06-22T09:35:31-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -61,7 +61,7 @@
     "fulfillmentCheckAt": "2026-06-22T09:24:15-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T09:24:21-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T09:34:42-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2
   },
@@ -218,9 +218,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 09:34 MDT: Re-ran the control-layer runtime health check. 2/2 agents stayed healthy, both last exit codes remained 0, stderr stayed empty, and the published preview still matched local state. Next move: watch only; intervene again only if stderr refills, exit codes drift, or preview lag appears.",
     "2026-06-22 09:22 MDT: Re-ran the Gmail-backed sales intake writer in live mode. It found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current and no new buyer signal changed state. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 09:09 MDT: Re-ran the Gmail-backed sales intake writer in live mode. It found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current and no new buyer signal changed state. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 08:59 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows. Fulfillment monitoring is still current, and no new buyer signal changed state. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears."
+    "2026-06-22 09:09 MDT: Re-ran the Gmail-backed sales intake writer in live mode. It found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current and no new buyer signal changed state. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T09:24:20-06:00",
@@ -257,7 +257,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T09:24:21-06:00",
+    "checkedAt": "2026-06-22T09:34:42-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -267,9 +267,9 @@
       "status": "healthy",
       "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-22T09:24:13-06:00",
+      "remoteGeneratedAt": "2026-06-22T09:34:29-06:00",
       "remoteLastUpdated": "2026-06-22 09:24 MDT",
-      "localGeneratedAt": "2026-06-22T09:24:13-06:00",
+      "localGeneratedAt": "2026-06-22T09:34:29-06:00",
       "localLastUpdated": "2026-06-22 09:24 MDT",
       "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
@@ -290,7 +290,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22689,
+        "runs": 22694,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -315,7 +315,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 44768,
+        "runs": 44778,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -347,58 +347,58 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 09:22 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22 09:34 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 09:01 MDT",
-        "ageMinutes": 33,
-        "ageText": "33m",
+        "ageMinutes": 34,
+        "ageText": "34m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 73,
-        "ageText": "1h 13m",
+        "ageMinutes": 74,
+        "ageText": "1h 14m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 09:24 MDT",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T09:24:20-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T09:24:21-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T09:24:15-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T09:24:21-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "timestamp": "2026-06-22T09:34:42-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       }
     }
