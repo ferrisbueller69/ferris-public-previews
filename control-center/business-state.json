@@ -1,137 +1,54 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-26 23:45 MST"
+    "lastUpdated": "2026-06-21 22:03 MDT",
+    "sources": [
+      "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
+      "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
+      "/Users/levikritzik/.openclaw/workspace/ferris-team/storefront-lane-status.md"
+    ]
   },
-  "earnings": {
-    "currentRevenue": 950,
-    "goal": 50000,
-    "currentCost": 300,
-    "profit": 650
+  "revenue": {
+    "verifiedRevenue": 0,
+    "verifiedConversions": 0
   },
-  "leads": {
-    "total": 8,
-    "hot": 2,
-    "warm": 3,
-    "cold": 3,
-    "closed": 1
+  "operations": {
+    "liveSurfaces": 10,
+    "stagedAssets": 4,
+    "packagedLanes": 2,
+    "liveEtsyPodListings": 4,
+    "merchState": "4 live Etsy POD listings in the current active set"
+  },
+  "outreach": {
+    "verifiedSends": 15,
+    "verifiedReplies": 0
+  },
+  "laneFrontiers": {
+    "etsy": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
+    "gumroad": "Use native Gumroad distribution/discovery only; next clean move is profile placement or staged draft cleanup.",
+    "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
+    "fulfillment": "Logger current through 2026-06-21 21:38 MDT."
   },
   "today": [
     {
-      "title": "Track first signed deal in dashboard",
-      "note": "Use contract details + monthly software spend as baseline operating data"
+      "title": "Etsy Product 3 draft proof",
+      "note": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in."
     },
     {
-      "title": "Decide live sync architecture for 3 Macs",
-      "note": "Shared source of truth for revenue, leads, tasks, and contracts"
+      "title": "Gumroad native discovery move",
+      "note": "Use native Gumroad distribution/discovery only; next clean move is profile placement or staged draft cleanup."
     },
     {
-      "title": "Follow up with District contact",
-      "note": "Keep stable preview link ready"
-    },
-    {
-      "title": "Build next Tucson mockup",
-      "note": "Target: near UofA, verified no website"
-    },
-    {
-      "title": "Update lead statuses",
-      "note": "Hot / warm / cold after outreach"
+      "title": "Keep Fiverr parked at Publish",
+      "note": "Frontier: Publish. Protected gate remains identity + w-9 gate."
     }
   ],
-  "bestProspects": [
-    {
-      "name": "Signed client",
-      "status": "Closed",
-      "note": "First signed contract on file."
-    },
-    {
-      "name": "The District",
-      "status": "Hot",
-      "note": "Preview link live, owner review in progress"
-    },
-    {
-      "name": "Boutique 816",
-      "status": "Warm",
-      "note": "Custom mockup built and hosted"
-    },
-    {
-      "name": "Next Tucson lead",
-      "status": "In research",
-      "note": "Verifying no website + socials"
-    }
+  "pulseNotes": [
+    "2026-06-21 21:51 MDT: Checked the Etsy seller dashboard path for Product 3 and confirmed it redirects to Etsy sign-in, so the missed-call kit still has no verified saved Draft row. Next move: only retry Product 3 in a clean signed-in seller session; otherwise pivot to Gumroad profile placement or reply/bounce watch.",
+    "2026-06-21 22:03 MDT: Re-verified the Product 3 public GitHub Pages surface. Live title/meta still match the tightened service-business positioning and the manual-delivery CTA remains live; no new blocker appeared. Next move: keep Etsy retries scoped to a clean signed-in seller session, otherwise stay on reply/bounce watch or the next open revenue lane.",
+    "2026-06-21 21:38 MDT: Re-ran the Gmail-backed sales intake writer in live mode. It found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
   ],
-  "pipeline": [
-    {
-      "label": "Mockups built",
-      "value": "2 complete"
-    },
-    {
-      "label": "Stable hosted previews",
-      "value": "GitHub Pages live for District + Boutique 816"
-    },
-    {
-      "label": "Current sprint goal",
-      "value": "Turn signed work into repeatable process + close more Tucson clients"
-    },
-    {
-      "label": "Blockers",
-      "value": "Need faster build cadence and cleaner lead tracking"
-    },
-    {
-      "label": "Closed deals",
-      "value": "1 closed deal"
-    },
-    {
-      "label": "Subscriptions",
-      "value": "$300/month current recurring software spend"
-    },
-    {
-      "label": "Revenue booked",
-      "value": "$950 earned"
-    }
-  ],
-  "operatorFeed": [
-    {
-      "author": "Winston",
-      "message": "Uploaded first signed contract. Confirmed current subscription spend is $300/month. Dashboard updated.",
-      "time": "Now"
-    },
-    {
-      "author": "Levi",
-      "message": "Control Center requested with live business updates.",
-      "time": "Tonight"
-    },
-    {
-      "author": "Winston",
-      "message": "Confirmed as full admin / operator.",
-      "time": "Tonight"
-    },
-    {
-      "author": "Ferris",
-      "message": "Stable preview hosting moved off temporary tunnels.",
-      "time": "Tonight"
-    }
-  ],
-  "currentWork": {
-    "title": "Control Center expansion + multi-device rollout",
-    "status": "In progress",
-    "note": "Updating widget layout, live sync behavior, and MacBook/phone-ready architecture."
-  },
-  "taskMetrics": [
-    {
-      "label": "Lead count",
-      "value": "9"
-    },
-    {
-      "label": "Closed deals",
-      "value": "1"
-    },
-    {
-      "label": "Widget scope",
-      "value": "Mac live / phone next"
-    },
-    {
-      "label": "Remote sync",
-      "value": "GitHub-backed live source"
-    }
-  ]
+  "sourceTruth": {
+    "currentStateTimestamp": "2026-06-21 21:36 MST",
+    "storefrontStatusTimestamp": "2026-06-21 21:34 MDT"
+  }
 }
