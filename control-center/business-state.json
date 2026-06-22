@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 06:23 MDT",
-    "generatedAt": "2026-06-22T06:30:50-06:00",
+    "generatedAt": "2026-06-22T06:31:52-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -15,7 +15,7 @@
         {
           "key": "fulfillment",
           "label": "fulfillment logger",
-          "age": "1h 6m",
+          "age": "1h 7m",
           "status": "aging"
         }
       ]
@@ -31,7 +31,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T06:10:23-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T06:31:29-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -151,7 +151,7 @@
     "2026-06-22 05:45 MDT: Synced the Gumroad bundle packet and product listing packet to the latest verified public-truth note. The bundle lane is still live at $59, the public profile root still carries Ferris Automations discovery copy, and the public post remains the weakest discovery surface because its meta description clips at `reactivati`. Next move stays seller-side post-source inspection only; do not churn profile-root or bundle-copy again this heartbeat."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T06:10:23-06:00",
+    "checkedAt": "2026-06-22T06:31:28-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "clipped",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -170,7 +170,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T06:10:23-06:00",
+    "checkedAt": "2026-06-22T06:31:29-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -188,50 +188,50 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 06:23 MDT",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 05:42 MDT",
-        "ageMinutes": 48,
-        "ageText": "48m",
+        "ageMinutes": 49,
+        "ageText": "49m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T06:10:23-06:00",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "timestamp": "2026-06-22T06:31:28-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-22T06:10:23-06:00",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "timestamp": "2026-06-22T06:31:29-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22 05:24 MDT",
-        "ageMinutes": 66,
-        "ageText": "1h 6m",
+        "ageMinutes": 67,
+        "ageText": "1h 7m",
         "status": "aging"
       }
     }
