@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 11:05 MDT",
-    "generatedAt": "2026-06-22T11:12:07-06:00",
+    "lastUpdated": "2026-06-22 11:12 MDT",
+    "generatedAt": "2026-06-22T11:13:09-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -67,13 +67,13 @@
     "runtimeHealthCheckAt": "2026-06-22T11:05:12-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2,
-    "merchExpansionCheckedAt": "2026-06-22T11:05:12-06:00",
+    "merchExpansionCheckedAt": "2026-06-22T11:12:51-06:00",
     "merchQueueHead": "CHAD",
     "saferMerchExpansionHead": "LOOKSMAXING",
     "seasonalMerchHead": "4th of July funny family BBQ tee",
-    "preparedMerchPackets": 2,
+    "preparedMerchPackets": 3,
     "preparedMerchPacketHead": "CHAD Tee Packet",
-    "saferPreparedMerchPacketHead": "unknown",
+    "saferPreparedMerchPacketHead": "LOOKSMAXING Tee Packet",
     "stableLiveMerchTerms": [
       "SUB-5",
       "LTN",
@@ -158,7 +158,7 @@
       "label": "Printify / Etsy merch",
       "status": "live-stable",
       "proof": "4 live Etsy POD listings; 4/4 shopper routes are healthy-or-fetch-boundary; live set SUB-5, LTN, MTN, HTN; active queue head CHAD.",
-      "nextMove": "Keep the live four-shirt set stable; use the highest-priority prepared packet or a seasonal/search-led candidate as the next clean merch expansion instead of pushing more ambiguous ranking shorthand.",
+      "nextMove": "Keep the live four-shirt set stable; use the highest-priority prepared packet when queue momentum matters, or the safer prepared packet when search clarity matters more than the current insider shorthand order.",
       "constraint": "No more shirt re-repair passes without seller-side drift or a verified public regression."
     },
     "outreach": {
@@ -387,7 +387,7 @@
     }
   },
   "merchExpansion": {
-    "checkedAt": "2026-06-22T11:05:12-06:00",
+    "checkedAt": "2026-06-22T11:12:51-06:00",
     "liveSet": {
       "terms": [
         "SUB-5",
@@ -403,10 +403,17 @@
       "activeQueueHead": "CHAD",
       "saferExpansionHead": "LOOKSMAXING",
       "seasonalHead": "4th of July funny family BBQ tee",
-      "preparedPacketCount": 2,
+      "preparedPacketCount": 3,
       "preparedPacketHead": "CHAD Tee Packet",
+      "saferPreparedPacketHead": "LOOKSMAXING Tee Packet",
+      "seasonalPreparedPacketHead": "4th of July Family BBQ Tee Packet",
+      "preparedPacketTerms": [
+        "CHAD",
+        "4th of July family BBQ",
+        "LOOKSMAXING"
+      ],
       "holdCount": 5,
-      "nextMove": "Keep the live four-shirt set stable; use the highest-priority prepared packet or a seasonal/search-led candidate as the next clean merch expansion instead of pushing more ambiguous ranking shorthand."
+      "nextMove": "Keep the live four-shirt set stable; use the highest-priority prepared packet when queue momentum matters, or the safer prepared packet when search clarity matters more than the current insider shorthand order."
     },
     "looksmaxingQueue": {
       "activePriority": [
@@ -441,8 +448,9 @@
     },
     "operatorCall": {
       "currentMerchRule": "Do not spend another pass re-repairing the live four-shirt set without drift.",
-      "nextExpansionPreference": "Prefer the highest-priority prepared packet first, then seasonal/search-led candidates with stronger search clarity than MTN/HTN/LTN/SUB-5.",
+      "nextExpansionPreference": "Prefer the highest-priority prepared packet first, then the safer prepared packet or seasonal/search-led candidates when search clarity beats insider shorthand.",
       "bestNearTermBranch": "CHAD",
+      "bestSaferPreparedBranch": "LOOKSMAXING",
       "bestSeasonalBranch": "4th of July funny family BBQ tee"
     },
     "seasonalCandidates": [
@@ -487,6 +495,17 @@
         "etsyTitle": "4th of July Family BBQ Shirt, Funny Patriotic Tee, Red White Blue Cookout Shirt, July 4th Party Shirt, Summer Holiday Tee",
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/4th-of-july-family-bbq-tee-packet.md",
         "updated": "2026-06-22 11:02 MDT"
+      },
+      {
+        "title": "LOOKSMAXING Tee Packet",
+        "status": "ready-for-build",
+        "priority": 2,
+        "branch": "safer",
+        "term": "LOOKSMAXING",
+        "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
+        "etsyTitle": "LOOKSMAXING Shirt, Looksmaxing Meme Tee, Self Improvement Humor Shirt, Viral Internet Slang Tee, Bold Text Shirt",
+        "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/LOOKSMAXING-tee-packet.md",
+        "updated": "2026-06-22 11:09 MDT"
       }
     ]
   },
@@ -616,77 +635,77 @@
     ]
   },
   "sourceTruth": {
-    "currentStateTimestamp": "2026-06-22 11:02 MDT",
+    "currentStateTimestamp": "2026-06-22 11:12 MDT",
     "storefrontStatusTimestamp": "2026-06-22 11:02 MDT",
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 10:59 MDT",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "timestamp": "2026-06-22 11:12 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
-        "timestamp": "2026-06-22 11:02 MDT",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "timestamp": "2026-06-22 11:12 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 11:02 MDT",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T11:05:10-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T11:05:11-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T11:05:12-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T11:05:00-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T11:05:12-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
-        "timestamp": "2026-06-22T11:05:12-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "timestamp": "2026-06-22T11:12:51-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T11:05:12-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       }
     }
