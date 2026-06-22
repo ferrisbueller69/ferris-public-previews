@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 09:48 MDT",
-    "generatedAt": "2026-06-22T09:49:53-06:00",
+    "generatedAt": "2026-06-22T09:50:55-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -167,7 +167,8 @@
   "laneSummary": {
     "total": 6,
     "active": 1,
-    "watch": 0,
+    "watch": 1,
+    "softBlocked": 1,
     "blocked": 1,
     "parked": 1,
     "countsByStatus": {
@@ -180,6 +181,8 @@
     },
     "nextAttention": [
       "Etsy Product 3",
+      "Gumroad discovery",
+      "Outreach",
       "Fiverr"
     ]
   },
@@ -387,57 +390,57 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 09:48 MDT",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 09:01 MDT",
-        "ageMinutes": 48,
-        "ageText": "48m",
+        "ageMinutes": 49,
+        "ageText": "49m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 88,
-        "ageText": "1h 28m",
+        "ageMinutes": 89,
+        "ageText": "1h 29m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T09:41:40-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T09:41:41-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T09:41:42-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T09:41:33-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T09:41:42-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       }
     }
