@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 12:00 MDT",
-    "generatedAt": "2026-06-22T12:03:31-06:00",
+    "lastUpdated": "2026-06-22 12:04 MDT",
+    "generatedAt": "2026-06-22T12:04:33-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -61,17 +61,17 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T12:00:27-06:00",
+    "fulfillmentCheckAt": "2026-06-22T12:04:32-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
     "runtimeHealthCheckAt": "2026-06-22T12:00:34-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2,
-    "merchExpansionCheckedAt": "2026-06-22T12:00:34-06:00",
+    "merchExpansionCheckedAt": "2026-06-22T12:04:21-06:00",
     "merchQueueHead": "CHAD",
     "saferMerchExpansionHead": "LOOKSMAXING",
     "seasonalMerchHead": "4th of July funny family BBQ tee",
-    "preparedMerchPackets": 7,
+    "preparedMerchPackets": 8,
     "preparedMerchPacketHead": "CHAD Tee Packet",
     "activePreparedMerchPacketHead": "CHAD Tee Packet",
     "saferPreparedMerchPacketHead": "LOOKSMAXING Tee Packet",
@@ -79,21 +79,23 @@
     "secondWavePreparedMerchPacketHead": "CHADLIGHT Tee Packet",
     "absurdPreparedMerchPacketHead": "TUNG TUNG TUNG Tee Packet",
     "nonTeePreparedMerchPacketHead": "Back to School Office Mug Packet",
-    "draftBackedMerchPackets": 0,
-    "draftBackedPreparedMerchPacketHead": "unknown",
+    "draftBackedMerchPackets": 1,
+    "draftBackedPreparedMerchPacketHead": "Missed Calls Cost Money Sticker Packet",
     "merchPacketBranchCounts": {
       "active": 1,
       "seasonal": 3,
       "safer": 1,
       "second-wave": 1,
-      "absurd-meme": 1
+      "absurd-meme": 1,
+      "workflow-proof": 1
     },
     "merchPacketFormatCounts": {
       "Printify `Unisex Jersey Short Sleeve Tee`": 6,
-      "Printify `Ceramic Mug, 11oz/15oz`": 1
+      "Printify `Ceramic Mug, 11oz/15oz`": 1,
+      "Printify `Kiss-Cut Stickers`": 1
     },
     "teeMerchPackets": 6,
-    "nonTeeMerchPackets": 1,
+    "nonTeeMerchPackets": 2,
     "stableLiveMerchTerms": [
       "SUB-5",
       "LTN",
@@ -157,7 +159,7 @@
     "etsy": "No verified Product 3 draft row yet; latest signed-in seller proof still shows Draft0 / No listings matched these filters.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T12:00:27-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T12:04:32-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -178,7 +180,7 @@
       "label": "Printify / Etsy merch",
       "status": "live-stable",
       "proof": "4 live Etsy POD listings; 4/4 shopper routes are healthy-or-fetch-boundary; live set SUB-5, LTN, MTN, HTN; active queue head CHAD.",
-      "nextMove": "Keep the live four-shirt set stable; use the highest-priority prepared packet when queue momentum matters, the safer or seasonal packet when search clarity matters more, and maintain at least one non-tee plus one second-wave fallback on the bench.",
+      "nextMove": "Keep the live four-shirt set stable; use the highest-priority prepared packet when queue momentum matters, use the draft-backed packet when seller-session friction makes closeness-to-publish more valuable than trend breadth, and maintain at least one non-tee plus one second-wave fallback on the bench.",
       "constraint": "No more shirt re-repair passes without seller-side drift or a verified public regression."
     },
     "outreach": {
@@ -407,7 +409,7 @@
     }
   },
   "merchExpansion": {
-    "checkedAt": "2026-06-22T12:00:34-06:00",
+    "checkedAt": "2026-06-22T12:04:21-06:00",
     "liveSet": {
       "terms": [
         "SUB-5",
@@ -423,7 +425,7 @@
       "activeQueueHead": "CHAD",
       "saferExpansionHead": "LOOKSMAXING",
       "seasonalHead": "4th of July funny family BBQ tee",
-      "preparedPacketCount": 7,
+      "preparedPacketCount": 8,
       "preparedPacketHead": "CHAD Tee Packet",
       "activePreparedPacketHead": "CHAD Tee Packet",
       "saferPreparedPacketHead": "LOOKSMAXING Tee Packet",
@@ -431,6 +433,11 @@
       "secondWavePreparedPacketHead": "CHADLIGHT Tee Packet",
       "absurdPreparedPacketHead": "TUNG TUNG TUNG Tee Packet",
       "nonTeePreparedPacketHead": "Back to School Office Mug Packet",
+      "draftBackedPacketCount": 1,
+      "draftBackedPacketHead": "Missed Calls Cost Money Sticker Packet",
+      "draftBackedPacketTerms": [
+        "Missed Calls Cost Money"
+      ],
       "preparedPacketTerms": [
         "CHAD",
         "4th of July family BBQ",
@@ -438,23 +445,26 @@
         "Summer of Soccer 2026",
         "Back to School office mug",
         "CHADLIGHT",
-        "TUNG TUNG TUNG"
+        "TUNG TUNG TUNG",
+        "Missed Calls Cost Money"
       ],
       "branchCounts": {
         "active": 1,
         "seasonal": 3,
         "safer": 1,
         "second-wave": 1,
-        "absurd-meme": 1
+        "absurd-meme": 1,
+        "workflow-proof": 1
       },
       "productFormatCounts": {
         "Printify `Unisex Jersey Short Sleeve Tee`": 6,
-        "Printify `Ceramic Mug, 11oz/15oz`": 1
+        "Printify `Ceramic Mug, 11oz/15oz`": 1,
+        "Printify `Kiss-Cut Stickers`": 1
       },
       "teePacketCount": 6,
-      "nonTeePacketCount": 1,
+      "nonTeePacketCount": 2,
       "holdCount": 5,
-      "nextMove": "Keep the live four-shirt set stable; use the highest-priority prepared packet when queue momentum matters, the safer or seasonal packet when search clarity matters more, and maintain at least one non-tee plus one second-wave fallback on the bench."
+      "nextMove": "Keep the live four-shirt set stable; use the highest-priority prepared packet when queue momentum matters, use the draft-backed packet when seller-session friction makes closeness-to-publish more valuable than trend breadth, and maintain at least one non-tee plus one second-wave fallback on the bench."
     },
     "looksmaxingQueue": {
       "activePriority": [
@@ -495,7 +505,8 @@
       "bestSeasonalBranch": "4th of July funny family BBQ tee",
       "bestSecondWaveBranch": "CHADLIGHT",
       "bestAbsurdBranch": "TUNG TUNG TUNG",
-      "bestNonTeePreparedBranch": "Back to School office mug"
+      "bestNonTeePreparedBranch": "Back to School office mug",
+      "bestDraftBackedBranch": "Missed Calls Cost Money"
     },
     "seasonalCandidates": [
       {
@@ -526,6 +537,9 @@
         "term": "CHAD",
         "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
         "etsyTitle": "CHAD Shirt, Chad Meme Tee, Bold Text Internet Humor Shirt, Funny Alpha Joke Tee, Viral Slang Meme Gift",
+        "nativeBacking": "",
+        "assetPath": "",
+        "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/CHAD-tee-packet.md",
         "updated": "2026-06-22 11:02 MDT"
       },
@@ -537,6 +551,9 @@
         "term": "4th of July family BBQ",
         "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
         "etsyTitle": "4th of July Family BBQ Shirt, Funny Patriotic Tee, Red White Blue Cookout Shirt, July 4th Party Shirt, Summer Holiday Tee",
+        "nativeBacking": "",
+        "assetPath": "",
+        "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/4th-of-july-family-bbq-tee-packet.md",
         "updated": "2026-06-22 11:02 MDT"
       },
@@ -548,6 +565,9 @@
         "term": "LOOKSMAXING",
         "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
         "etsyTitle": "LOOKSMAXING Shirt, Looksmaxing Meme Tee, Self Improvement Humor Shirt, Viral Internet Slang Tee, Bold Text Shirt",
+        "nativeBacking": "",
+        "assetPath": "",
+        "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/LOOKSMAXING-tee-packet.md",
         "updated": "2026-06-22 11:09 MDT"
       },
@@ -559,6 +579,9 @@
         "term": "Summer of Soccer 2026",
         "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
         "etsyTitle": "Summer of Soccer 2026 Shirt, Soccer Mom Tee, Game Day Football Shirt, Tournament Travel Tee, Soccer Family Gift",
+        "nativeBacking": "",
+        "assetPath": "",
+        "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/summer-of-soccer-2026-tee-packet.md",
         "updated": "2026-06-22 11:19 MDT"
       },
@@ -570,6 +593,9 @@
         "term": "Back to School office mug",
         "productFormat": "Printify `Ceramic Mug, 11oz/15oz`",
         "etsyTitle": "Back to School Teacher Mug, School Office Coffee Mug, Funny Teacher Gift, Paraprofessional Mug, First Day of School Cup",
+        "nativeBacking": "",
+        "assetPath": "",
+        "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/back-to-school-office-mug-packet.md",
         "updated": "2026-06-22 11:29 MDT"
       },
@@ -581,6 +607,9 @@
         "term": "CHADLIGHT",
         "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
         "etsyTitle": "CHADLIGHT Shirt, Chad Meme Tee, Ironic Masculinity Joke Shirt, Bold Text Internet Humor Tee, Niche Slang Gift",
+        "nativeBacking": "",
+        "assetPath": "",
+        "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/CHADLIGHT-tee-packet.md",
         "updated": "2026-06-22 11:39 MDT"
       },
@@ -592,8 +621,25 @@
         "term": "TUNG TUNG TUNG",
         "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
         "etsyTitle": "TUNG TUNG TUNG Shirt, Brainrot Meme Tee, Viral TikTok Slang Shirt, Absurd Humor Graphic Tee, Gen Z Meme Gift",
+        "nativeBacking": "",
+        "assetPath": "",
+        "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/tung-tung-tung-tee-packet.md",
         "updated": "2026-06-22 11:39 MDT"
+      },
+      {
+        "title": "Missed Calls Cost Money Sticker Packet",
+        "status": "ready-for-build",
+        "priority": 8,
+        "branch": "workflow-proof",
+        "term": "Missed Calls Cost Money",
+        "productFormat": "Printify `Kiss-Cut Stickers`",
+        "etsyTitle": "Missed Calls Cost Money Sticker, Small Business Owner Sticker, Front Desk Laptop Decal, Receptionist Office Humor, Admin Gift",
+        "nativeBacking": "verified Printify draft `6a34df07522223b80006d618`",
+        "assetPath": "`/Users/levikritzik/.openclaw/workspace/ferris-team/printify-assets/missed-calls-cost-money.png`",
+        "draftBacked": true,
+        "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/missed-calls-cost-money-sticker-packet.md",
+        "updated": "2026-06-22 12:05 MDT"
       }
     ]
   },
@@ -741,71 +787,71 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 12:00 MDT",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 11:43 MDT",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 11:43 MDT",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T12:00:31-06:00",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T12:00:32-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T12:00:34-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T12:00:27-06:00",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "timestamp": "2026-06-22T12:04:32-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T12:00:34-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
-        "timestamp": "2026-06-22T12:00:34-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "timestamp": "2026-06-22T12:04:21-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T12:00:34-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       }
     }
