@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 04:56 MDT",
-    "generatedAt": "2026-06-22T05:08:48-06:00",
+    "generatedAt": "2026-06-22T05:09:49-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -14,7 +14,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "6h 4m",
+          "age": "6h 5m",
           "status": "stale"
         }
       ]
@@ -88,9 +88,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 05:08 MDT: Re-checked Gumroad root, public post, and bundle via direct HTML. The root still titles `Levi Kritzik | Ferris Automations`, the public post still clips its description at `reactivati`, and the bundle page still carries the stronger local-business discovery copy. No material state change; next move stays seller-side post-source inspection only.",
     "2026-06-22 04:56 MDT: Refreshed the Gumroad bundle packet to lock the next authenticated pass onto seller-side post-source inspection only. Public root and bundle surfaces are still healthy; the public post remains the weakest discovery surface because its description still clips at `reactivati`. Next move: use the next clean Gumroad session on the seller-side post source only.",
-    "2026-06-22 04:44 MDT: Re-checked the Gumroad public post and profile root via direct HTML. The post title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the post meta description still truncates at `reactivati`, and the profile root still titles `Levi Kritzik | Ferris Automations` with the Ferris Automations discovery copy. The public post remains the weakest live discovery surface. Next move: keep the next Gumroad pass seller-side and source-only;",
-    "2026-06-22 04:19 MDT: Re-checked the Gumroad public post HTML directly. The title remains `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. Next move: keep the next Gumroad pass seller-side and source-only; do not burn another heartbeat on public-root churn."
+    "2026-06-22 04:44 MDT: Re-checked the Gumroad public post and profile root via direct HTML. The post title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the post meta description still truncates at `reactivati`, and the profile root still titles `Levi Kritzik | Ferris Automations` with the Ferris Automations discovery copy. The public post remains the weakest live discovery surface. Next move: keep the next Gumroad pass seller-side and source-only;"
   ],
   "discovery": {
     "checkedAt": "2026-06-22T05:00:06-06:00",
@@ -130,43 +130,43 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 04:56 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 04:20 MDT",
-        "ageMinutes": 48,
-        "ageText": "48m",
+        "ageMinutes": 49,
+        "ageText": "49m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-21 23:04 MDT",
-        "ageMinutes": 364,
-        "ageText": "6h 4m",
+        "ageMinutes": 365,
+        "ageText": "6h 5m",
         "status": "stale"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T05:00:06-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T05:00:06-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22 04:12 MDT",
-        "ageMinutes": 56,
-        "ageText": "56m",
+        "ageMinutes": 57,
+        "ageText": "57m",
         "status": "fresh"
       }
     }
