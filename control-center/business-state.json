@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 05:32 MDT",
-    "generatedAt": "2026-06-22T05:45:42-06:00",
+    "lastUpdated": "2026-06-22 05:45 MDT",
+    "generatedAt": "2026-06-22T05:46:43-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -116,9 +116,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 05:45 MDT: Synced the Gumroad bundle packet and product listing packet to the latest verified public-truth note. The bundle lane is still live at $59, the public profile root still carries Ferris Automations discovery copy, and the public post remains the weakest discovery surface because its meta description clips at `reactivati`. Next move stays seller-side post-source inspection only; do not churn profile-root or bundle-copy again this heartbeat.",
     "2026-06-22 05:32 MDT: Re-checked the Gumroad public post HTML directly. The title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the H1 is still `Faster customer replies for local businesses`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. The next reversible Gumroad pass stays seller-side and source-only.",
-    "2026-06-22 05:24 MDT: Re-checked the outreach mailbox with Himalaya and wired that watch into the machine-readable control layer. The latest 12 inbox messages still contain no owner/manager replies, the newest visible mail is still platform/account traffic rather than prospect response, and the newest verified outreach send is still Judd Orthodontics at Sent Mail id `86`. The dashboard now tracks `email-watch-status.md` freshness directly so reply-watch truth can age visibly instead of silently drifting.",
-    "2026-06-22 05:20 MDT: Re-checked the durable Gumroad lane notes and kept the board pointed at the same seller-side source-only move. Public root and bundle surfaces are still healthy, the public post remains the weakest live discovery surface because its description still clips at `reactivati`, and the next reversible Gumroad pass stays pinned to seller-side post-source inspection only."
+    "2026-06-22 05:24 MDT: Re-checked the outreach mailbox with Himalaya and wired that watch into the machine-readable control layer. The latest 12 inbox messages still contain no owner/manager replies, the newest visible mail is still platform/account traffic rather than prospect response, and the newest verified outreach send is still Judd Orthodontics at Sent Mail id `86`. The dashboard now tracks `email-watch-status.md` freshness directly so reply-watch truth can age visibly instead of silently drifting."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T05:30:23-06:00",
@@ -157,51 +157,51 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 05:32 MDT",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "timestamp": "2026-06-22 05:45 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 05:42 MDT",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 05:30 MDT",
-        "ageMinutes": 15,
-        "ageText": "15m",
+        "ageMinutes": 16,
+        "ageText": "16m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 05:22 MDT",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T05:30:23-06:00",
-        "ageMinutes": 15,
-        "ageText": "15m",
+        "ageMinutes": 16,
+        "ageText": "16m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T05:30:23-06:00",
-        "ageMinutes": 15,
-        "ageText": "15m",
+        "ageMinutes": 16,
+        "ageText": "16m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22 05:24 MDT",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       }
     }
