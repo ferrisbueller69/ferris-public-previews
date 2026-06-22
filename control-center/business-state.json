@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 07:02 MDT",
-    "generatedAt": "2026-06-22T07:10:54-06:00",
+    "lastUpdated": "2026-06-22 07:11 MDT",
+    "generatedAt": "2026-06-22T07:11:56-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -16,7 +16,7 @@
         {
           "key": "emailWatch",
           "label": "outreach watch",
-          "age": "1h 0m",
+          "age": "1h 1m",
           "status": "aging"
         }
       ]
@@ -32,7 +32,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T06:50:21-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T07:11:51-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -64,7 +64,7 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T06:52:48-06:00",
+    "fulfillmentCheckAt": "2026-06-22T07:11:49-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0
   },
@@ -82,7 +82,7 @@
     "etsy": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T06:52:48-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T07:11:49-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -155,7 +155,7 @@
     "2026-06-22 06:23 MDT: Re-checked the Gumroad public post HTML directly. The title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the H1 remains `Faster customer replies for local businesses`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. No material Gumroad state changed; next move stays seller-side post-source inspection only."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T07:02:12-06:00",
+    "checkedAt": "2026-06-22T07:11:50-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "platform-clipped",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -177,7 +177,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T06:50:21-06:00",
+    "checkedAt": "2026-06-22T07:11:51-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -188,6 +188,21 @@
     "totalEtsyPod": 4,
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
+  "operatorFlags": {
+    "watchOnly": [
+      "Outreach stays watch-only until a clearly stronger owner/decision-maker contact or a real reply appears.",
+      "Hold the live four-shirt Etsy set unless seller-side drift or a real public regression shows up."
+    ],
+    "blockedByExternal": [
+      "Etsy Product 3 is blocked on seller-session proof: no verified Draft row exists yet, and the seller path last redirected to sign-in.",
+      "Fiverr is blocked on the identity + W-9 publish gate that Kritz is handling personally."
+    ],
+    "falseMotionRisks": [
+      "Do not count fulfillment signals as new sales unless rows_appended increases above 0.",
+      "Do not churn Gumroad seller copy blindly while the weakest public post surface still reads as platform-clipped rather than seller-clipped.",
+      "Do not widen into weaker outreach inboxes just to keep send volume moving."
+    ]
+  },
   "sourceTruth": {
     "currentStateTimestamp": "2026-06-22 06:52 MDT",
     "storefrontStatusTimestamp": "2026-06-22 06:10 MDT",
@@ -195,50 +210,50 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 07:01 MDT",
-        "ageMinutes": 9,
-        "ageText": "9m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 60,
-        "ageText": "1h 0m",
+        "ageMinutes": 61,
+        "ageText": "1h 1m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 60,
-        "ageText": "1h 0m",
+        "ageMinutes": 61,
+        "ageText": "1h 1m",
         "status": "aging"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T07:02:12-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "timestamp": "2026-06-22T07:11:50-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-22T06:50:21-06:00",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "timestamp": "2026-06-22T07:11:51-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T06:52:48-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "timestamp": "2026-06-22T07:11:49-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       }
     }
