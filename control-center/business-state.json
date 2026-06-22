@@ -1,13 +1,14 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 09:40 MDT",
-    "generatedAt": "2026-06-22T09:40:39-06:00",
+    "lastUpdated": "2026-06-22 09:41 MDT",
+    "generatedAt": "2026-06-22T09:41:40-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/storefront-lane-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/work-queue.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/email-watch-status.md",
+      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/email-watch-check.json",
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/fulfillment-check.json",
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/runtime-health.json"
     ],
@@ -58,7 +59,7 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T09:40:12-06:00",
+    "fulfillmentCheckAt": "2026-06-22T09:41:33-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
     "runtimeHealthCheckAt": "2026-06-22T09:40:17-06:00",
@@ -72,14 +73,52 @@
     "highTicketShare": "88.24%",
     "visibleBounces": 1,
     "verifiedReplies": 0,
-    "lastChecked": "2026-06-22 09:40 MDT",
-    "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages."
+    "lastChecked": "2026-06-22T09:41:40-06:00",
+    "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages.",
+    "newestSent": {
+      "id": "86",
+      "to": "info@juddorthodontics.com",
+      "subject": "quick idea for Judd consult follow-up",
+      "date": "2026-06-22 03:34+00:00"
+    },
+    "topInbox": [
+      {
+        "id": "597",
+        "from": "ferrisbueller69 <notifications@github.com>",
+        "subject": "[ferrisbueller69/ferris-public-previews] Run failed: pages build and deployment - main (51b7939)",
+        "date": "2026-06-22 08:33-07:00"
+      },
+      {
+        "id": "596",
+        "from": "ferrisbueller69 <notifications@github.com>",
+        "subject": "[ferrisbueller69/ferris-public-previews] Run failed: pages build and deployment - main (51b7939)",
+        "date": "2026-06-22 08:32-07:00"
+      },
+      {
+        "id": "595",
+        "from": "ferrisbueller69 <notifications@github.com>",
+        "subject": "[ferrisbueller69/ferris-public-previews] Run failed: pages build and deployment - main (5e9497f)",
+        "date": "2026-06-22 08:31-07:00"
+      },
+      {
+        "id": "594",
+        "from": "ferrisbueller69 <notifications@github.com>",
+        "subject": "[ferrisbueller69/ferris-public-previews] Run failed: pages build and deployment - main (5e9497f)",
+        "date": "2026-06-22 08:30-07:00"
+      },
+      {
+        "id": "593",
+        "from": "ferrisbueller69 <notifications@github.com>",
+        "subject": "[ferrisbueller69/ferris-public-previews] Run failed: pages build and deployment - main (4521e35)",
+        "date": "2026-06-22 08:29-07:00"
+      }
+    ]
   },
   "laneFrontiers": {
     "etsy": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T09:40:12-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T09:41:33-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -348,27 +387,27 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 09:34 MDT",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 09:01 MDT",
-        "ageMinutes": 39,
-        "ageText": "39m",
+        "ageMinutes": 40,
+        "ageText": "40m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 79,
-        "ageText": "1h 19m",
+        "ageMinutes": 80,
+        "ageText": "1h 20m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
-        "timestamp": "2026-06-22 09:40 MDT",
+        "timestamp": "2026-06-22T09:41:40-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
@@ -376,20 +415,20 @@
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T09:40:16-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T09:40:17-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T09:40:12-06:00",
+        "timestamp": "2026-06-22T09:41:33-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
@@ -397,8 +436,8 @@
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T09:40:17-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       }
     }
