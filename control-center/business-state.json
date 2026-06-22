@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 06:52 MDT",
-    "generatedAt": "2026-06-22T07:01:40-06:00",
+    "lastUpdated": "2026-06-22 07:02 MDT",
+    "generatedAt": "2026-06-22T07:02:41-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -87,8 +87,8 @@
     "gumroadDiscovery": {
       "label": "Gumroad discovery",
       "status": "live-discovery",
-      "proof": "3/3 Gumroad public surfaces are healthy; weakest public surface stays the post at 150 chars via meta:description.",
-      "nextMove": "Clean up the public Gumroad post description/body source if a seller-side edit can remove the clipped meta text without faking traction."
+      "proof": "3/3 Gumroad public surfaces are healthy; weakest public surface stays the post at 150 chars via meta:description; public body still holds the full phrase.",
+      "nextMove": "Treat the Gumroad post as platform-clipped: the public body still contains the full phrase, so do not churn seller copy blindly. Only test a shorter opener if a seller-side post edit becomes worth it; otherwise pivot to the next lane."
     },
     "merch": {
       "label": "Printify / Etsy merch",
@@ -143,26 +143,29 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 07:01 MDT: Fresh direct browser recheck of the Gumroad public post still shows title `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, H1 `Faster customer replies for local businesses`, and meta description clipped at `If you run a local business, this bundle gives you ready-to-use templates for review replies, follow-ups, missed-call texts, reminders, and reactivati`; the body text still contains the full `reactivation outreach` phrase, so the weak surface remains metadata only. No material Gumroad state changed.",
     "2026-06-22 06:50 MDT: Fresh direct HTML source inspection of the Gumroad public post confirmed the meta description still clips at `If you run a local business, this bundle gives you ready-to-use templates for review replies, follow-ups, missed-call texts, reminders, and reactivati`, but the embedded post body still contains the full `reactivation outreach` phrase. Title remains `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations` and the H1 remains `Faster customer replies for local businesses`. No material Gumroad state changed; next move stays seller-side source-only inspection, not profile-root or bundle-copy churn.",
-    "2026-06-22 06:23 MDT: Re-checked the Gumroad public post HTML directly. The title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the H1 remains `Faster customer replies for local businesses`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. No material Gumroad state changed; next move stays seller-side post-source inspection only.",
-    "2026-06-22 06:11 MDT: Re-ran the Etsy Product 3 draft-filter route and it now redirects to Etsy sign-in in this session, so the missed-call kit still has no verified saved Draft row. The Etsy packet and current-state note now carry the blocker explicitly; next move stays a clean signed-in seller tab for strict Draft-row verification and ZIP swap. No need to churn Gumroad or the live four-shirt set this heartbeat."
+    "2026-06-22 06:23 MDT: Re-checked the Gumroad public post HTML directly. The title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the H1 remains `Faster customer replies for local businesses`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. No material Gumroad state changed; next move stays seller-side post-source inspection only."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T06:50:20-06:00",
+    "checkedAt": "2026-06-22T07:02:12-06:00",
     "weakestSurface": "Gumroad post",
-    "weakestClassification": "clipped",
+    "weakestClassification": "platform-clipped",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
     "weakestTitle": "Faster customer replies for local businesses - Levi Kritzik | Ferris Automations",
     "weakestTitleLength": 80,
     "weakestDescription": "If you run a local business, this bundle gives you ready-to-use templates for review replies, follow-ups, missed-call texts, reminders, and reactivati",
     "weakestDescriptionLength": 150,
     "weakestDescriptionSource": "meta:description",
+    "weakestBodyContainsFullPhrase": true,
+    "weakestPlatformClipLikely": true,
+    "weakestClipEvidence": "body has full phrase while meta description truncates earlier",
     "strongestSurface": "Gumroad product",
     "strongestClassification": "strong",
     "strongestUrl": "https://kritzferra.gumroad.com/l/srkqb",
     "strongestTitle": "Ferris Local Business Messaging Bundle",
     "strongestDescriptionLength": 234,
-    "nextMove": "Clean up the public Gumroad post description/body source if a seller-side edit can remove the clipped meta text without faking traction.",
+    "nextMove": "Treat the Gumroad post as platform-clipped: the public body still contains the full phrase, so do not churn seller copy blindly. Only test a shorter opener if a seller-side post edit becomes worth it; otherwise pivot to the next lane.",
     "rootTitle": "Levi Kritzik | Ferris Automations",
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
@@ -184,51 +187,51 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 06:50 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22 07:01 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 9,
-        "ageText": "9m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 51,
-        "ageText": "51m",
+        "ageMinutes": 52,
+        "ageText": "52m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 51,
-        "ageText": "51m",
+        "ageMinutes": 52,
+        "ageText": "52m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T06:50:20-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T07:02:12-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T06:50:21-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T06:52:48-06:00",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       }
     }
