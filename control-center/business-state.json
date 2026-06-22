@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 04:31 MDT",
-    "generatedAt": "2026-06-22T04:44:11-06:00",
+    "lastUpdated": "2026-06-22 04:44 MDT",
+    "generatedAt": "2026-06-22T04:45:13-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -76,9 +76,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 04:44 MDT: Re-checked the Gumroad public post and profile root via direct HTML. The post title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the post meta description still truncates at `reactivati`, and the profile root still titles `Levi Kritzik | Ferris Automations` with the Ferris Automations discovery copy. The public post remains the weakest live discovery surface. Next move: keep the next Gumroad pass seller-side and source-only; do not burn another heartbeat on public-root churn.",
     "2026-06-22 04:31 MDT: Re-checked the Gumroad public post HTML directly. The title is `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the H1 is `Faster customer replies for local businesses`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. Next move: keep the next Gumroad pass seller-side and source-only; do not burn another heartbeat on public-root churn.",
-    "2026-06-22 04:19 MDT: Re-checked the Gumroad public post HTML directly. The title remains `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. Next move: keep the next Gumroad pass seller-side and source-only; do not burn another heartbeat on public-root churn.",
-    "2026-06-22 04:12 MDT: Re-ran the Gumroad public-metadata checker, the machine-readable business-state builder, and the live Gmail-backed fulfillment writer directly. The weakest live Gumroad surface is still the public bundle post with the same 150-character clipped description ending at `reactivati`, and fulfillment still stayed flat at 3 commerce signals with 0 rows appended. One new bounded multi-lane Hermes pass (Etsy Product 3 proof first, Gumroad post-description cleanup second) was terminated after about two minutes because it produced no stdout and no verified file/state delta. Next move: keep Etsy draft-row proof first only in a clean signed-in seller session; otherwise use the next Gumroad seller pass on post-source inspection only."
+    "2026-06-22 04:19 MDT: Re-checked the Gumroad public post HTML directly. The title remains `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. Next move: keep the next Gumroad pass seller-side and source-only; do not burn another heartbeat on public-root churn."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T04:43:12-06:00",
