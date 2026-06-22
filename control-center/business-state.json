@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 07:40 MDT",
-    "generatedAt": "2026-06-22T07:40:43-06:00",
+    "generatedAt": "2026-06-22T07:41:45-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -16,7 +16,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "1h 30m",
+          "age": "1h 31m",
           "status": "aging"
         }
       ]
@@ -89,31 +89,36 @@
       "label": "Etsy Product 3",
       "status": "blocked",
       "proof": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
-      "nextMove": "Re-open Etsy only for strict Draft-row yes/no proof; swap the inherited ZIP only after a named Draft row exists."
+      "nextMove": "Re-open Etsy only for strict Draft-row yes/no proof; swap the inherited ZIP only after a named Draft row exists.",
+      "constraint": "Do not touch the inherited ZIP until a real seller Draft row exists."
     },
     "gumroadDiscovery": {
       "label": "Gumroad discovery",
       "status": "live-discovery",
       "proof": "3/3 Gumroad public surfaces are healthy; weakest public surface stays the post at 150 chars via meta:description; public body still holds the full phrase.",
-      "nextMove": "Treat the Gumroad post as platform-clipped: the public body still contains the full phrase, so do not churn seller copy blindly. Only test a shorter opener if a seller-side post edit becomes worth it; otherwise pivot to the next lane."
+      "nextMove": "Treat the Gumroad post as platform-clipped: the public body still contains the full phrase, so do not churn seller copy blindly. Only test a shorter opener if a seller-side post edit becomes worth it; otherwise pivot to the next lane.",
+      "constraint": "Native/non-email only; do not churn seller copy blindly while the clip still reads platform-side."
     },
     "merch": {
       "label": "Printify / Etsy merch",
       "status": "live-stable",
       "proof": "4 live Etsy POD listings; 4/4 shopper routes are healthy-or-fetch-boundary.",
-      "nextMove": "Hold the live four-shirt set unless a real regression appears; only expand with a clean new platform-fit candidate."
+      "nextMove": "Hold the live four-shirt set unless a real regression appears; only expand with a clean new platform-fit candidate.",
+      "constraint": "No more shirt re-repair passes without seller-side drift or a verified public regression."
     },
     "outreach": {
       "label": "Outreach",
       "status": "watch",
       "proof": "30 high-ticket verified sends (34 total logged), 0 verified replies, 1 visible bounce; No owner/manager replies found in the latest 12 INBOX messages.",
-      "nextMove": "Keep the lane on reply/bounce watch or better-contact sourcing only; no inbound handling without Kritz approval."
+      "nextMove": "Keep the lane on reply/bounce watch or better-contact sourcing only; no inbound handling without Kritz approval.",
+      "constraint": "Do not widen into weaker generic inboxes and do not reply to inbound without Kritz approval."
     },
     "fiverr": {
       "label": "Fiverr",
       "status": "parked",
       "proof": "Replacement draft is parked at Publish; blocker remains identity + w-9 gate.",
-      "nextMove": "Do not spend more publish-gate cycles until Kritz clears the identity/W-9 blocker."
+      "nextMove": "Do not spend more publish-gate cycles until Kritz clears the identity/W-9 blocker.",
+      "constraint": "Identity/W-9 gate is Kritz-owned; only off-platform proof/support work is in-bounds."
     }
   },
   "laneSummary": {
@@ -267,50 +272,50 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 07:39 MDT",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 48,
-        "ageText": "48m",
+        "ageMinutes": 49,
+        "ageText": "49m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 90,
-        "ageText": "1h 30m",
+        "ageMinutes": 91,
+        "ageText": "1h 31m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 28,
-        "ageText": "28m",
+        "ageMinutes": 29,
+        "ageText": "29m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T07:40:40-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       }
     }
