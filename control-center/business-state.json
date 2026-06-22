@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 10:00 MDT",
-    "generatedAt": "2026-06-22T10:04:17-06:00",
+    "lastUpdated": "2026-06-22 10:02 MDT",
+    "generatedAt": "2026-06-22T10:05:19-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -10,7 +10,8 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-team/email-watch-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/email-watch-check.json",
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/fulfillment-check.json",
-      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/runtime-health.json"
+      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/runtime-health.json",
+      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/merch-expansion.json"
     ],
     "freshness": {
       "staleSourceCount": 1,
@@ -18,7 +19,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "1h 43m",
+          "age": "1h 44m",
           "status": "aging"
         }
       ]
@@ -385,6 +386,84 @@
       }
     }
   },
+  "merchExpansion": {
+    "checkedAt": "2026-06-22T10:02:59-06:00",
+    "liveSet": {
+      "terms": [
+        "SUB-5",
+        "LTN",
+        "MTN",
+        "HTN"
+      ],
+      "count": 4,
+      "status": "live-stable"
+    },
+    "summary": {
+      "liveSetStable": true,
+      "activeQueueHead": "CHAD",
+      "saferExpansionHead": "LOOKSMAXING",
+      "seasonalHead": "4th of July funny family BBQ tee",
+      "holdCount": 5,
+      "nextMove": "Keep the live four-shirt set stable; use CHAD or a seasonal/search-led candidate as the next clean merch expansion instead of pushing more ambiguous ranking shorthand."
+    },
+    "looksmaxingQueue": {
+      "activePriority": [
+        "CHAD",
+        "SUB-5",
+        "MTN",
+        "HTN",
+        "LTN"
+      ],
+      "saferShortlist": [
+        "LOOKSMAXING",
+        "CHAD",
+        "CHADLIGHT"
+      ],
+      "riskRankingLowToHigh": [
+        "CHAD",
+        "LOOKSMAXING",
+        "CHADLIGHT",
+        "CLAV",
+        "HTN",
+        "MTN",
+        "SUB-5",
+        "SUB-3"
+      ],
+      "holds": [
+        "SUB-3",
+        "SUB-5",
+        "MTN",
+        "HTN",
+        "CLAV"
+      ]
+    },
+    "operatorCall": {
+      "currentMerchRule": "Do not spend another pass re-repairing the live four-shirt set without drift.",
+      "nextExpansionPreference": "Prefer cleaner merch expansion candidates with stronger search clarity than MTN/HTN/LTN/SUB-5.",
+      "bestNearTermBranch": "CHAD",
+      "bestSeasonalBranch": "4th of July funny family BBQ tee"
+    },
+    "seasonalCandidates": [
+      {
+        "title": "4th of July funny family BBQ tee",
+        "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
+        "why": "ultra-short-window seasonal intent can convert fast on Etsy if the listing lands immediately.",
+        "etsyTitle": "`4th of July Family BBQ Shirt, Funny Patriotic Tee, Red White Blue Cookout Shirt, July 4th Party Shirt, Summer Holiday Tee`"
+      },
+      {
+        "title": "Summer of Soccer 2026 tee",
+        "productFormat": "Printify `Unisex Jersey Short Sleeve Tee`",
+        "why": "Printify is actively surfacing `Summer of Soccer 2026`, which is a live trend clue instead of a guessed one.",
+        "etsyTitle": "`Summer of Soccer 2026 Shirt, Soccer Mom Tee, Game Day Football Shirt, Tournament Travel Tee, Soccer Family Gift`"
+      },
+      {
+        "title": "Back-to-school teacher or school-office mug",
+        "productFormat": "Printify `Ceramic Mug, 11oz/15oz`",
+        "why": "Printify is actively pushing back-to-school bestsellers already, so Ferris should get in early before search fills completely.",
+        "etsyTitle": "`Back to School Teacher Mug, School Office Coffee Mug, Funny Teacher Gift, Paraprofessional Mug, First Day of School Cup`"
+      }
+    ]
+  },
   "operatorFlags": {
     "watchOnly": [
       "Outreach stays watch-only until a clearly stronger owner/decision-maker contact or a real reply appears.",
@@ -407,64 +486,64 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 10:00 MDT",
-        "ageMinutes": 4,
-        "ageText": "4m",
+        "ageMinutes": 5,
+        "ageText": "5m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 09:01 MDT",
-        "ageMinutes": 63,
-        "ageText": "1h 3m",
+        "ageMinutes": 64,
+        "ageText": "1h 4m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 103,
-        "ageText": "1h 43m",
+        "ageMinutes": 104,
+        "ageText": "1h 44m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T10:00:51-06:00",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T10:00:51-06:00",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T10:00:52-06:00",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T10:00:43-06:00",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T10:00:52-06:00",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T10:02:59-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       }
     }
