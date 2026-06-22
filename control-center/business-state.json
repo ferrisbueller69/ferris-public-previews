@@ -1,14 +1,15 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 07:50 MDT",
-    "generatedAt": "2026-06-22T08:01:58-06:00",
+    "generatedAt": "2026-06-22T08:03:00-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/storefront-lane-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/work-queue.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/email-watch-status.md",
-      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/fulfillment-check.json"
+      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/fulfillment-check.json",
+      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/runtime-health.json"
     ],
     "freshness": {
       "staleSourceCount": 0,
@@ -59,7 +60,10 @@
     ],
     "fulfillmentCheckAt": "2026-06-22T07:40:40-06:00",
     "commerceSignalsFound": 3,
-    "fulfillmentRowsAppended": 0
+    "fulfillmentRowsAppended": 0,
+    "runtimeHealthCheckAt": "unknown",
+    "healthyRuntimeAgents": 0,
+    "totalRuntimeAgents": 0
   },
   "outreach": {
     "verifiedSends": 30,
@@ -251,6 +255,14 @@
     "totalEtsyPod": 4,
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
+  "runtimeHealth": {
+    "checkedAt": "unknown",
+    "healthyAgents": 0,
+    "totalAgents": 0,
+    "allHealthy": false,
+    "nextMove": "unknown",
+    "agents": {}
+  },
   "operatorFlags": {
     "watchOnly": [
       "Outreach stays watch-only until a clearly stronger owner/decision-maker contact or a real reply appears.",
@@ -273,50 +285,50 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 07:50 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 69,
-        "ageText": "1h 9m",
+        "ageMinutes": 71,
+        "ageText": "1h 11m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 07:40 MDT",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 49,
-        "ageText": "49m",
+        "ageMinutes": 51,
+        "ageText": "51m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T07:40:32-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T07:40:40-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "runtimeHealth": {
