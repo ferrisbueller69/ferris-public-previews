@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 08:10 MDT",
-    "generatedAt": "2026-06-22T08:11:13-06:00",
+    "generatedAt": "2026-06-22T08:12:15-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -12,8 +12,15 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/runtime-health.json"
     ],
     "freshness": {
-      "staleSourceCount": 0,
-      "staleSources": []
+      "staleSourceCount": 1,
+      "staleSources": [
+        {
+          "key": "emailWatch",
+          "label": "outreach watch",
+          "age": "1h 0m",
+          "status": "aging"
+        }
+      ]
     }
   },
   "revenue": {
@@ -91,7 +98,7 @@
     },
     "gumroadDiscovery": {
       "label": "Gumroad discovery",
-      "status": "live-discovery",
+      "status": "soft-blocked",
       "proof": "3/3 Gumroad public surfaces are healthy; weakest public surface stays the post at 150 chars via meta:description; public body still holds the full phrase.",
       "nextMove": "Treat the Gumroad post as platform-clipped: the public body still contains the full phrase, so do not churn seller copy blindly. Only test a shorter opener if a seller-side post edit becomes worth it; otherwise pivot to the next lane.",
       "constraint": "Native/non-email only; do not churn seller copy blindly while the clip still reads platform-side."
@@ -105,7 +112,7 @@
     },
     "outreach": {
       "label": "Outreach",
-      "status": "watch",
+      "status": "watch-only",
       "proof": "30 high-ticket verified sends (34 total logged), 0 verified replies, 1 visible bounce; No owner/manager replies found in the latest 12 INBOX messages.",
       "nextMove": "Keep the lane on reply/bounce watch or better-contact sourcing only; no inbound handling without Kritz approval.",
       "constraint": "Do not widen into weaker generic inboxes and do not reply to inbound without Kritz approval."
@@ -127,21 +134,20 @@
   },
   "laneSummary": {
     "total": 6,
-    "active": 2,
-    "watch": 1,
+    "active": 1,
+    "watch": 0,
     "blocked": 1,
     "parked": 1,
     "countsByStatus": {
       "blocked": 1,
-      "live-discovery": 1,
+      "soft-blocked": 1,
       "live-stable": 1,
-      "watch": 1,
+      "watch-only": 1,
       "parked": 1,
       "healthy": 1
     },
     "nextAttention": [
       "Etsy Product 3",
-      "Outreach",
       "Fiverr"
     ]
   },
@@ -152,21 +158,11 @@
       "state": "blocked"
     },
     "current": {
-      "title": "Gumroad native discovery move",
-      "note": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
-      "state": "live-discovery"
+      "title": "Dashboard truth + control-layer sync",
+      "note": "Keep the machine-readable state and widget aligned with the latest verified lane truth.",
+      "state": "ready"
     },
     "fallbacks": [
-      {
-        "title": "Outreach watch / sourcing",
-        "note": "Refresh reply/bounce truth first; only source a new contact if it clearly beats the weak fallback block.",
-        "state": "watch"
-      },
-      {
-        "title": "Dashboard truth + control-layer sync",
-        "note": "Keep the machine-readable state and widget aligned with the latest verified lane truth.",
-        "state": "ready"
-      },
       {
         "title": "Skill capture / backlog",
         "note": "Promote only stable repeated workflows; log unstable ones as candidates instead of pretending they are real skills.",
@@ -182,12 +178,12 @@
       {
         "title": "Gumroad native discovery move",
         "note": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
-        "state": "live-discovery"
+        "state": "soft-blocked"
       },
       {
         "title": "Outreach watch / sourcing",
         "note": "Refresh reply/bounce truth first; only source a new contact if it clearly beats the weak fallback block.",
-        "state": "watch"
+        "state": "watch-only"
       },
       {
         "title": "Dashboard truth + control-layer sync",
@@ -333,57 +329,57 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 07:50 MDT",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 79,
-        "ageText": "1h 19m",
+        "ageMinutes": 80,
+        "ageText": "1h 20m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 07:40 MDT",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 59,
-        "ageText": "59m",
-        "status": "fresh"
+        "ageMinutes": 60,
+        "ageText": "1h 0m",
+        "status": "aging"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T08:10:39-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T08:10:39-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T08:10:47-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T08:10:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       }
     }
