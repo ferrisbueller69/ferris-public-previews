@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 08:51 MDT",
-    "generatedAt": "2026-06-22T08:58:32-06:00",
+    "lastUpdated": "2026-06-22 08:59 MDT",
+    "generatedAt": "2026-06-22T08:59:33-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -17,19 +17,19 @@
         {
           "key": "emailWatch",
           "label": "outreach watch",
-          "age": "1h 46m",
+          "age": "1h 47m",
           "status": "aging"
         },
         {
           "key": "publicMetadata",
           "label": "public metadata",
-          "age": "36m",
+          "age": "38m",
           "status": "aging"
         },
         {
           "key": "liveSurfaces",
           "label": "live surfaces",
-          "age": "36m",
+          "age": "37m",
           "status": "aging"
         }
       ]
@@ -237,9 +237,9 @@
     }
   ],
   "pulseNotes": [
-    "2026-06-22 08:45 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, confirming fulfillment monitoring is current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 08:18 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, confirming fulfillment monitoring is current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 08:04 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
+    "2026-06-22 08:59 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows. Fulfillment monitoring is still current, and no new buyer signal changed state. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears.",
+    "2026-06-22 08:45 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows. Fulfillment monitoring is current; next move is reply/bounce watch and only widening intake if a new real signal appears.",
+    "2026-06-22 08:18 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, confirming fulfillment monitoring is current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T08:21:33-06:00",
@@ -366,58 +366,58 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 08:31 MDT",
-        "ageMinutes": 27,
-        "ageText": "27m",
+        "timestamp": "2026-06-22 08:59 MDT",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 08:51 MDT",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 37,
-        "ageText": "37m",
+        "ageMinutes": 38,
+        "ageText": "38m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 106,
-        "ageText": "1h 46m",
+        "ageMinutes": 107,
+        "ageText": "1h 47m",
         "status": "aging"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T08:21:33-06:00",
-        "ageMinutes": 36,
-        "ageText": "36m",
+        "ageMinutes": 38,
+        "ageText": "38m",
         "status": "aging"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T08:21:34-06:00",
-        "ageMinutes": 36,
-        "ageText": "36m",
+        "ageMinutes": 37,
+        "ageText": "37m",
         "status": "aging"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T08:21:32-06:00",
-        "ageMinutes": 37,
-        "ageText": "37m",
+        "ageMinutes": 38,
+        "ageText": "38m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T08:51:07-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       }
     }
