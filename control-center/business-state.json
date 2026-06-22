@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 09:01 MDT",
-    "generatedAt": "2026-06-22T09:01:37-06:00",
+    "generatedAt": "2026-06-22T09:02:38-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -17,7 +17,7 @@
         {
           "key": "emailWatch",
           "label": "outreach watch",
-          "age": "1h 49m",
+          "age": "1h 50m",
           "status": "aging"
         }
       ]
@@ -33,7 +33,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T09:01:29-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T09:01:54-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -65,10 +65,10 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T09:01:28-06:00",
+    "fulfillmentCheckAt": "2026-06-22T09:01:52-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T09:01:30-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T09:01:54-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2
   },
@@ -86,7 +86,7 @@
     "etsy": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T09:01:28-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T09:01:52-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -230,7 +230,7 @@
     "2026-06-22 08:18 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, confirming fulfillment monitoring is current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T09:01:29-06:00",
+    "checkedAt": "2026-06-22T09:01:53-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "platform-clipped",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -252,7 +252,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T09:01:29-06:00",
+    "checkedAt": "2026-06-22T09:01:54-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -264,7 +264,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T09:01:30-06:00",
+    "checkedAt": "2026-06-22T09:01:54-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -274,10 +274,10 @@
       "status": "healthy",
       "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-22T09:00:35-06:00",
-      "remoteLastUpdated": "2026-06-22 08:59 MDT",
-      "localGeneratedAt": "2026-06-22T09:00:35-06:00",
-      "localLastUpdated": "2026-06-22 08:59 MDT",
+      "remoteGeneratedAt": "2026-06-22T09:01:37-06:00",
+      "remoteLastUpdated": "2026-06-22 09:01 MDT",
+      "localGeneratedAt": "2026-06-22T09:01:37-06:00",
+      "localLastUpdated": "2026-06-22 09:01 MDT",
       "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
       "lagSeconds": 0
@@ -297,7 +297,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22677,
+        "runs": 22678,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -322,7 +322,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 44745,
+        "runs": 44746,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -355,55 +355,55 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 08:59 MDT",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 08:51 MDT",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 40,
-        "ageText": "40m",
+        "ageMinutes": 41,
+        "ageText": "41m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 109,
-        "ageText": "1h 49m",
+        "ageMinutes": 110,
+        "ageText": "1h 50m",
         "status": "aging"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T09:01:29-06:00",
+        "timestamp": "2026-06-22T09:01:53-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-22T09:01:29-06:00",
+        "timestamp": "2026-06-22T09:01:54-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T09:01:28-06:00",
+        "timestamp": "2026-06-22T09:01:52-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T09:01:30-06:00",
+        "timestamp": "2026-06-22T09:01:54-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
