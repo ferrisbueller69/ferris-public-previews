@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 04:00 MDT",
-    "generatedAt": "2026-06-22T04:07:16-06:00",
+    "generatedAt": "2026-06-22T04:08:18-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -45,9 +45,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 04:07 MDT: Fresh direct HTML recheck of the Gumroad root, bundle, and public post confirmed the live state is unchanged. The root still titles `Levi Kritzik | Ferris Automations`, the bundle page still carries the stronger local-business discovery copy, and the public post still truncates its description at `reactivati`, so the public post remains the weakest discovery surface. Next Gumroad move stays seller-side post source inspection only; do not burn another pulse on profile-root churn.",
     "2026-06-22 04:00 MDT: Re-ran the live Gmail-backed fulfillment writer and the Gumroad public-metadata checker. Fulfillment still stayed flat at 3 commerce signals with 0 rows appended, and the weakest live Gumroad surface is still the public post with the same 150-character clipped description ending at `reactivati`. Because the cheap storefront checks stayed flat again, this heartbeat converted the blocked time into durable throughput instead: formalized `ferris-bridge-brief-hygiene` as a real Hermes skill and locked in the rule that bridge work must stay bounded/lane-specific while dashboard truth-sync and metadata checks stay direct and local.",
-    "2026-06-22 03:54 MDT: Fetched the Gumroad public profile post HTML directly and confirmed the title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, but the description still truncates at `reactivati`. The public profile root remains healthy, so the next reversible Gumroad move is seller-side post source inspection only; do not spend another heartbeat on public-root churn.",
-    "2026-06-22 03:30 MDT: Refreshed the Gumroad bundle listing packet with the latest live public truth. The bundle page still resolves at $59 and the profile root remains healthy, but the public Gumroad post is still the weakest live discovery surface because its meta description clips at `reactivati`; next move is seller-side post source inspection only, not more public-root churn."
+    "2026-06-22 03:54 MDT: Fetched the Gumroad public profile post HTML directly and confirmed the title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, but the description still truncates at `reactivati`. The public profile root remains healthy, so the next reversible Gumroad move is seller-side post source inspection only; do not spend another heartbeat on public-root churn."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T04:00:30-06:00",
