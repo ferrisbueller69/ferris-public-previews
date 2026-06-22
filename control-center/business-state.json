@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 10:12 MDT",
-    "generatedAt": "2026-06-22T10:22:46-06:00",
+    "generatedAt": "2026-06-22T10:23:48-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -20,7 +20,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "2h 1m",
+          "age": "2h 2m",
           "status": "aging"
         }
       ]
@@ -483,6 +483,10 @@
       "Etsy Product 3 is blocked on seller-session proof: no verified Draft row exists yet, and the seller path last redirected to sign-in.",
       "Fiverr is blocked on the identity + W-9 publish gate that Kritz is handling personally."
     ],
+    "skillFlow": [
+      "Hermes skill flow status unknown.",
+      "Keep converting stable repeated workflows into real skills."
+    ],
     "falseMotionRisks": [
       "Do not count fulfillment signals as new sales unless rows_appended increases above 0.",
       "Do not churn Gumroad seller copy blindly while the weakest public post surface still reads as platform-clipped rather than seller-clipped.",
@@ -496,64 +500,64 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 10:12 MDT",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 10:11 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 121,
-        "ageText": "2h 1m",
+        "ageMinutes": 122,
+        "ageText": "2h 2m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T10:12:15-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T10:12:16-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T10:12:17-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T10:12:13-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T10:12:17-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T10:12:17-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "skillOutput": {
