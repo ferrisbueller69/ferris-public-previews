@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 07:11 MDT",
-    "generatedAt": "2026-06-22T07:11:56-06:00",
+    "lastUpdated": "2026-06-22 07:12 MDT",
+    "generatedAt": "2026-06-22T07:12:58-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -11,15 +11,8 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/fulfillment-check.json"
     ],
     "freshness": {
-      "staleSourceCount": 1,
-      "staleSources": [
-        {
-          "key": "emailWatch",
-          "label": "outreach watch",
-          "age": "1h 1m",
-          "status": "aging"
-        }
-      ]
+      "staleSourceCount": 0,
+      "staleSources": []
     }
   },
   "revenue": {
@@ -75,7 +68,7 @@
     "highTicketShare": "88.24%",
     "visibleBounces": 1,
     "verifiedReplies": 0,
-    "lastChecked": "2026-06-22 06:10 MDT",
+    "lastChecked": "2026-06-22 07:12 MDT",
     "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages."
   },
   "laneFrontiers": {
@@ -210,50 +203,50 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 07:01 MDT",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 19,
-        "ageText": "19m",
+        "ageMinutes": 20,
+        "ageText": "20m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 61,
-        "ageText": "1h 1m",
+        "ageMinutes": 62,
+        "ageText": "1h 2m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
-        "timestamp": "2026-06-22 06:10 MDT",
-        "ageMinutes": 61,
-        "ageText": "1h 1m",
-        "status": "aging"
+        "timestamp": "2026-06-22 07:12 MDT",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T07:11:50-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T07:11:51-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T07:11:49-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       }
     }
