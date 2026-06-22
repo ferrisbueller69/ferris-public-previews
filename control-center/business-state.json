@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 08:59 MDT",
-    "generatedAt": "2026-06-22T09:00:35-06:00",
+    "lastUpdated": "2026-06-22 09:01 MDT",
+    "generatedAt": "2026-06-22T09:01:37-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -12,24 +12,12 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/runtime-health.json"
     ],
     "freshness": {
-      "staleSourceCount": 3,
+      "staleSourceCount": 1,
       "staleSources": [
         {
           "key": "emailWatch",
           "label": "outreach watch",
-          "age": "1h 48m",
-          "status": "aging"
-        },
-        {
-          "key": "publicMetadata",
-          "label": "public metadata",
-          "age": "39m",
-          "status": "aging"
-        },
-        {
-          "key": "liveSurfaces",
-          "label": "live surfaces",
-          "age": "39m",
+          "age": "1h 49m",
           "status": "aging"
         }
       ]
@@ -45,7 +33,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T08:21:34-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T09:01:29-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -77,10 +65,10 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T08:21:32-06:00",
+    "fulfillmentCheckAt": "2026-06-22T09:01:28-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T08:51:07-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T09:01:30-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2
   },
@@ -98,7 +86,7 @@
     "etsy": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T08:21:32-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T09:01:28-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -242,7 +230,7 @@
     "2026-06-22 08:18 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, confirming fulfillment monitoring is current. No material sales state changed. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T08:21:33-06:00",
+    "checkedAt": "2026-06-22T09:01:29-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "platform-clipped",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -264,7 +252,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T08:21:34-06:00",
+    "checkedAt": "2026-06-22T09:01:29-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -276,7 +264,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T08:51:07-06:00",
+    "checkedAt": "2026-06-22T09:01:30-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -286,10 +274,10 @@
       "status": "healthy",
       "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-22T08:50:18-06:00",
-      "remoteLastUpdated": "2026-06-22 08:43 MDT",
-      "localGeneratedAt": "2026-06-22T08:50:18-06:00",
-      "localLastUpdated": "2026-06-22 08:43 MDT",
+      "remoteGeneratedAt": "2026-06-22T09:00:35-06:00",
+      "remoteLastUpdated": "2026-06-22 08:59 MDT",
+      "localGeneratedAt": "2026-06-22T09:00:35-06:00",
+      "localLastUpdated": "2026-06-22 08:59 MDT",
       "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
       "lagSeconds": 0
@@ -309,7 +297,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22672,
+        "runs": 22677,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -334,7 +322,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 44735,
+        "runs": 44745,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -367,57 +355,57 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 08:59 MDT",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 08:51 MDT",
-        "ageMinutes": 9,
-        "ageText": "9m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 39,
-        "ageText": "39m",
+        "ageMinutes": 40,
+        "ageText": "40m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 108,
-        "ageText": "1h 48m",
+        "ageMinutes": 109,
+        "ageText": "1h 49m",
         "status": "aging"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T08:21:33-06:00",
-        "ageMinutes": 39,
-        "ageText": "39m",
-        "status": "aging"
+        "timestamp": "2026-06-22T09:01:29-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-22T08:21:34-06:00",
-        "ageMinutes": 39,
-        "ageText": "39m",
-        "status": "aging"
+        "timestamp": "2026-06-22T09:01:29-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T08:21:32-06:00",
-        "ageMinutes": 39,
-        "ageText": "39m",
+        "timestamp": "2026-06-22T09:01:28-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T08:51:07-06:00",
-        "ageMinutes": 9,
-        "ageText": "9m",
+        "timestamp": "2026-06-22T09:01:30-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       }
     }
