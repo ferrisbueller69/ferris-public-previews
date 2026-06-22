@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 04:44 MDT",
-    "generatedAt": "2026-06-22T04:50:20-06:00",
+    "generatedAt": "2026-06-22T04:51:22-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -19,10 +19,11 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T04:43:12-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T04:51:18-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
+    "boundaryOkEtsyPodRoutes": 4,
     "totalEtsyPodRoutes": 4,
     "etsyPodRoutes": [
       {
@@ -100,13 +101,14 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T04:43:12-06:00",
+    "checkedAt": "2026-06-22T04:51:18-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
     "down": 0,
     "fetchBlocked": 5,
     "healthyEtsyPod": 0,
+    "boundaryOkEtsyPod": 4,
     "totalEtsyPod": 4,
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
