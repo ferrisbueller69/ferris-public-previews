@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 13:01 MDT",
-    "generatedAt": "2026-06-22T13:13:29-06:00",
+    "lastUpdated": "2026-06-22 13:14 MDT",
+    "generatedAt": "2026-06-22T13:14:31-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -12,7 +12,8 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/fulfillment-check.json",
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/runtime-health.json",
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/merch-expansion.json",
-      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/skill-output.json"
+      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/skill-output.json",
+      "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/skill-registry.json"
     ],
     "freshness": {
       "staleSourceCount": 0,
@@ -61,7 +62,7 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T13:01:41-06:00",
+    "fulfillmentCheckAt": "2026-06-22T13:14:30-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
     "runtimeHealthCheckAt": "2026-06-22T13:01:45-06:00",
@@ -107,9 +108,12 @@
       "HTN"
     ],
     "skillOutputCheckedAt": "2026-06-22T13:01:45-06:00",
+    "skillRegistryCheckedAt": "2026-06-22T13:14:24-06:00",
     "skillTouchesToday": 17,
     "skillTouches24h": 17,
-    "latestSkillTouch": "ferris-merch-window-check"
+    "latestSkillTouch": "ferris-merch-window-check",
+    "staleSkillCandidateNotes": 2,
+    "latestSkillRegistryDrift": "ferris-merch-window-check"
   },
   "outreach": {
     "verifiedSends": 30,
@@ -163,7 +167,7 @@
     "etsy": "No verified Product 3 draft row yet; latest signed-in seller proof still shows Draft0 / No listings matched these filters.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T13:01:41-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T13:14:30-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -829,6 +833,113 @@
       }
     ]
   },
+  "skillRegistry": {
+    "checkedAt": "2026-06-22T13:14:24-06:00",
+    "summary": {
+      "status": "drifted",
+      "installedSkills": 32,
+      "candidateNotes": 5,
+      "staleCandidateNotes": 2,
+      "latestDriftSkill": "ferris-merch-window-check",
+      "note": "2 candidate note(s) still claim missing/pending skill state even though a matching local Hermes skill already exists.",
+      "nextMove": "Update or supersede the stale candidate notes so Ferris truth files stop under-reporting real skill coverage."
+    },
+    "staleCandidateNotes": [
+      {
+        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/ferris-merch-window-check-candidate.md",
+        "name": "ferris-merch-window-check-candidate.md",
+        "skillName": "ferris-merch-window-check",
+        "statusLine": "candidate only; not a real Hermes skill yet.",
+        "updatedAt": "2026-06-22T12:53:15-06:00",
+        "ageMinutes": 21,
+        "installedSkill": true,
+        "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
+        "drift": true,
+        "note": "Candidate note still claims the workflow is not a real skill even though the local Hermes skill exists.",
+        "nextMove": "Mark this note as superseded-by-skill or update it to reference the installed skill directly."
+      },
+      {
+        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/gumroad-public-metadata-check-candidate.md",
+        "name": "gumroad-public-metadata-check-candidate.md",
+        "skillName": "gumroad-public-metadata-check",
+        "statusLine": "candidate proven; seller-side/public-fetch evidence threshold met; formal Hermes skill creation still pending",
+        "updatedAt": "2026-06-22T02:31:24-06:00",
+        "ageMinutes": 642,
+        "installedSkill": true,
+        "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
+        "drift": true,
+        "note": "Candidate note still claims the workflow is not a real skill even though the local Hermes skill exists.",
+        "nextMove": "Mark this note as superseded-by-skill or update it to reference the installed skill directly."
+      }
+    ],
+    "candidateNotes": [
+      {
+        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/brainrot-shirt-batch-2-candidates.md",
+        "name": "brainrot-shirt-batch-2-candidates.md",
+        "skillName": "brainrot-shirt-batch-2",
+        "statusLine": "candidate-only; do not let this block batch 1",
+        "updatedAt": "2026-06-19T13:45:52-06:00",
+        "ageMinutes": 4288,
+        "installedSkill": false,
+        "installedSkillPath": "",
+        "drift": false,
+        "note": "Candidate note still maps to a workflow with no installed same-name local Hermes skill.",
+        "nextMove": "Either formalize the workflow into a real skill after another stable pass or keep it as candidate-only."
+      },
+      {
+        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/ferris-merch-window-check-candidate.md",
+        "name": "ferris-merch-window-check-candidate.md",
+        "skillName": "ferris-merch-window-check",
+        "statusLine": "candidate only; not a real Hermes skill yet.",
+        "updatedAt": "2026-06-22T12:53:15-06:00",
+        "ageMinutes": 21,
+        "installedSkill": true,
+        "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
+        "drift": true,
+        "note": "Candidate note still claims the workflow is not a real skill even though the local Hermes skill exists.",
+        "nextMove": "Mark this note as superseded-by-skill or update it to reference the installed skill directly."
+      },
+      {
+        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/fiverr-gallery-upload-pattern-candidate.md",
+        "name": "fiverr-gallery-upload-pattern-candidate.md",
+        "skillName": "fiverr-gallery-upload-pattern",
+        "statusLine": "candidate note only — not a reusable skill yet",
+        "updatedAt": "2026-06-21T21:35:28-06:00",
+        "ageMinutes": 938,
+        "installedSkill": false,
+        "installedSkillPath": "",
+        "drift": false,
+        "note": "Candidate note still maps to a workflow with no installed same-name local Hermes skill.",
+        "nextMove": "Either formalize the workflow into a real skill after another stable pass or keep it as candidate-only."
+      },
+      {
+        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/gumroad-public-metadata-check-candidate.md",
+        "name": "gumroad-public-metadata-check-candidate.md",
+        "skillName": "gumroad-public-metadata-check",
+        "statusLine": "candidate proven; seller-side/public-fetch evidence threshold met; formal Hermes skill creation still pending",
+        "updatedAt": "2026-06-22T02:31:24-06:00",
+        "ageMinutes": 642,
+        "installedSkill": true,
+        "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
+        "drift": true,
+        "note": "Candidate note still claims the workflow is not a real skill even though the local Hermes skill exists.",
+        "nextMove": "Mark this note as superseded-by-skill or update it to reference the installed skill directly."
+      },
+      {
+        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/printify-safari-repair-pattern-candidate.md",
+        "name": "printify-safari-repair-pattern-candidate.md",
+        "skillName": "printify-safari-repair-pattern",
+        "statusLine": "unknown",
+        "updatedAt": "2026-06-21T21:28:09-06:00",
+        "ageMinutes": 946,
+        "installedSkill": false,
+        "installedSkillPath": "",
+        "drift": false,
+        "note": "Candidate note still maps to a workflow with no installed same-name local Hermes skill.",
+        "nextMove": "Either formalize the workflow into a real skill after another stable pass or keep it as candidate-only."
+      }
+    ]
+  },
   "operatorFlags": {
     "watchOnly": [
       "Outreach stays watch-only until a clearly stronger owner/decision-maker contact or a real reply appears.",
@@ -840,7 +951,9 @@
     ],
     "skillFlow": [
       "Tracked Ferris/Hermes skill flow is active today.",
-      "Keep converting stable repeated Ferris workflows into real skills; log unstable ones as candidates only."
+      "Keep converting stable repeated Ferris workflows into real skills; log unstable ones as candidates only.",
+      "2 candidate note(s) still claim missing/pending skill state even though a matching local Hermes skill already exists.",
+      "Update or supersede the stale candidate notes so Ferris truth files stop under-reporting real skill coverage."
     ],
     "falseMotionRisks": [
       "Do not count fulfillment signals as new sales unless rows_appended increases above 0.",
@@ -855,79 +968,79 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 13:01 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 12:42 MDT",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 12:22 MDT",
-        "ageMinutes": 51,
-        "ageText": "51m",
+        "ageMinutes": 52,
+        "ageText": "52m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T13:01:43-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T13:01:44-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T13:01:45-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T13:01:41-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T13:14:30-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T13:01:45-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T13:01:45-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T13:01:45-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
-        "timestamp": "unknown",
-        "ageMinutes": null,
-        "ageText": "unknown",
-        "status": "unknown"
+        "timestamp": "2026-06-22T13:14:24-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       }
     }
   }
