@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 10:00 MDT",
-    "generatedAt": "2026-06-22T10:03:15-06:00",
+    "generatedAt": "2026-06-22T10:04:17-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -18,7 +18,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "1h 42m",
+          "age": "1h 43m",
           "status": "aging"
         }
       ]
@@ -71,7 +71,17 @@
     "fulfillmentRowsAppended": 0,
     "runtimeHealthCheckAt": "2026-06-22T10:00:52-06:00",
     "healthyRuntimeAgents": 2,
-    "totalRuntimeAgents": 2
+    "totalRuntimeAgents": 2,
+    "merchExpansionCheckedAt": "2026-06-22T10:02:59-06:00",
+    "merchQueueHead": "CHAD",
+    "saferMerchExpansionHead": "LOOKSMAXING",
+    "seasonalMerchHead": "4th of July funny family BBQ tee",
+    "stableLiveMerchTerms": [
+      "SUB-5",
+      "LTN",
+      "MTN",
+      "HTN"
+    ]
   },
   "outreach": {
     "verifiedSends": 30,
@@ -145,8 +155,8 @@
     "merch": {
       "label": "Printify / Etsy merch",
       "status": "live-stable",
-      "proof": "4 live Etsy POD listings; 4/4 shopper routes are healthy-or-fetch-boundary.",
-      "nextMove": "Hold the live four-shirt set unless a real regression appears; only expand with a clean new platform-fit candidate.",
+      "proof": "4 live Etsy POD listings; 4/4 shopper routes are healthy-or-fetch-boundary; live set SUB-5, LTN, MTN, HTN; active queue head CHAD.",
+      "nextMove": "Keep the live four-shirt set stable; use CHAD or a seasonal/search-led candidate as the next clean merch expansion instead of pushing more ambiguous ranking shorthand.",
       "constraint": "No more shirt re-repair passes without seller-side drift or a verified public regression."
     },
     "outreach": {
@@ -397,57 +407,64 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 10:00 MDT",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 09:01 MDT",
-        "ageMinutes": 62,
-        "ageText": "1h 2m",
+        "ageMinutes": 63,
+        "ageText": "1h 3m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 102,
-        "ageText": "1h 42m",
+        "ageMinutes": 103,
+        "ageText": "1h 43m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T10:00:51-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T10:00:51-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T10:00:52-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T10:00:43-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T10:00:52-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
+        "status": "fresh"
+      },
+      "merchExpansion": {
+        "label": "merch expansion",
+        "timestamp": "2026-06-22T10:02:59-06:00",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       }
     }
