@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 08:43 MDT",
-    "generatedAt": "2026-06-22T08:50:18-06:00",
+    "lastUpdated": "2026-06-22 08:51 MDT",
+    "generatedAt": "2026-06-22T08:51:20-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -17,7 +17,7 @@
         {
           "key": "emailWatch",
           "label": "outreach watch",
-          "age": "1h 38m",
+          "age": "1h 39m",
           "status": "aging"
         }
       ]
@@ -68,7 +68,7 @@
     "fulfillmentCheckAt": "2026-06-22T08:21:32-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T08:43:33-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T08:51:07-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2
   },
@@ -264,7 +264,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T08:43:33-06:00",
+    "checkedAt": "2026-06-22T08:51:07-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -272,15 +272,15 @@
     "publishedPreview": {
       "url": "https://raw.githubusercontent.com/ferrisbueller69/ferris-public-previews/main/control-center/business-state.json",
       "status": "healthy",
-      "reason": "Published preview matches local business state and only lags the latest local rebuild by a short publish interval.",
+      "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-22T08:43:05-06:00",
-      "remoteLastUpdated": "2026-06-22 08:42 MDT",
-      "localGeneratedAt": "2026-06-22T08:43:32-06:00",
-      "localLastUpdated": "2026-06-22 08:42 MDT",
-      "matchesLocalGeneratedAt": false,
+      "remoteGeneratedAt": "2026-06-22T08:50:18-06:00",
+      "remoteLastUpdated": "2026-06-22 08:43 MDT",
+      "localGeneratedAt": "2026-06-22T08:50:18-06:00",
+      "localLastUpdated": "2026-06-22 08:43 MDT",
+      "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
-      "lagSeconds": 27
+      "lagSeconds": 0
     },
     "nextMove": "Keep the control-layer runtime on watch only; only intervene again if stderr refills, launchctl last exit code drifts above 0, publish lines stop advancing, or the published preview drifts from local state.",
     "agents": {
@@ -297,7 +297,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22668,
+        "runs": 22672,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -322,7 +322,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 44728,
+        "runs": 44735,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -355,57 +355,57 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 08:31 MDT",
-        "ageMinutes": 19,
-        "ageText": "19m",
+        "ageMinutes": 20,
+        "ageText": "20m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 98,
-        "ageText": "1h 38m",
+        "ageMinutes": 99,
+        "ageText": "1h 39m",
         "status": "aging"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T08:21:33-06:00",
-        "ageMinutes": 28,
-        "ageText": "28m",
+        "ageMinutes": 29,
+        "ageText": "29m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T08:21:34-06:00",
-        "ageMinutes": 28,
-        "ageText": "28m",
+        "ageMinutes": 29,
+        "ageText": "29m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T08:21:32-06:00",
-        "ageMinutes": 28,
-        "ageText": "28m",
+        "ageMinutes": 29,
+        "ageText": "29m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T08:43:33-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "timestamp": "2026-06-22T08:51:07-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       }
     }
