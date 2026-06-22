@@ -1,10 +1,12 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-21 22:03 MDT",
+    "lastUpdated": "2026-06-22 02:14 MDT",
+    "generatedAt": "2026-06-22T02:19:38-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
-      "/Users/levikritzik/.openclaw/workspace/ferris-team/storefront-lane-status.md"
+      "/Users/levikritzik/.openclaw/workspace/ferris-team/storefront-lane-status.md",
+      "/Users/levikritzik/.openclaw/workspace/ferris-team/work-queue.md"
     ]
   },
   "revenue": {
@@ -24,9 +26,9 @@
   },
   "laneFrontiers": {
     "etsy": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
-    "gumroad": "Use native Gumroad distribution/discovery only; next clean move is profile placement or staged draft cleanup.",
+    "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-21 21:38 MDT."
+    "fulfillment": "Logger current through 2026-06-22 00:59 MDT."
   },
   "today": [
     {
@@ -35,20 +37,20 @@
     },
     {
       "title": "Gumroad native discovery move",
-      "note": "Use native Gumroad distribution/discovery only; next clean move is profile placement or staged draft cleanup."
+      "note": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces."
     },
     {
-      "title": "Keep Fiverr parked at Publish",
-      "note": "Frontier: Publish. Protected gate remains identity + w-9 gate."
+      "title": "Outreach watch / sourcing",
+      "note": "Refresh reply/bounce truth first; only source a new contact if it clearly beats the weak fallback block."
     }
   ],
   "pulseNotes": [
-    "2026-06-21 21:51 MDT: Checked the Etsy seller dashboard path for Product 3 and confirmed it redirects to Etsy sign-in, so the missed-call kit still has no verified saved Draft row. Next move: only retry Product 3 in a clean signed-in seller session; otherwise pivot to Gumroad profile placement or reply/bounce watch.",
-    "2026-06-21 22:03 MDT: Re-verified the Product 3 public GitHub Pages surface. Live title/meta still match the tightened service-business positioning and the manual-delivery CTA remains live; no new blocker appeared. Next move: keep Etsy retries scoped to a clean signed-in seller session, otherwise stay on reply/bounce watch or the next open revenue lane.",
-    "2026-06-21 21:38 MDT: Re-ran the Gmail-backed sales intake writer in live mode. It found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring remains current. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears."
+    "2026-06-22 02:14 MDT: Fresh direct HTTP recheck of the Gumroad profile root and bundle page. The public root still titles `Levi Kritzik` and keeps the generic `On Gumroad` meta description, while the bundle page still resolves live at $59 with the stronger local-business discovery copy. Next move: if Gumroad gets the next reversible pass, improve the profile-root metadata first; otherwise stay on reply/bounce watch or the next open revenue lane.",
+    "2026-06-22 02:02 MDT: Re-checked the Gumroad public root and bundle page in browser. The root still titles `Levi Kritzik` and keeps the generic `On Gumroad` meta description, while the bundle page stays live at $59 with the stronger local-business discovery copy and the same two-item shell. Next move: if Gumroad gets the next reversible pass, improve profile-root metadata first; otherwise stay on reply/bounce watch or the next open revenue lane.",
+    "2026-06-22 01:50 MDT: Re-checked the Gumroad public root, public post, and bundle product page with direct HTTP fetches. The root title is `Levi Kritzik` and still carries the generic `On Gumroad` meta description, while the bundle page now clearly states the stronger live discovery copy: built for local businesses that need faster replies without writing from scratch, with ready-to-edit templates for review responses, lead follow-ups, missed-call texts, appointment reminders, and reactivation outreach. Next move: if Gumroad gets the next reversible pass, improve the profile-root metadata first; otherwise keep reply/bounce watch and move to the next open revenue lane."
   ],
   "sourceTruth": {
-    "currentStateTimestamp": "2026-06-21 21:36 MST",
-    "storefrontStatusTimestamp": "2026-06-21 21:34 MDT"
+    "currentStateTimestamp": "2026-06-22 01:50 MDT",
+    "storefrontStatusTimestamp": "2026-06-21 23:04 MDT"
   }
 }
