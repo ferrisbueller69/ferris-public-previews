@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 14:28 MDT",
-    "generatedAt": "2026-06-22T14:39:56-06:00",
+    "lastUpdated": "2026-06-22 14:39 MDT",
+    "generatedAt": "2026-06-22T14:40:58-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -21,7 +21,7 @@
         {
           "key": "currentState",
           "label": "current state",
-          "age": "1h 57m",
+          "age": "1h 58m",
           "status": "aging"
         }
       ]
@@ -315,9 +315,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 14:39 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current again. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
     "2026-06-22 14:28 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current again. Next move: stay on reply/bounce watch and only widen intake coverage if a new real signal appears.",
-    "2026-06-22 14:15 MDT: Ran the bounded operator sweep end-to-end; fulfillment stayed at 3 signals / 0 appended rows, outreach watch still shows no owner/manager replies with 1 visible bounce, Gumroad discovery stayed usable, live surfaces held at 4/9 healthy, runtime stayed 2/2 healthy with 0s preview lag, merch expansion stayed stable with queue head CHAD, and business-state rebuilt cleanly. Next move: stay on reply/bounce watch and only widen intake if a new real signal appears.",
-    "2026-06-22 14:03 MDT: Ran the bounded operator sweep end-to-end; fulfillment stayed at 3 signals / 0 appended rows, outreach watch still shows no owner/manager replies with 1 visible bounce, Gumroad discovery stayed usable, live surfaces held at 4/9 healthy, runtime stayed 2/2 healthy with 0s preview lag, merch expansion stayed stable with queue head CHAD, and business-state rebuilt cleanly. Next move: stay on reply/bounce watch and only widen intake if a new real signal appears."
+    "2026-06-22 14:15 MDT: Ran the bounded operator sweep end-to-end; fulfillment stayed at 3 signals / 0 appended rows, outreach watch still shows no owner/manager replies with 1 visible bounce, Gumroad discovery stayed usable, live surfaces held at 4/9 healthy, runtime stayed 2/2 healthy with 0s preview lag, merch expansion stayed stable with queue head CHAD, and business-state rebuilt cleanly. Next move: stay on reply/bounce watch and only widen intake if a new real signal appears."
   ],
   "discovery": {
     "checkedAt": "2026-06-22T14:15:55-06:00",
@@ -959,79 +959,79 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 14:28 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22 14:39 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 12:42 MDT",
-        "ageMinutes": 117,
-        "ageText": "1h 57m",
+        "ageMinutes": 118,
+        "ageText": "1h 58m",
         "status": "aging"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 14:00 MDT",
-        "ageMinutes": 39,
-        "ageText": "39m",
+        "ageMinutes": 40,
+        "ageText": "40m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T14:15:54-06:00",
-        "ageMinutes": 24,
-        "ageText": "24m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T14:15:55-06:00",
-        "ageMinutes": 24,
-        "ageText": "24m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T14:15:40-06:00",
-        "ageMinutes": 24,
-        "ageText": "24m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       }
     }
