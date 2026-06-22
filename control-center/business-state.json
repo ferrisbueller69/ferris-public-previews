@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 05:58 MDT",
-    "generatedAt": "2026-06-22T06:01:05-06:00",
+    "generatedAt": "2026-06-22T06:02:07-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -15,13 +15,13 @@
         {
           "key": "publicMetadata",
           "label": "public metadata",
-          "age": "30m",
+          "age": "31m",
           "status": "aging"
         },
         {
           "key": "liveSurfaces",
           "label": "live surfaces",
-          "age": "30m",
+          "age": "31m",
           "status": "aging"
         }
       ]
@@ -114,6 +114,25 @@
       "nextMove": "Do not spend more publish-gate cycles until Kritz clears the identity/W-9 blocker."
     }
   },
+  "laneSummary": {
+    "total": 5,
+    "active": 2,
+    "watch": 1,
+    "blocked": 1,
+    "parked": 1,
+    "countsByStatus": {
+      "blocked": 1,
+      "live-discovery": 1,
+      "live-stable": 1,
+      "watch": 1,
+      "parked": 1
+    },
+    "nextAttention": [
+      "Etsy Product 3",
+      "Outreach",
+      "Fiverr"
+    ]
+  },
   "today": [
     {
       "title": "Etsy Product 3 draft proof",
@@ -171,50 +190,50 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 05:58 MDT",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 05:42 MDT",
-        "ageMinutes": 19,
-        "ageText": "19m",
+        "ageMinutes": 20,
+        "ageText": "20m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 05:30 MDT",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 05:22 MDT",
-        "ageMinutes": 39,
-        "ageText": "39m",
+        "ageMinutes": 40,
+        "ageText": "40m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T05:30:23-06:00",
-        "ageMinutes": 30,
-        "ageText": "30m",
+        "ageMinutes": 31,
+        "ageText": "31m",
         "status": "aging"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T05:30:23-06:00",
-        "ageMinutes": 30,
-        "ageText": "30m",
+        "ageMinutes": 31,
+        "ageText": "31m",
         "status": "aging"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22 05:24 MDT",
-        "ageMinutes": 37,
-        "ageText": "37m",
+        "ageMinutes": 38,
+        "ageText": "38m",
         "status": "fresh"
       }
     }
