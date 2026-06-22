@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 08:10 MDT",
-    "generatedAt": "2026-06-22T08:12:15-06:00",
+    "generatedAt": "2026-06-22T08:13:17-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -17,7 +17,7 @@
         {
           "key": "emailWatch",
           "label": "outreach watch",
-          "age": "1h 0m",
+          "age": "1h 1m",
           "status": "aging"
         }
       ]
@@ -198,6 +198,18 @@
     ],
     "rule": "If the current lane blocks, pivot immediately in queue order instead of forcing motion on the blocked lane."
   },
+  "sweepBrief": {
+    "headline": "Dashboard truth + control-layer sync",
+    "state": "ready",
+    "reason": "Blocked head: Etsy Product 3 draft proof (hard-blocked) • Gumroad post weakness is platform-clipped, so copy churn is low-yield • Control runtime truth is fresh",
+    "note": "Keep the machine-readable state and widget aligned with the latest verified lane truth.",
+    "fallback": "Skill capture / backlog",
+    "fallbackState": "ready",
+    "avoid": [
+      "Do not count fulfillment signals as new sales unless rows_appended increases above 0.",
+      "Do not churn Gumroad seller copy blindly while the weakest public post surface still reads as platform-clipped rather than seller-clipped."
+    ]
+  },
   "today": [
     {
       "title": "Etsy Product 3 draft proof",
@@ -329,57 +341,57 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 07:50 MDT",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 06:52 MDT",
-        "ageMinutes": 80,
-        "ageText": "1h 20m",
+        "ageMinutes": 81,
+        "ageText": "1h 21m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 07:40 MDT",
-        "ageMinutes": 32,
-        "ageText": "32m",
+        "ageMinutes": 33,
+        "ageText": "33m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22 07:12 MDT",
-        "ageMinutes": 60,
-        "ageText": "1h 0m",
+        "ageMinutes": 61,
+        "ageText": "1h 1m",
         "status": "aging"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T08:10:39-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T08:10:39-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T08:10:47-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T08:10:38-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       }
     }
