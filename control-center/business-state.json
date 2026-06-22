@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 14:39 MDT",
-    "generatedAt": "2026-06-22T14:50:14-06:00",
+    "generatedAt": "2026-06-22T14:51:15-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -21,25 +21,25 @@
         {
           "key": "currentState",
           "label": "current state",
-          "age": "2h 8m",
+          "age": "2h 9m",
           "status": "aging"
         },
         {
           "key": "publicMetadata",
           "label": "public metadata",
-          "age": "34m",
+          "age": "35m",
           "status": "aging"
         },
         {
           "key": "liveSurfaces",
           "label": "live surfaces",
-          "age": "34m",
+          "age": "35m",
           "status": "aging"
         },
         {
           "key": "runtimeHealth",
           "label": "control runtime",
-          "age": "34m",
+          "age": "35m",
           "status": "aging"
         }
       ]
@@ -978,78 +978,78 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 14:39 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 12:42 MDT",
-        "ageMinutes": 128,
-        "ageText": "2h 8m",
+        "ageMinutes": 129,
+        "ageText": "2h 9m",
         "status": "aging"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 14:00 MDT",
-        "ageMinutes": 50,
-        "ageText": "50m",
+        "ageMinutes": 51,
+        "ageText": "51m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T14:15:54-06:00",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T14:15:55-06:00",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "aging"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "aging"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T14:15:40-06:00",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "aging"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "fresh"
       }
     }
