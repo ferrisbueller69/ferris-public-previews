@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 12:42 MDT",
-    "generatedAt": "2026-06-22T12:43:38-06:00",
+    "generatedAt": "2026-06-22T12:44:40-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -805,77 +805,77 @@
     ]
   },
   "sourceTruth": {
-    "currentStateTimestamp": "2026-06-22 12:22 MDT",
+    "currentStateTimestamp": "2026-06-22 12:42 MDT",
     "storefrontStatusTimestamp": "2026-06-22 12:22 MDT",
     "freshness": {
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 12:36 MDT",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
-        "timestamp": "2026-06-22 12:22 MDT",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "timestamp": "2026-06-22 12:42 MDT",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 12:22 MDT",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T12:42:56-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T12:42:57-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T12:42:58-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T12:42:51-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T12:42:58-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T12:42:59-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T12:42:59-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       }
     }
