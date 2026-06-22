@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 14:39 MDT",
-    "generatedAt": "2026-06-22T14:51:15-06:00",
+    "lastUpdated": "2026-06-22 14:52 MDT",
+    "generatedAt": "2026-06-22T14:52:17-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -21,25 +21,25 @@
         {
           "key": "currentState",
           "label": "current state",
-          "age": "2h 9m",
+          "age": "2h 10m",
           "status": "aging"
         },
         {
           "key": "publicMetadata",
           "label": "public metadata",
-          "age": "35m",
+          "age": "36m",
           "status": "aging"
         },
         {
           "key": "liveSurfaces",
           "label": "live surfaces",
-          "age": "35m",
+          "age": "36m",
           "status": "aging"
         },
         {
           "key": "runtimeHealth",
           "label": "control runtime",
-          "age": "35m",
+          "age": "36m",
           "status": "aging"
         }
       ]
@@ -133,7 +133,7 @@
       "HTN"
     ],
     "skillOutputCheckedAt": "2026-06-22T14:15:57-06:00",
-    "skillRegistryCheckedAt": "2026-06-22T14:15:57-06:00",
+    "skillRegistryCheckedAt": "2026-06-22T14:52:17-06:00",
     "skillTouchesToday": 19,
     "skillTouches24h": 19,
     "latestSkillTouch": "ferris-skill-registry-check",
@@ -871,10 +871,10 @@
     ]
   },
   "skillRegistry": {
-    "checkedAt": "2026-06-22T14:15:57-06:00",
+    "checkedAt": "2026-06-22T14:52:17-06:00",
     "summary": {
       "status": "clean",
-      "installedSkills": 34,
+      "installedSkills": 35,
       "candidateNotes": 5,
       "staleCandidateNotes": 0,
       "latestDriftSkill": "none",
@@ -889,7 +889,7 @@
         "skillName": "brainrot-shirt-batch-2",
         "statusLine": "candidate-only; do not let this block batch 1",
         "updatedAt": "2026-06-19T13:45:52-06:00",
-        "ageMinutes": 4350,
+        "ageMinutes": 4386,
         "installedSkill": false,
         "installedSkillPath": "",
         "drift": false,
@@ -902,7 +902,7 @@
         "skillName": "ferris-merch-window-check",
         "statusLine": "superseded by real Hermes skill `productivity/ferris-merch-window-check`",
         "updatedAt": "2026-06-22T13:14:46-06:00",
-        "ageMinutes": 61,
+        "ageMinutes": 97,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
         "drift": false,
@@ -913,14 +913,14 @@
         "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/fiverr-gallery-upload-pattern-candidate.md",
         "name": "fiverr-gallery-upload-pattern-candidate.md",
         "skillName": "fiverr-gallery-upload-pattern",
-        "statusLine": "candidate note only — not a reusable skill yet",
-        "updatedAt": "2026-06-21T21:35:28-06:00",
-        "ageMinutes": 1000,
-        "installedSkill": false,
-        "installedSkillPath": "",
+        "statusLine": "superseded by real Hermes skill `productivity/fiverr-gallery-upload-pattern`",
+        "updatedAt": "2026-06-22T14:51:32-06:00",
+        "ageMinutes": 0,
+        "installedSkill": true,
+        "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/fiverr-gallery-upload-pattern/SKILL.md",
         "drift": false,
-        "note": "Candidate note still maps to a workflow with no installed same-name local Hermes skill.",
-        "nextMove": "Either formalize the workflow into a real skill after another stable pass or keep it as candidate-only."
+        "note": "Candidate note exists, but it does not currently claim the skill is missing.",
+        "nextMove": "Keep the note only if it still adds historical context beyond the real skill."
       },
       {
         "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/gumroad-public-metadata-check-candidate.md",
@@ -928,7 +928,7 @@
         "skillName": "gumroad-public-metadata-check",
         "statusLine": "superseded by real Hermes skill `productivity/gumroad-public-metadata-check`",
         "updatedAt": "2026-06-22T13:14:52-06:00",
-        "ageMinutes": 61,
+        "ageMinutes": 97,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
         "drift": false,
@@ -941,7 +941,7 @@
         "skillName": "printify-safari-repair-pattern",
         "statusLine": "superseded by real Hermes skill `productivity/printify-safari-repair-pattern`",
         "updatedAt": "2026-06-22T13:31:15-06:00",
-        "ageMinutes": 44,
+        "ageMinutes": 81,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/printify-safari-repair-pattern/SKILL.md",
         "drift": false,
@@ -977,79 +977,79 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 14:39 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-22 14:51 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 12:42 MDT",
-        "ageMinutes": 129,
-        "ageText": "2h 9m",
+        "ageMinutes": 130,
+        "ageText": "2h 10m",
         "status": "aging"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 14:00 MDT",
-        "ageMinutes": 51,
-        "ageText": "51m",
+        "ageMinutes": 52,
+        "ageText": "52m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T14:15:54-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "ageMinutes": 36,
+        "ageText": "36m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T14:15:55-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "ageMinutes": 36,
+        "ageText": "36m",
         "status": "aging"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "ageMinutes": 36,
+        "ageText": "36m",
         "status": "aging"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T14:15:40-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "ageMinutes": 36,
+        "ageText": "36m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "ageMinutes": 36,
+        "ageText": "36m",
         "status": "aging"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "ageMinutes": 36,
+        "ageText": "36m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "ageMinutes": 36,
+        "ageText": "36m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
-        "timestamp": "2026-06-22T14:15:57-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "timestamp": "2026-06-22T14:52:17-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       }
     }
