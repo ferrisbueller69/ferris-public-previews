@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 10:12 MDT",
-    "generatedAt": "2026-06-22T10:23:48-06:00",
+    "lastUpdated": "2026-06-22 10:24 MDT",
+    "generatedAt": "2026-06-22T10:24:49-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -20,7 +20,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "2h 2m",
+          "age": "2h 3m",
           "status": "aging"
         }
       ]
@@ -36,7 +36,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T10:12:17-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T10:24:02-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -68,13 +68,13 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T10:12:13-06:00",
+    "fulfillmentCheckAt": "2026-06-22T10:23:58-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T10:12:17-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T10:24:03-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2,
-    "merchExpansionCheckedAt": "2026-06-22T10:12:17-06:00",
+    "merchExpansionCheckedAt": "2026-06-22T10:24:03-06:00",
     "merchQueueHead": "CHAD",
     "saferMerchExpansionHead": "LOOKSMAXING",
     "seasonalMerchHead": "4th of July funny family BBQ tee",
@@ -84,10 +84,10 @@
       "MTN",
       "HTN"
     ],
-    "skillOutputCheckedAt": "unknown",
-    "skillTouchesToday": 0,
-    "skillTouches24h": 0,
-    "latestSkillTouch": "unknown"
+    "skillOutputCheckedAt": "2026-06-22T10:24:33-06:00",
+    "skillTouchesToday": 12,
+    "skillTouches24h": 12,
+    "latestSkillTouch": "ferris-skill-output-check"
   },
   "outreach": {
     "verifiedSends": 30,
@@ -96,7 +96,7 @@
     "highTicketShare": "88.24%",
     "visibleBounces": 1,
     "verifiedReplies": 0,
-    "lastChecked": "2026-06-22T10:12:15-06:00",
+    "lastChecked": "2026-06-22T10:24:00-06:00",
     "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages.",
     "newestSent": {
       "id": "86",
@@ -105,6 +105,12 @@
       "date": "2026-06-22 03:34+00:00"
     },
     "topInbox": [
+      {
+        "id": "601",
+        "from": "ferrisbueller69 <notifications@github.com>",
+        "subject": "[ferrisbueller69/ferris-public-previews] Run failed: pages build and deployment - main (3bb1fb2)",
+        "date": "2026-06-22 09:16-07:00"
+      },
       {
         "id": "600",
         "from": "ferrisbueller69 <notifications@github.com>",
@@ -128,12 +134,6 @@
         "from": "ferrisbueller69 <notifications@github.com>",
         "subject": "[ferrisbueller69/ferris-public-previews] Run failed: pages build and deployment - main (51b7939)",
         "date": "2026-06-22 08:33-07:00"
-      },
-      {
-        "id": "596",
-        "from": "ferrisbueller69 <notifications@github.com>",
-        "subject": "[ferrisbueller69/ferris-public-previews] Run failed: pages build and deployment - main (51b7939)",
-        "date": "2026-06-22 08:32-07:00"
       }
     ]
   },
@@ -141,7 +141,7 @@
     "etsy": "No verified Product 3 draft row yet; seller path currently redirects to Etsy sign-in.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T10:12:13-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T10:23:58-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -283,12 +283,12 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-22 10:24 MDT: Re-ran the Gmail-backed sales intake writer in live mode; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current again. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears.",
     "2026-06-22 10:12 MDT: Ran the operator sweep end-to-end. Fulfillment stayed current at 3 signals / 0 appended rows, outreach watch still shows no owner/manager replies in the latest 12 inbox messages with 1 visible bounce, Gumroad discovery remains platform-clipped, live surfaces are 4/9 healthy with 4 boundary-ok Etsy POD surfaces, runtime health is 2/2 healthy agents, merch expansion stayed stable with active queue head `CHAD`, and the business-state rebuild finished cleanly with the sweep headline `Dashboard truth + control-layer sync` and state `ready`. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears.",
-    "2026-06-22 09:48 MDT: Re-checked the Gumroad public post source over HTTP. The title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the meta description is still clipped at `If you run a local business, this bundle gives you ready-to-use templates for review replies, follow-ups, missed-call texts, reminders, and reactivati`, and the embedded body still contains the full `reactivation outreach` phrase. No public-state change; next Gumroad move remains seller-side/source-only, not profile-root or bundle-copy churn.",
-    "2026-06-22 09:34 MDT: Re-ran the control-layer runtime health check. 2/2 agents stayed healthy, both last exit codes remained 0, stderr stayed empty, and the published preview still matched local state. Next move: watch only; intervene again only if stderr refills, exit codes drift, or preview lag appears."
+    "2026-06-22 09:48 MDT: Re-checked the Gumroad public post source over HTTP. The title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the meta description is still clipped at `If you run a local business, this bundle gives you ready-to-use templates for review replies, follow-ups, missed-call texts, reminders, and reactivati`, and the embedded body still contains the full `reactivation outreach` phrase. No public-state change; next Gumroad move remains seller-side/source-only, not profile-root or bundle-copy churn."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T10:12:16-06:00",
+    "checkedAt": "2026-06-22T10:24:01-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "platform-clipped",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -310,7 +310,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T10:12:17-06:00",
+    "checkedAt": "2026-06-22T10:24:02-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -322,7 +322,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T10:12:17-06:00",
+    "checkedAt": "2026-06-22T10:24:03-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -332,10 +332,10 @@
       "status": "healthy",
       "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-22T10:11:29-06:00",
-      "remoteLastUpdated": "2026-06-22 10:11 MDT",
-      "localGeneratedAt": "2026-06-22T10:11:29-06:00",
-      "localLastUpdated": "2026-06-22 10:11 MDT",
+      "remoteGeneratedAt": "2026-06-22T10:23:48-06:00",
+      "remoteLastUpdated": "2026-06-22 10:12 MDT",
+      "localGeneratedAt": "2026-06-22T10:23:48-06:00",
+      "localLastUpdated": "2026-06-22 10:12 MDT",
       "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
       "lagSeconds": 0
@@ -355,7 +355,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22713,
+        "runs": 22719,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -380,7 +380,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 44814,
+        "runs": 44826,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -392,7 +392,7 @@
     }
   },
   "merchExpansion": {
-    "checkedAt": "2026-06-22T10:12:17-06:00",
+    "checkedAt": "2026-06-22T10:24:03-06:00",
     "liveSet": {
       "terms": [
         "SUB-5",
@@ -470,9 +470,110 @@
     ]
   },
   "skillOutput": {
-    "checkedAt": "unknown",
-    "summary": {},
-    "skills": []
+    "checkedAt": "2026-06-22T10:24:33-06:00",
+    "summary": {
+      "status": "fresh",
+      "note": "Tracked Ferris/Hermes skill flow is active today.",
+      "totalTracked": 15,
+      "touchesToday": 12,
+      "touches24h": 12,
+      "latestSkill": "ferris-skill-output-check",
+      "latestTouchedAt": "2026-06-22T10:24:23-06:00",
+      "latestAgeMinutes": 0,
+      "nextMove": "Keep converting stable repeated Ferris workflows into real skills; log unstable ones as candidates only."
+    },
+    "skills": [
+      {
+        "name": "ferris-skill-output-check",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-skill-output-check/SKILL.md",
+        "touchedAt": "2026-06-22T10:24:23-06:00",
+        "ageMinutes": 0
+      },
+      {
+        "name": "ferris-merch-expansion-check",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-expansion-check/SKILL.md",
+        "touchedAt": "2026-06-22T10:10:56-06:00",
+        "ageMinutes": 13
+      },
+      {
+        "name": "ferris-operator-sweep",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-operator-sweep/SKILL.md",
+        "touchedAt": "2026-06-22T09:02:13-06:00",
+        "ageMinutes": 82
+      },
+      {
+        "name": "ferris-dashboard-truth-sync",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-dashboard-truth-sync/SKILL.md",
+        "touchedAt": "2026-06-22T08:48:07-06:00",
+        "ageMinutes": 96
+      },
+      {
+        "name": "ferris-control-runtime-health",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-control-runtime-health/SKILL.md",
+        "touchedAt": "2026-06-22T08:04:02-06:00",
+        "ageMinutes": 140
+      },
+      {
+        "name": "ferris-cheap-truth-sweep",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-cheap-truth-sweep/SKILL.md",
+        "touchedAt": "2026-06-22T06:52:36-06:00",
+        "ageMinutes": 211
+      },
+      {
+        "name": "ferris-outreach-reply-watch",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-outreach-reply-watch/SKILL.md",
+        "touchedAt": "2026-06-22T05:25:23-06:00",
+        "ageMinutes": 299
+      },
+      {
+        "name": "ferris-live-surface-health-check",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-live-surface-health-check/SKILL.md",
+        "touchedAt": "2026-06-22T04:51:13-06:00",
+        "ageMinutes": 333
+      },
+      {
+        "name": "ferris-sales-intake-watch",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-sales-intake-watch/SKILL.md",
+        "touchedAt": "2026-06-22T04:21:04-06:00",
+        "ageMinutes": 363
+      },
+      {
+        "name": "ferris-bridge-brief-hygiene",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-bridge-brief-hygiene/SKILL.md",
+        "touchedAt": "2026-06-22T04:01:42-06:00",
+        "ageMinutes": 382
+      },
+      {
+        "name": "etsy-seller-state-verification",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/etsy-seller-state-verification/SKILL.md",
+        "touchedAt": "2026-06-22T03:51:09-06:00",
+        "ageMinutes": 393
+      },
+      {
+        "name": "gumroad-public-metadata-check",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
+        "touchedAt": "2026-06-22T03:41:52-06:00",
+        "ageMinutes": 402
+      },
+      {
+        "name": "ferris-non-email-acquisition",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-non-email-acquisition/SKILL.md",
+        "touchedAt": "2026-06-20T18:10:54-06:00",
+        "ageMinutes": 2413
+      },
+      {
+        "name": "ferris-digital-product-workflow",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-digital-product-workflow/SKILL.md",
+        "touchedAt": "2026-06-19T12:16:31-06:00",
+        "ageMinutes": 4208
+      },
+      {
+        "name": "ferris-cross-marketplace-audit",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-cross-marketplace-audit/SKILL.md",
+        "touchedAt": "2026-06-19T00:03:58-06:00",
+        "ageMinutes": 4940
+      }
+    ]
   },
   "operatorFlags": {
     "watchOnly": [
@@ -484,8 +585,8 @@
       "Fiverr is blocked on the identity + W-9 publish gate that Kritz is handling personally."
     ],
     "skillFlow": [
-      "Hermes skill flow status unknown.",
-      "Keep converting stable repeated workflows into real skills."
+      "Tracked Ferris/Hermes skill flow is active today.",
+      "Keep converting stable repeated Ferris workflows into real skills; log unstable ones as candidates only."
     ],
     "falseMotionRisks": [
       "Do not count fulfillment signals as new sales unless rows_appended increases above 0.",
@@ -499,73 +600,73 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-22 10:12 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22 10:24 MDT",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 10:11 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 08:21 MDT",
-        "ageMinutes": 122,
-        "ageText": "2h 2m",
+        "ageMinutes": 123,
+        "ageText": "2h 3m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
-        "timestamp": "2026-06-22T10:12:15-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T10:24:00-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T10:12:16-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T10:24:01-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-22T10:12:17-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T10:24:02-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T10:12:13-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T10:23:58-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T10:12:17-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T10:24:03-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
-        "timestamp": "2026-06-22T10:12:17-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T10:24:03-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
-        "timestamp": "unknown",
-        "ageMinutes": null,
-        "ageText": "unknown",
-        "status": "unknown"
+        "timestamp": "2026-06-22T10:24:33-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       }
     }
   }
