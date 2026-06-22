@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 05:58 MDT",
-    "generatedAt": "2026-06-22T06:10:20-06:00",
+    "generatedAt": "2026-06-22T06:11:21-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -10,21 +10,8 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-team/email-watch-status.md"
     ],
     "freshness": {
-      "staleSourceCount": 2,
-      "staleSources": [
-        {
-          "key": "publicMetadata",
-          "label": "public metadata",
-          "age": "39m",
-          "status": "aging"
-        },
-        {
-          "key": "liveSurfaces",
-          "label": "live surfaces",
-          "age": "39m",
-          "status": "aging"
-        }
-      ]
+      "staleSourceCount": 0,
+      "staleSources": []
     }
   },
   "revenue": {
@@ -37,7 +24,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T05:30:23-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T06:10:23-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -73,7 +60,7 @@
   "outreach": {
     "verifiedSends": 15,
     "verifiedReplies": 0,
-    "lastChecked": "2026-06-22 05:22 MDT",
+    "lastChecked": "2026-06-22 06:10 MDT",
     "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages."
   },
   "laneFrontiers": {
@@ -153,7 +140,7 @@
     "2026-06-22 05:32 MDT: Re-checked the Gumroad public post HTML directly. The title is still `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, the H1 is still `Faster customer replies for local businesses`, and the meta description still truncates at `reactivati`, so the public post remains the weakest live discovery surface. The next reversible Gumroad pass stays seller-side and source-only."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T05:30:23-06:00",
+    "checkedAt": "2026-06-22T06:10:23-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "clipped",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -172,7 +159,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T05:30:23-06:00",
+    "checkedAt": "2026-06-22T06:10:23-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -185,55 +172,55 @@
   },
   "sourceTruth": {
     "currentStateTimestamp": "2026-06-22 05:42 MDT",
-    "storefrontStatusTimestamp": "2026-06-22 05:30 MDT",
+    "storefrontStatusTimestamp": "2026-06-22 06:10 MDT",
     "freshness": {
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 05:58 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 05:42 MDT",
-        "ageMinutes": 28,
-        "ageText": "28m",
+        "ageMinutes": 29,
+        "ageText": "29m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
-        "timestamp": "2026-06-22 05:30 MDT",
-        "ageMinutes": 40,
-        "ageText": "40m",
+        "timestamp": "2026-06-22 06:10 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
-        "timestamp": "2026-06-22 05:22 MDT",
-        "ageMinutes": 48,
-        "ageText": "48m",
+        "timestamp": "2026-06-22 06:10 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T05:30:23-06:00",
-        "ageMinutes": 39,
-        "ageText": "39m",
-        "status": "aging"
+        "timestamp": "2026-06-22T06:10:23-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-22T05:30:23-06:00",
-        "ageMinutes": 39,
-        "ageText": "39m",
-        "status": "aging"
+        "timestamp": "2026-06-22T06:10:23-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22 05:24 MDT",
-        "ageMinutes": 46,
-        "ageText": "46m",
+        "ageMinutes": 47,
+        "ageText": "47m",
         "status": "fresh"
       }
     }
