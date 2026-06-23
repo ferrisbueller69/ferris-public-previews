@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 00:25 MDT",
-    "generatedAt": "2026-06-23T00:31:48-06:00",
+    "lastUpdated": "2026-06-23 00:32 MDT",
+    "generatedAt": "2026-06-23T00:32:50-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -23,7 +23,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "3h 9m",
+          "age": "3h 10m",
           "status": "aging"
         }
       ]
@@ -151,7 +151,7 @@
       "MTN",
       "HTN"
     ],
-    "contactFormReadinessCheckedAt": "2026-06-23T00:25:04-06:00",
+    "contactFormReadinessCheckedAt": "2026-06-23T00:32:48-06:00",
     "contactFormPackStatus": "researched-tonight / execute-tomorrow",
     "contactFormPackReady": true,
     "contactFormPrimaryTargets": 5,
@@ -193,7 +193,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1617,
+    "newestSentAgeMinutes": 1618,
     "newestSentAgeText": "1d 2h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -208,8 +208,8 @@
     "nonEmailMethodPrimaryTargets": 5,
     "nonEmailMethodReserveTargets": 1,
     "nonEmailMethodTopTarget": "Judd Orthodontics",
-    "nonEmailMethodNote": "The selective non-email route is packed and tomorrow-ready, but several targets still require visible in-browser confirmation before any submit should count.",
-    "nonEmailMethodNextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible route attempts and count output only after submit confirmation is visible.",
+    "nonEmailMethodNote": "The selective non-email route is packed, copy-ready, and tomorrow-ready, but several targets still require visible in-browser confirmation before any submit should count.",
+    "nonEmailMethodNextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible route attempts, start with the primary note when links work, switch to the link-safe fallback when forms reject URLs, and count output only after submit confirmation is visible.",
     "nonEmailExecutionStatus": "staged / no verified submits yet",
     "nonEmailExecutionStarted": false,
     "nonEmailExecutionAttemptsLogged": 0,
@@ -2020,16 +2020,20 @@
     ]
   },
   "contactFormReadiness": {
-    "checkedAt": "2026-06-23T00:25:04-06:00",
+    "checkedAt": "2026-06-23T00:32:48-06:00",
     "summary": {
       "status": "researched-tonight / execute-tomorrow",
       "ready": true,
-      "note": "The selective non-email route is packed and tomorrow-ready, but several targets still require visible in-browser confirmation before any submit should count.",
-      "nextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible route attempts and count output only after submit confirmation is visible.",
+      "copyReady": true,
+      "fullyReady": true,
+      "note": "The selective non-email route is packed, copy-ready, and tomorrow-ready, but several targets still require visible in-browser confirmation before any submit should count.",
+      "nextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible route attempts, start with the primary note when links work, switch to the link-safe fallback when forms reject URLs, and count output only after submit confirmation is visible.",
       "primaryTargets": 5,
       "reserveTargets": 1,
       "ownerVisibleTargets": 5,
       "routeProofTargets": 5,
+      "noteVariantTargets": 5,
+      "linkSafeTargets": 5,
       "browserOnlyTargets": 3,
       "antiBotTargets": 1,
       "topTarget": "Judd Orthodontics",
@@ -2047,7 +2051,12 @@
         "route": "contact / appointment path",
         "proofPage": "ferris-team/missed-call-proof-page-dental.html",
         "browserOnly": false,
-        "antiBot": false
+        "antiBot": false,
+        "primaryNote": "Hi Dr. Judd — saw Judd pushes Request an Appointment plus Dental Monitoring and LightForce. Quick idea: missed calls and after-hours consult requests can get a fast text-back so fewer starts go cold. Short ortho example here: [proof-page-link]. If useful, happy to map one around your current appointment flow.",
+        "linkSafeFallback": "Hi Dr. Judd — saw Judd pushes Request an Appointment plus Dental Monitoring and LightForce. Quick idea: missed calls and after-hours consult requests can get a fast text-back so fewer starts go cold. If useful, I can send over a short ortho example built around that flow.",
+        "ultraShortFallback": "Hi Dr. Judd — quick idea: missed ortho consult calls can get an immediate text-back so fewer starts go cold. If useful, I can send a short example.",
+        "copyReady": true,
+        "linkSafeReady": true
       },
       {
         "name": "Wright Orthodontics",
@@ -2057,7 +2066,12 @@
         "route": "schedule / contact path only if the visible in-browser form is clearly active",
         "proofPage": "ferris-team/missed-call-proof-page-dental.html",
         "browserOnly": true,
-        "antiBot": false
+        "antiBot": false,
+        "primaryNote": "Hi Dr. Wright — saw Wright pushes Schedule Now and same-day treatment starts. Quick idea: when a consult or new-patient call is missed, a fast text-back can keep that lead warm before staff calls back. Short ortho example here: [proof-page-link]. If helpful, I can map a version around your current flow.",
+        "linkSafeFallback": "Hi Dr. Wright — saw Wright pushes Schedule Now and same-day treatment starts. Quick idea: when a consult or new-patient call is missed, a fast text-back can keep that lead warm before staff calls back. If helpful, I can send a short ortho example.",
+        "ultraShortFallback": "Hi Dr. Wright — quick idea: a missed consult call could trigger a fast text-back before staff calls back. Happy to send a short example if useful.",
+        "copyReady": true,
+        "linkSafeReady": true
       },
       {
         "name": "East Valley Dental Care",
@@ -2067,7 +2081,12 @@
         "route": "reservation / contact path",
         "proofPage": "ferris-team/missed-call-proof-page-dental.html",
         "browserOnly": true,
-        "antiBot": false
+        "antiBot": false,
+        "primaryNote": "Hi Dr. Thompson — saw East Valley Dental Care leans hard on confidence-forward care and appointment flow. Quick idea: missed new-patient or emergency calls can get a calm text-back so the front desk has context before follow-up. Short dental example here: [proof-page-link]. If useful, happy to sketch one around your current reservation flow.",
+        "linkSafeFallback": "Hi Dr. Thompson — saw East Valley Dental Care leans hard on confidence-forward care and appointment flow. Quick idea: missed new-patient or emergency calls can get a calm text-back so the front desk has context before follow-up. If useful, I can send a short dental example.",
+        "ultraShortFallback": "Hi Dr. Thompson — quick idea: missed new-patient or emergency calls could get a calm text-back before the front desk follows up. Happy to send a short example if useful.",
+        "copyReady": true,
+        "linkSafeReady": true
       },
       {
         "name": "Radiant Family Dentistry",
@@ -2077,7 +2096,12 @@
         "route": "contact path",
         "proofPage": "ferris-team/missed-call-proof-page-dental.html",
         "browserOnly": false,
-        "antiBot": false
+        "antiBot": false,
+        "primaryNote": "Hi Dr. Chan — saw Radiant's contact page invites patients to schedule or follow up on appointments directly. Quick idea: missed calls and after-hours new-patient questions can get a calm text-back so fewer leads disappear overnight. Short dental example here: [proof-page-link]. If useful, I can map one around your current front-desk flow.",
+        "linkSafeFallback": "Hi Dr. Chan — saw Radiant's contact page invites patients to schedule or follow up on appointments directly. Quick idea: missed calls and after-hours new-patient questions can get a calm text-back so fewer leads disappear overnight. If useful, I can send a short dental example.",
+        "ultraShortFallback": "Hi Dr. Chan — quick idea: missed calls and after-hours new-patient questions could get a calm text-back before staff follows up. Happy to send a short example if helpful.",
+        "copyReady": true,
+        "linkSafeReady": true
       },
       {
         "name": "Arizona Biltmore Dentistry",
@@ -2087,7 +2111,12 @@
         "route": "contact form only if visible in-browser tomorrow",
         "proofPage": "ferris-team/missed-call-proof-page-dental.html",
         "browserOnly": true,
-        "antiBot": true
+        "antiBot": true,
+        "primaryNote": "Hi Dr. Jeziorski — saw Arizona Biltmore Dentistry is privately owned and pushes emergency exams plus appointment-driven care. Quick idea: missed calls and after-hours emergency inquiries can get a fast human text-back so fewer high-intent patients go cold. Short dental example here: [proof-page-link]. If useful, I can map one around your current contact flow.",
+        "linkSafeFallback": "Hi Dr. Jeziorski — saw Arizona Biltmore Dentistry is privately owned and pushes emergency exams plus appointment-driven care. Quick idea: missed calls and after-hours emergency inquiries can get a fast human text-back so fewer high-intent patients go cold. If useful, I can send a short dental example.",
+        "ultraShortFallback": "Hi Dr. Jeziorski — quick idea: after-hours emergency inquiries could get a fast human text-back before staff follows up. Happy to send a short example if useful.",
+        "copyReady": true,
+        "linkSafeReady": true
       }
     ],
     "reserve": {
@@ -2097,7 +2126,12 @@
       "routeProof": "contact page fetch returned `200` and explicitly says `Contact us today to schedule your appointment`",
       "proofPage": "ferris-team/missed-call-proof-page-dental.html",
       "browserOnly": true,
-      "antiBot": true
+      "antiBot": true,
+      "primaryNote": "Hi Dr. Teiman — saw Desert Sage invites patients to schedule directly through the site. Quick idea: missed calls and after-hours appointment requests can get a calm text-back so fewer new patients disappear before the office reconnects. Short dental example here: [proof-page-link]. If useful, I can map one around your current flow.",
+      "linkSafeFallback": "Hi Dr. Teiman — saw Desert Sage invites patients to schedule directly through the site. Quick idea: missed calls and after-hours appointment requests can get a calm text-back so fewer new patients disappear before the office reconnects. If useful, I can send a short dental example.",
+      "ultraShortFallback": "Hi Dr. Teiman — quick idea: missed appointment requests could get a calm text-back before staff reconnects. Happy to send a short example if useful.",
+      "copyReady": true,
+      "linkSafeReady": true
     }
   },
   "contactFormExecution": {
@@ -2477,92 +2511,92 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 00:25 MDT",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 23:45 MDT",
-        "ageMinutes": 46,
-        "ageText": "46m",
+        "ageMinutes": 47,
+        "ageText": "47m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 189,
-        "ageText": "3h 9m",
+        "ageMinutes": 190,
+        "ageText": "3h 10m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T00:25:02-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T00:25:03-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T00:25:00-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
-        "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "timestamp": "2026-06-23T00:32:48-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       }
     }
