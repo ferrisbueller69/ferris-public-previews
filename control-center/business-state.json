@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 01:03 MDT",
-    "generatedAt": "2026-06-23T01:16:09-06:00",
+    "lastUpdated": "2026-06-23 01:16 MDT",
+    "generatedAt": "2026-06-23T01:17:11-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -23,7 +23,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "3h 54m",
+          "age": "3h 55m",
           "status": "aging"
         }
       ]
@@ -203,7 +203,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1662,
+    "newestSentAgeMinutes": 1663,
     "newestSentAgeText": "1d 3h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -410,9 +410,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-23 01:16 MDT: Verified Cafe Desta now resolves to a HugeDomains for-sale page, marked that Tucson row blocked to stop dead-domain churn, and tightened the Scented Leaf send-ready row with the live title/meta description so the outreach queue stays on a live public surface.",
     "2026-06-23 01:02 MDT: Verified the Presta Coffee Roasters homepage live, then tightened the Presta queue draft with the current title and meta description so the manual-send packet now has a cleaner first-line hook for later review.",
-    "2026-06-23 00:50 MDT: Verified the 5 Points public homepage live, then tightened the top outreach queue entry with the current title, H1, meta description, and Thursday–Monday hours so the manual-send packet now has a cleaner first-line hook for later review.",
-    "2026-06-23 00:37 MDT: Refreshed the control-layer runtime health check; 2/2 agents stayed healthy, the published preview still matched local state at 0s lag, and the stale publish stderr remains historical noise only."
+    "2026-06-23 00:50 MDT: Verified the 5 Points public homepage live, then tightened the top outreach queue entry with the current title, H1, meta description, and Thursday–Monday hours so the manual-send packet now has a cleaner first-line hook for later review."
   ],
   "discovery": {
     "checkedAt": "2026-06-23T01:03:19-06:00",
@@ -2715,100 +2715,100 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-23 01:02 MDT",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "timestamp": "2026-06-23 01:16 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 01:03 MDT",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 234,
-        "ageText": "3h 54m",
+        "ageMinutes": 235,
+        "ageText": "3h 55m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T01:03:18-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T01:03:19-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T01:03:20-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T01:03:16-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T01:03:20-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T01:03:21-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T01:03:21-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T01:03:21-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T01:03:21-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T01:03:21-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T01:03:21-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       }
     }
