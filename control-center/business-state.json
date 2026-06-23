@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 02:55 MDT",
-    "generatedAt": "2026-06-23T03:02:30-06:00",
+    "lastUpdated": "2026-06-23 03:03 MDT",
+    "generatedAt": "2026-06-23T03:03:32-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -24,7 +24,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "5h 40m",
+          "age": "5h 41m",
           "status": "stale"
         }
       ]
@@ -153,16 +153,16 @@
       "HTN"
     ],
     "contactFormReadinessCheckedAt": "2026-06-23T02:55:36-06:00",
-    "nonEmailMethodBoardCheckedAt": "unknown",
-    "nonEmailMethodBoardStatus": "unknown",
-    "nonEmailReadyMethods": 0,
-    "nonEmailFullyReadyMethods": 0,
+    "nonEmailMethodBoardCheckedAt": "2026-06-23T03:03:17-06:00",
+    "nonEmailMethodBoardStatus": "board-ready-for-tomorrow",
+    "nonEmailReadyMethods": 4,
+    "nonEmailFullyReadyMethods": 4,
     "nonEmailStartedMethods": 0,
     "nonEmailProofMethods": 0,
-    "nonEmailTopMethod": "unknown",
-    "nonEmailTopMethodKey": "unknown",
-    "nonEmailTopMethodStatus": "unknown",
-    "nonEmailTopMethodTarget": "unknown",
+    "nonEmailTopMethod": "Contact form",
+    "nonEmailTopMethodKey": "contactForm",
+    "nonEmailTopMethodStatus": "fully-ready",
+    "nonEmailTopMethodTarget": "Judd Orthodontics",
     "contactFormPackStatus": "researched-tonight / execute-tomorrow",
     "contactFormPackReady": true,
     "contactFormPrimaryTargets": 5,
@@ -224,7 +224,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1768,
+    "newestSentAgeMinutes": 1769,
     "newestSentAgeText": "1d 5h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -234,17 +234,17 @@
     "sameDayPushStatus": "unstarted",
     "sameDayPushNote": "No verified high-ticket send has landed today yet; if contact quality clears, the next send wave should start from zero against the 20-email push target.",
     "nextIfFlat": "If contact quality stays intact, line up a fresh 20-email high-ticket batch instead of widening into weak inboxes.",
-    "nonEmailMethodBoardStatus": "unknown",
-    "nonEmailMethodBoardReadyMethods": 0,
-    "nonEmailMethodBoardFullyReadyMethods": 0,
+    "nonEmailMethodBoardStatus": "board-ready-for-tomorrow",
+    "nonEmailMethodBoardReadyMethods": 4,
+    "nonEmailMethodBoardFullyReadyMethods": 4,
     "nonEmailMethodBoardStartedMethods": 0,
     "nonEmailMethodBoardProofMethods": 0,
-    "nonEmailMethodBoardTopMethod": "unknown",
-    "nonEmailMethodBoardTopMethodKey": "unknown",
-    "nonEmailMethodBoardTopMethodStatus": "unknown",
-    "nonEmailMethodBoardTopMethodTarget": "unknown",
-    "nonEmailMethodBoardNote": "unknown",
-    "nonEmailMethodBoardNextMove": "unknown",
+    "nonEmailMethodBoardTopMethod": "Contact form",
+    "nonEmailMethodBoardTopMethodKey": "contactForm",
+    "nonEmailMethodBoardTopMethodStatus": "fully-ready",
+    "nonEmailMethodBoardTopMethodTarget": "Judd Orthodontics",
+    "nonEmailMethodBoardNote": "Multiple non-email methods are now packed and ranked for tomorrow, so operator time can shift from pack-building to truthful execution order.",
+    "nonEmailMethodBoardNextMove": "Tomorrow, start with the top ranked packed route, keep a hard cap of 5 visible attempts, and pivot down the board only if the live route blocks.",
     "nonEmailMethodStatus": "researched-tonight / execute-tomorrow",
     "nonEmailMethodReady": true,
     "nonEmailMethodPrimaryTargets": 5,
@@ -2739,9 +2739,103 @@
     "reserve": {}
   },
   "nonEmailMethodBoard": {
-    "checkedAt": "unknown",
-    "summary": {},
-    "methods": []
+    "checkedAt": "2026-06-23T03:03:17-06:00",
+    "summary": {
+      "status": "board-ready-for-tomorrow",
+      "methodCount": 4,
+      "readyMethods": 4,
+      "fullyReadyMethods": 4,
+      "startedMethods": 0,
+      "proofMethods": 0,
+      "topMethod": "Contact form",
+      "topMethodKey": "contactForm",
+      "topMethodStatus": "fully-ready",
+      "topMethodTarget": "Judd Orthodontics",
+      "note": "Multiple non-email methods are now packed and ranked for tomorrow, so operator time can shift from pack-building to truthful execution order.",
+      "nextMove": "Tomorrow, start with the top ranked packed route, keep a hard cap of 5 visible attempts, and pivot down the board only if the live route blocks."
+    },
+    "methods": [
+      {
+        "key": "contactForm",
+        "label": "Contact form",
+        "channel": "contact-form",
+        "priority": 1,
+        "readinessCheckedAt": "2026-06-23T02:55:36-06:00",
+        "executionCheckedAt": "2026-06-23T02:55:36-06:00",
+        "status": "fully-ready",
+        "ready": true,
+        "fullyReady": true,
+        "started": false,
+        "hasProof": false,
+        "proofLabel": "verified submit",
+        "attemptsLogged": 0,
+        "primaryTargets": 5,
+        "reserveTargets": 1,
+        "topTarget": "Judd Orthodontics",
+        "note": "No contact-form execution attempts are logged yet; the route is still tomorrow-ready but unstarted.",
+        "nextMove": "Tomorrow, log each real route attempt in the execution log and count output only when a visible confirmation appears."
+      },
+      {
+        "key": "nativeConsult",
+        "label": "Native consult",
+        "channel": "native-consult",
+        "priority": 2,
+        "readinessCheckedAt": "2026-06-23T02:55:36-06:00",
+        "executionCheckedAt": "2026-06-23T02:55:36-06:00",
+        "status": "fully-ready",
+        "ready": true,
+        "fullyReady": true,
+        "started": false,
+        "hasProof": false,
+        "proofLabel": "completed route attempt",
+        "attemptsLogged": 0,
+        "primaryTargets": 5,
+        "reserveTargets": 1,
+        "topTarget": "Chapter One Wellness",
+        "note": "No native consult execution attempts are logged yet; the method is packed but unstarted.",
+        "nextMove": "Tomorrow, log each real route attempt in the native-consult execution log and count output only when the route itself is completed and recorded."
+      },
+      {
+        "key": "instagramDm",
+        "label": "Instagram DM",
+        "channel": "instagram-dm",
+        "priority": 3,
+        "readinessCheckedAt": "2026-06-23T02:55:36-06:00",
+        "executionCheckedAt": "2026-06-23T02:55:36-06:00",
+        "status": "fully-ready",
+        "ready": true,
+        "fullyReady": true,
+        "started": false,
+        "hasProof": false,
+        "proofLabel": "completed DM",
+        "attemptsLogged": 0,
+        "primaryTargets": 5,
+        "reserveTargets": 1,
+        "topTarget": "Chapter One Wellness",
+        "note": "No Instagram DM attempts are logged yet; the method is packed but unstarted.",
+        "nextMove": "Tomorrow, log each real Instagram DM attempt in the execution log and count output only when the DM itself is completed and recorded."
+      },
+      {
+        "key": "facebookDm",
+        "label": "Facebook DM",
+        "channel": "facebook-dm",
+        "priority": 4,
+        "readinessCheckedAt": "2026-06-23T02:55:36-06:00",
+        "executionCheckedAt": "2026-06-23T02:55:36-06:00",
+        "status": "fully-ready",
+        "ready": true,
+        "fullyReady": true,
+        "started": false,
+        "hasProof": false,
+        "proofLabel": "completed DM",
+        "attemptsLogged": 0,
+        "primaryTargets": 5,
+        "reserveTargets": 0,
+        "topTarget": "Chapter One Wellness",
+        "note": "No Facebook DM attempts are logged yet; the method is packed but unstarted.",
+        "nextMove": "Tomorrow, log each real Facebook DM attempt in the execution log and count output only when the DM itself is completed and recorded."
+      }
+    ]
   },
   "nativeConsultExecution": {
     "checkedAt": "2026-06-23T02:55:36-06:00",
@@ -3216,141 +3310,141 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 02:55 MDT",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 02:40 MDT",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 340,
-        "ageText": "5h 40m",
+        "ageMinutes": 341,
+        "ageText": "5h 41m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T02:55:34-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T02:55:34-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T02:55:35-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T02:55:31-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
-        "timestamp": "unknown",
-        "ageMinutes": null,
-        "ageText": "unknown",
-        "status": "unknown"
+        "timestamp": "2026-06-23T03:03:17-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T02:55:36-06:00",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       }
     }
