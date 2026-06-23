@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 00:32 MDT",
-    "generatedAt": "2026-06-23T00:32:50-06:00",
+    "generatedAt": "2026-06-23T00:33:52-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -23,7 +23,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "3h 10m",
+          "age": "3h 11m",
           "status": "aging"
         }
       ]
@@ -158,6 +158,10 @@
     "contactFormReserveTargets": 1,
     "contactFormTopTarget": "Judd Orthodontics",
     "contactFormReserveTarget": "Desert Sage Family Dental",
+    "contactFormCopyReady": true,
+    "contactFormFullyReady": true,
+    "contactFormNoteVariantTargets": 5,
+    "contactFormLinkSafeTargets": 5,
     "contactFormBrowserOnlyTargets": 3,
     "contactFormExecutionCheckedAt": "2026-06-23T00:25:04-06:00",
     "contactFormExecutionStatus": "staged / no verified submits yet",
@@ -193,7 +197,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1618,
+    "newestSentAgeMinutes": 1619,
     "newestSentAgeText": "1d 2h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -208,6 +212,10 @@
     "nonEmailMethodPrimaryTargets": 5,
     "nonEmailMethodReserveTargets": 1,
     "nonEmailMethodTopTarget": "Judd Orthodontics",
+    "nonEmailMethodCopyReady": true,
+    "nonEmailMethodFullyReady": true,
+    "nonEmailMethodNoteVariantTargets": 5,
+    "nonEmailMethodLinkSafeTargets": 5,
     "nonEmailMethodNote": "The selective non-email route is packed, copy-ready, and tomorrow-ready, but several targets still require visible in-browser confirmation before any submit should count.",
     "nonEmailMethodNextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible route attempts, start with the primary note when links work, switch to the link-safe fallback when forms reject URLs, and count output only after submit confirmation is visible.",
     "nonEmailExecutionStatus": "staged / no verified submits yet",
@@ -2511,92 +2519,92 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 00:25 MDT",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 23:45 MDT",
-        "ageMinutes": 47,
-        "ageText": "47m",
+        "ageMinutes": 48,
+        "ageText": "48m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 190,
-        "ageText": "3h 10m",
+        "ageMinutes": 191,
+        "ageText": "3h 11m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T00:25:02-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T00:25:03-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T00:25:00-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T00:32:48-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T00:25:04-06:00",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       }
     }
