@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 02:07 MDT",
-    "generatedAt": "2026-06-23T02:14:57-06:00",
+    "lastUpdated": "2026-06-23 02:19 MDT",
+    "generatedAt": "2026-06-23T02:15:59-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -23,7 +23,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "4h 52m",
+          "age": "4h 53m",
           "status": "stale"
         }
       ]
@@ -213,7 +213,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1720,
+    "newestSentAgeMinutes": 1721,
     "newestSentAgeText": "1d 4h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -275,6 +275,22 @@
     "instagramDmExecutionTopCompletedTarget": "none",
     "instagramDmExecutionNote": "No Instagram DM attempts are logged yet; the method is packed but unstarted.",
     "instagramDmExecutionNextMove": "Tomorrow, log each real Instagram DM attempt in the execution log and count output only when the DM itself is completed and recorded.",
+    "facebookDmMethodStatus": "unknown",
+    "facebookDmMethodReady": false,
+    "facebookDmMethodPrimaryTargets": 0,
+    "facebookDmMethodReserveTargets": 0,
+    "facebookDmMethodTopTarget": "unknown",
+    "facebookDmMethodNote": "unknown",
+    "facebookDmMethodNextMove": "unknown",
+    "facebookDmExecutionStatus": "unknown",
+    "facebookDmExecutionStarted": false,
+    "facebookDmExecutionAttemptsLogged": 0,
+    "facebookDmExecutionCompletedAttempts": 0,
+    "facebookDmExecutionLiveConnections": 0,
+    "facebookDmExecutionBlockedRoutes": 0,
+    "facebookDmExecutionTopCompletedTarget": "none",
+    "facebookDmExecutionNote": "unknown",
+    "facebookDmExecutionNextMove": "unknown",
     "topInbox": [
       {
         "id": "611",
@@ -2607,6 +2623,12 @@
       "proofPage": "ferris-team/missed-call-proof-page-dental.html"
     }
   },
+  "facebookDmReadiness": {
+    "checkedAt": "unknown",
+    "summary": {},
+    "targets": [],
+    "reserve": {}
+  },
   "nativeConsultExecution": {
     "checkedAt": "2026-06-23T01:52:42-06:00",
     "summary": {
@@ -2645,6 +2667,11 @@
       "note": "No Instagram DM attempts are logged yet; the method is packed but unstarted.",
       "nextMove": "Tomorrow, log each real Instagram DM attempt in the execution log and count output only when the DM itself is completed and recorded."
     },
+    "entries": []
+  },
+  "facebookDmExecution": {
+    "checkedAt": "unknown",
+    "summary": {},
     "entries": []
   },
   "skillOutput": {
@@ -3037,126 +3064,140 @@
     ]
   },
   "sourceTruth": {
-    "currentStateTimestamp": "2026-06-23 01:42 MDT",
+    "currentStateTimestamp": "2026-06-23 02:19 MDT",
     "storefrontStatusTimestamp": "2026-06-22 21:22 MDT",
     "freshness": {
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 02:07 MDT",
-        "ageMinutes": 7,
-        "ageText": "7m",
+        "ageMinutes": 8,
+        "ageText": "8m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
-        "timestamp": "2026-06-23 01:42 MDT",
-        "ageMinutes": 32,
-        "ageText": "32m",
+        "timestamp": "2026-06-23 02:19 MDT",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 292,
-        "ageText": "4h 52m",
+        "ageMinutes": 293,
+        "ageText": "4h 53m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T01:52:39-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T01:52:40-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T01:52:41-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T01:52:37-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T01:52:41-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
+      },
+      "facebookDmReadiness": {
+        "label": "facebook dm readiness",
+        "timestamp": "unknown",
+        "ageMinutes": null,
+        "ageText": "unknown",
+        "status": "unknown"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
+      },
+      "facebookDmExecution": {
+        "label": "facebook dm execution",
+        "timestamp": "unknown",
+        "ageMinutes": null,
+        "ageText": "unknown",
+        "status": "unknown"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 22,
-        "ageText": "22m",
+        "ageMinutes": 23,
+        "ageText": "23m",
         "status": "fresh"
       }
     }
