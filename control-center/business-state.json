@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 06:12 MDT",
-    "generatedAt": "2026-06-23T06:12:40-06:00",
+    "generatedAt": "2026-06-23T06:13:42-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -33,7 +33,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-23T06:12:14-06:00",
+    "liveSurfaceCheckAt": "2026-06-23T06:12:44-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -65,13 +65,13 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-23T06:12:10-06:00",
+    "fulfillmentCheckAt": "2026-06-23T06:12:41-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-23T06:12:14-06:00",
+    "runtimeHealthCheckAt": "2026-06-23T06:12:44-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2,
-    "merchExpansionCheckedAt": "2026-06-23T06:12:15-06:00",
+    "merchExpansionCheckedAt": "2026-06-23T06:12:45-06:00",
     "merchQueueHead": "CHAD",
     "saferMerchExpansionHead": "LOOKSMAXING",
     "seasonalMerchHead": "4th of July funny family BBQ tee",
@@ -145,8 +145,8 @@
       "MTN",
       "HTN"
     ],
-    "contactFormReadinessCheckedAt": "2026-06-23T06:12:15-06:00",
-    "nonEmailMethodBoardCheckedAt": "2026-06-23T06:12:15-06:00",
+    "contactFormReadinessCheckedAt": "2026-06-23T06:12:45-06:00",
+    "nonEmailMethodBoardCheckedAt": "2026-06-23T06:12:45-06:00",
     "nonEmailMethodBoardStatus": "board-ready-for-tomorrow",
     "nonEmailReadyMethods": 6,
     "nonEmailFullyReadyMethods": 5,
@@ -167,7 +167,7 @@
     "contactFormNoteVariantTargets": 5,
     "contactFormLinkSafeTargets": 5,
     "contactFormBrowserOnlyTargets": 3,
-    "contactFormExecutionCheckedAt": "2026-06-23T06:12:15-06:00",
+    "contactFormExecutionCheckedAt": "2026-06-23T06:12:45-06:00",
     "contactFormExecutionStatus": "staged / no verified submits yet",
     "contactFormAttemptsLogged": 0,
     "contactFormConfirmedSubmits": 0,
@@ -176,13 +176,13 @@
     "contactFormExecutionStarted": false,
     "contactFormHasVerifiedSubmit": false,
     "contactFormTopCompletedTarget": "none",
-    "nativeConsultReadinessCheckedAt": "2026-06-23T06:12:15-06:00",
+    "nativeConsultReadinessCheckedAt": "2026-06-23T06:12:45-06:00",
     "nativeConsultStatus": "researched-tonight / execute-tomorrow",
     "nativeConsultReady": true,
     "nativeConsultPrimaryTargets": 5,
     "nativeConsultReserveTargets": 1,
     "nativeConsultTopTarget": "Chapter One Wellness",
-    "nativeConsultExecutionCheckedAt": "2026-06-23T06:12:15-06:00",
+    "nativeConsultExecutionCheckedAt": "2026-06-23T06:12:45-06:00",
     "nativeConsultExecutionStatus": "staged / no verified route attempts yet",
     "nativeConsultAttemptsLogged": 0,
     "nativeConsultCompletedAttempts": 0,
@@ -192,11 +192,11 @@
     "nativeConsultExecutionStarted": false,
     "nativeConsultHasCompletedAttempt": false,
     "nativeConsultTopCompletedTarget": "none",
-    "skillOutputCheckedAt": "2026-06-23T06:12:15-06:00",
-    "skillRegistryCheckedAt": "2026-06-23T06:12:15-06:00",
-    "skillTouchesToday": 19,
-    "skillTouches24h": 46,
-    "latestSkillTouch": "ferris-voicemail-light-execution-log",
+    "skillOutputCheckedAt": "2026-06-23T06:12:45-06:00",
+    "skillRegistryCheckedAt": "2026-06-23T06:12:45-06:00",
+    "skillTouchesToday": 20,
+    "skillTouches24h": 47,
+    "latestSkillTouch": "ferris-linkedin-profile-match-check",
     "staleSkillCandidateNotes": 0,
     "latestSkillRegistryDrift": "none"
   },
@@ -207,7 +207,7 @@
     "highTicketShare": "88.24%",
     "visibleBounces": 1,
     "verifiedReplies": 0,
-    "lastChecked": "2026-06-23T06:12:12-06:00",
+    "lastChecked": "2026-06-23T06:12:43-06:00",
     "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages.",
     "newestSent": {
       "id": "86",
@@ -217,7 +217,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1958,
+    "newestSentAgeMinutes": 1959,
     "newestSentAgeText": "1d 8h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -366,7 +366,7 @@
     "etsy": "No verified Product 3 draft row yet; latest signed-in seller proof still shows Draft0 / No listings matched these filters.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-23T06:12:10-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-23T06:12:41-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -512,7 +512,7 @@
     "2026-06-23 05:48 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no new buyer signal changed state. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears."
   ],
   "discovery": {
-    "checkedAt": "2026-06-23T06:12:13-06:00",
+    "checkedAt": "2026-06-23T06:12:44-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "usable",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -534,7 +534,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-23T06:12:14-06:00",
+    "checkedAt": "2026-06-23T06:12:44-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -546,7 +546,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-23T06:12:14-06:00",
+    "checkedAt": "2026-06-23T06:12:44-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -556,10 +556,10 @@
       "status": "healthy",
       "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-23T06:11:39-06:00",
-      "remoteLastUpdated": "2026-06-23 05:59 MDT",
-      "localGeneratedAt": "2026-06-23T06:11:39-06:00",
-      "localLastUpdated": "2026-06-23 05:59 MDT",
+      "remoteGeneratedAt": "2026-06-23T06:12:40-06:00",
+      "remoteLastUpdated": "2026-06-23 06:12 MDT",
+      "localGeneratedAt": "2026-06-23T06:12:40-06:00",
+      "localLastUpdated": "2026-06-23 06:12 MDT",
       "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
       "lagSeconds": 0
@@ -583,7 +583,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 23312,
+        "runs": 23313,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -607,7 +607,7 @@
           "NameError: name 'instagram_dm_summary' is not defined"
         ],
         "stderrUpdatedAt": "2026-06-23T01:35:45-06:00",
-        "stdoutUpdatedAt": "2026-06-23T06:11:40-06:00",
+        "stdoutUpdatedAt": "2026-06-23T06:12:42-06:00",
         "stderrHistorical": true,
         "stdoutTail": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -621,7 +621,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 45979,
+        "runs": 45980,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -633,7 +633,7 @@
     }
   },
   "merchExpansion": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "liveSet": {
       "terms": [
         "SUB-5",
@@ -2792,7 +2792,7 @@
     ]
   },
   "contactFormReadiness": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "researched-tonight / execute-tomorrow",
       "ready": true,
@@ -2915,7 +2915,7 @@
     }
   },
   "contactFormExecution": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "staged / no verified submits yet",
       "attemptsLogged": 0,
@@ -2932,7 +2932,7 @@
     "entries": []
   },
   "nativeConsultReadiness": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "researched-tonight / execute-tomorrow",
       "ready": true,
@@ -3043,7 +3043,7 @@
     }
   },
   "instagramDmReadiness": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "researched-tonight / execute-tomorrow",
       "ready": true,
@@ -3142,7 +3142,7 @@
     }
   },
   "facebookDmReadiness": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "researched-tonight / execute-tomorrow",
       "ready": true,
@@ -3235,7 +3235,7 @@
     "reserve": {}
   },
   "nonEmailMethodBoard": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "board-ready-for-tomorrow",
       "methodCount": 6,
@@ -3256,8 +3256,8 @@
         "label": "Contact form",
         "channel": "contact-form",
         "priority": 1,
-        "readinessCheckedAt": "2026-06-23T06:12:15-06:00",
-        "executionCheckedAt": "2026-06-23T06:12:15-06:00",
+        "readinessCheckedAt": "2026-06-23T06:12:45-06:00",
+        "executionCheckedAt": "2026-06-23T06:12:45-06:00",
         "status": "fully-ready",
         "ready": true,
         "fullyReady": true,
@@ -3276,8 +3276,8 @@
         "label": "Native consult",
         "channel": "native-consult",
         "priority": 2,
-        "readinessCheckedAt": "2026-06-23T06:12:15-06:00",
-        "executionCheckedAt": "2026-06-23T06:12:15-06:00",
+        "readinessCheckedAt": "2026-06-23T06:12:45-06:00",
+        "executionCheckedAt": "2026-06-23T06:12:45-06:00",
         "status": "fully-ready",
         "ready": true,
         "fullyReady": true,
@@ -3296,8 +3296,8 @@
         "label": "Instagram DM",
         "channel": "instagram-dm",
         "priority": 3,
-        "readinessCheckedAt": "2026-06-23T06:12:15-06:00",
-        "executionCheckedAt": "2026-06-23T06:12:15-06:00",
+        "readinessCheckedAt": "2026-06-23T06:12:45-06:00",
+        "executionCheckedAt": "2026-06-23T06:12:45-06:00",
         "status": "fully-ready",
         "ready": true,
         "fullyReady": true,
@@ -3316,8 +3316,8 @@
         "label": "Facebook DM",
         "channel": "facebook-dm",
         "priority": 4,
-        "readinessCheckedAt": "2026-06-23T06:12:15-06:00",
-        "executionCheckedAt": "2026-06-23T06:12:15-06:00",
+        "readinessCheckedAt": "2026-06-23T06:12:45-06:00",
+        "executionCheckedAt": "2026-06-23T06:12:45-06:00",
         "status": "fully-ready",
         "ready": true,
         "fullyReady": true,
@@ -3336,8 +3336,8 @@
         "label": "Voicemail light",
         "channel": "voicemail-light",
         "priority": 5,
-        "readinessCheckedAt": "2026-06-23T06:12:15-06:00",
-        "executionCheckedAt": "2026-06-23T06:12:15-06:00",
+        "readinessCheckedAt": "2026-06-23T06:12:45-06:00",
+        "executionCheckedAt": "2026-06-23T06:12:45-06:00",
         "status": "fully-ready",
         "ready": true,
         "fullyReady": true,
@@ -3356,8 +3356,8 @@
         "label": "LinkedIn light-connect",
         "channel": "linkedin-light-connect",
         "priority": 6,
-        "readinessCheckedAt": "2026-06-23T06:12:15-06:00",
-        "executionCheckedAt": "2026-06-23T06:12:15-06:00",
+        "readinessCheckedAt": "2026-06-23T06:12:45-06:00",
+        "executionCheckedAt": "2026-06-23T06:12:45-06:00",
         "status": "ready",
         "ready": true,
         "fullyReady": false,
@@ -3374,7 +3374,7 @@
     ]
   },
   "nativeConsultExecution": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "staged / no verified route attempts yet",
       "attemptsLogged": 0,
@@ -3395,7 +3395,7 @@
     "entries": []
   },
   "instagramDmExecution": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "staged / no verified DMs sent yet",
       "attemptsLogged": 0,
@@ -3414,7 +3414,7 @@
     "entries": []
   },
   "facebookDmExecution": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "staged / no verified DMs sent yet",
       "attemptsLogged": 0,
@@ -3433,7 +3433,7 @@
     "entries": []
   },
   "linkedinLightConnectReadiness": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "researched-tonight / search-verify-tomorrow",
       "ready": true,
@@ -3537,7 +3537,7 @@
     }
   },
   "linkedinLightConnectExecution": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "staged / no verified LinkedIn attempts yet",
       "attemptsLogged": 0,
@@ -3558,30 +3558,36 @@
     "entries": []
   },
   "skillOutput": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "fresh",
       "note": "Tracked Ferris/Hermes skill flow is active today.",
-      "totalTracked": 55,
-      "touchesToday": 19,
-      "touches24h": 46,
-      "latestSkill": "ferris-voicemail-light-execution-log",
-      "latestTouchedAt": "2026-06-23T05:23:20-06:00",
-      "latestAgeMinutes": 48,
+      "totalTracked": 56,
+      "touchesToday": 20,
+      "touches24h": 47,
+      "latestSkill": "ferris-linkedin-profile-match-check",
+      "latestTouchedAt": "2026-06-23T06:12:28-06:00",
+      "latestAgeMinutes": 0,
       "nextMove": "Keep converting stable repeated Ferris workflows into real skills; log unstable ones as candidates only."
     },
     "skills": [
       {
+        "name": "ferris-linkedin-profile-match-check",
+        "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-linkedin-profile-match-check/SKILL.md",
+        "touchedAt": "2026-06-23T06:12:28-06:00",
+        "ageMinutes": 0
+      },
+      {
         "name": "ferris-voicemail-light-execution-log",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-voicemail-light-execution-log/SKILL.md",
         "touchedAt": "2026-06-23T05:23:20-06:00",
-        "ageMinutes": 48
+        "ageMinutes": 49
       },
       {
         "name": "ferris-voicemail-light-readiness-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-voicemail-light-readiness-check/SKILL.md",
         "touchedAt": "2026-06-23T05:23:20-06:00",
-        "ageMinutes": 48
+        "ageMinutes": 49
       },
       {
         "name": "ferris-voicemail-light-route",
@@ -3599,13 +3605,13 @@
         "name": "ferris-linkedin-light-connect-execution-log",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-linkedin-light-connect-execution-log/SKILL.md",
         "touchedAt": "2026-06-23T04:04:34-06:00",
-        "ageMinutes": 127
+        "ageMinutes": 128
       },
       {
         "name": "ferris-linkedin-light-connect-readiness-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-linkedin-light-connect-readiness-check/SKILL.md",
         "touchedAt": "2026-06-23T04:04:34-06:00",
-        "ageMinutes": 127
+        "ageMinutes": 128
       },
       {
         "name": "ferris-non-email-launch-pack",
@@ -3617,7 +3623,7 @@
         "name": "ferris-linkedin-light-connect-pack",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-linkedin-light-connect-pack/SKILL.md",
         "touchedAt": "2026-06-23T03:36:16-06:00",
-        "ageMinutes": 155
+        "ageMinutes": 156
       },
       {
         "name": "ferris-non-email-method-board",
@@ -3641,19 +3647,19 @@
         "name": "ferris-facebook-dm-readiness-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-facebook-dm-readiness-check/SKILL.md",
         "touchedAt": "2026-06-23T02:15:16-06:00",
-        "ageMinutes": 236
+        "ageMinutes": 237
       },
       {
         "name": "ferris-instagram-dm-readiness-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-instagram-dm-readiness-check/SKILL.md",
         "touchedAt": "2026-06-23T01:52:29-06:00",
-        "ageMinutes": 259
+        "ageMinutes": 260
       },
       {
         "name": "ferris-native-consult-readiness-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-native-consult-readiness-check/SKILL.md",
         "touchedAt": "2026-06-23T01:42:40-06:00",
-        "ageMinutes": 269
+        "ageMinutes": 270
       },
       {
         "name": "ferris-instagram-dm-route",
@@ -3677,25 +3683,25 @@
         "name": "ferris-contact-form-note-variants",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-contact-form-note-variants/SKILL.md",
         "touchedAt": "2026-06-23T00:33:32-06:00",
-        "ageMinutes": 338
+        "ageMinutes": 339
       },
       {
         "name": "ferris-control-runtime-health",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-control-runtime-health/SKILL.md",
         "touchedAt": "2026-06-23T00:22:29-06:00",
-        "ageMinutes": 349
+        "ageMinutes": 350
       },
       {
         "name": "ferris-contact-form-execution-log",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-contact-form-execution-log/SKILL.md",
         "touchedAt": "2026-06-22T23:43:41-06:00",
-        "ageMinutes": 388
+        "ageMinutes": 389
       },
       {
         "name": "ferris-contact-form-readiness-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-contact-form-readiness-check/SKILL.md",
         "touchedAt": "2026-06-22T23:35:19-06:00",
-        "ageMinutes": 396
+        "ageMinutes": 397
       },
       {
         "name": "ferris-contact-form-target-pack",
@@ -3731,7 +3737,7 @@
         "name": "ferris-outreach-pressure-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-outreach-pressure-check/SKILL.md",
         "touchedAt": "2026-06-22T21:52:22-06:00",
-        "ageMinutes": 499
+        "ageMinutes": 500
       },
       {
         "name": "ferris-appointment-microcollection-packet",
@@ -3749,7 +3755,7 @@
         "name": "ferris-dashboard-truth-sync",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-dashboard-truth-sync/SKILL.md",
         "touchedAt": "2026-06-22T19:19:29-06:00",
-        "ageMinutes": 652
+        "ageMinutes": 653
       },
       {
         "name": "ferris-merch-branch-coverage",
@@ -3773,7 +3779,7 @@
         "name": "ferris-workflow-proof-merch-packet",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-workflow-proof-merch-packet/SKILL.md",
         "touchedAt": "2026-06-22T16:12:21-06:00",
-        "ageMinutes": 839
+        "ageMinutes": 840
       },
       {
         "name": "cross-site-product-fit-research",
@@ -3785,7 +3791,7 @@
         "name": "fiverr-gallery-upload-pattern",
         "path": "/Users/levikritzik/.hermes/skills/productivity/fiverr-gallery-upload-pattern/SKILL.md",
         "touchedAt": "2026-06-22T14:51:18-06:00",
-        "ageMinutes": 920
+        "ageMinutes": 921
       },
       {
         "name": "ferris-skill-registry-check",
@@ -3803,7 +3809,7 @@
         "name": "ferris-merch-window-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
         "touchedAt": "2026-06-22T13:00:41-06:00",
-        "ageMinutes": 1031
+        "ageMinutes": 1032
       },
       {
         "name": "ferris-merch-session-routing",
@@ -3815,7 +3821,7 @@
         "name": "ferris-draft-backed-merch-packet",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-draft-backed-merch-packet/SKILL.md",
         "touchedAt": "2026-06-22T12:11:30-06:00",
-        "ageMinutes": 1080
+        "ageMinutes": 1081
       },
       {
         "name": "ferris-merch-bench-balance",
@@ -3827,13 +3833,13 @@
         "name": "ferris-merch-packet-prep",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-packet-prep/SKILL.md",
         "touchedAt": "2026-06-22T11:11:22-06:00",
-        "ageMinutes": 1140
+        "ageMinutes": 1141
       },
       {
         "name": "ferris-skill-output-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-skill-output-check/SKILL.md",
         "touchedAt": "2026-06-22T10:24:23-06:00",
-        "ageMinutes": 1187
+        "ageMinutes": 1188
       },
       {
         "name": "ferris-merch-expansion-check",
@@ -3845,13 +3851,13 @@
         "name": "ferris-cheap-truth-sweep",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-cheap-truth-sweep/SKILL.md",
         "touchedAt": "2026-06-22T06:52:36-06:00",
-        "ageMinutes": 1399
+        "ageMinutes": 1400
       },
       {
         "name": "ferris-outreach-reply-watch",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-outreach-reply-watch/SKILL.md",
         "touchedAt": "2026-06-22T05:25:23-06:00",
-        "ageMinutes": 1486
+        "ageMinutes": 1487
       },
       {
         "name": "ferris-live-surface-health-check",
@@ -3869,7 +3875,7 @@
         "name": "ferris-bridge-brief-hygiene",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-bridge-brief-hygiene/SKILL.md",
         "touchedAt": "2026-06-22T04:01:42-06:00",
-        "ageMinutes": 1570
+        "ageMinutes": 1571
       },
       {
         "name": "etsy-seller-state-verification",
@@ -3893,7 +3899,7 @@
         "name": "ferris-digital-product-workflow",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-digital-product-workflow/SKILL.md",
         "touchedAt": "2026-06-19T12:16:31-06:00",
-        "ageMinutes": 5395
+        "ageMinutes": 5396
       },
       {
         "name": "ferris-cross-marketplace-audit",
@@ -3904,10 +3910,10 @@
     ]
   },
   "skillRegistry": {
-    "checkedAt": "2026-06-23T06:12:15-06:00",
+    "checkedAt": "2026-06-23T06:12:45-06:00",
     "summary": {
       "status": "clean",
-      "installedSkills": 67,
+      "installedSkills": 68,
       "candidateNotes": 6,
       "skillCandidateNotes": 6,
       "nonSkillCandidateNotes": 1,
@@ -3925,7 +3931,7 @@
         "skillName": "ferris-contact-form-proof-route",
         "statusLine": "superseded by real Hermes skill `productivity/ferris-contact-form-proof-route`",
         "updatedAt": "2026-06-22T23:12:22-06:00",
-        "ageMinutes": 419,
+        "ageMinutes": 420,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-contact-form-proof-route/SKILL.md",
@@ -3953,7 +3959,7 @@
         "skillName": "ferris-voicemail-light-route",
         "statusLine": "superseded by real Hermes skill `productivity/ferris-voicemail-light-route`",
         "updatedAt": "2026-06-23T04:41:16-06:00",
-        "ageMinutes": 90,
+        "ageMinutes": 91,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-voicemail-light-route/SKILL.md",
@@ -3967,7 +3973,7 @@
         "skillName": "fiverr-gallery-upload-pattern",
         "statusLine": "superseded by real Hermes skill `productivity/fiverr-gallery-upload-pattern`",
         "updatedAt": "2026-06-22T14:51:32-06:00",
-        "ageMinutes": 920,
+        "ageMinutes": 921,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/fiverr-gallery-upload-pattern/SKILL.md",
@@ -3995,7 +4001,7 @@
         "skillName": "printify-safari-repair-pattern",
         "statusLine": "superseded by real Hermes skill `productivity/printify-safari-repair-pattern`",
         "updatedAt": "2026-06-22T15:31:15-06:00",
-        "ageMinutes": 880,
+        "ageMinutes": 881,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/printify-safari-repair-pattern/SKILL.md",
@@ -4033,153 +4039,153 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 06:12 MDT",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 05:58 MDT",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-23 05:42 MDT",
-        "ageMinutes": 30,
-        "ageText": "30m",
+        "ageMinutes": 31,
+        "ageText": "31m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
-        "timestamp": "2026-06-23T06:12:12-06:00",
+        "timestamp": "2026-06-23T06:12:43-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-23T06:12:13-06:00",
+        "timestamp": "2026-06-23T06:12:44-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-23T06:12:14-06:00",
+        "timestamp": "2026-06-23T06:12:44-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-23T06:12:10-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "timestamp": "2026-06-23T06:12:41-06:00",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-23T06:12:14-06:00",
+        "timestamp": "2026-06-23T06:12:44-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
-        "timestamp": "2026-06-23T06:12:15-06:00",
+        "timestamp": "2026-06-23T06:12:45-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
