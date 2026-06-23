@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 19:03 MDT",
-    "generatedAt": "2026-06-22T19:14:33-06:00",
+    "lastUpdated": "2026-06-22 19:15 MDT",
+    "generatedAt": "2026-06-22T19:15:35-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -21,7 +21,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "1h 34m",
+          "age": "1h 35m",
           "status": "aging"
         }
       ]
@@ -37,7 +37,7 @@
     "packagedLanes": 2,
     "liveEtsyPodListings": 4,
     "merchState": "4 live Etsy POD listings in the current active set",
-    "liveSurfaceCheckAt": "2026-06-22T19:02:41-06:00",
+    "liveSurfaceCheckAt": "2026-06-22T19:15:31-06:00",
     "healthyPublicSurfaces": 4,
     "totalPublicSurfaces": 9,
     "healthyEtsyPodRoutes": 0,
@@ -69,13 +69,13 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-22T19:02:37-06:00",
+    "fulfillmentCheckAt": "2026-06-22T19:15:27-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T19:02:41-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T19:15:31-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2,
-    "merchExpansionCheckedAt": "2026-06-22T19:02:41-06:00",
+    "merchExpansionCheckedAt": "2026-06-22T19:15:32-06:00",
     "merchQueueHead": "CHAD",
     "saferMerchExpansionHead": "LOOKSMAXING",
     "seasonalMerchHead": "4th of July funny family BBQ tee",
@@ -139,8 +139,8 @@
       "MTN",
       "HTN"
     ],
-    "skillOutputCheckedAt": "2026-06-22T19:02:42-06:00",
-    "skillRegistryCheckedAt": "2026-06-22T19:02:42-06:00",
+    "skillOutputCheckedAt": "2026-06-22T19:15:32-06:00",
+    "skillRegistryCheckedAt": "2026-06-22T19:15:32-06:00",
     "skillTouchesToday": 25,
     "skillTouches24h": 25,
     "latestSkillTouch": "ferris-control-runtime-health",
@@ -154,7 +154,7 @@
     "highTicketShare": "88.24%",
     "visibleBounces": 1,
     "verifiedReplies": 0,
-    "lastChecked": "2026-06-22T19:02:39-06:00",
+    "lastChecked": "2026-06-22T19:15:29-06:00",
     "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages.",
     "newestSent": {
       "id": "86",
@@ -199,7 +199,7 @@
     "etsy": "No verified Product 3 draft row yet; latest signed-in seller proof still shows Draft0 / No listings matched these filters.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-22T19:02:37-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-22T19:15:27-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -345,7 +345,7 @@
     "2026-06-22 18:37 MDT: Re-ran the control-layer runtime health check, rebuilt `business-state.json`, and republished the preview; both agents stayed healthy, both last exit codes remained 0, stderr stayed empty, and the published preview matched local control-layer state at 0s lag. Next move: keep the runtime on watch only; intervene again only if stderr refills, exit codes drift, publish lines stop advancing, or preview drifts."
   ],
   "discovery": {
-    "checkedAt": "2026-06-22T19:02:39-06:00",
+    "checkedAt": "2026-06-22T19:15:30-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "usable",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -367,7 +367,7 @@
     "rootDescription": "Ferris Automations publishes ready-to-use local business messaging templates and AI prompt packs."
   },
   "surfaceHealth": {
-    "checkedAt": "2026-06-22T19:02:41-06:00",
+    "checkedAt": "2026-06-22T19:15:31-06:00",
     "healthy": 4,
     "total": 9,
     "mismatch": 0,
@@ -379,7 +379,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T19:02:41-06:00",
+    "checkedAt": "2026-06-22T19:15:31-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -389,10 +389,10 @@
       "status": "healthy",
       "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-22T19:02:13-06:00",
-      "remoteLastUpdated": "2026-06-22 18:51 MDT",
-      "localGeneratedAt": "2026-06-22T19:02:13-06:00",
-      "localLastUpdated": "2026-06-22 18:51 MDT",
+      "remoteGeneratedAt": "2026-06-22T19:14:33-06:00",
+      "remoteLastUpdated": "2026-06-22 19:03 MDT",
+      "localGeneratedAt": "2026-06-22T19:14:33-06:00",
+      "localLastUpdated": "2026-06-22 19:03 MDT",
       "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
       "lagSeconds": 0
@@ -412,7 +412,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22978,
+        "runs": 22984,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -437,7 +437,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 45330,
+        "runs": 45342,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -449,7 +449,7 @@
     }
   },
   "merchExpansion": {
-    "checkedAt": "2026-06-22T19:02:41-06:00",
+    "checkedAt": "2026-06-22T19:15:32-06:00",
     "liveSet": {
       "terms": [
         "SUB-5",
@@ -656,7 +656,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/CHAD-tee-packet.md",
         "updated": "2026-06-22 11:02 MDT",
-        "ageMinutes": 480,
+        "ageMinutes": 493,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -675,7 +675,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/4th-of-july-family-bbq-tee-packet.md",
         "updated": "2026-06-22 11:02 MDT",
-        "ageMinutes": 480,
+        "ageMinutes": 493,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -694,7 +694,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/CHAD-sticker-packet.md",
         "updated": "2026-06-22 17:49 MDT",
-        "ageMinutes": 73,
+        "ageMinutes": 86,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -713,7 +713,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/LOOKSMAXING-sticker-packet.md",
         "updated": "2026-06-22 19:10 MDT",
-        "ageMinutes": -8,
+        "ageMinutes": 5,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -732,7 +732,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/LOOKSMAXING-tee-packet.md",
         "updated": "2026-06-22 11:09 MDT",
-        "ageMinutes": 473,
+        "ageMinutes": 486,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -751,7 +751,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/4th-of-july-family-bbq-mug-packet.md",
         "updated": "2026-06-22 16:39 MDT",
-        "ageMinutes": 143,
+        "ageMinutes": 156,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -770,7 +770,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/CHAD-mug-packet.md",
         "updated": "2026-06-22 17:49 MDT",
-        "ageMinutes": 73,
+        "ageMinutes": 86,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -789,7 +789,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/LOOKSMAXING-mug-packet.md",
         "updated": "2026-06-22 19:10 MDT",
-        "ageMinutes": -8,
+        "ageMinutes": 5,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -808,7 +808,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/summer-of-soccer-2026-tee-packet.md",
         "updated": "2026-06-22 11:19 MDT",
-        "ageMinutes": 463,
+        "ageMinutes": 476,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -827,7 +827,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/4th-of-july-family-bbq-sticker-packet.md",
         "updated": "2026-06-22 18:39 MDT",
-        "ageMinutes": 23,
+        "ageMinutes": 36,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -846,7 +846,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/back-to-school-office-mug-packet.md",
         "updated": "2026-06-22 11:29 MDT",
-        "ageMinutes": 453,
+        "ageMinutes": 466,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -865,7 +865,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/missed-calls-cost-money-tee-packet.md",
         "updated": "2026-06-22 18:20 MDT",
-        "ageMinutes": 42,
+        "ageMinutes": 55,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -884,7 +884,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/summer-of-soccer-2026-mug-packet.md",
         "updated": "2026-06-22 16:49 MDT",
-        "ageMinutes": 133,
+        "ageMinutes": 146,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -903,7 +903,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/reply-faster-book-more-mug-packet.md",
         "updated": "2026-06-22 15:51 MDT",
-        "ageMinutes": 191,
+        "ageMinutes": 204,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -922,7 +922,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/reply-faster-book-more-tee-packet.md",
         "updated": "2026-06-22 18:20 MDT",
-        "ageMinutes": 42,
+        "ageMinutes": 55,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -941,7 +941,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/CHADLIGHT-tee-packet.md",
         "updated": "2026-06-22 11:39 MDT",
-        "ageMinutes": 443,
+        "ageMinutes": 456,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -960,7 +960,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/missed-calls-cost-money-mug-packet.md",
         "updated": "2026-06-22 16:09 MDT",
-        "ageMinutes": 173,
+        "ageMinutes": 186,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -979,7 +979,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/neighborhood-favorite-loading-tee-packet.md",
         "updated": "2026-06-22 18:20 MDT",
-        "ageMinutes": 42,
+        "ageMinutes": 55,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -998,7 +998,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/no-show-recovery-team-mug-packet.md",
         "updated": "2026-06-22 18:01 MDT",
-        "ageMinutes": 61,
+        "ageMinutes": 74,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -1017,7 +1017,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/booked-solid-energy-mug-packet.md",
         "updated": "2026-06-22 16:21 MDT",
-        "ageMinutes": 161,
+        "ageMinutes": 174,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -1036,7 +1036,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/neighborhood-favorite-loading-mug-packet.md",
         "updated": "2026-06-22 17:10 MDT",
-        "ageMinutes": 112,
+        "ageMinutes": 125,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -1055,7 +1055,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/no-show-recovery-team-tee-packet.md",
         "updated": "2026-06-22 18:20 MDT",
-        "ageMinutes": 42,
+        "ageMinutes": 55,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -1074,7 +1074,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/tung-tung-tung-tee-packet.md",
         "updated": "2026-06-22 11:39 MDT",
-        "ageMinutes": 443,
+        "ageMinutes": 456,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -1093,7 +1093,7 @@
         "draftBacked": true,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/missed-calls-cost-money-sticker-packet.md",
         "updated": "2026-06-22 12:05 MDT",
-        "ageMinutes": 417,
+        "ageMinutes": 430,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -1112,7 +1112,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/no-show-recovery-team-sticker-packet.md",
         "updated": "2026-06-22 18:01 MDT",
-        "ageMinutes": 61,
+        "ageMinutes": 74,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -1131,7 +1131,7 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/reply-faster-book-more-sticker-packet.md",
         "updated": "2026-06-22 17:34 MDT",
-        "ageMinutes": 88,
+        "ageMinutes": 101,
         "freshness": "fresh",
         "updatedToday": true
       },
@@ -1150,14 +1150,14 @@
         "draftBacked": false,
         "path": "/Users/levikritzik/.openclaw/workspace/ferris-team/merch-expansion-packets/neighborhood-favorite-loading-sticker-packet.md",
         "updated": "2026-06-22 17:21 MDT",
-        "ageMinutes": 101,
+        "ageMinutes": 114,
         "freshness": "fresh",
         "updatedToday": true
       }
     ]
   },
   "skillOutput": {
-    "checkedAt": "2026-06-22T19:02:42-06:00",
+    "checkedAt": "2026-06-22T19:15:32-06:00",
     "summary": {
       "status": "fresh",
       "note": "Tracked Ferris/Hermes skill flow is active today.",
@@ -1166,7 +1166,7 @@
       "touches24h": 25,
       "latestSkill": "ferris-control-runtime-health",
       "latestTouchedAt": "2026-06-22T18:40:29-06:00",
-      "latestAgeMinutes": 22,
+      "latestAgeMinutes": 35,
       "nextMove": "Keep converting stable repeated Ferris workflows into real skills; log unstable ones as candidates only."
     },
     "skills": [
@@ -1174,174 +1174,174 @@
         "name": "ferris-control-runtime-health",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-control-runtime-health/SKILL.md",
         "touchedAt": "2026-06-22T18:40:29-06:00",
-        "ageMinutes": 22
+        "ageMinutes": 35
       },
       {
         "name": "ferris-merch-branch-coverage",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-branch-coverage/SKILL.md",
         "touchedAt": "2026-06-22T18:11:54-06:00",
-        "ageMinutes": 50
+        "ageMinutes": 63
       },
       {
         "name": "ferris-sticker-test-packet",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-sticker-test-packet/SKILL.md",
         "touchedAt": "2026-06-22T17:24:04-06:00",
-        "ageMinutes": 98
+        "ageMinutes": 111
       },
       {
         "name": "ferris-non-tee-merch-fallback",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-non-tee-merch-fallback/SKILL.md",
         "touchedAt": "2026-06-22T17:12:55-06:00",
-        "ageMinutes": 109
+        "ageMinutes": 122
       },
       {
         "name": "ferris-dashboard-truth-sync",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-dashboard-truth-sync/SKILL.md",
         "touchedAt": "2026-06-22T16:47:18-06:00",
-        "ageMinutes": 135
+        "ageMinutes": 148
       },
       {
         "name": "ferris-workflow-proof-merch-packet",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-workflow-proof-merch-packet/SKILL.md",
         "touchedAt": "2026-06-22T16:12:21-06:00",
-        "ageMinutes": 170
+        "ageMinutes": 183
       },
       {
         "name": "cross-site-product-fit-research",
         "path": "/Users/levikritzik/.hermes/skills/productivity/cross-site-product-fit-research/SKILL.md",
         "touchedAt": "2026-06-22T15:41:51-06:00",
-        "ageMinutes": 200
+        "ageMinutes": 213
       },
       {
         "name": "fiverr-gallery-upload-pattern",
         "path": "/Users/levikritzik/.hermes/skills/productivity/fiverr-gallery-upload-pattern/SKILL.md",
         "touchedAt": "2026-06-22T14:51:18-06:00",
-        "ageMinutes": 251
+        "ageMinutes": 264
       },
       {
         "name": "ferris-skill-registry-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-skill-registry-check/SKILL.md",
         "touchedAt": "2026-06-22T13:41:10-06:00",
-        "ageMinutes": 321
+        "ageMinutes": 334
       },
       {
         "name": "printify-safari-repair-pattern",
         "path": "/Users/levikritzik/.hermes/skills/productivity/printify-safari-repair-pattern/SKILL.md",
         "touchedAt": "2026-06-22T13:30:57-06:00",
-        "ageMinutes": 331
+        "ageMinutes": 344
       },
       {
         "name": "ferris-merch-window-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
         "touchedAt": "2026-06-22T13:00:41-06:00",
-        "ageMinutes": 362
+        "ageMinutes": 374
       },
       {
         "name": "ferris-operator-sweep",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-operator-sweep/SKILL.md",
         "touchedAt": "2026-06-22T12:38:24-06:00",
-        "ageMinutes": 384
+        "ageMinutes": 397
       },
       {
         "name": "ferris-merch-session-routing",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-session-routing/SKILL.md",
         "touchedAt": "2026-06-22T12:30:57-06:00",
-        "ageMinutes": 391
+        "ageMinutes": 404
       },
       {
         "name": "ferris-draft-backed-merch-packet",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-draft-backed-merch-packet/SKILL.md",
         "touchedAt": "2026-06-22T12:11:30-06:00",
-        "ageMinutes": 411
+        "ageMinutes": 424
       },
       {
         "name": "ferris-merch-bench-balance",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-bench-balance/SKILL.md",
         "touchedAt": "2026-06-22T11:41:57-06:00",
-        "ageMinutes": 440
+        "ageMinutes": 453
       },
       {
         "name": "ferris-merch-packet-prep",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-packet-prep/SKILL.md",
         "touchedAt": "2026-06-22T11:11:22-06:00",
-        "ageMinutes": 471
+        "ageMinutes": 484
       },
       {
         "name": "ferris-skill-output-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-skill-output-check/SKILL.md",
         "touchedAt": "2026-06-22T10:24:23-06:00",
-        "ageMinutes": 518
+        "ageMinutes": 531
       },
       {
         "name": "ferris-merch-expansion-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-expansion-check/SKILL.md",
         "touchedAt": "2026-06-22T10:10:56-06:00",
-        "ageMinutes": 531
+        "ageMinutes": 544
       },
       {
         "name": "ferris-cheap-truth-sweep",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-cheap-truth-sweep/SKILL.md",
         "touchedAt": "2026-06-22T06:52:36-06:00",
-        "ageMinutes": 730
+        "ageMinutes": 742
       },
       {
         "name": "ferris-outreach-reply-watch",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-outreach-reply-watch/SKILL.md",
         "touchedAt": "2026-06-22T05:25:23-06:00",
-        "ageMinutes": 817
+        "ageMinutes": 830
       },
       {
         "name": "ferris-live-surface-health-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-live-surface-health-check/SKILL.md",
         "touchedAt": "2026-06-22T04:51:13-06:00",
-        "ageMinutes": 851
+        "ageMinutes": 864
       },
       {
         "name": "ferris-sales-intake-watch",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-sales-intake-watch/SKILL.md",
         "touchedAt": "2026-06-22T04:21:04-06:00",
-        "ageMinutes": 881
+        "ageMinutes": 894
       },
       {
         "name": "ferris-bridge-brief-hygiene",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-bridge-brief-hygiene/SKILL.md",
         "touchedAt": "2026-06-22T04:01:42-06:00",
-        "ageMinutes": 900
+        "ageMinutes": 913
       },
       {
         "name": "etsy-seller-state-verification",
         "path": "/Users/levikritzik/.hermes/skills/productivity/etsy-seller-state-verification/SKILL.md",
         "touchedAt": "2026-06-22T03:51:09-06:00",
-        "ageMinutes": 911
+        "ageMinutes": 924
       },
       {
         "name": "gumroad-public-metadata-check",
         "path": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
         "touchedAt": "2026-06-22T03:41:52-06:00",
-        "ageMinutes": 920
+        "ageMinutes": 933
       },
       {
         "name": "ferris-non-email-acquisition",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-non-email-acquisition/SKILL.md",
         "touchedAt": "2026-06-20T18:10:54-06:00",
-        "ageMinutes": 2931
+        "ageMinutes": 2944
       },
       {
         "name": "ferris-digital-product-workflow",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-digital-product-workflow/SKILL.md",
         "touchedAt": "2026-06-19T12:16:31-06:00",
-        "ageMinutes": 4726
+        "ageMinutes": 4739
       },
       {
         "name": "ferris-cross-marketplace-audit",
         "path": "/Users/levikritzik/.hermes/skills/productivity/ferris-cross-marketplace-audit/SKILL.md",
         "touchedAt": "2026-06-19T00:03:58-06:00",
-        "ageMinutes": 5458
+        "ageMinutes": 5471
       }
     ]
   },
   "skillRegistry": {
-    "checkedAt": "2026-06-22T19:02:42-06:00",
+    "checkedAt": "2026-06-22T19:15:32-06:00",
     "summary": {
       "status": "clean",
       "installedSkills": 40,
@@ -1362,7 +1362,7 @@
         "skillName": "ferris-merch-window-check",
         "statusLine": "superseded by real Hermes skill `productivity/ferris-merch-window-check`",
         "updatedAt": "2026-06-22T13:14:46-06:00",
-        "ageMinutes": 347,
+        "ageMinutes": 360,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
@@ -1376,7 +1376,7 @@
         "skillName": "fiverr-gallery-upload-pattern",
         "statusLine": "superseded by real Hermes skill `productivity/fiverr-gallery-upload-pattern`",
         "updatedAt": "2026-06-22T14:51:32-06:00",
-        "ageMinutes": 251,
+        "ageMinutes": 263,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/fiverr-gallery-upload-pattern/SKILL.md",
@@ -1390,7 +1390,7 @@
         "skillName": "gumroad-public-metadata-check",
         "statusLine": "superseded by real Hermes skill `productivity/gumroad-public-metadata-check`",
         "updatedAt": "2026-06-22T15:31:10-06:00",
-        "ageMinutes": 211,
+        "ageMinutes": 224,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
@@ -1404,7 +1404,7 @@
         "skillName": "printify-safari-repair-pattern",
         "statusLine": "superseded by real Hermes skill `productivity/printify-safari-repair-pattern`",
         "updatedAt": "2026-06-22T15:31:15-06:00",
-        "ageMinutes": 211,
+        "ageMinutes": 224,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/printify-safari-repair-pattern/SKILL.md",
@@ -1442,78 +1442,78 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 19:03 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 18:22 MDT",
-        "ageMinutes": 52,
-        "ageText": "52m",
+        "ageMinutes": 53,
+        "ageText": "53m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 17:40 MDT",
-        "ageMinutes": 94,
-        "ageText": "1h 34m",
+        "ageMinutes": 95,
+        "ageText": "1h 35m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
-        "timestamp": "2026-06-22T19:02:39-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T19:15:29-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-22T19:02:39-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T19:15:30-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
-        "timestamp": "2026-06-22T19:02:41-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T19:15:31-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-22T19:02:37-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T19:15:27-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T19:02:41-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T19:15:31-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
-        "timestamp": "2026-06-22T19:02:41-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T19:15:32-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
-        "timestamp": "2026-06-22T19:02:42-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T19:15:32-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
-        "timestamp": "2026-06-22T19:02:42-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-22T19:15:32-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       }
     }
