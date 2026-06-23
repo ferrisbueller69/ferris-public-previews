@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 04:41 MDT",
-    "generatedAt": "2026-06-23T04:41:40-06:00",
+    "lastUpdated": "2026-06-23 04:42 MDT",
+    "generatedAt": "2026-06-23T04:42:42-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -24,7 +24,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "7h 19m",
+          "age": "7h 20m",
           "status": "stale"
         }
       ]
@@ -200,7 +200,7 @@
     "nativeConsultHasCompletedAttempt": false,
     "nativeConsultTopCompletedTarget": "none",
     "skillOutputCheckedAt": "2026-06-23T04:41:39-06:00",
-    "skillRegistryCheckedAt": "2026-06-23T04:41:39-06:00",
+    "skillRegistryCheckedAt": "2026-06-23T04:42:13-06:00",
     "skillTouchesToday": 17,
     "skillTouches24h": 46,
     "latestSkillTouch": "ferris-voicemail-light-route",
@@ -224,7 +224,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1867,
+    "newestSentAgeMinutes": 1868,
     "newestSentAgeText": "1d 7h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -3539,7 +3539,7 @@
     ]
   },
   "skillRegistry": {
-    "checkedAt": "2026-06-23T04:41:39-06:00",
+    "checkedAt": "2026-06-23T04:42:13-06:00",
     "summary": {
       "status": "clean",
       "installedSkills": 65,
@@ -3574,10 +3574,24 @@
         "skillName": "ferris-merch-window-check",
         "statusLine": "superseded by real Hermes skill `productivity/ferris-merch-window-check`",
         "updatedAt": "2026-06-22T13:14:46-06:00",
-        "ageMinutes": 926,
+        "ageMinutes": 927,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-merch-window-check/SKILL.md",
+        "drift": false,
+        "note": "Candidate note exists, but it does not currently claim the skill is missing.",
+        "nextMove": "Keep the note only if it still adds historical context beyond the real skill."
+      },
+      {
+        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/ferris-voicemail-light-route-candidate.md",
+        "name": "ferris-voicemail-light-route-candidate.md",
+        "skillName": "ferris-voicemail-light-route",
+        "statusLine": "superseded by real Hermes skill `productivity/ferris-voicemail-light-route`",
+        "updatedAt": "2026-06-23T04:41:16-06:00",
+        "ageMinutes": 0,
+        "skillCandidate": true,
+        "installedSkill": true,
+        "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/ferris-voicemail-light-route/SKILL.md",
         "drift": false,
         "note": "Candidate note exists, but it does not currently claim the skill is missing.",
         "nextMove": "Keep the note only if it still adds historical context beyond the real skill."
@@ -3602,7 +3616,7 @@
         "skillName": "gumroad-public-metadata-check",
         "statusLine": "superseded by real Hermes skill `productivity/gumroad-public-metadata-check`",
         "updatedAt": "2026-06-22T15:31:10-06:00",
-        "ageMinutes": 790,
+        "ageMinutes": 791,
         "skillCandidate": true,
         "installedSkill": true,
         "installedSkillPath": "/Users/levikritzik/.hermes/skills/productivity/gumroad-public-metadata-check/SKILL.md",
@@ -3623,20 +3637,6 @@
         "drift": false,
         "note": "Candidate note exists, but it does not currently claim the skill is missing.",
         "nextMove": "Keep the note only if it still adds historical context beyond the real skill."
-      },
-      {
-        "file": "/Users/levikritzik/.openclaw/workspace/ferris-team/voicemail-light-route-candidate.md",
-        "name": "voicemail-light-route-candidate.md",
-        "skillName": "voicemail-light-route",
-        "statusLine": "superseded by real Hermes skill `productivity/ferris-voicemail-light-route`",
-        "updatedAt": "2026-06-23T04:41:16-06:00",
-        "ageMinutes": 0,
-        "skillCandidate": true,
-        "installedSkill": false,
-        "installedSkillPath": "",
-        "drift": false,
-        "note": "Candidate note still maps to a workflow with no installed same-name local Hermes skill.",
-        "nextMove": "Either formalize the workflow into a real skill after another stable pass or keep it as candidate-only."
       }
     ]
   },
@@ -3668,153 +3668,153 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 04:35 MDT",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 04:04 MDT",
-        "ageMinutes": 37,
-        "ageText": "37m",
+        "ageMinutes": 38,
+        "ageText": "38m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 439,
-        "ageText": "7h 19m",
+        "ageMinutes": 440,
+        "ageText": "7h 20m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T04:41:36-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T04:41:37-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T04:41:29-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T04:41:38-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T04:41:39-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T04:41:39-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T04:41:39-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T04:41:39-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T04:41:39-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T04:41:39-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
-        "timestamp": "2026-06-23T04:41:39-06:00",
+        "timestamp": "2026-06-23T04:42:13-06:00",
         "ageMinutes": 0,
         "ageText": "0m",
         "status": "fresh"
