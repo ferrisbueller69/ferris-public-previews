@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 09:14 MDT",
-    "generatedAt": "2026-06-23T09:14:49-06:00",
+    "generatedAt": "2026-06-23T09:15:51-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -68,7 +68,7 @@
     "fulfillmentCheckAt": "2026-06-23T09:02:03-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-23T09:14:27-06:00",
+    "runtimeHealthCheckAt": "2026-06-23T09:14:51-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2,
     "merchExpansionCheckedAt": "2026-06-23T09:02:08-06:00",
@@ -234,7 +234,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 2140,
+    "newestSentAgeMinutes": 2141,
     "newestSentAgeText": "1d 11h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -545,9 +545,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-23 09:14 MDT: Refreshed the control-layer runtime health, rebuilt `business-state.json`, and republished the preview; both agents stayed healthy, both last exit codes remained 0, stderr stayed historical-only, and the published preview still matched local state at 0s lag. Next move: watch only; intervene again only if stderr refills, launchctl exit codes drift, publish lines stop advancing, or preview drifts.",
     "2026-06-23 09:02 MDT: Verified The Nile Coffee Shop homepage live, then tightened the canonical prospect note and the manual-send queue with the current title, historic Nile Theater front, online ordering, live entertainment, and Book a party CTA. Next move: keep reply/bounce watch on the current queue and only widen outreach if a new real signal appears.",
-    "2026-06-23 08:49 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears.",
-    "2026-06-23 08:47 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears."
+    "2026-06-23 08:49 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears."
   ],
   "discovery": {
     "checkedAt": "2026-06-23T09:02:06-06:00",
@@ -584,7 +584,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-23T09:14:27-06:00",
+    "checkedAt": "2026-06-23T09:14:51-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -594,10 +594,10 @@
       "status": "healthy",
       "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-23T09:13:46-06:00",
-      "remoteLastUpdated": "2026-06-23 09:02 MDT",
-      "localGeneratedAt": "2026-06-23T09:13:46-06:00",
-      "localLastUpdated": "2026-06-23 09:02 MDT",
+      "remoteGeneratedAt": "2026-06-23T09:14:49-06:00",
+      "remoteLastUpdated": "2026-06-23 09:14 MDT",
+      "localGeneratedAt": "2026-06-23T09:14:49-06:00",
+      "localLastUpdated": "2026-06-23 09:14 MDT",
       "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
       "lagSeconds": 0
@@ -621,7 +621,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 23403,
+        "runs": 23404,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -645,7 +645,7 @@
           "KeyError: 'status'"
         ],
         "stderrUpdatedAt": "2026-06-23T08:55:08-06:00",
-        "stdoutUpdatedAt": "2026-06-23T09:13:48-06:00",
+        "stdoutUpdatedAt": "2026-06-23T09:14:51-06:00",
         "stderrHistorical": true,
         "stdoutTail": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -659,7 +659,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 46155,
+        "runs": 46156,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -4540,170 +4540,170 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-23 09:02 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-23 09:14 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 08:15 MDT",
-        "ageMinutes": 59,
-        "ageText": "59m",
+        "ageMinutes": 60,
+        "ageText": "1h 0m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-23 09:02 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T09:02:05-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T09:02:06-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T09:02:07-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T09:02:03-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-23T09:14:27-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "timestamp": "2026-06-23T09:14:51-06:00",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       }
     }
