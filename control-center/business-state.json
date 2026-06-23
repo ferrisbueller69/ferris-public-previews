@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 04:21 MDT",
-    "generatedAt": "2026-06-23T04:23:04-06:00",
+    "generatedAt": "2026-06-23T04:24:06-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -24,7 +24,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "7h 1m",
+          "age": "7h 2m",
           "status": "stale"
         }
       ]
@@ -224,7 +224,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1849,
+    "newestSentAgeMinutes": 1850,
     "newestSentAgeText": "1d 6h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -3628,155 +3628,155 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 04:21 MDT",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 04:04 MDT",
-        "ageMinutes": 19,
-        "ageText": "19m",
+        "ageMinutes": 20,
+        "ageText": "20m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 421,
-        "ageText": "7h 1m",
+        "ageMinutes": 422,
+        "ageText": "7h 2m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T04:21:32-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T04:21:33-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T04:21:34-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T04:21:30-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T04:21:34-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T04:21:35-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       }
     }
