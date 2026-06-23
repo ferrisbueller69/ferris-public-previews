@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 03:40 MDT",
-    "generatedAt": "2026-06-23T03:42:48-06:00",
+    "generatedAt": "2026-06-23T03:43:49-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -24,7 +24,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "6h 20m",
+          "age": "6h 21m",
           "status": "stale"
         }
       ]
@@ -224,7 +224,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1808,
+    "newestSentAgeMinutes": 1809,
     "newestSentAgeText": "1d 6h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -313,6 +313,29 @@
     "facebookDmExecutionTopCompletedTarget": "none",
     "facebookDmExecutionNote": "No Facebook DM attempts are logged yet; the method is packed but unstarted.",
     "facebookDmExecutionNextMove": "Tomorrow, log each real Facebook DM attempt in the execution log and count output only when the DM itself is completed and recorded.",
+    "linkedinLightConnectMethodStatus": "researched-tonight / search-verify-tomorrow",
+    "linkedinLightConnectMethodReady": true,
+    "linkedinLightConnectMethodFullyReady": false,
+    "linkedinLightConnectMethodPrimaryTargets": 5,
+    "linkedinLightConnectMethodReserveTargets": 1,
+    "linkedinLightConnectMethodTopTarget": "Chapter One Wellness",
+    "linkedinLightConnectMethodProfileVerifiedTargets": 0,
+    "linkedinLightConnectMethodOwnerVisibleTargets": 5,
+    "linkedinLightConnectMethodSearchReadyTargets": 5,
+    "linkedinLightConnectMethodCopyReadyTargets": 5,
+    "linkedinLightConnectMethodNote": "The LinkedIn light-connect route is researched and query-packed for tomorrow, but no profile match is verified yet, so it should stay a bounded manual-search fallback rather than a fully ready route.",
+    "linkedinLightConnectMethodNextMove": "Tomorrow, manually verify the top profile match in-browser for each target, stop after 5 clean route attempts max, and count output only after a real connect request or DM is actually sent and logged.",
+    "linkedinLightConnectExecutionStatus": "staged / no verified LinkedIn attempts yet",
+    "linkedinLightConnectExecutionStarted": false,
+    "linkedinLightConnectExecutionAttemptsLogged": 0,
+    "linkedinLightConnectExecutionCompletedAttempts": 0,
+    "linkedinLightConnectExecutionCompletedConnects": 0,
+    "linkedinLightConnectExecutionCompletedDms": 0,
+    "linkedinLightConnectExecutionLiveConnections": 0,
+    "linkedinLightConnectExecutionBlockedRoutes": 0,
+    "linkedinLightConnectExecutionTopCompletedTarget": "none",
+    "linkedinLightConnectExecutionNote": "No LinkedIn attempts are logged yet; the method is research-packed but unstarted.",
+    "linkedinLightConnectExecutionNextMove": "Tomorrow, log each real LinkedIn attempt in the execution log and count output only when the connect request or DM itself is completed and recorded.",
     "topInbox": [
       {
         "id": "611",
@@ -3408,141 +3431,155 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 03:19 MDT",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 03:03 MDT",
-        "ageMinutes": 39,
-        "ageText": "39m",
+        "ageMinutes": 40,
+        "ageText": "40m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 380,
-        "ageText": "6h 20m",
+        "ageMinutes": 381,
+        "ageText": "6h 21m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T03:40:28-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T03:40:28-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T03:40:29-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T03:40:25-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T03:40:29-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
+        "status": "fresh"
+      },
+      "linkedinLightConnectReadiness": {
+        "label": "linkedin light-connect readiness",
+        "timestamp": "2026-06-23T03:40:30-06:00",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
+        "status": "fresh"
+      },
+      "linkedinLightConnectExecution": {
+        "label": "linkedin light-connect execution",
+        "timestamp": "2026-06-23T03:40:30-06:00",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T03:40:30-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T03:40:31-06:00",
-        "ageMinutes": 2,
-        "ageText": "2m",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       }
     }
