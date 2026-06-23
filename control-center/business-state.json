@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 15:16 MDT",
-    "generatedAt": "2026-06-23T15:28:21-06:00",
+    "lastUpdated": "2026-06-23 15:28 MDT",
+    "generatedAt": "2026-06-23T15:29:23-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -246,7 +246,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 2514,
+    "newestSentAgeMinutes": 2515,
     "newestSentAgeText": "1d 17h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -557,9 +557,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-23 15:28 MDT: Synced the dashboard artifact to the current operator-mesh truth so the command center note trail stays aligned with the latest revenue/runtime state. No storefront state changed.",
     "2026-06-23 15:16 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue.",
-    "2026-06-23 15:03 MDT: Re-checked the Gumroad bundle and public post over direct HTTP; both still resolve live, the bundle title remains `Ferris Local Business Messaging Bundle`, the bundle description still carries `reactivation outreach`, the public post title remains `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, and the post body still contains `reactivation outreach` while the meta remains clipped. Next move: stay on watch for drift; do not churn on the blocked edit lane.",
-    "2026-06-23 13:49 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows to `dashboard/sales-fulfillment-log.csv`, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue."
+    "2026-06-23 15:03 MDT: Re-checked the Gumroad bundle and public post over direct HTTP; both still resolve live, the bundle title remains `Ferris Local Business Messaging Bundle`, the bundle description still carries `reactivation outreach`, the public post title remains `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, and the post body still contains `reactivation outreach` while the meta remains clipped. Next move: stay on watch for drift; do not churn on the blocked edit lane."
   ],
   "discovery": {
     "checkedAt": "2026-06-23T15:10:22-06:00",
@@ -5887,170 +5887,170 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-23 15:16 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-23 15:28 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 15:04 MDT",
-        "ageMinutes": 24,
-        "ageText": "24m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-23 14:21 MDT",
-        "ageMinutes": 67,
-        "ageText": "1h 7m",
+        "ageMinutes": 68,
+        "ageText": "1h 8m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T15:10:21-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T15:10:22-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T15:10:23-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T15:10:20-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T15:10:23-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T15:16:24-06:00",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T15:10:25-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T15:10:25-06:00",
-        "ageMinutes": 17,
-        "ageText": "17m",
+        "ageMinutes": 18,
+        "ageText": "18m",
         "status": "fresh"
       }
     }
