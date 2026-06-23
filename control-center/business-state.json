@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 02:19 MDT",
-    "generatedAt": "2026-06-23T02:22:12-06:00",
+    "generatedAt": "2026-06-23T02:23:14-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -18,13 +18,31 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/skill-registry.json"
     ],
     "freshness": {
-      "staleSourceCount": 1,
+      "staleSourceCount": 4,
       "staleSources": [
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "5h 0m",
+          "age": "5h 1m",
           "status": "stale"
+        },
+        {
+          "key": "publicMetadata",
+          "label": "public metadata",
+          "age": "30m",
+          "status": "aging"
+        },
+        {
+          "key": "liveSurfaces",
+          "label": "live surfaces",
+          "age": "30m",
+          "status": "aging"
+        },
+        {
+          "key": "runtimeHealth",
+          "label": "control runtime",
+          "age": "30m",
+          "status": "aging"
         }
       ]
     }
@@ -213,7 +231,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1728,
+    "newestSentAgeMinutes": 1729,
     "newestSentAgeText": "1d 4h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -445,7 +463,7 @@
   "sweepBrief": {
     "headline": "Dashboard truth + control-layer sync",
     "state": "ready",
-    "reason": "Blocked head: Etsy Product 3 draft proof (proof-missing) • Outreach reply-watch is already fresh • Control runtime truth is fresh • Verified high-ticket output reads flat, so sourcing pressure is real",
+    "reason": "Blocked head: Etsy Product 3 draft proof (proof-missing) • Outreach reply-watch is already fresh • Verified high-ticket output reads flat, so sourcing pressure is real",
     "note": "Keep the machine-readable state and widget aligned with the latest verified lane truth.",
     "fallback": "Skill capture / backlog",
     "fallbackState": "ready",
@@ -3171,134 +3189,134 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 02:19 MDT",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 02:19 MDT",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 300,
-        "ageText": "5h 0m",
+        "ageMinutes": 301,
+        "ageText": "5h 1m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T01:52:39-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T01:52:40-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
-        "status": "fresh"
+        "ageMinutes": 30,
+        "ageText": "30m",
+        "status": "aging"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T01:52:41-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
-        "status": "fresh"
+        "ageMinutes": 30,
+        "ageText": "30m",
+        "status": "aging"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T02:16:45-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T01:52:41-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
-        "status": "fresh"
+        "ageMinutes": 30,
+        "ageText": "30m",
+        "status": "aging"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T02:16:29-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T02:16:29-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       }
     }
