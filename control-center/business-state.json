@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 09:02 MDT",
-    "generatedAt": "2026-06-23T09:02:21-06:00",
+    "generatedAt": "2026-06-23T09:03:23-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -19,15 +19,8 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/skill-registry.json"
     ],
     "freshness": {
-      "staleSourceCount": 1,
-      "staleSources": [
-        {
-          "key": "storefrontStatus",
-          "label": "storefront status",
-          "age": "1h 48m",
-          "status": "aging"
-        }
-      ]
+      "staleSourceCount": 0,
+      "staleSources": []
     }
   },
   "revenue": {
@@ -241,7 +234,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 2128,
+    "newestSentAgeMinutes": 2129,
     "newestSentAgeText": "1d 11h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -552,9 +545,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-23 09:02 MDT: Verified The Nile Coffee Shop homepage live, then tightened the canonical prospect note and the manual-send queue with the current title, historic Nile Theater front, online ordering, live entertainment, and Book a party CTA. Next move: keep reply/bounce watch on the current queue and only widen outreach if a new real signal appears.",
     "2026-06-23 08:49 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears.",
-    "2026-06-23 08:47 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears.",
-    "2026-06-23 08:34 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears."
+    "2026-06-23 08:47 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears."
   ],
   "discovery": {
     "checkedAt": "2026-06-23T09:02:06-06:00",
@@ -4543,174 +4536,174 @@
   },
   "sourceTruth": {
     "currentStateTimestamp": "2026-06-23 08:15 MDT",
-    "storefrontStatusTimestamp": "2026-06-23 07:14 MDT",
+    "storefrontStatusTimestamp": "2026-06-23 09:02 MDT",
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-23 08:47 MDT",
-        "ageMinutes": 15,
-        "ageText": "15m",
+        "timestamp": "2026-06-23 09:02 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 08:15 MDT",
-        "ageMinutes": 47,
-        "ageText": "47m",
+        "ageMinutes": 48,
+        "ageText": "48m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
-        "timestamp": "2026-06-23 07:14 MDT",
-        "ageMinutes": 108,
-        "ageText": "1h 48m",
-        "status": "aging"
+        "timestamp": "2026-06-23 09:02 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
+        "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T09:02:05-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T09:02:06-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T09:02:07-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T09:02:03-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T09:02:07-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-23T09:02:08-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T09:02:09-06:00",
-        "ageMinutes": 0,
-        "ageText": "0m",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       }
     }
