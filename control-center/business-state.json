@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-22 18:37 MDT",
-    "generatedAt": "2026-06-22T18:39:11-06:00",
+    "lastUpdated": "2026-06-22 18:39 MDT",
+    "generatedAt": "2026-06-22T18:39:36-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -65,7 +65,7 @@
     "fulfillmentCheckAt": "2026-06-22T18:24:19-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
-    "runtimeHealthCheckAt": "2026-06-22T18:37:23-06:00",
+    "runtimeHealthCheckAt": "2026-06-22T18:39:29-06:00",
     "healthyRuntimeAgents": 2,
     "totalRuntimeAgents": 2,
     "merchExpansionCheckedAt": "2026-06-22T18:24:24-06:00",
@@ -368,7 +368,7 @@
     "nextMove": "Treat Etsy 403/title=etsy.com results as fetch-blocked anti-bot checks, not automatic listing regressions. Only treat 200/title mismatches or seller-side list-view drift as real Etsy regressions."
   },
   "runtimeHealth": {
-    "checkedAt": "2026-06-22T18:37:23-06:00",
+    "checkedAt": "2026-06-22T18:39:29-06:00",
     "healthyAgents": 2,
     "totalAgents": 2,
     "allHealthy": true,
@@ -378,10 +378,10 @@
       "status": "healthy",
       "reason": "Published preview matches local control-layer state.",
       "transport": "gh-api",
-      "remoteGeneratedAt": "2026-06-22T18:36:31-06:00",
-      "remoteLastUpdated": "2026-06-22 18:24 MDT",
-      "localGeneratedAt": "2026-06-22T18:36:31-06:00",
-      "localLastUpdated": "2026-06-22 18:24 MDT",
+      "remoteGeneratedAt": "2026-06-22T18:39:11-06:00",
+      "remoteLastUpdated": "2026-06-22 18:37 MDT",
+      "localGeneratedAt": "2026-06-22T18:39:11-06:00",
+      "localLastUpdated": "2026-06-22 18:37 MDT",
       "matchesLocalGeneratedAt": true,
       "matchesLocalLastUpdated": true,
       "lagSeconds": 0
@@ -401,7 +401,7 @@
         "stdoutTail": [],
         "launchctlState": "not running",
         "runIntervalSeconds": 120,
-        "runs": 22965,
+        "runs": 22966,
         "lastExitCode": 0
       },
       "publishLoop": {
@@ -426,7 +426,7 @@
         ],
         "launchctlState": "not running",
         "runIntervalSeconds": 60,
-        "runs": 45305,
+        "runs": 45307,
         "lastExitCode": 0,
         "recentPublishedLines": [
           "published:ferrisbueller69/ferris-public-previews/control-center/business-state.json",
@@ -1388,57 +1388,57 @@
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T18:24:22-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T18:24:22-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T18:24:23-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T18:24:19-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
-        "timestamp": "2026-06-22T18:37:23-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "timestamp": "2026-06-22T18:39:29-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T18:24:24-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T18:24:24-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-22T18:24:24-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       }
     }
