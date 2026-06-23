@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 00:50 MDT",
-    "generatedAt": "2026-06-23T00:55:31-06:00",
+    "generatedAt": "2026-06-23T00:56:33-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -23,7 +23,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "3h 33m",
+          "age": "3h 34m",
           "status": "aging"
         }
       ]
@@ -172,6 +172,12 @@
     "contactFormExecutionStarted": false,
     "contactFormHasVerifiedSubmit": false,
     "contactFormTopCompletedTarget": "none",
+    "nativeConsultReadinessCheckedAt": "2026-06-23T00:54:52-06:00",
+    "nativeConsultStatus": "researched-tonight / execute-tomorrow",
+    "nativeConsultReady": true,
+    "nativeConsultPrimaryTargets": 5,
+    "nativeConsultReserveTargets": 1,
+    "nativeConsultTopTarget": "Chapter One Wellness",
     "skillOutputCheckedAt": "2026-06-23T00:34:08-06:00",
     "skillRegistryCheckedAt": "2026-06-23T00:34:08-06:00",
     "skillTouchesToday": 2,
@@ -197,7 +203,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1641,
+    "newestSentAgeMinutes": 1642,
     "newestSentAgeText": "1d 3h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -2159,6 +2165,117 @@
     },
     "entries": []
   },
+  "nativeConsultReadiness": {
+    "checkedAt": "2026-06-23T00:54:52-06:00",
+    "summary": {
+      "status": "researched-tonight / execute-tomorrow",
+      "ready": true,
+      "copyReady": true,
+      "fullyReady": true,
+      "note": "The native consult/text route is packed and tomorrow-ready as a second non-email method, but the live CTA should still be re-verified in-browser before any route attempt counts.",
+      "nextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible route attempts, preferring text/chat/schedule paths over weak inboxes and counting output only after the route attempt itself is completed and logged.",
+      "primaryTargets": 5,
+      "reserveTargets": 1,
+      "ownerVisibleTargets": 5,
+      "routeProofTargets": 5,
+      "copyReadyTargets": 5,
+      "textCapableTargets": 1,
+      "chatCapableTargets": 1,
+      "phoneCapableTargets": 3,
+      "scheduleCapableTargets": 5,
+      "browserOnlyTargets": 1,
+      "topTarget": "Chapter One Wellness",
+      "reserveTarget": "Radiant Family Dentistry",
+      "proofPages": [
+        "ferris-team/missed-call-proof-page-dental.html",
+        "ferris-team/missed-call-proof-page.html"
+      ]
+    },
+    "targets": [
+      {
+        "name": "Chapter One Wellness",
+        "website": "https://chapteronewellness.com/",
+        "ownerProof": "site schema and public copy expose `Dr. Michelle Pettitt`",
+        "routeProof": "homepage exposes `Text Us at 928-813-2522`; public copy also references live chat support",
+        "route": "text-first or live-chat-first native consult path",
+        "proofPage": "ferris-team/missed-call-proof-page.html",
+        "draftNote": "Hi Dr. Pettitt — saw Chapter One gives people a direct text route and handles mixed wellness demand. Quick idea: missed calls or after-hours inquiries can get a fast text-back so staff has context before follow-up. Short example here: [proof-page-link]. If useful, happy to map one around your current intake flow.",
+        "copyReady": true,
+        "textCapable": true,
+        "chatCapable": true,
+        "phoneCapable": false,
+        "scheduleCapable": true,
+        "browserOnly": false
+      },
+      {
+        "name": "Scottsdale Med Spa",
+        "website": "https://www.scottsdalemedspa.beauty/",
+        "ownerProof": "public site exposes provider/team context including `Lauren Bisswurm, FNP`; existing queue context also ties the brand to visible provider-led consult flow",
+        "routeProof": "public site exposes `tel:+14804546959` and repeated consultation language (`Every consultation begins with listening`)",
+        "route": "consultation / phone CTA only if tomorrow's live page still clearly presents the consult path",
+        "proofPage": "ferris-team/missed-call-proof-page.html",
+        "draftNote": "Hi Lauren — saw Scottsdale Med Spa frames every consultation around careful listening and natural-feeling outcomes. Quick idea: missed calls or after-hours treatment questions can get a polished text-back so high-intent consults do not cool off overnight. Short example here: [proof-page-link]. If useful, I can map one around your current consult flow.",
+        "copyReady": true,
+        "textCapable": false,
+        "chatCapable": false,
+        "phoneCapable": true,
+        "scheduleCapable": true,
+        "browserOnly": false
+      },
+      {
+        "name": "Haus of Confidence",
+        "website": "https://hausofconfidence.com/",
+        "ownerProof": "existing verified queue context ties the site to `Dr. Todd Malan` and `Dr. Sara Ameli`",
+        "routeProof": "homepage exposes `BOOK NOW`, `SCHEDULE A CONSULTATION`, `call us`, and public phone route `tel:4804935921`",
+        "route": "schedule-consultation path first; phone fallback only if the consult path is the clearest live CTA tomorrow",
+        "proofPage": "ferris-team/missed-call-proof-page.html",
+        "draftNote": "Hi Dr. Malan / Dr. Ameli — saw Haus of Confidence pushes direct consult booking and premium cosmetic inquiries. Quick idea: missed calls and after-hours consult requests can get an immediate text-back so fewer high-value leads slip before staff reconnects. Short example here: [proof-page-link]. If helpful, I can map one around your current consult path.",
+        "copyReady": true,
+        "textCapable": false,
+        "chatCapable": false,
+        "phoneCapable": true,
+        "scheduleCapable": true,
+        "browserOnly": false
+      },
+      {
+        "name": "Judd Orthodontics",
+        "website": "https://www.juddorthodontics.com/",
+        "ownerProof": "public site exposes `Dr. Jason Judd`",
+        "routeProof": "homepage exposes `Request an Appointment`, `call us to schedule`, complimentary consultation language, and public phone route `tel:4805457500`",
+        "route": "request-appointment / consultation path first; phone fallback only if tomorrow's visible route is cleaner than the form path",
+        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
+        "draftNote": "Hi Dr. Judd — saw Judd pushes appointment requests plus complimentary consultations. Quick idea: missed calls and after-hours ortho inquiries can get a calm text-back so more starts stay warm before the team follows up. Short ortho example here: [proof-page-link]. If useful, happy to map one around your current appointment flow.",
+        "copyReady": true,
+        "textCapable": false,
+        "chatCapable": false,
+        "phoneCapable": true,
+        "scheduleCapable": true,
+        "browserOnly": false
+      },
+      {
+        "name": "Wright Orthodontics",
+        "website": "https://wrightortho.com/",
+        "ownerProof": "public site exposes `Dr. Wright`",
+        "routeProof": "homepage exposes `Schedule Now`, `Request an appointment`, and a visible `Medical Request Appointment Form`",
+        "route": "schedule / request-appointment path only if tomorrow's visible in-browser route is still clearly active",
+        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
+        "draftNote": "Hi Dr. Wright — saw Wright makes scheduling and same-day treatment starts feel easy on the public site. Quick idea: when a consult or new-patient call is missed, a fast text-back can keep that lead warm before staff calls back. Short ortho example here: [proof-page-link]. If useful, I can map one around your current flow.",
+        "copyReady": true,
+        "textCapable": false,
+        "chatCapable": false,
+        "phoneCapable": false,
+        "scheduleCapable": true,
+        "browserOnly": true
+      }
+    ],
+    "reserve": {
+      "name": "Radiant Family Dentistry",
+      "website": "https://www.myradiantfamilydentistry.com/",
+      "ownerProof": "public site exposes `Dr. Christine Chan`",
+      "routeProof": "homepage exposes `Book Now`, `Book your appointment today`, `Free Invisalign Consults`, same-day appointment language, and public phone route `tel:+14809481255`",
+      "proofPage": "ferris-team/missed-call-proof-page-dental.html"
+    }
+  },
   "skillOutput": {
     "checkedAt": "2026-06-23T00:34:08-06:00",
     "summary": {
@@ -2525,92 +2642,99 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 00:50 MDT",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 23:45 MDT",
-        "ageMinutes": 70,
-        "ageText": "1h 10m",
+        "ageMinutes": 71,
+        "ageText": "1h 11m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 213,
-        "ageText": "3h 33m",
+        "ageMinutes": 214,
+        "ageText": "3h 34m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T00:34:05-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T00:34:06-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T00:34:07-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T00:34:03-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T00:37:24-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T00:34:07-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T00:34:07-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T00:34:08-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
+        "status": "fresh"
+      },
+      "nativeConsultReadiness": {
+        "label": "native consult readiness",
+        "timestamp": "2026-06-23T00:54:52-06:00",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T00:34:08-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T00:34:08-06:00",
-        "ageMinutes": 21,
-        "ageText": "21m",
+        "ageMinutes": 22,
+        "ageText": "22m",
         "status": "fresh"
       }
     }
