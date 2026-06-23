@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 03:46 MDT",
-    "generatedAt": "2026-06-23T03:57:15-06:00",
+    "generatedAt": "2026-06-23T03:58:16-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -24,7 +24,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "6h 35m",
+          "age": "6h 36m",
           "status": "stale"
         }
       ]
@@ -224,7 +224,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1823,
+    "newestSentAgeMinutes": 1824,
     "newestSentAgeText": "1d 6h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -514,9 +514,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-23 03:57 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current again. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears.",
     "2026-06-23 03:43 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current again. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears.",
-    "2026-06-23 03:32 MDT: Refreshed the control-layer runtime health check; 2/2 agents stayed healthy, published preview matched local state at 0s lag, and the stale publish stderr remains historical noise only. Next move: watch only; intervene again only if stderr refills, launchctl exit codes drift, publish lines stop advancing, or the preview drifts.",
-    "2026-06-23 03:19 MDT: Ran the bounded operator sweep again; fulfillment stayed at 3 signals / 0 appended rows, outreach watch still showed no owner/manager replies in the latest 12 INBOX messages with 1 visible bounce, Gumroad discovery stayed usable, live surfaces held at 4/9 healthy, runtime stayed 2/2 healthy with 0s preview lag, merch expansion stayed stable with head CHAD, contact/native/DM readiness stayed staged for tomorrow, and business-state rebuilt cleanly. Next move: reply/bounce watch on the current queue; use the prepared contact-form target only when execution is intentionally opened."
+    "2026-06-23 03:32 MDT: Refreshed the control-layer runtime health check; 2/2 agents stayed healthy, published preview matched local state at 0s lag, and the stale publish stderr remains historical noise only. Next move: watch only; intervene again only if stderr refills, launchctl exit codes drift, publish lines stop advancing, or the preview drifts."
   ],
   "discovery": {
     "checkedAt": "2026-06-23T03:46:21-06:00",
@@ -3556,155 +3556,155 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 03:43 MDT",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 03:03 MDT",
-        "ageMinutes": 54,
-        "ageText": "54m",
+        "ageMinutes": 55,
+        "ageText": "55m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 395,
-        "ageText": "6h 35m",
+        "ageMinutes": 396,
+        "ageText": "6h 36m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T03:46:20-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T03:46:21-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T03:46:22-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T03:46:18-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T03:46:22-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T03:46:22-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T03:46:22-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T03:46:23-06:00",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       }
     }
