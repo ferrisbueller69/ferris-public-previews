@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 15:10 MDT",
-    "generatedAt": "2026-06-23T15:15:57-06:00",
+    "lastUpdated": "2026-06-23 15:16 MDT",
+    "generatedAt": "2026-06-23T15:16:59-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -153,10 +153,10 @@
       "HTN"
     ],
     "contactFormReadinessCheckedAt": "2026-06-23T15:10:24-06:00",
-    "nonEmailMethodBoardCheckedAt": "2026-06-23T15:10:24-06:00",
+    "nonEmailMethodBoardCheckedAt": "2026-06-23T15:16:24-06:00",
     "nonEmailMethodBoardStatus": "blocked-route-pivot-ready",
-    "nonEmailReadyMethods": 10,
-    "nonEmailFullyReadyMethods": 9,
+    "nonEmailReadyMethods": 11,
+    "nonEmailFullyReadyMethods": 10,
     "nonEmailStartedMethods": 1,
     "nonEmailProofMethods": 0,
     "nonEmailTopMethod": "Contact form",
@@ -246,7 +246,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 2501,
+    "newestSentAgeMinutes": 2502,
     "newestSentAgeText": "1d 17h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -257,8 +257,8 @@
     "sameDayPushNote": "No verified high-ticket send has landed today yet; if contact quality clears, the next send wave should start from zero against the 20-email push target.",
     "nextIfFlat": "If contact quality stays intact, line up a fresh 20-email high-ticket batch instead of widening into weak inboxes.",
     "nonEmailMethodBoardStatus": "blocked-route-pivot-ready",
-    "nonEmailMethodBoardReadyMethods": 10,
-    "nonEmailMethodBoardFullyReadyMethods": 9,
+    "nonEmailMethodBoardReadyMethods": 11,
+    "nonEmailMethodBoardFullyReadyMethods": 10,
     "nonEmailMethodBoardStartedMethods": 1,
     "nonEmailMethodBoardProofMethods": 0,
     "nonEmailMethodBoardTopMethod": "Contact form",
@@ -557,9 +557,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-06-23 15:16 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue.",
     "2026-06-23 15:03 MDT: Re-checked the Gumroad bundle and public post over direct HTTP; both still resolve live, the bundle title remains `Ferris Local Business Messaging Bundle`, the bundle description still carries `reactivation outreach`, the public post title remains `Faster customer replies for local businesses - Levi Kritzik | Ferris Automations`, and the post body still contains `reactivation outreach` while the meta remains clipped. Next move: stay on watch for drift; do not churn on the blocked edit lane.",
-    "2026-06-23 13:49 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows to `dashboard/sales-fulfillment-log.csv`, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue.",
-    "2026-06-23 13:38 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows to `dashboard/sales-fulfillment-log.csv`, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears."
+    "2026-06-23 13:49 MDT: Re-ran the Gmail-backed sales intake writer; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows to `dashboard/sales-fulfillment-log.csv`, so fulfillment stayed current and no buyer-action state changed. Next move: keep reply/bounce watch on the current queue."
   ],
   "discovery": {
     "checkedAt": "2026-06-23T15:10:22-06:00",
@@ -4787,12 +4787,12 @@
     "reserve": {}
   },
   "nonEmailMethodBoard": {
-    "checkedAt": "2026-06-23T15:10:24-06:00",
+    "checkedAt": "2026-06-23T15:16:24-06:00",
     "summary": {
       "status": "blocked-route-pivot-ready",
-      "methodCount": 10,
-      "readyMethods": 10,
-      "fullyReadyMethods": 9,
+      "methodCount": 11,
+      "readyMethods": 11,
+      "fullyReadyMethods": 10,
       "startedMethods": 1,
       "activeStartedMethods": 0,
       "blockedStartedMethods": 1,
@@ -4945,10 +4945,32 @@
         "nextMove": "Tomorrow, log each real phone attempt in the execution log and count output only after a voicemail or live handoff actually completes."
       },
       {
+        "key": "auditVideoOffer",
+        "label": "Audit video offer",
+        "channel": "audit-video-offer",
+        "priority": 9,
+        "readinessCheckedAt": "2026-06-23T15:16:24-06:00",
+        "executionCheckedAt": "2026-06-23T15:16:24-06:00",
+        "status": "fully-ready",
+        "ready": true,
+        "fullyReady": true,
+        "started": false,
+        "blockedOnlyStart": false,
+        "blockedRoutes": 0,
+        "hasProof": false,
+        "proofLabel": "sent permission-first offer or sent teardown video",
+        "attemptsLogged": 0,
+        "primaryTargets": 3,
+        "reserveTargets": 1,
+        "topTarget": "Scottsdale Med Spa",
+        "note": "No audit-video offer attempts are logged yet; the method is researched but unstarted.",
+        "nextMove": "Tomorrow, start with Scottsdale Med Spa, keep the pass capped at 3 route attempts, and log the first real sent offer or blocker."
+      },
+      {
         "key": "microAuditProofRoute",
         "label": "Micro-audit proof route",
         "channel": "micro-audit-proof-route",
-        "priority": 9,
+        "priority": 10,
         "readinessCheckedAt": "2026-06-23T15:10:24-06:00",
         "executionCheckedAt": "2026-06-23T15:10:24-06:00",
         "status": "fully-ready",
@@ -4970,9 +4992,9 @@
         "key": "pinterestSupport",
         "label": "Pinterest support pins",
         "channel": "pinterest-support",
-        "priority": 10,
-        "readinessCheckedAt": "2026-06-23T15:04:04-06:00",
-        "executionCheckedAt": "2026-06-23T15:04:04-06:00",
+        "priority": 11,
+        "readinessCheckedAt": "2026-06-23T15:10:24-06:00",
+        "executionCheckedAt": "2026-06-23T15:10:25-06:00",
         "status": "fully-ready",
         "ready": true,
         "fullyReady": true,
@@ -5865,170 +5887,170 @@
     "freshness": {
       "mesh": {
         "label": "operator mesh",
-        "timestamp": "2026-06-23 15:03 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "timestamp": "2026-06-23 15:16 MDT",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 15:04 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-23 14:21 MDT",
-        "ageMinutes": 54,
-        "ageText": "54m",
+        "ageMinutes": 55,
+        "ageText": "55m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T15:10:21-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T15:10:22-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T15:10:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T15:10:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T15:10:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
-        "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "timestamp": "2026-06-23T15:16:24-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-23T15:10:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T15:10:25-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T15:10:25-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       }
     }
