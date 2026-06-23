@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-22 19:55 MDT",
-    "generatedAt": "2026-06-22T19:56:45-06:00",
+    "generatedAt": "2026-06-22T19:57:47-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -337,7 +337,7 @@
     }
   ],
   "pulseNotes": [
-    "2026-06-22 19:43 MDT: Ran a fresh Gmail-backed intake rerun; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current again. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears.",
+    "2026-06-22 19:55 MDT: Ran the bounded operator sweep; fulfillment stayed at 3 signals / 0 appended rows, outreach still shows no owner/manager replies in the latest 12 INBOX messages with 1 visible bounce, Gumroad discovery stayed usable, live surfaces held at 4/9 healthy, runtime stayed 2/2 healthy with 0s preview lag, merch expansion stayed stable with head CHAD, skill output stayed fresh, skill registry stayed clean, and business-state rebuilt cleanly. Next move: keep reply/bounce watch on the current queue and only widen intake if a new real signal appears.",
     "2026-06-22 19:30 MDT: Ran a fresh Gmail-backed intake rerun; it found the same 3 Gumroad/Etsy/Fiverr signals and appended 0 rows, so fulfillment monitoring stayed current again. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears.",
     "2026-06-22 19:15 MDT: Ran the bounded operator sweep; fulfillment stayed at 3 signals / 0 appended rows, outreach watch stayed at 1 visible bounce with no owner/manager replies in the latest 12 INBOX messages, Gumroad metadata stayed usable, live surfaces held at 4/9 healthy, runtime stayed 2/2 healthy with 0s preview lag, merch expansion stayed stable with head CHAD, and business-state rebuilt cleanly. Next move: keep reply/bounce watch on the current queue and only widen intake coverage if a new real signal appears."
   ],
@@ -1489,78 +1489,78 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-22 19:55 MDT",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-22 19:44 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 19:44 MDT",
-        "ageMinutes": 12,
-        "ageText": "12m",
+        "ageMinutes": 13,
+        "ageText": "13m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-22T19:55:28-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-22T19:55:29-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-22T19:55:30-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-22T19:55:23-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-22T19:55:30-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-22T19:55:31-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-22T19:55:31-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-22T19:55:31-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 2,
+        "ageText": "2m",
         "status": "fresh"
       }
     }
