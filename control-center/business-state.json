@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 17:28 MDT",
-    "generatedAt": "2026-06-23T17:34:26-06:00",
+    "lastUpdated": "2026-06-23 17:34 MDT",
+    "generatedAt": "2026-06-23T17:35:28-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -25,25 +25,25 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "1h 53m",
+          "age": "1h 54m",
           "status": "aging"
         },
         {
           "key": "publicMetadata",
           "label": "public metadata",
-          "age": "31m",
+          "age": "32m",
           "status": "aging"
         },
         {
           "key": "liveSurfaces",
           "label": "live surfaces",
-          "age": "31m",
+          "age": "32m",
           "status": "aging"
         },
         {
           "key": "runtimeHealth",
           "label": "control runtime",
-          "age": "31m",
+          "age": "32m",
           "status": "aging"
         }
       ]
@@ -184,10 +184,10 @@
       "HTN"
     ],
     "contactFormReadinessCheckedAt": "2026-06-23T17:02:52-06:00",
-    "nonEmailMethodBoardCheckedAt": "2026-06-23T17:02:52-06:00",
+    "nonEmailMethodBoardCheckedAt": "2026-06-23T17:34:37-06:00",
     "nonEmailMethodBoardStatus": "blocked-route-pivot-ready",
-    "nonEmailReadyMethods": 11,
-    "nonEmailFullyReadyMethods": 10,
+    "nonEmailReadyMethods": 12,
+    "nonEmailFullyReadyMethods": 11,
     "nonEmailStartedMethods": 1,
     "nonEmailProofMethods": 0,
     "nonEmailTopMethod": "Contact form",
@@ -277,7 +277,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 2640,
+    "newestSentAgeMinutes": 2641,
     "newestSentAgeText": "1d 20h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -288,8 +288,8 @@
     "sameDayPushNote": "No verified high-ticket send has landed today yet; if contact quality clears, the next send wave should start from zero against the 20-email push target.",
     "nextIfFlat": "If contact quality stays intact, line up a fresh 20-email high-ticket batch instead of widening into weak inboxes.",
     "nonEmailMethodBoardStatus": "blocked-route-pivot-ready",
-    "nonEmailMethodBoardReadyMethods": 11,
-    "nonEmailMethodBoardFullyReadyMethods": 10,
+    "nonEmailMethodBoardReadyMethods": 12,
+    "nonEmailMethodBoardFullyReadyMethods": 11,
     "nonEmailMethodBoardStartedMethods": 1,
     "nonEmailMethodBoardProofMethods": 0,
     "nonEmailMethodBoardTopMethod": "Contact form",
@@ -5064,12 +5064,12 @@
     "reserve": {}
   },
   "nonEmailMethodBoard": {
-    "checkedAt": "2026-06-23T17:02:52-06:00",
+    "checkedAt": "2026-06-23T17:34:37-06:00",
     "summary": {
       "status": "blocked-route-pivot-ready",
-      "methodCount": 11,
-      "readyMethods": 11,
-      "fullyReadyMethods": 10,
+      "methodCount": 12,
+      "readyMethods": 12,
+      "fullyReadyMethods": 11,
       "startedMethods": 1,
       "activeStartedMethods": 0,
       "blockedStartedMethods": 1,
@@ -5266,12 +5266,34 @@
         "nextMove": "Tomorrow, build and route at most 3 target-specific micro-audit pages, then count output only after each live native route is actually completed and logged."
       },
       {
+        "key": "gbpReputationProofRoute",
+        "label": "GBP reputation proof route",
+        "channel": "gbp-reputation-proof-route",
+        "priority": 11,
+        "readinessCheckedAt": "2026-06-23T17:34:37-06:00",
+        "executionCheckedAt": "2026-06-23T17:34:37-06:00",
+        "status": "fully-ready",
+        "ready": true,
+        "fullyReady": true,
+        "started": false,
+        "blockedOnlyStart": false,
+        "blockedRoutes": 0,
+        "hasProof": false,
+        "proofLabel": "completed GBP proof-page route",
+        "attemptsLogged": 0,
+        "primaryTargets": 3,
+        "reserveTargets": 1,
+        "topTarget": "Chapter One Wellness",
+        "note": "No GBP reputation proof-route attempts are logged yet; the method is researched but unstarted.",
+        "nextMove": "Tomorrow, start with Chapter One Wellness, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
+      },
+      {
         "key": "pinterestSupport",
         "label": "Pinterest support pins",
         "channel": "pinterest-support",
-        "priority": 11,
-        "readinessCheckedAt": "2026-06-23T16:33:53-06:00",
-        "executionCheckedAt": "2026-06-23T16:33:53-06:00",
+        "priority": 12,
+        "readinessCheckedAt": "2026-06-23T17:02:52-06:00",
+        "executionCheckedAt": "2026-06-23T17:02:52-06:00",
         "status": "fully-ready",
         "ready": true,
         "fullyReady": true,
@@ -6201,175 +6223,175 @@
     ]
   },
   "sourceTruth": {
-    "currentStateTimestamp": "2026-06-23 17:23 MDT",
+    "currentStateTimestamp": "2026-06-23 17:34 MDT",
     "storefrontStatusTimestamp": "2026-06-23 15:41 MDT",
     "freshness": {
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 17:28 MDT",
-        "ageMinutes": 6,
-        "ageText": "6m",
+        "ageMinutes": 7,
+        "ageText": "7m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
-        "timestamp": "2026-06-23 17:23 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "timestamp": "2026-06-23 17:34 MDT",
+        "ageMinutes": 1,
+        "ageText": "1m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-23 15:41 MDT",
-        "ageMinutes": 113,
-        "ageText": "1h 53m",
+        "ageMinutes": 114,
+        "ageText": "1h 54m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T17:02:49-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T17:02:50-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "aging"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T17:02:51-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "aging"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T17:02:43-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T17:02:51-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "aging"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
-        "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "timestamp": "2026-06-23T17:34:37-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T17:02:52-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       }
     }
