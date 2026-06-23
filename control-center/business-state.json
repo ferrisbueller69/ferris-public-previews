@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 02:19 MDT",
-    "generatedAt": "2026-06-23T02:15:59-06:00",
+    "generatedAt": "2026-06-23T02:17:01-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -23,7 +23,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "4h 53m",
+          "age": "4h 55m",
           "status": "stale"
         }
       ]
@@ -71,7 +71,7 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-23T01:52:37-06:00",
+    "fulfillmentCheckAt": "2026-06-23T02:16:45-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
     "runtimeHealthCheckAt": "2026-06-23T01:52:41-06:00",
@@ -213,7 +213,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 1721,
+    "newestSentAgeMinutes": 1723,
     "newestSentAgeText": "1d 4h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -275,22 +275,22 @@
     "instagramDmExecutionTopCompletedTarget": "none",
     "instagramDmExecutionNote": "No Instagram DM attempts are logged yet; the method is packed but unstarted.",
     "instagramDmExecutionNextMove": "Tomorrow, log each real Instagram DM attempt in the execution log and count output only when the DM itself is completed and recorded.",
-    "facebookDmMethodStatus": "unknown",
-    "facebookDmMethodReady": false,
-    "facebookDmMethodPrimaryTargets": 0,
+    "facebookDmMethodStatus": "researched-tonight / execute-tomorrow",
+    "facebookDmMethodReady": true,
+    "facebookDmMethodPrimaryTargets": 5,
     "facebookDmMethodReserveTargets": 0,
-    "facebookDmMethodTopTarget": "unknown",
-    "facebookDmMethodNote": "unknown",
-    "facebookDmMethodNextMove": "unknown",
-    "facebookDmExecutionStatus": "unknown",
+    "facebookDmMethodTopTarget": "Chapter One Wellness",
+    "facebookDmMethodNote": "The Facebook DM route is packed and tomorrow-ready as an additional non-email method, but every page still needs live in-browser brand-match verification before any DM counts.",
+    "facebookDmMethodNextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible Facebook DM attempts, using only site-linked pages that still clearly match the business and counting output only after the DM itself is sent and logged.",
+    "facebookDmExecutionStatus": "staged / no verified DMs sent yet",
     "facebookDmExecutionStarted": false,
     "facebookDmExecutionAttemptsLogged": 0,
     "facebookDmExecutionCompletedAttempts": 0,
     "facebookDmExecutionLiveConnections": 0,
     "facebookDmExecutionBlockedRoutes": 0,
     "facebookDmExecutionTopCompletedTarget": "none",
-    "facebookDmExecutionNote": "unknown",
-    "facebookDmExecutionNextMove": "unknown",
+    "facebookDmExecutionNote": "No Facebook DM attempts are logged yet; the method is packed but unstarted.",
+    "facebookDmExecutionNextMove": "Tomorrow, log each real Facebook DM attempt in the execution log and count output only when the DM itself is completed and recorded.",
     "topInbox": [
       {
         "id": "611",
@@ -328,7 +328,7 @@
     "etsy": "No verified Product 3 draft row yet; latest signed-in seller proof still shows Draft0 / No listings matched these filters.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-23T01:52:37-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-23T02:16:45-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -2624,9 +2624,96 @@
     }
   },
   "facebookDmReadiness": {
-    "checkedAt": "unknown",
-    "summary": {},
-    "targets": [],
+    "checkedAt": "2026-06-23T02:16:29-06:00",
+    "summary": {
+      "status": "researched-tonight / execute-tomorrow",
+      "ready": true,
+      "copyReady": true,
+      "fullyReady": true,
+      "note": "The Facebook DM route is packed and tomorrow-ready as an additional non-email method, but every page still needs live in-browser brand-match verification before any DM counts.",
+      "nextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible Facebook DM attempts, using only site-linked pages that still clearly match the business and counting output only after the DM itself is sent and logged.",
+      "primaryTargets": 5,
+      "reserveTargets": 0,
+      "ownerVisibleTargets": 5,
+      "routeProofTargets": 5,
+      "copyReadyTargets": 5,
+      "facebookTargets": 5,
+      "providerLinkedTargets": 1,
+      "businessLinkedTargets": 5,
+      "topTarget": "Chapter One Wellness",
+      "reserveTarget": "none",
+      "proofPages": [
+        "ferris-team/missed-call-proof-page-dental.html",
+        "ferris-team/missed-call-proof-page.html"
+      ]
+    },
+    "targets": [
+      {
+        "name": "Chapter One Wellness",
+        "website": "https://chapteronewellness.com/",
+        "ownerProof": "public site exposes `Dr. Michelle Pettitt`",
+        "routeProof": "homepage HTML links `https://www.facebook.com/chapteronewellness` and also links provider page `https://www.facebook.com/drmpettitt`",
+        "route": "main business Facebook page first; use provider-linked page only if the business page looks inactive or clearly reroutes there tomorrow",
+        "proofPage": "ferris-team/missed-call-proof-page.html",
+        "draftNote": "Hi Dr. Pettitt / Chapter One team — saw the clinic publicly invites people into direct text + social routes. Quick idea: when a wellness inquiry or missed call hits after hours, an immediate text-back can keep the lead warm before staff follows up. Short example here: [proof-page-link]. If useful, happy to map one around your current intake flow.",
+        "copyReady": true,
+        "facebookCapable": true,
+        "providerLinked": true,
+        "businessLinked": true
+      },
+      {
+        "name": "Haus of Confidence",
+        "website": "https://hausofconfidence.com/",
+        "ownerProof": "public site exposes `Dr. Todd Malan` and `Dr. Sara Ameli`",
+        "routeProof": "homepage HTML links `https://www.facebook.com/hausmedspa` and `https://www.facebook.com/hausofconfidence`",
+        "route": "use the clearest still-active business page that visibly matches Haus of Confidence tomorrow",
+        "proofPage": "ferris-team/missed-call-proof-page.html",
+        "draftNote": "Hi Haus of Confidence team — saw the direct consult booking push plus the public Facebook route. Quick idea: missed calls and after-hours cosmetic consult questions can get a polished text-back so premium leads do not cool off overnight. Short example here: [proof-page-link]. If useful, happy to map one around your current consult path.",
+        "copyReady": true,
+        "facebookCapable": true,
+        "providerLinked": false,
+        "businessLinked": true
+      },
+      {
+        "name": "Wright Orthodontics",
+        "website": "https://wrightortho.com/",
+        "ownerProof": "public site exposes `Dr. Wright`",
+        "routeProof": "homepage HTML links `https://www.facebook.com/WrightSmile`",
+        "route": "business Facebook page only if the live page still clearly belongs to Wright Orthodontics tomorrow",
+        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
+        "draftNote": "Hi Dr. Wright / Wright Ortho team — saw the public Facebook route plus the easy appointment-request flow. Quick idea: when a new-patient call or consult question is missed, a fast text-back can keep that start warm before staff reconnects. Short ortho example here: [proof-page-link]. If useful, I can map one around your current appointment flow.",
+        "copyReady": true,
+        "facebookCapable": true,
+        "providerLinked": false,
+        "businessLinked": true
+      },
+      {
+        "name": "Radiant Family Dentistry",
+        "website": "https://www.myradiantfamilydentistry.com/",
+        "ownerProof": "public site exposes `Dr. Christine Chan`",
+        "routeProof": "homepage HTML links `https://www.facebook.com/radiantfamilydentistryaz/`",
+        "route": "business Facebook page only if the linked page still visibly matches the practice tomorrow",
+        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
+        "draftNote": "Hi Dr. Chan / Radiant team — saw the public Facebook route plus the book-now / consult positioning. Quick idea: when a new-patient or Invisalign question comes in after hours, an immediate text-back can keep the appointment warm before the front desk follows up. Short dental example here: [proof-page-link]. If useful, I can map one around your current intake flow.",
+        "copyReady": true,
+        "facebookCapable": true,
+        "providerLinked": false,
+        "businessLinked": true
+      },
+      {
+        "name": "Judd Orthodontics",
+        "website": "https://www.juddorthodontics.com/",
+        "ownerProof": "public site exposes `Dr. Jason Judd`",
+        "routeProof": "homepage HTML links `https://www.facebook.com/juddorthodontics`",
+        "route": "business Facebook page only if tomorrow's page still clearly belongs to Judd Orthodontics",
+        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
+        "draftNote": "Hi Dr. Judd — saw the public Facebook route plus the complimentary-consult positioning. Quick idea: missed calls and after-hours ortho inquiries can get a calm text-back so more starts stay warm before the team follows up. Short ortho example here: [proof-page-link]. If useful, happy to map one around your current appointment flow.",
+        "copyReady": true,
+        "facebookCapable": true,
+        "providerLinked": false,
+        "businessLinked": true
+      }
+    ],
     "reserve": {}
   },
   "nativeConsultExecution": {
@@ -2670,8 +2757,22 @@
     "entries": []
   },
   "facebookDmExecution": {
-    "checkedAt": "unknown",
-    "summary": {},
+    "checkedAt": "2026-06-23T02:16:29-06:00",
+    "summary": {
+      "status": "staged / no verified DMs sent yet",
+      "attemptsLogged": 0,
+      "completedAttempts": 0,
+      "liveConnections": 0,
+      "confirmedSkips": 0,
+      "blockedRoutes": 0,
+      "started": false,
+      "hasCompletedAttempt": false,
+      "hasLiveConnection": false,
+      "topCompletedTarget": "none",
+      "lastCompletedTarget": "none",
+      "note": "No Facebook DM attempts are logged yet; the method is packed but unstarted.",
+      "nextMove": "Tomorrow, log each real Facebook DM attempt in the execution log and count output only when the DM itself is completed and recorded."
+    },
     "entries": []
   },
   "skillOutput": {
@@ -3070,8 +3171,8 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 02:07 MDT",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "currentState": {
@@ -3084,120 +3185,120 @@
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-22 21:22 MDT",
-        "ageMinutes": 293,
-        "ageText": "4h 53m",
+        "ageMinutes": 295,
+        "ageText": "4h 55m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T01:52:39-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T01:52:40-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T01:52:41-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-23T01:52:37-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "timestamp": "2026-06-23T02:16:45-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T01:52:41-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
-        "timestamp": "unknown",
-        "ageMinutes": null,
-        "ageText": "unknown",
-        "status": "unknown"
+        "timestamp": "2026-06-23T02:16:29-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
-        "timestamp": "unknown",
-        "ageMinutes": null,
-        "ageText": "unknown",
-        "status": "unknown"
+        "timestamp": "2026-06-23T02:16:29-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T01:52:42-06:00",
-        "ageMinutes": 23,
-        "ageText": "23m",
+        "ageMinutes": 24,
+        "ageText": "24m",
         "status": "fresh"
       }
     }
