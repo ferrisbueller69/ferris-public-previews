@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-23 19:44 MDT",
-    "generatedAt": "2026-06-23T19:49:45-06:00",
+    "generatedAt": "2026-06-23T19:50:47-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -25,7 +25,7 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "1h 45m",
+          "age": "1h 46m",
           "status": "aging"
         }
       ]
@@ -259,7 +259,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 2775,
+    "newestSentAgeMinutes": 2776,
     "newestSentAgeText": "1d 22h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -394,11 +394,11 @@
     "microAuditProofRouteExecutionNextMove": "Tomorrow, build and route at most 3 target-specific micro-audit pages, then count output only after each live native route is actually completed and logged.",
     "homepageCtaClarityProofRouteMethodStatus": "researched-tonight / route-support-built / not-yet-attempted",
     "homepageCtaClarityProofRouteMethodReady": true,
-    "homepageCtaClarityProofRouteMethodFullyReady": false,
+    "homepageCtaClarityProofRouteMethodFullyReady": true,
     "homepageCtaClarityProofRouteMethodBuiltPagesReady": false,
     "homepageCtaClarityProofRouteMethodPrimaryTargets": 3,
     "homepageCtaClarityProofRouteMethodTopTarget": "Judd Orthodontics",
-    "homepageCtaClarityProofRouteMethodNote": "The homepage CTA-clarity proof route still needs target proof, route proof, usable draft notes, opener-variant coverage, or the local proof-page asset before it should count as execution-ready.",
+    "homepageCtaClarityProofRouteMethodNote": "The homepage CTA-clarity proof route is now packed with visible target notes, first-message fallback variants, and a live local proof-page draft, so tomorrow can test one fresh high-ticket route without drifting back into stale email copy.",
     "homepageCtaClarityProofRouteMethodNextMove": "Tomorrow, attempt at most 3 native-route sends, start with the cleanest contact-form path, use the proof page as the only link when the route allows it, fall back to the no-link or ultra-short opener when needed, and skip any target where the CTA / trust-strip gap is not actually visible.",
     "homepageCtaClarityProofRouteExecutionStatus": "not-started",
     "homepageCtaClarityProofRouteExecutionAttemptsLogged": 0,
@@ -5750,12 +5750,12 @@
     "reserve": {}
   },
   "homepageCtaClarityProofRouteReadiness": {
-    "checkedAt": "2026-06-23T19:35:48-06:00",
+    "checkedAt": "2026-06-23T19:50:42-06:00",
     "summary": {
       "status": "researched-tonight / route-support-built / not-yet-attempted",
       "ready": true,
-      "fullyReady": false,
-      "note": "The homepage CTA-clarity proof route still needs target proof, route proof, usable draft notes, opener-variant coverage, or the local proof-page asset before it should count as execution-ready.",
+      "fullyReady": true,
+      "note": "The homepage CTA-clarity proof route is now packed with visible target notes, first-message fallback variants, and a live local proof-page draft, so tomorrow can test one fresh high-ticket route without drifting back into stale email copy.",
       "nextMove": "Tomorrow, attempt at most 3 native-route sends, start with the cleanest contact-form path, use the proof page as the only link when the route allows it, fall back to the no-link or ultra-short opener when needed, and skip any target where the CTA / trust-strip gap is not actually visible.",
       "primaryTargets": 3,
       "reserveTargets": 1,
@@ -5764,7 +5764,7 @@
       "copyReadyTargets": 3,
       "routeReadyTargets": 3,
       "proofPageTargets": 3,
-      "variantReadyTargets": 0,
+      "variantReadyTargets": 3,
       "reserveVariantReady": true,
       "hasProofBrief": true,
       "hasProofPage": true,
@@ -5784,10 +5784,10 @@
         "draftNote": "Quick thought after looking at Judd's public surface: the first consult CTA could feel a little more confidence-building for a parent landing cold. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
         "copyReady": true,
         "routeReady": true,
-        "primaryNote": "",
-        "noLinkFallback": "",
-        "ultraShortOpener": "",
-        "variantReady": false
+        "primaryNote": "Quick thought after looking at Judd's public surface: the first consult CTA could feel a little more confidence-building for a parent landing cold. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "noLinkFallback": "Quick thought after looking at Judd's homepage: the first consult CTA could feel a little clearer and more confidence-building for a cold parent visit. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick CTA clarity idea for Judd's homepage if helpful.",
+        "variantReady": true
       },
       {
         "name": "Burnett Law Office",
@@ -5799,10 +5799,10 @@
         "draftNote": "Saw one small CTA-clarity gap on Burnett's homepage — the first next step could feel a touch clearer and more trust-building for a cold consult lead. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix.",
         "copyReady": true,
         "routeReady": true,
-        "primaryNote": "",
-        "noLinkFallback": "",
-        "ultraShortOpener": "",
-        "variantReady": false
+        "primaryNote": "Saw one small CTA-clarity gap on Burnett's homepage — the first next step could feel a touch clearer and more trust-building for a cold consult lead. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix.",
+        "noLinkFallback": "Saw one small homepage CTA gap on Burnett's public surface — the first next step could feel clearer for a cold consult lead. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick homepage CTA thought for Burnett if useful.",
+        "variantReady": true
       },
       {
         "name": "Scottsdale Med Spa",
@@ -5814,10 +5814,10 @@
         "draftNote": "Noticed one small homepage CTA / trust-strip gap on Scottsdale Med Spa's public surface — the first next step could feel sharper for a high-intent consult lead. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
         "copyReady": true,
         "routeReady": true,
-        "primaryNote": "",
-        "noLinkFallback": "",
-        "ultraShortOpener": "",
-        "variantReady": false
+        "primaryNote": "Noticed one small homepage CTA / trust-strip gap on Scottsdale Med Spa's public surface — the first next step could feel sharper for a high-intent consult lead. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "noLinkFallback": "Quick homepage thought on Scottsdale Med Spa: the first consult step could feel a little clearer and more trust-building for a cold visitor. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick CTA clarity idea for Scottsdale Med Spa if helpful.",
+        "variantReady": true
       }
     ],
     "reserve": {
@@ -5835,7 +5835,7 @@
     }
   },
   "gbpReputationProofRouteReadiness": {
-    "checkedAt": "2026-06-23T19:35:48-06:00",
+    "checkedAt": "2026-06-23T19:50:42-06:00",
     "summary": {
       "status": "researched-tonight / route-support-built / not-yet-attempted",
       "ready": true,
@@ -6801,197 +6801,197 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 19:44 MDT",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 19:15 MDT",
-        "ageMinutes": 34,
-        "ageText": "34m",
+        "ageMinutes": 35,
+        "ageText": "35m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-23 18:04 MDT",
-        "ageMinutes": 105,
-        "ageText": "1h 45m",
+        "ageMinutes": 106,
+        "ageText": "1h 46m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T19:35:45-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T19:35:46-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T19:35:47-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-23T19:35:40-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T19:35:47-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T19:35:47-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T19:35:47-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T19:35:47-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T19:35:47-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T19:35:47-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteReadiness": {
         "label": "homepage CTA-clarity proof-route readiness",
-        "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "timestamp": "2026-06-23T19:50:42-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "gbpReputationProofRouteReadiness": {
         "label": "GBP reputation proof-route readiness",
-        "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "timestamp": "2026-06-23T19:50:42-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteExecution": {
         "label": "homepage CTA-clarity proof-route execution",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "gbpReputationProofRouteExecution": {
         "label": "GBP reputation proof-route execution",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T19:35:48-06:00",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 14,
+        "ageText": "14m",
         "status": "fresh"
       }
     }
