@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-24 00:24 MDT",
-    "generatedAt": "2026-06-24T00:32:04-06:00",
+    "generatedAt": "2026-06-24T00:33:06-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -25,25 +25,25 @@
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "2h 30m",
+          "age": "2h 31m",
           "status": "aging"
         },
         {
           "key": "publicMetadata",
           "label": "public metadata",
-          "age": "31m",
+          "age": "32m",
           "status": "aging"
         },
         {
           "key": "liveSurfaces",
           "label": "live surfaces",
-          "age": "31m",
+          "age": "32m",
           "status": "aging"
         },
         {
           "key": "runtimeHealth",
           "label": "control runtime",
-          "age": "31m",
+          "age": "32m",
           "status": "aging"
         }
       ]
@@ -277,7 +277,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-24",
-    "newestSentAgeMinutes": 3058,
+    "newestSentAgeMinutes": 3059,
     "newestSentAgeText": "2d 2h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -6608,7 +6608,7 @@
     }
   },
   "arrivalClarityProofRouteReadiness": {
-    "checkedAt": "2026-06-24T00:02:40-06:00",
+    "checkedAt": "2026-06-24T00:33:01-06:00",
     "summary": {
       "status": "researched-tonight / route-support-built / not-yet-attempted",
       "ready": true,
@@ -6640,7 +6640,7 @@
         "routeProof": "public site is consultation-led and exposes a clean website contact path for new-patient traffic",
         "route": "contact form first; website chat only if tomorrow's widget still loads as a clearly business-run route",
         "proofPage": "ferris-team/arrival-clarity-proof-page.html",
-        "draftNote": "Quick thought after looking at Judd's public consult surface: one small arrival-confidence gap could make first-time ortho leads hesitate before they even show up — especially around where to go and what to expect on arrival. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "draftNote": "Quick thought after looking at Judd's public consult surface: you do a strong job selling comfort and the complimentary consult, but I couldn't find the same level of clarity for where first-time visitors go or what arrival looks like. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
         "copyReady": true,
         "routeReady": true,
         "primaryNote": "Quick thought after looking at Judd's public consult surface: one small arrival-confidence gap could make first-time ortho leads hesitate before they even show up. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
@@ -6652,15 +6652,15 @@
         "name": "Burnett Law Office",
         "website": "https://burnettlawaz.com/",
         "ownerProof": "public site exposes `Tom Burnett`",
-        "routeProof": "homepage source currently loads a visible chat stack on a consultation-led legal site",
+        "routeProof": "homepage source previously showed a live-chat stack on a consultation-led legal site; if that no longer loads tomorrow, fall back to the site contact route",
         "route": "website chat first if the widget still visibly belongs to Burnett; otherwise contact form",
         "proofPage": "ferris-team/arrival-clarity-proof-page.html",
-        "draftNote": "Saw one small arrival-confidence gap on Burnett's public surface — especially for first-time consult leads who may not be sure where to go or what happens when they arrive. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix I'd make.",
+        "draftNote": "Saw one small arrival-confidence gap on Burnett's public surface: the trust copy is strong, but I couldn't find the same clarity for where an injured first-time consult lead should go or what arrival looks like. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix I'd make.",
         "copyReady": true,
         "routeReady": true,
-        "primaryNote": "Saw one small arrival-confidence gap on Burnett's public surface — especially for first-time consult leads who may not be sure where to go or what happens when they arrive. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix I'd make.",
-        "noLinkFallback": "Saw one small arrival-confidence / first-visit clarity gap on Burnett's public surface. If helpful, I can point to the exact first fix I'd make.",
-        "ultraShortOpener": "Quick Burnett note: one small first-visit / arrival-confidence gap stood out.",
+        "primaryNote": "Saw one small arrival-confidence gap on Burnett's public surface: the trust copy is strong, but I couldn't find the same clarity for where an injured first-time consult lead should go or what arrival looks like. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix I'd make.",
+        "noLinkFallback": "Saw one small arrival-confidence / first-visit clarity gap on Burnett's public surface. The trust copy is strong; the arrival handoff is just less clear. If helpful, I can point to the exact first fix I'd make.",
+        "ultraShortOpener": "Quick Burnett note: strong trust copy, but one arrival-confidence gap stood out.",
         "variantReady": true
       },
       {
@@ -6670,12 +6670,12 @@
         "routeProof": "public site is clearly consult-led and already exposes business-owned contact / social routes for booking intent",
         "route": "contact form first if the site route is still clean tomorrow; business Instagram DM only if the profile still visibly matches and the website route is weaker",
         "proofPage": "ferris-team/arrival-clarity-proof-page.html",
-        "draftNote": "Noticed one small arrival-confidence gap on Scottsdale Med Spa's public surface — the kind that can make high-intent first visits feel less certain before booking day. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "draftNote": "Noticed one small arrival-confidence gap on Scottsdale Med Spa's public surface: the site sells the treatment quality well, but I couldn't find the same clarity for parking, entry, or what a first visit looks like in Old Town. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
         "copyReady": true,
         "routeReady": true,
-        "primaryNote": "Noticed one small arrival-confidence gap on Scottsdale Med Spa's public surface — the kind that can make high-intent first visits feel less certain before booking day. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
-        "noLinkFallback": "Noticed one small arrival-confidence / first-visit clarity gap on Scottsdale Med Spa's public surface. Happy to show the exact first fix if useful.",
-        "ultraShortOpener": "Quick Scottsdale Med Spa note: one small first-visit / arrival-confidence gap stood out.",
+        "primaryNote": "Noticed one small arrival-confidence gap on Scottsdale Med Spa's public surface: the site sells the treatment quality well, but I couldn't find the same clarity for parking, entry, or what a first visit looks like in Old Town. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "noLinkFallback": "Noticed one small arrival-confidence / first-visit clarity gap on Scottsdale Med Spa's public surface. The treatment pitch is strong; parking/entry clarity is thinner. Happy to show the exact first fix if useful.",
+        "ultraShortOpener": "Quick Scottsdale Med Spa note: strong treatment pitch, but one arrival-confidence gap stood out.",
         "variantReady": true
       }
     ],
@@ -6686,10 +6686,10 @@
       "routeProof": "public site pushes consultation scheduling and links a business Instagram route",
       "route": "contact form first if clean tomorrow; otherwise selective business Instagram DM only if the profile visibly matches",
       "proofPage": "ferris-team/arrival-clarity-proof-page.html",
-      "draftNote": "Saw one small arrival-confidence / first-visit clarity gap on Haus of Confidence's public surface and mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
-      "primaryNote": "Saw one small arrival-confidence / first-visit clarity gap on Haus of Confidence's public surface and mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
-      "noLinkFallback": "Saw one small arrival-confidence / first-visit clarity gap on Haus of Confidence's public surface. If helpful, I can show the exact first fix I'd start with.",
-      "ultraShortOpener": "Quick Haus of Confidence note: one small first-visit / arrival-confidence gap stood out.",
+      "draftNote": "Saw one small arrival-confidence / first-visit clarity gap on Haus of Confidence's public surface: the experience pitch is strong once someone walks in, but I couldn't find the same clarity before that moment. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
+      "primaryNote": "Saw one small arrival-confidence / first-visit clarity gap on Haus of Confidence's public surface: the in-person experience pitch is strong once someone walks in, but I couldn't find the same clarity before that moment. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
+      "noLinkFallback": "Saw one small arrival-confidence / first-visit clarity gap on Haus of Confidence's public surface. The in-person experience pitch is strong; the pre-arrival handoff is just less clear. If helpful, I can show the exact first fix I'd start with.",
+      "ultraShortOpener": "Quick Haus of Confidence note: strong in-person pitch, but one arrival-confidence gap stood out.",
       "variantReady": true
     }
   },
@@ -7847,281 +7847,281 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-24 00:24 MDT",
-        "ageMinutes": 8,
-        "ageText": "8m",
+        "ageMinutes": 9,
+        "ageText": "9m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 23:24 MDT",
-        "ageMinutes": 68,
-        "ageText": "1h 8m",
+        "ageMinutes": 69,
+        "ageText": "1h 9m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-23 22:02 MDT",
-        "ageMinutes": 150,
-        "ageText": "2h 30m",
+        "ageMinutes": 151,
+        "ageText": "2h 31m",
         "status": "aging"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-24T00:00:39-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-24T00:00:40-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "aging"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-24T00:00:41-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "aging"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-24T00:00:37-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-24T00:00:41-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "aging"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "consultIntakeProofRouteReadiness": {
         "label": "consult/intake proof-route readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "holidayHoursProofRouteReadiness": {
         "label": "holiday-hours proof-route readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteReadiness": {
         "label": "homepage CTA-clarity proof-route readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "responseWindowProofRouteReadiness": {
         "label": "response-window proof-route readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "pricingClarityProofRouteReadiness": {
         "label": "pricing-clarity proof-route readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteReadiness": {
         "label": "path-choice clarity proof-route readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "gbpReputationProofRouteReadiness": {
         "label": "GBP reputation proof-route readiness",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "arrivalClarityProofRouteReadiness": {
         "label": "arrival-clarity proof-route readiness",
-        "timestamp": "2026-06-24T00:02:40-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "timestamp": "2026-06-24T00:33:01-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-24T00:02:41-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-24T00:00:43-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "consultIntakeProofRouteExecution": {
         "label": "consult/intake proof-route execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "holidayHoursProofRouteExecution": {
         "label": "holiday-hours proof-route execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteExecution": {
         "label": "homepage CTA-clarity proof-route execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "responseWindowProofRouteExecution": {
         "label": "response-window proof-route execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "pricingClarityProofRouteExecution": {
         "label": "pricing-clarity proof-route execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteExecution": {
         "label": "path-choice clarity proof-route execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "gbpReputationProofRouteExecution": {
         "label": "GBP reputation proof-route execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "arrivalClarityProofRouteExecution": {
         "label": "arrival-clarity proof-route execution",
         "timestamp": "2026-06-24T00:02:40-06:00",
-        "ageMinutes": 29,
-        "ageText": "29m",
+        "ageMinutes": 30,
+        "ageText": "30m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-24T00:00:43-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-24T00:00:43-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-24T00:00:43-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-24T00:00:42-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-24T00:00:43-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-24T00:00:43-06:00",
-        "ageMinutes": 31,
-        "ageText": "31m",
+        "ageMinutes": 32,
+        "ageText": "32m",
         "status": "fresh"
       }
     }
