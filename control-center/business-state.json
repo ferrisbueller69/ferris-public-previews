@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-23 21:41 MDT",
-    "generatedAt": "2026-06-23T21:55:51-06:00",
+    "lastUpdated": "2026-06-23 21:56 MDT",
+    "generatedAt": "2026-06-23T21:56:53-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -70,7 +70,7 @@
         "classification": "fetch-blocked"
       }
     ],
-    "fulfillmentCheckAt": "2026-06-23T21:40:53-06:00",
+    "fulfillmentCheckAt": "2026-06-23T21:56:43-06:00",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
     "runtimeHealthCheckAt": "2026-06-23T21:40:59-06:00",
@@ -252,7 +252,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-23",
-    "newestSentAgeMinutes": 2901,
+    "newestSentAgeMinutes": 2902,
     "newestSentAgeText": "2d 0h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -512,7 +512,7 @@
     "etsy": "No verified Product 3 draft row yet; latest signed-in seller proof still shows Draft0 / No listings matched these filters.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger current through 2026-06-23T21:40:53-06:00; signals 3, rows appended 0."
+    "fulfillment": "Logger current through 2026-06-23T21:56:43-06:00; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -5846,6 +5846,91 @@
     ],
     "reserve": {}
   },
+  "consultIntakeProofRouteReadiness": {
+    "checkedAt": "2026-06-23T21:41:00-06:00",
+    "summary": {
+      "status": "researched-tonight / route-support-built / not-yet-attempted",
+      "ready": true,
+      "fullyReady": true,
+      "note": "The consult/intake proof route is now packed with visible target notes, first-message fallback variants, and a live local proof-page draft, so tomorrow can test one fresh high-ticket route without drifting back into stale email copy.",
+      "nextMove": "Tomorrow, attempt at most 3 native-route sends, start with the cleanest contact-form or business-run chat path, use the proof page as the only link when the route allows it, fall back to the no-link or ultra-short opener when needed, and skip any target where the consult/intake gap is not actually visible.",
+      "primaryTargets": 3,
+      "reserveTargets": 1,
+      "ownerVisibleTargets": 3,
+      "routeProofTargets": 3,
+      "copyReadyTargets": 3,
+      "routeReadyTargets": 3,
+      "proofPageTargets": 3,
+      "variantReadyTargets": 3,
+      "reserveVariantReady": true,
+      "hasProofBrief": true,
+      "hasProofPage": true,
+      "hasVariants": true,
+      "topTarget": "Judd Orthodontics",
+      "reserveTarget": "Haus of Confidence",
+      "topProofPage": "ferris-team/consult-intake-proof-page.html"
+    },
+    "targets": [
+      {
+        "name": "Judd Orthodontics",
+        "website": "https://www.juddorthodontics.com/",
+        "ownerProof": "public site exposes `Dr. Jason Judd`",
+        "routeProof": "public site pushes complimentary consultations and exposes both contact-form and live-chat style entry points",
+        "route": "contact form first; visible website chat only if tomorrow's loaded widget still looks clean and business-run",
+        "proofPage": "ferris-team/consult-intake-proof-page.html",
+        "draftNote": "Quick thought after looking at Judd's consult flow: there seems to be one small intake / after-hours handoff gap that could cool good ortho leads before staff reconnects. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Hi Dr. Judd — quick thought after looking at Judd’s consult flow: there seems to be one small intake / after-hours handoff gap that could cool good ortho leads before staff reconnects. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I’d make.",
+        "noLinkFallback": "Hi Dr. Judd — quick idea from Ferris Automations: I spotted one small intake / after-hours handoff gap that may be cooling good consult traffic before staff reconnects. If useful, I can send the short cleanup angle here.",
+        "ultraShortOpener": "Hi Dr. Judd — I spotted one small consult-intake handoff gap. Want the short cleanup angle?",
+        "variantReady": true
+      },
+      {
+        "name": "Burnett Law Office",
+        "website": "https://burnettlawaz.com/",
+        "ownerProof": "public site exposes `Tom Burnett`",
+        "routeProof": "homepage source loads `Tawk.to` live-chat infrastructure on the consultation-led site",
+        "route": "website chat first if the loaded widget still visibly belongs to Burnett; otherwise contact form",
+        "proofPage": "ferris-team/consult-intake-proof-page.html",
+        "draftNote": "Saw one small consult-intake gap on Burnett's public surface — the after-hours handoff could feel tighter before a real callback happens. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix I'd make.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Hi Tom — saw one small consult-intake gap on Burnett’s public surface: the after-hours handoff could feel tighter before a real callback happens. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix I’d make.",
+        "noLinkFallback": "Hi Tom — quick idea from Ferris Automations: I noticed one small consult-intake gap on the public surface that may be easy to tighten after hours. If helpful, I can send the short cleanup angle here.",
+        "ultraShortOpener": "Hi Tom — I noticed one small consult-intake gap on the public surface. Want the short cleanup angle?",
+        "variantReady": true
+      },
+      {
+        "name": "Scottsdale Med Spa",
+        "website": "https://www.scottsdalemedspa.beauty/",
+        "ownerProof": "public site exposes provider/team context including `Lauren Bisswurm, FNP`",
+        "routeProof": "public site is clearly consultation-led and already exposes a business Instagram route plus consult framing",
+        "route": "contact form first if a clean site route is visible tomorrow; business Instagram DM only if the profile still visibly matches the current med-spa brand and the site route is weaker",
+        "proofPage": "ferris-team/consult-intake-proof-page.html",
+        "draftNote": "Noticed one small consult / intake-friction leak on Scottsdale Med Spa's public surface — especially around how a high-intent lead could cool between inquiry and human follow-up. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Hi Scottsdale Med Spa team — noticed one small consult / intake-friction leak on the public surface, especially around how a high-intent lead could cool between inquiry and human follow-up. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "noLinkFallback": "Hi Scottsdale Med Spa team — quick idea from Ferris Automations: I noticed one small consult / intake-friction leak that may be cooling high-intent leads before follow-up. If useful, I can send the short cleanup angle here.",
+        "ultraShortOpener": "Hi Scottsdale Med Spa team — I spotted one small consult-intake friction leak. Want the short cleanup angle?",
+        "variantReady": true
+      }
+    ],
+    "reserve": {
+      "name": "Haus of Confidence",
+      "website": "https://hausofconfidence.com/",
+      "ownerProof": "public site exposes `Dr. Todd Malan` and `Dr. Sara Ameli`",
+      "routeProof": "public site pushes `SCHEDULE A CONSULTATION` and links a business Instagram route",
+      "route": "contact form first if clean tomorrow; otherwise selective business Instagram DM only if the profile visibly matches",
+      "proofPage": "ferris-team/consult-intake-proof-page.html",
+      "draftNote": "Saw one small consult-booking handoff gap on Haus of Confidence's public surface and mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
+      "primaryNote": "Hi Haus of Confidence team — saw one small consult-booking handoff gap on the public surface and mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I’d start with.",
+      "noLinkFallback": "Hi Haus of Confidence team — quick idea from Ferris Automations: I noticed one small consult-booking handoff gap on the public surface. If useful, I can send the short cleanup angle here.",
+      "ultraShortOpener": "Hi Haus of Confidence team — noticed one small consult-booking handoff gap. Want the short cleanup angle?",
+      "variantReady": true
+    }
+  },
   "homepageCtaClarityProofRouteReadiness": {
     "checkedAt": "2026-06-23T21:41:00-06:00",
     "summary": {
@@ -5928,6 +6013,261 @@
       "primaryNote": "Quick homepage thought on Chapter One: the first CTA / trust cue could do a little more to calm a cold visitor into the next step. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the first fix I'd start with.",
       "noLinkFallback": "Quick thought on Chapter One's homepage: the first CTA / trust cue could feel a little clearer for a cold visitor. If useful, I can send the short mockup.",
       "ultraShortOpener": "Quick homepage CTA thought for Chapter One if helpful.",
+      "variantReady": true
+    }
+  },
+  "responseWindowProofRouteReadiness": {
+    "checkedAt": "2026-06-23T21:41:00-06:00",
+    "summary": {
+      "status": "researched-tonight / route-support-built / not-yet-attempted",
+      "ready": true,
+      "fullyReady": true,
+      "note": "The response-window proof route is now packed with visible target notes, first-message fallback variants, and a live local proof-page draft, so tomorrow can test one fresh high-ticket route without drifting back into stale email copy.",
+      "nextMove": "Tomorrow, attempt at most 3 native-route sends, start with the cleanest contact-form path, use the proof page as the only link when the route allows it, fall back to the no-link or ultra-short opener when needed, and skip any target where the response-window / what-happens-next gap is not actually visible.",
+      "primaryTargets": 3,
+      "reserveTargets": 1,
+      "ownerVisibleTargets": 3,
+      "routeProofTargets": 3,
+      "copyReadyTargets": 3,
+      "routeReadyTargets": 3,
+      "proofPageTargets": 3,
+      "variantReadyTargets": 3,
+      "reserveVariantReady": true,
+      "hasProofBrief": true,
+      "hasProofPage": true,
+      "hasVariants": true,
+      "topTarget": "Judd Orthodontics",
+      "reserveTarget": "Chapter One Wellness",
+      "topProofPage": "ferris-team/response-window-proof-page.html"
+    },
+    "targets": [
+      {
+        "name": "Judd Orthodontics",
+        "website": "https://www.juddorthodontics.com/",
+        "ownerProof": "public site exposes `Dr. Jason Judd`",
+        "routeProof": "public site exposes consultation-led contact flow where a clear parent-facing follow-up expectation would plausibly reduce cold-form hesitation",
+        "route": "contact form first; visible website chat only if tomorrow's loaded widget still looks clean and business-run",
+        "proofPage": "ferris-team/response-window-proof-page.html",
+        "draftNote": "Quick thought after looking at Judd's public surface: a short what-happens-next / response-window cue could make the first consult step feel calmer for a cold parent lead. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Quick thought after looking at Judd's public surface: a short what-happens-next / response-window cue could make the first consult step feel calmer for a cold parent lead. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "noLinkFallback": "Quick thought after looking at Judd's homepage: the first consult reach-out could feel more confidence-building if the next-step / reply-window expectation was clearer. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick response-window idea for Judd's homepage if helpful.",
+        "variantReady": true
+      },
+      {
+        "name": "Burnett Law Office",
+        "website": "https://burnettlawaz.com/",
+        "ownerProof": "public site exposes `Tom Burnett`",
+        "routeProof": "homepage source loads `Tawk.to` live-chat infrastructure on the consultation-led site, which makes response expectation and next-step clarity a natural angle",
+        "route": "website chat first if the loaded widget still visibly belongs to Burnett; otherwise contact form",
+        "proofPage": "ferris-team/response-window-proof-page.html",
+        "draftNote": "Saw one small follow-up clarity gap on Burnett's public surface — a clearer what-happens-next / response-window cue could make the first consult reach-out feel more confident. I mocked up the angle here: [proof-page-link]. If helpful, I can point to the exact first fix.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Saw one small follow-up clarity gap on Burnett's public surface — a clearer what-happens-next / response-window cue could make the first consult reach-out feel more confident. I mocked up the angle here: [proof-page-link]. If helpful, I can point to the exact first fix.",
+        "noLinkFallback": "Saw one small follow-up clarity gap on Burnett's public surface — the first consult reach-out could feel clearer if the next-step expectation was more visible. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick response-window thought for Burnett if useful.",
+        "variantReady": true
+      },
+      {
+        "name": "Scottsdale Med Spa",
+        "website": "https://www.scottsdalemedspa.beauty/",
+        "ownerProof": "public site exposes provider/team context including `Lauren Bisswurm, FNP`",
+        "routeProof": "public site is consultation-led and already exposes booking/contact context where a visible callback or reply expectation would fit naturally",
+        "route": "contact form first if a clean site route is visible tomorrow; business Instagram DM only if the profile still visibly matches the current med-spa brand and the site route is weaker",
+        "proofPage": "ferris-team/response-window-proof-page.html",
+        "draftNote": "Noticed one small response-window gap on Scottsdale Med Spa's public surface — the first reach-out could feel more confident if the next-step expectation was clearer. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the first fix if useful.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Noticed one small response-window gap on Scottsdale Med Spa's public surface — the first reach-out could feel more confident if the next-step expectation was clearer. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the first fix if useful.",
+        "noLinkFallback": "Quick thought on Scottsdale Med Spa: the first consult reach-out could feel clearer if the visible response-window / next-step cue was tighter. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick response-window idea for Scottsdale Med Spa if helpful.",
+        "variantReady": true
+      }
+    ],
+    "reserve": {
+      "name": "Chapter One Wellness",
+      "website": "https://chapteronewellness.com/",
+      "ownerProof": "public site keeps owner-practitioner identity visible",
+      "routeProof": "active website contact path exists and this business already sits inside the active non-email packs, making a what-happens-next proof page a clean bounded variation rather than a new cold target",
+      "route": "contact form first; live chat only if tomorrow's in-browser pass shows a genuinely active business-run widget",
+      "proofPage": "ferris-team/response-window-proof-page.html",
+      "draftNote": "Quick thought on Chapter One's public surface: a short what-happens-next / reply-window cue could make the first reach-out feel easier for a cold visitor. I mocked up the angle here: [proof-page-link]. If useful, happy to show the first fix I'd start with.",
+      "primaryNote": "Quick thought on Chapter One's public surface: a short what-happens-next / reply-window cue could make the first reach-out feel easier for a cold visitor. I mocked up the angle here: [proof-page-link]. If useful, happy to show the first fix I'd start with.",
+      "noLinkFallback": "Quick thought on Chapter One: the first reach-out could feel a little easier if the next-step / reply-window expectation was clearer. If useful, I can send the short mockup.",
+      "ultraShortOpener": "Quick response-window thought for Chapter One if helpful.",
+      "variantReady": true
+    }
+  },
+  "pricingClarityProofRouteReadiness": {
+    "checkedAt": "2026-06-23T21:41:00-06:00",
+    "summary": {
+      "status": "researched-tonight / route-support-built / not-yet-attempted",
+      "ready": true,
+      "fullyReady": true,
+      "note": "The pricing-clarity proof route is now packed with visible target notes, first-message fallback variants, and a live local proof-page draft, so tomorrow can test one fresh high-ticket route without drifting back into stale email copy.",
+      "nextMove": "Tomorrow, attempt at most 3 native-route sends, start with the cleanest contact-form path, use the proof page as the only link when the route allows it, fall back to the no-link or ultra-short opener when needed, and skip any target where the pricing-clarity / first-step cost expectation gap is not actually visible.",
+      "primaryTargets": 3,
+      "reserveTargets": 1,
+      "ownerVisibleTargets": 3,
+      "routeProofTargets": 3,
+      "copyReadyTargets": 3,
+      "routeReadyTargets": 3,
+      "proofPageTargets": 3,
+      "variantReadyTargets": 3,
+      "reserveVariantReady": true,
+      "hasProofBrief": true,
+      "hasProofPage": true,
+      "hasVariants": true,
+      "topTarget": "Judd Orthodontics",
+      "reserveTarget": "Haus of Confidence",
+      "topProofPage": "ferris-team/pricing-clarity-proof-page.html"
+    },
+    "targets": [
+      {
+        "name": "Judd Orthodontics",
+        "website": "https://www.juddorthodontics.com/",
+        "ownerProof": "public site exposes `Dr. Jason Judd`",
+        "routeProof": "public site is consultation-led and already asks a cold family to move toward an ortho next step where first-step cost or financing clarity could naturally reduce hesitation",
+        "route": "contact form first; visible website chat only if tomorrow's loaded widget still looks clean and business-run",
+        "proofPage": "ferris-team/pricing-clarity-proof-page.html",
+        "draftNote": "Quick thought after looking at Judd's public surface: a slightly clearer first-step pricing / financing expectation could make the consult CTA feel easier for a cold parent lead. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Quick thought after looking at Judd's public surface: a slightly clearer first-step pricing / financing expectation could make the consult CTA feel easier for a cold parent lead. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "noLinkFallback": "Quick thought after looking at Judd's homepage: the first consult step could feel easier for a cold parent lead if the cost / financing expectation was a little clearer. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick pricing-clarity idea for Judd's homepage if helpful.",
+        "variantReady": true
+      },
+      {
+        "name": "Burnett Law Office",
+        "website": "https://burnettlawaz.com/",
+        "ownerProof": "public site exposes `Tom Burnett`",
+        "routeProof": "homepage source loads `Tawk.to` live-chat infrastructure on the consultation-led site, which makes first-step cost expectation or consult-fee clarity a natural trust angle",
+        "route": "website chat first if the loaded widget still visibly belongs to Burnett; otherwise contact form",
+        "proofPage": "ferris-team/pricing-clarity-proof-page.html",
+        "draftNote": "Saw one small first-step pricing clarity gap on Burnett's public surface — a clearer cost / consult expectation could make the first reach-out feel easier for a cold lead. I mocked up the angle here: [proof-page-link]. If helpful, I can point to the exact first fix.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Saw one small first-step pricing clarity gap on Burnett's public surface — a clearer cost / consult expectation could make the first reach-out feel easier for a cold lead. I mocked up the angle here: [proof-page-link]. If helpful, I can point to the exact first fix.",
+        "noLinkFallback": "Saw one small first-step pricing clarity gap on Burnett's public surface — the first consult reach-out could feel easier if the cost expectation was clearer. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick pricing-clarity thought for Burnett if useful.",
+        "variantReady": true
+      },
+      {
+        "name": "Scottsdale Med Spa",
+        "website": "https://www.scottsdalemedspa.beauty/",
+        "ownerProof": "public site exposes provider/team context including `Lauren Bisswurm, FNP`",
+        "routeProof": "public site is consultation-led and already exposes booking/contact context where first-step treatment or consult-cost framing could plausibly reduce hesitation",
+        "route": "contact form first if a clean site route is visible tomorrow; business Instagram DM only if the profile still visibly matches the current med-spa brand and the site route is weaker",
+        "proofPage": "ferris-team/pricing-clarity-proof-page.html",
+        "draftNote": "Noticed one small pricing-clarity gap on Scottsdale Med Spa's public surface — the first consult step could feel more confident if the cost expectation was a little clearer. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Noticed one small pricing-clarity gap on Scottsdale Med Spa's public surface — the first consult step could feel more confident if the cost expectation was a little clearer. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "noLinkFallback": "Quick thought on Scottsdale Med Spa: the first consult step could feel clearer if the visible cost expectation was tighter. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick pricing-clarity idea for Scottsdale Med Spa if helpful.",
+        "variantReady": true
+      }
+    ],
+    "reserve": {
+      "name": "Haus of Confidence",
+      "website": "https://hausofconfidence.com/",
+      "ownerProof": "public site exposes `Dr. Todd Malan` and `Dr. Sara Ameli`",
+      "routeProof": "public site pushes `SCHEDULE A CONSULTATION`, making first-step cost or financing clarity a believable bounded angle instead of a generic offer",
+      "route": "contact form first if clean tomorrow; otherwise selective business Instagram DM only if the profile visibly matches",
+      "proofPage": "ferris-team/pricing-clarity-proof-page.html",
+      "draftNote": "Saw one small pricing-clarity gap on Haus of Confidence's public surface and mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
+      "primaryNote": "Saw one small pricing-clarity gap on Haus of Confidence's public surface and mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
+      "noLinkFallback": "Quick thought on Haus of Confidence: the first consult step could feel easier if the visible cost expectation was a little clearer. If useful, I can send the short mockup.",
+      "ultraShortOpener": "Quick pricing-clarity thought for Haus of Confidence if helpful.",
+      "variantReady": true
+    }
+  },
+  "pathChoiceClarityProofRouteReadiness": {
+    "checkedAt": "2026-06-23T21:41:26-06:00",
+    "summary": {
+      "status": "researched-tonight / route-support-built / not-yet-attempted",
+      "ready": true,
+      "fullyReady": true,
+      "note": "The path-choice-clarity proof route is now packed with visible target notes, first-message fallback variants, and a live local proof-page draft, so tomorrow can test one fresh high-ticket route without drifting back into stale email copy.",
+      "nextMove": "Tomorrow, attempt at most 3 native-route sends, start with the cleanest contact-form path, use the proof page as the only link when the route allows it, fall back to the no-link or ultra-short opener when needed, and skip any target where the path-choice-clarity / first-step cost expectation gap is not actually visible.",
+      "primaryTargets": 3,
+      "reserveTargets": 1,
+      "ownerVisibleTargets": 3,
+      "routeProofTargets": 3,
+      "copyReadyTargets": 3,
+      "routeReadyTargets": 3,
+      "proofPageTargets": 3,
+      "variantReadyTargets": 3,
+      "reserveVariantReady": true,
+      "hasProofBrief": true,
+      "hasProofPage": true,
+      "hasVariants": true,
+      "topTarget": "Judd Orthodontics",
+      "reserveTarget": "Haus of Confidence",
+      "topProofPage": "ferris-team/path-choice-clarity-proof-page.html"
+    },
+    "targets": [
+      {
+        "name": "Judd Orthodontics",
+        "website": "https://www.juddorthodontics.com/",
+        "ownerProof": "public site exposes `Dr. Jason Judd`",
+        "routeProof": "public site asks a cold family to choose between consult-style actions, forms, and general contact without much guidance on which path fits a quick first-step question versus a true consultation request",
+        "route": "contact form first; visible website chat only if tomorrow's loaded widget still looks clean and business-run",
+        "proofPage": "ferris-team/path-choice-clarity-proof-page.html",
+        "draftNote": "Quick thought after looking at Judd's public surface: the first contact path could feel easier for a cold parent lead if the site made it clearer when to call, book, or just ask the first question. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Quick thought after looking at Judd's public surface: the first contact path could feel easier for a cold parent lead if the site made it clearer when to call, book, or just ask the first question. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
+        "noLinkFallback": "Quick thought after looking at Judd's homepage: the first step could feel easier for a cold parent lead if the site made it clearer when to call, book, or ask a quick question first. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick path-choice clarity idea for Judd's homepage if helpful.",
+        "variantReady": true
+      },
+      {
+        "name": "Burnett Law Office",
+        "website": "https://burnettlawaz.com/",
+        "ownerProof": "public site exposes `Tom Burnett`",
+        "routeProof": "homepage source loads `Tawk.to` live-chat infrastructure on a consultation-led site, which makes call-vs-chat-vs-contact-path clarity a believable trust angle instead of a generic website comment",
+        "route": "website chat first if the loaded widget still visibly belongs to Burnett; otherwise contact form",
+        "proofPage": "ferris-team/path-choice-clarity-proof-page.html",
+        "draftNote": "Saw one small path-choice clarity gap on Burnett's public surface — a colder lead may not immediately know whether to call, use chat, or start with the contact path. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Saw one small path-choice clarity gap on Burnett's public surface — a colder lead may not immediately know whether to call, use chat, or start with the contact path. I mocked up the cleanup angle here: [proof-page-link]. If helpful, I can point to the exact first fix.",
+        "noLinkFallback": "Saw one small path-choice clarity gap on Burnett's public surface — the first reach-out path could feel clearer if call, chat, and contact options were differentiated a little better. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick path-choice clarity thought for Burnett if useful.",
+        "variantReady": true
+      },
+      {
+        "name": "Scottsdale Med Spa",
+        "website": "https://www.scottsdalemedspa.beauty/",
+        "ownerProof": "public site exposes provider/team context including `Lauren Bisswurm, FNP`",
+        "routeProof": "public site is consultation-led and already exposes booking/contact choices where a little more guidance on the right first step could reduce hesitation for a cold aesthetic lead",
+        "route": "contact form first if a clean site route is visible tomorrow; business Instagram DM only if the profile still visibly matches the current med-spa brand and the site route is weaker",
+        "proofPage": "ferris-team/path-choice-clarity-proof-page.html",
+        "draftNote": "Noticed one small path-choice clarity gap on Scottsdale Med Spa's public surface — the first step could feel easier if a new lead could see more clearly when to book, message, or ask a quick question first. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "copyReady": true,
+        "routeReady": true,
+        "primaryNote": "Noticed one small path-choice clarity gap on Scottsdale Med Spa's public surface — the first step could feel easier if a new lead could see more clearly when to book, message, or ask a quick question first. I mocked up the cleanup angle here: [proof-page-link]. Happy to show the exact first fix if useful.",
+        "noLinkFallback": "Quick thought on Scottsdale Med Spa: the first contact path could feel clearer if booking versus quick-question routes were separated a little more cleanly. If useful, I can send the short mockup.",
+        "ultraShortOpener": "Quick path-choice clarity idea for Scottsdale Med Spa if helpful.",
+        "variantReady": true
+      }
+    ],
+    "reserve": {
+      "name": "Haus of Confidence",
+      "website": "https://hausofconfidence.com/",
+      "ownerProof": "public site exposes `Dr. Todd Malan` and `Dr. Sara Ameli`",
+      "routeProof": "public site pushes `SCHEDULE A CONSULTATION`, making first-step route-choice clarity a believable bounded angle for consultation shoppers instead of a generic optimization comment",
+      "route": "contact form first if clean tomorrow; otherwise selective business Instagram DM only if the profile visibly matches",
+      "proofPage": "ferris-team/path-choice-clarity-proof-page.html",
+      "draftNote": "Saw one small path-choice clarity gap on Haus of Confidence's public surface and mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
+      "primaryNote": "Saw one small path-choice clarity gap on Haus of Confidence's public surface and mocked up the cleanup angle here: [proof-page-link]. If helpful, I can show the exact first fix I'd start with.",
+      "noLinkFallback": "Quick thought on Haus of Confidence: the first consult path could feel easier if the site made the best first contact option a little clearer. If useful, I can send the short mockup.",
+      "ultraShortOpener": "Quick path-choice clarity thought for Haus of Confidence if helpful.",
       "variantReady": true
     }
   },
@@ -6200,6 +6540,23 @@
     },
     "entries": []
   },
+  "consultIntakeProofRouteExecution": {
+    "checkedAt": "2026-06-23T21:41:00-06:00",
+    "summary": {
+      "status": "not-started",
+      "attemptsLogged": 0,
+      "completedAttempts": 0,
+      "confirmedSkips": 0,
+      "blockedRoutes": 0,
+      "started": false,
+      "hasCompletedAttempt": false,
+      "topCompletedTarget": "none",
+      "lastCompletedTarget": "none",
+      "note": "No consult/intake proof-route attempts are logged yet; the method is researched but unstarted.",
+      "nextMove": "Tomorrow, start with Judd Orthodontics, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
+    },
+    "entries": []
+  },
   "homepageCtaClarityProofRouteExecution": {
     "checkedAt": "2026-06-23T21:41:01-06:00",
     "summary": {
@@ -6213,6 +6570,57 @@
       "topCompletedTarget": "none",
       "lastCompletedTarget": "none",
       "note": "No homepage CTA-clarity proof-route attempts are logged yet; the method is researched but unstarted.",
+      "nextMove": "Tomorrow, start with Judd Orthodontics, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
+    },
+    "entries": []
+  },
+  "responseWindowProofRouteExecution": {
+    "checkedAt": "2026-06-23T21:41:01-06:00",
+    "summary": {
+      "status": "not-started",
+      "attemptsLogged": 0,
+      "completedAttempts": 0,
+      "confirmedSkips": 0,
+      "blockedRoutes": 0,
+      "started": false,
+      "hasCompletedAttempt": false,
+      "topCompletedTarget": "none",
+      "lastCompletedTarget": "none",
+      "note": "No response-window proof-route attempts are logged yet; the method is researched but unstarted.",
+      "nextMove": "Tomorrow, start with Judd Orthodontics, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
+    },
+    "entries": []
+  },
+  "pricingClarityProofRouteExecution": {
+    "checkedAt": "2026-06-23T21:41:01-06:00",
+    "summary": {
+      "status": "not-started",
+      "attemptsLogged": 0,
+      "completedAttempts": 0,
+      "confirmedSkips": 0,
+      "blockedRoutes": 0,
+      "started": false,
+      "hasCompletedAttempt": false,
+      "topCompletedTarget": "none",
+      "lastCompletedTarget": "none",
+      "note": "No pricing-clarity proof-route attempts are logged yet; the method is researched but unstarted.",
+      "nextMove": "Tomorrow, start with Judd Orthodontics, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
+    },
+    "entries": []
+  },
+  "pathChoiceClarityProofRouteExecution": {
+    "checkedAt": "2026-06-23T21:41:26-06:00",
+    "summary": {
+      "status": "not-started",
+      "attemptsLogged": 0,
+      "completedAttempts": 0,
+      "confirmedSkips": 0,
+      "blockedRoutes": 0,
+      "started": false,
+      "hasCompletedAttempt": false,
+      "topCompletedTarget": "none",
+      "lastCompletedTarget": "none",
+      "note": "No path-choice-clarity proof-route attempts are logged yet; the method is researched but unstarted.",
       "nextMove": "Tomorrow, start with Judd Orthodontics, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
     },
     "entries": []
@@ -6928,253 +7336,253 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-23 21:31 MDT",
-        "ageMinutes": 24,
-        "ageText": "24m",
+        "ageMinutes": 25,
+        "ageText": "25m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-23 21:11 MDT",
-        "ageMinutes": 44,
-        "ageText": "44m",
+        "ageMinutes": 45,
+        "ageText": "45m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-23 21:11 MDT",
-        "ageMinutes": 44,
-        "ageText": "44m",
+        "ageMinutes": 45,
+        "ageText": "45m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-23T21:40:57-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-23T21:40:58-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-23T21:40:59-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-23T21:40:53-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "timestamp": "2026-06-23T21:56:43-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-23T21:40:59-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "consultIntakeProofRouteReadiness": {
         "label": "consult/intake proof-route readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteReadiness": {
         "label": "homepage CTA-clarity proof-route readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "responseWindowProofRouteReadiness": {
         "label": "response-window proof-route readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "pricingClarityProofRouteReadiness": {
         "label": "pricing-clarity proof-route readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteReadiness": {
         "label": "path-choice clarity proof-route readiness",
         "timestamp": "2026-06-23T21:41:26-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "gbpReputationProofRouteReadiness": {
         "label": "GBP reputation proof-route readiness",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-23T21:41:26-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "consultIntakeProofRouteExecution": {
         "label": "consult/intake proof-route execution",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteExecution": {
         "label": "homepage CTA-clarity proof-route execution",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "responseWindowProofRouteExecution": {
         "label": "response-window proof-route execution",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "pricingClarityProofRouteExecution": {
         "label": "pricing-clarity proof-route execution",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteExecution": {
         "label": "path-choice clarity proof-route execution",
         "timestamp": "2026-06-23T21:41:26-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "gbpReputationProofRouteExecution": {
         "label": "GBP reputation proof-route execution",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-23T21:41:00-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-23T21:41:01-06:00",
-        "ageMinutes": 14,
-        "ageText": "14m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       }
     }
