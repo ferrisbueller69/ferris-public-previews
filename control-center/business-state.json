@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-24 03:32 MDT",
-    "generatedAt": "2026-06-24T03:35:32-06:00",
+    "generatedAt": "2026-06-24T03:36:34-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -156,6 +156,24 @@
       "HTN"
     ],
     "contactFormReadinessCheckedAt": "2026-06-24T03:30:18-06:00",
+    "websiteLiveChatReadinessCheckedAt": "2026-06-24T03:30:18-06:00",
+    "websiteLiveChatPackStatus": "researched-tonight / execute-tomorrow",
+    "websiteLiveChatReady": true,
+    "websiteLiveChatPrimaryTargets": 3,
+    "websiteLiveChatReserveTargets": 0,
+    "websiteLiveChatTopTarget": "Judd Orthodontics",
+    "websiteLiveChatCopyReady": true,
+    "websiteLiveChatFullyReady": true,
+    "websiteLiveChatExecutionCheckedAt": "2026-06-24T03:30:20-06:00",
+    "websiteLiveChatExecutionStatus": "unstarted",
+    "websiteLiveChatAttemptsLogged": 0,
+    "websiteLiveChatCompletedAttempts": 0,
+    "websiteLiveChatConfirmedChats": 0,
+    "websiteLiveChatLiveConnections": 0,
+    "websiteLiveChatBlockedRoutes": 0,
+    "websiteLiveChatExecutionStarted": false,
+    "websiteLiveChatHasCompletedAttempt": false,
+    "websiteLiveChatTopCompletedTarget": "none",
     "nonEmailMethodBoardCheckedAt": "2026-06-24T03:30:22-06:00",
     "nonEmailMethodBoardStatus": "blocked-route-pivot-ready",
     "nonEmailReadyMethods": 20,
@@ -249,7 +267,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-24",
-    "newestSentAgeMinutes": 3241,
+    "newestSentAgeMinutes": 3242,
     "newestSentAgeText": "2d 6h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -682,7 +700,7 @@
   },
   "timeboxBrief": {
     "window": "off-hours",
-    "localTime": "2026-06-24 03:35 MDT",
+    "localTime": "2026-06-24 03:36 MDT",
     "rule": "Keep buyer-facing routes staged; use the night window for prep, control sync, merch support, and skill capture.",
     "headline": "Night-safe work only",
     "primary": "Merch support around CHAD stays the safest storefront move.",
@@ -5226,6 +5244,84 @@
       "linkSafeReady": true
     }
   },
+  "websiteLiveChatReadiness": {
+    "checkedAt": "2026-06-24T03:30:18-06:00",
+    "summary": {
+      "status": "researched-tonight / execute-tomorrow",
+      "ready": true,
+      "copyReady": true,
+      "fullyReady": true,
+      "note": "The browser-native website live-chat route is packed, variant-copy-ready, and sidesteps the blocked local SMS surface, but every widget still needs visible in-browser confirmation before any attempt counts.",
+      "nextMove": "Tomorrow, start with the top ranked site-chat target, keep the pass capped at 5 visible attempts, use the primary note only when the widget is clean, drop to the no-link or ultra-short opener when the UI is tight, skip bot-maze widgets fast, and count output only after a real browser chat message is actually submitted and logged.",
+      "primaryTargets": 3,
+      "reserveTargets": 0,
+      "ownerVisibleTargets": 3,
+      "routeProofTargets": 3,
+      "copyReadyTargets": 3,
+      "noLinkReadyTargets": 3,
+      "ultraShortReadyTargets": 3,
+      "hasOpenerVariants": true,
+      "websiteChatTargets": 3,
+      "topTarget": "Judd Orthodontics",
+      "reserveTarget": "none",
+      "proofPages": [
+        "ferris-team/missed-call-proof-page-dental.html",
+        "ferris-team/missed-call-proof-page-law.html",
+        "ferris-team/missed-call-proof-page-wellness.html"
+      ]
+    },
+    "targets": [
+      {
+        "name": "Judd Orthodontics",
+        "website": "https://www.juddorthodontics.com/",
+        "ownerProof": "public site exposes `Dr. Jason Judd`",
+        "routeProof": "homepage source loads `Drift` live-chat infrastructure alongside the appointment-heavy ortho site flow",
+        "route": "visible website chat widget only if tomorrow's loaded widget still clearly belongs to Judd and accepts a clean owner-visible opener without fake patient framing",
+        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
+        "draftNote": "Hi Dr. Judd — saw Judd already runs a website chat path. Quick idea: missed ortho consult calls can trigger a calm text-back so more starts stay warm before the team follows up. Short ortho example here: [proof-page-link]. If useful, happy to map one around your current flow.",
+        "copyReady": true,
+        "websiteChatCapable": true,
+        "primaryNote": "Hi Dr. Judd — saw Judd already runs a website chat path. Quick idea: missed ortho consult calls can trigger a calm text-back so more starts stay warm before the team follows up. Short ortho example here: [proof-page-link]. If useful, happy to map one around your current flow.",
+        "noLinkFallback": "Hi Dr. Judd — quick idea from Ferris Automations: missed ortho consult calls can trigger a calm text-back so more starts stay warm before the team follows up. If useful, I can send a short example built around your current flow.",
+        "ultraShortOpener": "Hi Dr. Judd — quick ortho chat idea: missed consult calls could trigger a calm text-back before follow-up. Want the short example?",
+        "noLinkReady": true,
+        "ultraShortReady": true
+      },
+      {
+        "name": "Burnett Law Office",
+        "website": "https://burnettlawaz.com/",
+        "ownerProof": "public site exposes `Tom Burnett`",
+        "routeProof": "homepage source loads `Tawk.to` live-chat infrastructure on the surname-branded consultation site",
+        "route": "visible website chat widget only if tomorrow's loaded widget still clearly belongs to Burnett and allows a short consultation-intake opener without pretending to be a legal prospect",
+        "proofPage": "ferris-team/missed-call-proof-page-law.html",
+        "draftNote": "Hi Tom — saw Burnett already runs a website chat path. Quick idea: after-hours consultation inquiries can get an immediate text-back so fewer injury leads drift before your team reconnects. Short intake example here: [proof-page-link]. If useful, I can map one around your current consult flow.",
+        "copyReady": true,
+        "websiteChatCapable": true,
+        "primaryNote": "Hi Tom — saw Burnett already runs a website chat path. Quick idea: after-hours consultation inquiries can get an immediate text-back so fewer injury leads drift before your team reconnects. Short intake example here: [proof-page-link]. If useful, I can map one around your current consult flow.",
+        "noLinkFallback": "Hi Tom — quick idea from Ferris Automations: after-hours consultation inquiries can get an immediate text-back so fewer injury leads drift before your team reconnects. If useful, I can send a short example built around your current intake flow.",
+        "ultraShortOpener": "Hi Tom — quick intake idea: after-hours consult inquiries could trigger a text-back before your team reconnects. Want the short example?",
+        "noLinkReady": true,
+        "ultraShortReady": true
+      },
+      {
+        "name": "Chapter One Wellness",
+        "website": "https://chapteronewellness.com/",
+        "ownerProof": "site schema and public copy expose `Dr. Michelle Pettitt`",
+        "routeProof": "public site copy references live chat support alongside the visible text-us CTA",
+        "route": "website chat only if tomorrow's visible browser chat route is cleaner than the blocked SMS handoff and clearly business-run in-session",
+        "proofPage": "ferris-team/missed-call-proof-page-wellness.html",
+        "draftNote": "Hi Dr. Pettitt — saw Chapter One already references live chat support on the site. Quick idea: after-hours wellness questions or missed calls can get a calm text-back so staff has context before follow-up. Short example here: [proof-page-link]. If useful, happy to map one around your current intake flow.",
+        "copyReady": true,
+        "websiteChatCapable": true,
+        "primaryNote": "Hi Dr. Pettitt — saw Chapter One already references live chat support on the site. Quick idea: after-hours wellness questions or missed calls can get a calm text-back so staff has context before follow-up. Short example here: [proof-page-link]. If useful, happy to map one around your current intake flow.",
+        "noLinkFallback": "Hi Dr. Pettitt — quick idea from Ferris Automations: after-hours wellness questions or missed calls can get a calm text-back so staff has context before follow-up. If useful, I can send a short example built around your current intake flow.",
+        "ultraShortOpener": "Hi Dr. Pettitt — quick wellness chat idea: missed calls or after-hours questions could trigger a calm text-back before follow-up. Want the short example?",
+        "noLinkReady": true,
+        "ultraShortReady": true
+      }
+    ],
+    "reserve": {}
+  },
   "contactFormExecution": {
     "checkedAt": "2026-06-24T03:30:20-06:00",
     "summary": {
@@ -5240,6 +5336,27 @@
       "lastConfirmedTarget": "none",
       "note": "No contact-form execution attempts are logged yet; the route is still tomorrow-ready but unstarted.",
       "nextMove": "Tomorrow, log each real route attempt in the execution log and count output only when a visible confirmation appears."
+    },
+    "entries": []
+  },
+  "websiteLiveChatExecution": {
+    "checkedAt": "2026-06-24T03:30:20-06:00",
+    "summary": {
+      "status": "unstarted",
+      "attemptsLogged": 0,
+      "completedAttempts": 0,
+      "sentMessages": 0,
+      "liveConnections": 0,
+      "confirmedSkips": 0,
+      "blockedRoutes": 0,
+      "started": false,
+      "hasCompletedAttempt": false,
+      "hasSentMessage": false,
+      "hasLiveConnection": false,
+      "topCompletedTarget": "none",
+      "lastCompletedTarget": "none",
+      "note": "No website live-chat execution attempts are logged yet; the method is packed but unstarted.",
+      "nextMove": "Tomorrow, log each real website live-chat route attempt in the execution log and count output only when the browser chat itself is actually completed."
     },
     "entries": []
   },
@@ -8082,309 +8199,309 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-24 03:32 MDT",
-        "ageMinutes": 3,
-        "ageText": "3m",
+        "ageMinutes": 4,
+        "ageText": "4m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-24 03:25 MDT",
-        "ageMinutes": 10,
-        "ageText": "10m",
+        "ageMinutes": 11,
+        "ageText": "11m",
         "status": "fresh"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-24 03:15 MDT",
-        "ageMinutes": 20,
-        "ageText": "20m",
+        "ageMinutes": 21,
+        "ageText": "21m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-24T03:30:15-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-24T03:30:16-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-24T03:30:17-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-24T03:30:11-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-24T03:30:17-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-24T03:30:21-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "websiteLiveChatReadiness": {
         "label": "website live-chat readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "websiteLiveChatExecution": {
         "label": "website live-chat execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "consultIntakeProofRouteReadiness": {
         "label": "consult/intake proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "holidayHoursProofRouteReadiness": {
         "label": "holiday-hours proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteReadiness": {
         "label": "homepage CTA-clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "responseWindowProofRouteReadiness": {
         "label": "response-window proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "pricingClarityProofRouteReadiness": {
         "label": "pricing-clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteReadiness": {
         "label": "path-choice clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "serviceFitClarityProofRouteReadiness": {
         "label": "service-fit clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "gbpReputationProofRouteReadiness": {
         "label": "GBP reputation proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "arrivalClarityProofRouteReadiness": {
         "label": "arrival-clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-24T03:30:22-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "consultIntakeProofRouteExecution": {
         "label": "consult/intake proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "holidayHoursProofRouteExecution": {
         "label": "holiday-hours proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteExecution": {
         "label": "homepage CTA-clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "responseWindowProofRouteExecution": {
         "label": "response-window proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "pricingClarityProofRouteExecution": {
         "label": "pricing-clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteExecution": {
         "label": "path-choice clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "serviceFitClarityProofRouteExecution": {
         "label": "service-fit clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "gbpReputationProofRouteExecution": {
         "label": "GBP reputation proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "arrivalClarityProofRouteExecution": {
         "label": "arrival-clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-24T03:30:21-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-24T03:30:22-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-24T03:30:21-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       }
     }
