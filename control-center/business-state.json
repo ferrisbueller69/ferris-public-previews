@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-06-29 14:56 MDT",
-    "generatedAt": "2026-06-29T15:07:43-06:00",
+    "generatedAt": "2026-06-29T15:08:46-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -25,7 +25,7 @@
         {
           "key": "currentState",
           "label": "current state",
-          "age": "17h 27m",
+          "age": "17h 28m",
           "status": "stale"
         },
         {
@@ -43,7 +43,7 @@
         {
           "key": "publicMetadata",
           "label": "public metadata",
-          "age": "18h 29m",
+          "age": "18h 30m",
           "status": "stale"
         },
         {
@@ -61,7 +61,7 @@
         {
           "key": "runtimeHealth",
           "label": "control runtime",
-          "age": "35m",
+          "age": "36m",
           "status": "aging"
         },
         {
@@ -526,7 +526,7 @@
     },
     "newestSentLocalDay": "2026-06-21",
     "todayLocalDay": "2026-06-29",
-    "newestSentAgeMinutes": 11133,
+    "newestSentAgeMinutes": 11134,
     "newestSentAgeText": "7d 17h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -959,7 +959,7 @@
   },
   "timeboxBrief": {
     "window": "daytime",
-    "localTime": "2026-06-29 15:07 MDT",
+    "localTime": "2026-06-29 15:08 MDT",
     "rule": "Use the highest-ranked ready route first and pivot immediately if it blocks.",
     "headline": "Dashboard truth + control-layer sync",
     "primary": "Keep the machine-readable state and widget aligned with the latest verified lane truth.",
@@ -8478,308 +8478,308 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-29 14:56 MDT",
-        "ageMinutes": 11,
-        "ageText": "11m",
+        "ageMinutes": 12,
+        "ageText": "12m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-28 21:40 MDT",
-        "ageMinutes": 1047,
-        "ageText": "17h 27m",
+        "ageMinutes": 1048,
+        "ageText": "17h 28m",
         "status": "stale"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-24 03:15 MDT",
-        "ageMinutes": 7912,
+        "ageMinutes": 7913,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-06-24T03:30:15-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-06-28T20:38:32-06:00",
-        "ageMinutes": 1109,
-        "ageText": "18h 29m",
+        "ageMinutes": 1110,
+        "ageText": "18h 30m",
         "status": "stale"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-24T03:30:17-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-06-24T03:30:11-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-29T14:31:53-06:00",
-        "ageMinutes": 35,
-        "ageText": "35m",
+        "ageMinutes": 36,
+        "ageText": "36m",
         "status": "aging"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-24T03:30:21-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "websiteLiveChatReadiness": {
         "label": "website live-chat readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "websiteLiveChatExecution": {
         "label": "website live-chat execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-24T03:30:18-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "consultIntakeProofRouteReadiness": {
         "label": "consult/intake proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "holidayHoursProofRouteReadiness": {
         "label": "holiday-hours proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "homepageCtaClarityProofRouteReadiness": {
         "label": "homepage CTA-clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "responseWindowProofRouteReadiness": {
         "label": "response-window proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "pricingClarityProofRouteReadiness": {
         "label": "pricing-clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "pathChoiceClarityProofRouteReadiness": {
         "label": "path-choice clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "serviceFitClarityProofRouteReadiness": {
         "label": "service-fit clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "gbpReputationProofRouteReadiness": {
         "label": "GBP reputation proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "arrivalClarityProofRouteReadiness": {
         "label": "arrival-clarity proof-route readiness",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-06-24T03:30:22-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "consultIntakeProofRouteExecution": {
         "label": "consult/intake proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "holidayHoursProofRouteExecution": {
         "label": "holiday-hours proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "homepageCtaClarityProofRouteExecution": {
         "label": "homepage CTA-clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "responseWindowProofRouteExecution": {
         "label": "response-window proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "pricingClarityProofRouteExecution": {
         "label": "pricing-clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "pathChoiceClarityProofRouteExecution": {
         "label": "path-choice clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "serviceFitClarityProofRouteExecution": {
         "label": "service-fit clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "gbpReputationProofRouteExecution": {
         "label": "GBP reputation proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "arrivalClarityProofRouteExecution": {
         "label": "arrival-clarity proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-24T03:30:20-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-24T03:30:21-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-24T03:30:19-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-24T03:30:22-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-24T03:30:21-06:00",
-        "ageMinutes": 7897,
+        "ageMinutes": 7898,
         "ageText": "5d 11h",
         "status": "stale"
       }
