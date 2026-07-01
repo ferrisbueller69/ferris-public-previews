@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-30 19:36 MDT",
-    "generatedAt": "2026-06-30T19:49:59-06:00",
+    "lastUpdated": "2026-06-30 19:51 MDT",
+    "generatedAt": "2026-06-30T19:51:02-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -25,13 +25,13 @@
         {
           "key": "currentState",
           "label": "current state",
-          "age": "1h 41m",
+          "age": "1h 43m",
           "status": "aging"
         },
         {
           "key": "storefrontStatus",
           "label": "storefront status",
-          "age": "9h 2m",
+          "age": "9h 4m",
           "status": "stale"
         }
       ]
@@ -84,13 +84,13 @@
       }
     ],
     "fulfillmentCheckAt": "2026-06-24T03:30:11-06:00",
-    "fulfillmentAttemptedAt": "2026-06-30T19:30:45-06:00",
-    "fulfillmentFreshnessBaseAt": "2026-06-30T19:30:45-06:00",
+    "fulfillmentAttemptedAt": "2026-06-30T19:50:57-06:00",
+    "fulfillmentFreshnessBaseAt": "2026-06-30T19:50:57-06:00",
     "fulfillmentFreshnessBaseKind": "attempted-blocked",
     "fulfillmentStatus": "blocked",
     "fulfillmentWriterOk": false,
-    "fulfillmentBlockKind": "auth-expired",
-    "fulfillmentBlockCode": "invalid_grant",
+    "fulfillmentBlockKind": "writer-failure",
+    "fulfillmentBlockCode": "unknown",
     "commerceSignalsFound": 3,
     "fulfillmentRowsAppended": 0,
     "runtimeHealthCheckAt": "2026-06-30T19:31:03-06:00",
@@ -176,7 +176,7 @@
       "MTN",
       "HTN"
     ],
-    "contactFormReadinessCheckedAt": "2026-06-30T19:31:05-06:00",
+    "contactFormReadinessCheckedAt": "2026-06-30T19:50:57-06:00",
     "websiteLiveChatReadinessCheckedAt": "2026-06-30T19:31:05-06:00",
     "websiteLiveChatPackStatus": "researched-tonight / execute-tomorrow",
     "websiteLiveChatReady": true,
@@ -195,7 +195,7 @@
     "websiteLiveChatExecutionStarted": true,
     "websiteLiveChatHasCompletedAttempt": false,
     "websiteLiveChatTopCompletedTarget": "none",
-    "nonEmailMethodBoardCheckedAt": "2026-06-30T19:31:07-06:00",
+    "nonEmailMethodBoardCheckedAt": "2026-06-30T19:50:57-06:00",
     "nonEmailMethodBoardStatus": "execution-started",
     "nonEmailReadyMethods": 21,
     "nonEmailFullyReadyMethods": 20,
@@ -204,17 +204,17 @@
     "nonEmailTopMethod": "Contact form",
     "nonEmailTopMethodKey": "contactForm",
     "nonEmailTopMethodStatus": "executing",
-    "nonEmailTopMethodTarget": "Judd Orthodontics",
+    "nonEmailTopMethodTarget": "East Valley Dental Care",
     "nonEmailTopMethodApprovalGated": false,
     "nonEmailTopMethodApprovalGateReason": "none",
     "nonEmailBlockedLeadMethod": "Website live chat",
     "nonEmailBlockedLeadMethodTarget": "Burnett Law Office",
     "nonEmailBlockedRouteFallbackMethod": "Contact form",
     "nonEmailBlockedRouteFallbackStatus": "executing",
-    "nonEmailBlockedRouteFallbackTarget": "Judd Orthodontics",
+    "nonEmailBlockedRouteFallbackTarget": "East Valley Dental Care",
     "nonEmailApprovalFreeShortlistMethod": "Contact form",
     "nonEmailApprovalFreeShortlistStatus": "executing",
-    "nonEmailApprovalFreeShortlistTarget": "Judd Orthodontics",
+    "nonEmailApprovalFreeShortlistTarget": "East Valley Dental Care",
     "nonEmailApprovalFreeShortlistReason": "best ready non-approval-gated fallback",
     "microAuditProofRouteReadinessCheckedAt": "2026-06-30T19:31:05-06:00",
     "microAuditProofRouteStatus": "researched-tonight / pages-built / execute-tomorrow",
@@ -237,14 +237,14 @@
     "contactFormPackReady": true,
     "contactFormPrimaryTargets": 5,
     "contactFormReserveTargets": 1,
-    "contactFormTopTarget": "Judd Orthodontics",
+    "contactFormTopTarget": "East Valley Dental Care",
     "contactFormReserveTarget": "Desert Sage Family Dental",
     "contactFormCopyReady": true,
     "contactFormFullyReady": true,
     "contactFormNoteVariantTargets": 5,
     "contactFormLinkSafeTargets": 5,
-    "contactFormBrowserOnlyTargets": 3,
-    "contactFormExecutionCheckedAt": "2026-06-30T19:31:06-06:00",
+    "contactFormBrowserOnlyTargets": 2,
+    "contactFormExecutionCheckedAt": "2026-06-30T19:50:57-06:00",
     "contactFormExecutionStatus": "started / blocked proof only / no verified submits yet",
     "contactFormAttemptsLogged": 5,
     "contactFormConfirmedSubmits": 0,
@@ -284,7 +284,7 @@
     "highTicketShare": "88.24%",
     "visibleBounces": 1,
     "verifiedReplies": 0,
-    "lastChecked": "2026-06-30T19:31:01-06:00",
+    "lastChecked": "2026-06-30T19:51:00-06:00",
     "inboxStatus": "No owner/manager replies found in the latest 12 INBOX messages.",
     "newestSent": {
       "id": "92",
@@ -294,8 +294,8 @@
     },
     "newestSentLocalDay": "2026-06-30",
     "todayLocalDay": "2026-06-30",
-    "newestSentAgeMinutes": 248,
-    "newestSentAgeText": "4h 8m",
+    "newestSentAgeMinutes": 250,
+    "newestSentAgeText": "4h 10m",
     "verifiedOutputFlat": false,
     "pressureStatus": "active",
     "pressureNote": "Recent verified high-ticket output is still fresh enough that reply-watch can stay ahead of forced send volume.",
@@ -312,14 +312,14 @@
     "nonEmailMethodBoardTopMethod": "Contact form",
     "nonEmailMethodBoardTopMethodKey": "contactForm",
     "nonEmailMethodBoardTopMethodStatus": "executing",
-    "nonEmailMethodBoardTopMethodTarget": "Judd Orthodontics",
+    "nonEmailMethodBoardTopMethodTarget": "East Valley Dental Care",
     "nonEmailMethodBoardNote": "A non-email route has started cleanly, so the board should hold execution order steady and avoid re-ranking half-finished work.",
     "nonEmailMethodBoardNextMove": "Finish or clearly block the in-flight method before widening into another packed route.",
     "nonEmailMethodStatus": "submit-ready / sender payload frozen for required callback fields",
     "nonEmailMethodReady": true,
     "nonEmailMethodPrimaryTargets": 5,
     "nonEmailMethodReserveTargets": 1,
-    "nonEmailMethodTopTarget": "Judd Orthodontics",
+    "nonEmailMethodTopTarget": "East Valley Dental Care",
     "nonEmailMethodCopyReady": true,
     "nonEmailMethodFullyReady": true,
     "nonEmailMethodNoteVariantTargets": 5,
@@ -599,7 +599,7 @@
     "etsy": "No verified Product 3 draft row yet; latest signed-in seller proof still shows Draft0 / No listings matched these filters.",
     "gumroad": "Use native Gumroad distribution/discovery only; next clean move is a truthful metadata/discovery lift on the live Posts + Products surfaces.",
     "fiverr": "Parked at Publish; blocker is identity + w-9 gate.",
-    "fulfillment": "Logger last verified 2026-06-24T03:30:11-06:00; latest attempt 2026-06-30T19:30:45-06:00; status blocked; signals 3, rows appended 0."
+    "fulfillment": "Logger last verified 2026-06-24T03:30:11-06:00; latest attempt 2026-06-30T19:50:57-06:00; status blocked; signals 3, rows appended 0."
   },
   "lanes": {
     "etsyProduct3": {
@@ -626,7 +626,7 @@
     "outreach": {
       "label": "Outreach",
       "status": "watch-only",
-      "proof": "30 high-ticket verified sends (34 total logged), 0 verified replies, 1 visible bounce, newest verified send age 4h 8m; No owner/manager replies found in the latest 12 INBOX messages.",
+      "proof": "30 high-ticket verified sends (34 total logged), 0 verified replies, 1 visible bounce, newest verified send age 4h 10m; No owner/manager replies found in the latest 12 INBOX messages.",
       "nextMove": "Keep the lane on reply/bounce watch or better-contact sourcing only; no inbound handling without Kritz approval.",
       "constraint": "Do not widen into weaker generic inboxes and do not reply to inbound without Kritz approval."
     },
@@ -727,10 +727,10 @@
   },
   "timeboxBrief": {
     "window": "daytime",
-    "localTime": "2026-06-30 19:49 MDT",
+    "localTime": "2026-06-30 19:51 MDT",
     "rule": "Run the cleanest ready non-email/native route first, pivot immediately if it blocks, and keep seller-side merch in support mode until auth truth is clean again.",
-    "headline": "Contact form → Judd Orthodontics",
-    "primary": "Run Contact form → Judd Orthodontics first; Merch is not clean, so keep seller work inside support/control lanes and let the next ready non-email/native route lead daytime work.",
+    "headline": "Contact form → East Valley Dental Care",
+    "primary": "Run Contact form → East Valley Dental Care first; Merch is not clean, so keep seller work inside support/control lanes and let the next ready non-email/native route lead daytime work.",
     "secondary": "Native consult → Chapter One Wellness",
     "fallback": "Website live chat → Burnett Law Office",
     "defer": "Do seller-session recovery first; until then, keep merch work inside reversible support lanes such as packet prep, control-layer truth, or native-method packaging.",
@@ -740,13 +740,13 @@
     "merchModeCleanPacket": "CHAD Tee Packet",
     "merchModeNoisyPacket": "Missed Calls Cost Money Sticker Packet",
     "merchModeSearchClearPacket": "LOOKSMAXING Sticker Packet",
-    "daytimeTopRoute": "Contact form → Judd Orthodontics",
+    "daytimeTopRoute": "Contact form → East Valley Dental Care",
     "daytimeTopRouteStatus": "executing",
     "daytimeImmediateFallback": "Native consult → Chapter One Wellness",
     "daytimeNativeFallback": "Native consult → Chapter One Wellness",
     "daytimeBlockedPivot": "Website live chat → Burnett Law Office",
     "outreachPressureStatus": "active",
-    "outreachPressureAge": "4h 8m",
+    "outreachPressureAge": "4h 10m",
     "outreachPressureNote": "Recent verified high-ticket output is still fresh enough that reply-watch can stay ahead of forced send volume.",
     "priorityShift": "Merch is not clean, so keep seller work inside support/control lanes and let the next ready non-email/native route lead daytime work."
   },
@@ -770,7 +770,7 @@
     "2026-06-30 19:08 MDT: Synced the Kettle row to the exact ordering / carryout / delivery meta plus `Contact Form | Catering Available`, so the queue now leads with the sharper ordering, catering, and contact clue."
   ],
   "discovery": {
-    "checkedAt": "2026-06-30T19:31:02-06:00",
+    "checkedAt": "2026-06-30T19:51:01-06:00",
     "weakestSurface": "Gumroad post",
     "weakestClassification": "usable",
     "weakestUrl": "https://kritzferra.gumroad.com/p/introducing-ferris-local-business-messaging-bundle",
@@ -5280,7 +5280,7 @@
     ]
   },
   "contactFormReadiness": {
-    "checkedAt": "2026-06-30T19:31:05-06:00",
+    "checkedAt": "2026-06-30T19:50:57-06:00",
     "summary": {
       "status": "submit-ready / sender payload frozen for required callback fields",
       "ready": true,
@@ -5307,9 +5307,9 @@
       "hasApprovedCallbackNumber": true,
       "senderPayloadBlocked": false,
       "senderPayloadNote": "before a real submit, freeze one honest sender payload for every required field the live form asks for approved callback number for business outreach contact forms: `303-552-4463` frozen sender payload for callback-required forms on this route: `Full Name` / sender name: `Levi Kritzik` `Your Email` / sender email: `kritzferris@gmail.com` `Your Cell Phone` / callback number: `303-552-4463` as of the 2026-06-30 Judd browser pass, the live form visibly requires `Full Name`, `Your Email`, `Your Cell Phone`, message text, and the T&C checkbox, so this frozen sender payload now clears the earlier callback-number blocker for a bounded honest submit attempt as of the 2026-06-30 Judd Safari pass, that same route can still escalate into a visible reCAPTCHA image challenge after the sender payload is filled; treat that as anti-bot friction, not a submit as of the 2026-06-30 Radiant browser pass, the live iframe form also visibly requires `First Name`, `Last Name`, `Email`, and `Phone`; reuse the same approved sender identity and callback number there if the route stays owner-visible and non-intake",
-      "browserOnlyTargets": 3,
-      "antiBotTargets": 2,
-      "topTarget": "Judd Orthodontics",
+      "browserOnlyTargets": 2,
+      "antiBotTargets": 3,
+      "topTarget": "East Valley Dental Care",
       "reserveTarget": "Desert Sage Family Dental",
       "proofPages": [
         "ferris-team/missed-call-proof-page-dental.html"
@@ -5317,43 +5317,13 @@
     },
     "targets": [
       {
-        "name": "Judd Orthodontics",
-        "website": "https://www.juddorthodontics.com/",
-        "ownerProof": "`Dr. Jason Judd`",
-        "routeProof": "`Contact | Judd Orthodontics, Mesa, AZ` page live at `https://www.juddorthodontics.com/contact/`",
-        "route": "contact / appointment path",
-        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
-        "browserOnly": false,
-        "antiBot": false,
-        "primaryNote": "Hi Dr. Judd — noticed Judd already leans into complimentary consults, Dental Monitoring, and LightForce. One simple fix that could fit that flow: when a parent or teen reaches out after hours or a consult call gets missed, an immediate text-back can keep that family warm until your team reconnects. I put together a short ortho example here: [proof-page-link]. If it’s useful, I can tailor one around your current appointment path.",
-        "linkSafeFallback": "Hi Dr. Judd — noticed Judd already leans into complimentary consults, Dental Monitoring, and LightForce. One simple fix: missed consult calls or after-hours messages could trigger a quick text-back until your team reconnects. If useful, I can send over a short ortho example built around that flow.",
-        "ultraShortFallback": "Hi Dr. Judd — quick idea: missed ortho consult calls could trigger a quick text-back so fewer starts cool off overnight. Happy to send a short example if useful.",
-        "copyReady": true,
-        "linkSafeReady": true
-      },
-      {
-        "name": "Wright Orthodontics",
-        "website": "https://wrightortho.com/",
-        "ownerProof": "public site repeatedly references `Dr. Wright` and active schedule flow language",
-        "routeProof": "homepage returned `200` and surfaced `Schedule Now`, `Request Appointment`, and `Contact Us`",
-        "route": "skip for now unless a future in-browser pass surfaces a clearly non-intake general contact branch",
-        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
-        "browserOnly": true,
-        "antiBot": false,
-        "primaryNote": "Hi Dr. Wright — noticed Wright makes it easy to schedule and highlights same-day treatment starts. One practical follow-up angle: if a consult call gets missed or a parent reaches out after hours, a quick text-back can hold that conversation until your team gets them on the calendar. Short ortho example here: [proof-page-link]. If helpful, I can map one around your current scheduling flow.",
-        "linkSafeFallback": "Hi Dr. Wright — noticed Wright makes it easy to schedule and highlights same-day treatment starts. One practical follow-up angle: missed consult calls or after-hours questions could trigger a quick text-back until your team gets back to them. If helpful, I can send a short ortho example.",
-        "ultraShortFallback": "Hi Dr. Wright — quick idea: missed consult calls could trigger a quick text-back before your team calls back. Happy to send a short example if useful.",
-        "copyReady": true,
-        "linkSafeReady": true
-      },
-      {
         "name": "East Valley Dental Care",
         "website": "https://www.eastvalleydentalcare.com/",
         "ownerProof": "`Dr. Thompson` on the live public site; earlier verified doctor set also includes `Dr Chase Davis` and `Dr Cheyenne Fazeli`",
-        "routeProof": "live site returns `200` and current fetches surface `reservation` / `appointment` language",
-        "route": "reservation / contact path",
+        "routeProof": "the live `Make A Reservation — East Valley Dental Care` page exposes a visible `Get in touch with our team` message form with `First Name`, `Last Name`, `Email`, optional `Phone`, `Message`, and `SEND MESSAGE`",
+        "route": "general message form on the reservation/contact page",
         "proofPage": "ferris-team/missed-call-proof-page-dental.html",
-        "browserOnly": true,
+        "browserOnly": false,
         "antiBot": false,
         "primaryNote": "Hi Dr. Thompson — noticed East Valley balances everyday family care with emergency visits and a clear reservation path. One useful front-desk fix: when a new-patient or emergency call comes in after hours, a calm text-back can reassure the patient and give your team context before follow-up. Short dental example here: [proof-page-link]. If useful, I can sketch one around your current reservation flow.",
         "linkSafeFallback": "Hi Dr. Thompson — noticed East Valley balances everyday family care with emergency visits and a clear reservation path. One useful front-desk fix: missed new-patient or emergency calls could trigger a calm text-back until your team follows up. If useful, I can send a short dental example.",
@@ -5365,7 +5335,7 @@
         "name": "Radiant Family Dentistry",
         "website": "https://www.myradiantfamilydentistry.com/",
         "ownerProof": "`Dr. Christine Chan`",
-        "routeProof": "`Contact | Radiant Family Dentistry` page returned `200` and explicitly says `Send us a message` plus `Contact us today to schedule your first visit`",
+        "routeProof": "`Contact | Radiant Family Dentistry` page returned `200`, explicitly says `We’d Love to Hear from You!`, and the live iframe exposes `First Name`, `Last Name`, `Email`, `Phone`, and `Message`",
         "route": "contact path",
         "proofPage": "ferris-team/missed-call-proof-page-dental.html",
         "browserOnly": false,
@@ -5377,11 +5347,41 @@
         "linkSafeReady": true
       },
       {
+        "name": "Judd Orthodontics",
+        "website": "https://www.juddorthodontics.com/",
+        "ownerProof": "`Dr. Jason Judd`",
+        "routeProof": "`Contact | Judd Orthodontics, Mesa, AZ` page live at `https://www.juddorthodontics.com/contact/` and the live iframe exposes `Full Name`, `Your Email`, `Your Cell Phone`, `How Can We Help?`, the T&C checkbox, and `CONTACT US`",
+        "route": "contact path only after cleaner general-contact branches are tried first",
+        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
+        "browserOnly": false,
+        "antiBot": true,
+        "primaryNote": "Hi Dr. Judd — noticed Judd already leans into complimentary consults, Dental Monitoring, and LightForce. One simple fix that could fit that flow: when a parent or teen reaches out after hours or a consult call gets missed, an immediate text-back can keep that family warm until your team reconnects. I put together a short ortho example here: [proof-page-link]. If it’s useful, I can tailor one around your current appointment path.",
+        "linkSafeFallback": "Hi Dr. Judd — noticed Judd already leans into complimentary consults, Dental Monitoring, and LightForce. One simple fix: missed consult calls or after-hours messages could trigger a quick text-back until your team reconnects. If useful, I can send over a short ortho example built around that flow.",
+        "ultraShortFallback": "Hi Dr. Judd — quick idea: missed ortho consult calls could trigger a quick text-back so fewer starts cool off overnight. Happy to send a short example if useful.",
+        "copyReady": true,
+        "linkSafeReady": true
+      },
+      {
+        "name": "Wright Orthodontics",
+        "website": "https://wrightortho.com/",
+        "ownerProof": "public site repeatedly references `Dr. Wright` and active schedule flow language",
+        "routeProof": "the live `Contact | Wright Orthodontics` page still exposes `Send Us A Message`, but the iframe immediately asks for `Treatment Interested In` plus `Preferred Location`",
+        "route": "skip for now unless a future in-browser pass surfaces a clearly non-intake general contact branch",
+        "proofPage": "ferris-team/missed-call-proof-page-dental.html",
+        "browserOnly": true,
+        "antiBot": false,
+        "primaryNote": "Hi Dr. Wright — noticed Wright makes it easy to schedule and highlights same-day treatment starts. One practical follow-up angle: if a consult call gets missed or a parent reaches out after hours, a quick text-back can hold that conversation until your team gets them on the calendar. Short ortho example here: [proof-page-link]. If helpful, I can map one around your current scheduling flow.",
+        "linkSafeFallback": "Hi Dr. Wright — noticed Wright makes it easy to schedule and highlights same-day treatment starts. One practical follow-up angle: missed consult calls or after-hours questions could trigger a quick text-back until your team gets back to them. If helpful, I can send a short ortho example.",
+        "ultraShortFallback": "Hi Dr. Wright — quick idea: missed consult calls could trigger a quick text-back before your team calls back. Happy to send a short example if useful.",
+        "copyReady": true,
+        "linkSafeReady": true
+      },
+      {
         "name": "Arizona Biltmore Dentistry",
         "website": "https://www.arizonabiltmoredentistry.com/",
         "ownerProof": "`Dr. Aaron Jeziorski`; homepage also says `Privately owned`",
-        "routeProof": "web fetch on `/contact/` returned `200` and explicitly says `using our online contact form`",
-        "route": "contact form only if visible in-browser tomorrow",
+        "routeProof": "the live `Contact Us | Dental Office in Phoenix | Arizona Biltmore Dentistry` page returned `200`, but tonight's browser-visible contact surface was still phone-heavy with a chat widget and sister-office links instead of a clear owner-visible message form",
+        "route": "browser-only recheck for a true contact form or cleaner business-message branch",
         "proofPage": "ferris-team/missed-call-proof-page-dental.html",
         "browserOnly": true,
         "antiBot": true,
@@ -5396,7 +5396,7 @@
       "name": "Desert Sage Family Dental",
       "website": "https://dsfdental.com/",
       "ownerProof": "`Dr. Jessica Teiman, DMD`",
-      "routeProof": "contact page fetch returned `200` and explicitly says `Contact us today to schedule your appointment`",
+      "routeProof": "the live `Contact Us - Desert Sage Family Dental` page returned `200`, but tonight's browser-visible contact surface stayed appointment/phone-led without a message form",
       "proofPage": "ferris-team/missed-call-proof-page-dental.html",
       "browserOnly": true,
       "antiBot": true,
@@ -5482,7 +5482,7 @@
     "reserve": {}
   },
   "contactFormExecution": {
-    "checkedAt": "2026-06-30T19:31:06-06:00",
+    "checkedAt": "2026-06-30T19:50:57-06:00",
     "summary": {
       "status": "started / blocked proof only / no verified submits yet",
       "attemptsLogged": 5,
@@ -5951,7 +5951,7 @@
     "reserve": {}
   },
   "nonEmailMethodBoard": {
-    "checkedAt": "2026-06-30T19:31:07-06:00",
+    "checkedAt": "2026-06-30T19:50:57-06:00",
     "summary": {
       "status": "execution-started",
       "methodCount": 21,
@@ -5964,7 +5964,7 @@
       "topMethod": "Contact form",
       "topMethodKey": "contactForm",
       "topMethodStatus": "executing",
-      "topMethodTarget": "Judd Orthodontics",
+      "topMethodTarget": "East Valley Dental Care",
       "topMethodApprovalGated": false,
       "topMethodApprovalGateReason": "none",
       "blockedLeadMethod": "Website live chat",
@@ -5973,11 +5973,11 @@
       "blockedRouteFallbackMethod": "Contact form",
       "blockedRouteFallbackKey": "contactForm",
       "blockedRouteFallbackStatus": "executing",
-      "blockedRouteFallbackTarget": "Judd Orthodontics",
+      "blockedRouteFallbackTarget": "East Valley Dental Care",
       "commercialFallbackMethod": "Contact form",
       "commercialFallbackKey": "contactForm",
       "commercialFallbackStatus": "executing",
-      "commercialFallbackTarget": "Judd Orthodontics",
+      "commercialFallbackTarget": "East Valley Dental Care",
       "secondaryFallbackMethod": "Native consult",
       "secondaryFallbackKey": "nativeConsult",
       "secondaryFallbackStatus": "blocked-in-flight",
@@ -5989,7 +5989,7 @@
       "approvalFreeShortlistMethod": "Contact form",
       "approvalFreeShortlistKey": "contactForm",
       "approvalFreeShortlistStatus": "executing",
-      "approvalFreeShortlistTarget": "Judd Orthodontics",
+      "approvalFreeShortlistTarget": "East Valley Dental Care",
       "approvalFreeShortlistReason": "best ready non-approval-gated fallback",
       "note": "A non-email route has started cleanly, so the board should hold execution order steady and avoid re-ranking half-finished work.",
       "nextMove": "Finish or clearly block the in-flight method before widening into another packed route."
@@ -6000,8 +6000,8 @@
         "label": "Contact form",
         "channel": "contact-form",
         "priority": 1,
-        "readinessCheckedAt": "2026-06-30T19:31:05-06:00",
-        "executionCheckedAt": "2026-06-30T19:31:06-06:00",
+        "readinessCheckedAt": "2026-06-30T19:50:57-06:00",
+        "executionCheckedAt": "2026-06-30T19:50:57-06:00",
         "status": "executing",
         "ready": true,
         "approvalGated": false,
@@ -6016,7 +6016,7 @@
         "attemptsLogged": 5,
         "primaryTargets": 5,
         "reserveTargets": 1,
-        "topTarget": "Judd Orthodontics",
+        "topTarget": "East Valley Dental Care",
         "note": "Execution attempts are being logged, but no visible submit confirmation is verified yet.",
         "nextMove": "Keep the route bounded and do not claim output until a visible confirmation is captured in the log."
       },
@@ -6325,8 +6325,8 @@
         "label": "Pinterest support pins",
         "channel": "pinterest-support",
         "priority": 16,
-        "readinessCheckedAt": "2026-06-30T19:20:36-06:00",
-        "executionCheckedAt": "2026-06-30T19:20:36-06:00",
+        "readinessCheckedAt": "2026-06-30T19:31:07-06:00",
+        "executionCheckedAt": "2026-06-30T19:31:07-06:00",
         "status": "fully-ready",
         "ready": true,
         "approvalGated": false,
@@ -8678,316 +8678,316 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-06-30 19:36 MDT",
-        "ageMinutes": 13,
-        "ageText": "13m",
+        "ageMinutes": 15,
+        "ageText": "15m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-30 18:08 MDT",
-        "ageMinutes": 101,
-        "ageText": "1h 41m",
+        "ageMinutes": 103,
+        "ageText": "1h 43m",
         "status": "aging"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-06-30 10:47 MDT",
-        "ageMinutes": 542,
-        "ageText": "9h 2m",
+        "ageMinutes": 544,
+        "ageText": "9h 4m",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
-        "timestamp": "2026-06-30T19:31:01-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "timestamp": "2026-06-30T19:51:00-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
-        "timestamp": "2026-06-30T19:31:02-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "timestamp": "2026-06-30T19:51:01-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-06-30T19:31:03-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "storefrontAuthSession": {
         "label": "storefront auth/session",
         "timestamp": "2026-06-30T19:31:03-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "unknown"
       },
       "fulfillment": {
         "label": "fulfillment logger",
-        "timestamp": "2026-06-30T19:30:45-06:00",
-        "ageMinutes": 19,
-        "ageText": "19m",
+        "timestamp": "2026-06-30T19:50:57-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "blocked"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-06-30T19:31:03-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
-        "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "timestamp": "2026-06-30T19:50:57-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "websiteLiveChatReadiness": {
         "label": "website live-chat readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
-        "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "timestamp": "2026-06-30T19:50:57-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "websiteLiveChatExecution": {
         "label": "website live-chat execution",
         "timestamp": "2026-06-30T19:31:07-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "consultIntakeProofRouteReadiness": {
         "label": "consult/intake proof-route readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "holidayHoursProofRouteReadiness": {
         "label": "holiday-hours proof-route readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteReadiness": {
         "label": "homepage CTA-clarity proof-route readiness",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "responseWindowProofRouteReadiness": {
         "label": "response-window proof-route readiness",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "pricingClarityProofRouteReadiness": {
         "label": "pricing-clarity proof-route readiness",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteReadiness": {
         "label": "path-choice clarity proof-route readiness",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "serviceFitClarityProofRouteReadiness": {
         "label": "service-fit clarity proof-route readiness",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "gbpReputationProofRouteReadiness": {
         "label": "GBP reputation proof-route readiness",
         "timestamp": "2026-06-30T19:31:05-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "arrivalClarityProofRouteReadiness": {
         "label": "arrival-clarity proof-route readiness",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
-        "timestamp": "2026-06-30T19:31:07-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "timestamp": "2026-06-30T19:50:57-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-06-30T19:31:07-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "consultIntakeProofRouteExecution": {
         "label": "consult/intake proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "holidayHoursProofRouteExecution": {
         "label": "holiday-hours proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteExecution": {
         "label": "homepage CTA-clarity proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "responseWindowProofRouteExecution": {
         "label": "response-window proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "pricingClarityProofRouteExecution": {
         "label": "pricing-clarity proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteExecution": {
         "label": "path-choice clarity proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "serviceFitClarityProofRouteExecution": {
         "label": "service-fit clarity proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "gbpReputationProofRouteExecution": {
         "label": "GBP reputation proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "arrivalClarityProofRouteExecution": {
         "label": "arrival-clarity proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-06-30T19:31:07-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-06-30T19:31:07-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-06-30T19:31:07-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-06-30T19:31:06-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-06-30T19:31:07-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-06-30T19:31:07-06:00",
-        "ageMinutes": 18,
-        "ageText": "18m",
+        "ageMinutes": 19,
+        "ageText": "19m",
         "status": "fresh"
       }
     }
