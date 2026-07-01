@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-01 12:37 MDT",
-    "generatedAt": "2026-07-01T12:38:38-06:00",
+    "lastUpdated": "2026-07-01 12:39 MDT",
+    "generatedAt": "2026-07-01T12:43:44-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -25,7 +25,7 @@
         {
           "key": "currentState",
           "label": "current state",
-          "age": "15h 57m",
+          "age": "16h 2m",
           "status": "stale"
         }
       ]
@@ -189,11 +189,11 @@
     "websiteLiveChatExecutionStarted": true,
     "websiteLiveChatHasCompletedAttempt": false,
     "websiteLiveChatTopCompletedTarget": "none",
-    "nonEmailMethodBoardCheckedAt": "2026-07-01T12:33:24-06:00",
+    "nonEmailMethodBoardCheckedAt": "2026-07-01T12:39:48-06:00",
     "nonEmailMethodBoardStatus": "execution-proof-landed",
     "nonEmailReadyMethods": 20,
     "nonEmailFullyReadyMethods": 16,
-    "nonEmailStartedMethods": 10,
+    "nonEmailStartedMethods": 12,
     "nonEmailProofMethods": 1,
     "nonEmailTopMethod": "Consult / intake proof route",
     "nonEmailTopMethodKey": "consultIntakeProofRoute",
@@ -206,7 +206,7 @@
     "nonEmailBlockedRouteFallbackMethod": "Voicemail light",
     "nonEmailBlockedRouteFallbackStatus": "fully-ready",
     "nonEmailBlockedRouteFallbackTarget": "Judd Orthodontics",
-    "nonEmailApprovalFreeShortlistMethod": "Holiday-hours proof route",
+    "nonEmailApprovalFreeShortlistMethod": "Homepage CTA-clarity proof route",
     "nonEmailApprovalFreeShortlistStatus": "fully-ready",
     "nonEmailApprovalFreeShortlistTarget": "Judd Orthodontics",
     "nonEmailApprovalFreeShortlistReason": "best ready non-approval-gated fallback",
@@ -288,8 +288,8 @@
     },
     "newestSentLocalDay": "2026-06-30",
     "todayLocalDay": "2026-07-01",
-    "newestSentAgeMinutes": 1257,
-    "newestSentAgeText": "20h 57m",
+    "newestSentAgeMinutes": 1262,
+    "newestSentAgeText": "21h 2m",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
     "pressureNote": "Verified high-ticket output is flat; keep quality high and source better owner/decision-maker contacts before sending again.",
@@ -301,7 +301,7 @@
     "nonEmailMethodBoardStatus": "execution-proof-landed",
     "nonEmailMethodBoardReadyMethods": 20,
     "nonEmailMethodBoardFullyReadyMethods": 16,
-    "nonEmailMethodBoardStartedMethods": 10,
+    "nonEmailMethodBoardStartedMethods": 12,
     "nonEmailMethodBoardProofMethods": 1,
     "nonEmailMethodBoardTopMethod": "Consult / intake proof route",
     "nonEmailMethodBoardTopMethodKey": "consultIntakeProofRoute",
@@ -436,20 +436,20 @@
     "consultIntakeProofRouteExecutionSentMessages": 0,
     "consultIntakeProofRouteExecutionBlockedRoutes": 0,
     "consultIntakeProofRouteExecutionTopCompletedTarget": "Haus of Confidence",
-    "holidayHoursProofRouteMethodStatus": "researched-tonight / route-support-built / not-yet-attempted",
+    "holidayHoursProofRouteMethodStatus": "researched-tonight / first-hard-block-captured / Judd-browser-path-blocked",
     "holidayHoursProofRouteMethodReady": true,
     "holidayHoursProofRouteMethodFullyReady": true,
     "holidayHoursProofRouteMethodBuiltPagesReady": true,
     "holidayHoursProofRouteMethodPrimaryTargets": 3,
-    "holidayHoursProofRouteMethodTopTarget": "Judd Orthodontics",
-    "holidayHoursProofRouteMethodNote": "The holiday-hours proof route is now packed with visible target notes, opener variants, explicit route branching, and a live local proof-page draft, so tomorrow can test one fresh high-ticket route without drifting back into stale email copy or ad-libbed route choices.",
-    "holidayHoursProofRouteMethodNextMove": "Tomorrow, attempt at most 3 native-route sends, start with the cleanest contact-form or business-run chat path, keep the branching guide open, use the proof page as the only link when the route allows it, fall back to the no-link or ultra-short opener when needed, and skip any target where the holiday-hours / after-hours gap is not actually visible.",
-    "holidayHoursProofRouteExecutionStatus": "not-started",
-    "holidayHoursProofRouteExecutionAttemptsLogged": 0,
+    "holidayHoursProofRouteMethodTopTarget": "Burnett Law Office",
+    "holidayHoursProofRouteMethodNote": "The holiday-hours proof route has fresh blocker truth on judd orthodontics; keep that blocker logged once and reopen from Burnett Law Office instead of retrying the same blocked surface.",
+    "holidayHoursProofRouteMethodNextMove": "Do not retry blocked targets in the same pass. Reopen the route from Burnett Law Office, keep the pass capped at 3 total attempts, and log only a real send or the next hard blocker.",
+    "holidayHoursProofRouteExecutionStatus": "first-hard-block-captured",
+    "holidayHoursProofRouteExecutionAttemptsLogged": 1,
     "holidayHoursProofRouteExecutionCompletedAttempts": 0,
     "holidayHoursProofRouteExecutionRoutedPages": 0,
     "holidayHoursProofRouteExecutionSentMessages": 0,
-    "holidayHoursProofRouteExecutionBlockedRoutes": 0,
+    "holidayHoursProofRouteExecutionBlockedRoutes": 1,
     "holidayHoursProofRouteExecutionTopCompletedTarget": "none",
     "homepageCtaClarityProofRouteMethodStatus": "researched-tonight / route-support-built / not-yet-attempted",
     "homepageCtaClarityProofRouteMethodReady": true,
@@ -620,7 +620,7 @@
     "outreach": {
       "label": "Outreach",
       "status": "watch-only",
-      "proof": "30 high-ticket verified sends (34 total logged), 0 verified replies, 1 visible bounce, newest verified send age 20h 57m; No owner/manager replies found in the latest 12 INBOX messages.",
+      "proof": "30 high-ticket verified sends (34 total logged), 0 verified replies, 1 visible bounce, newest verified send age 21h 2m; No owner/manager replies found in the latest 12 INBOX messages.",
       "nextMove": "Verified output is flat, so source stronger owner/decision-maker contacts and be ready to push a fresh 20-email high-ticket batch from zero today without dropping quality.",
       "constraint": "Do not widen into weaker generic inboxes and do not reply to inbound without Kritz approval."
     },
@@ -721,7 +721,7 @@
   },
   "timeboxBrief": {
     "window": "daytime",
-    "localTime": "2026-07-01 12:38 MDT",
+    "localTime": "2026-07-01 12:43 MDT",
     "rule": "Run the cleanest ready non-email/native route first, pivot immediately if it blocks, and keep seller-side merch in support mode until auth truth is clean again.",
     "headline": "Consult / intake proof route → Haus of Confidence",
     "primary": "Run Consult / intake proof route → Haus of Confidence first; Flat high-ticket output plus auth-gated merch means the next clean non-email/native route outranks more seller-tab grinding.",
@@ -744,7 +744,7 @@
     "daytimeNativeFallback": "Native consult → Chapter One Wellness",
     "daytimeBlockedPivot": "Website live chat → Burnett Law Office",
     "outreachPressureStatus": "flat",
-    "outreachPressureAge": "20h 57m",
+    "outreachPressureAge": "21h 2m",
     "outreachPressureNote": "Verified high-ticket output is flat; keep quality high and source better owner/decision-maker contacts before sending again.",
     "priorityShift": "Flat high-ticket output plus auth-gated merch means the next clean non-email/native route outranks more seller-tab grinding."
   },
@@ -6023,15 +6023,15 @@
     "reserve": {}
   },
   "nonEmailMethodBoard": {
-    "checkedAt": "2026-07-01T12:33:24-06:00",
+    "checkedAt": "2026-07-01T12:39:48-06:00",
     "summary": {
       "status": "execution-proof-landed",
       "methodCount": 21,
       "readyMethods": 20,
       "fullyReadyMethods": 16,
-      "startedMethods": 10,
+      "startedMethods": 12,
       "activeStartedMethods": 1,
-      "blockedStartedMethods": 9,
+      "blockedStartedMethods": 11,
       "proofMethods": 1,
       "topMethod": "Consult / intake proof route",
       "topMethodKey": "consultIntakeProofRoute",
@@ -6058,8 +6058,8 @@
       "packedBrowserRouteKey": "none",
       "packedBrowserRouteStatus": "none",
       "packedBrowserRouteTarget": "none",
-      "approvalFreeShortlistMethod": "Holiday-hours proof route",
-      "approvalFreeShortlistKey": "holidayHoursProofRoute",
+      "approvalFreeShortlistMethod": "Homepage CTA-clarity proof route",
+      "approvalFreeShortlistKey": "homepageCtaClarityProofRoute",
       "approvalFreeShortlistStatus": "fully-ready",
       "approvalFreeShortlistTarget": "Judd Orthodontics",
       "approvalFreeShortlistReason": "best ready non-approval-gated fallback",
@@ -6120,33 +6120,6 @@
         "topTarget": "Judd Orthodontics",
         "note": "No voicemail-light execution attempts are logged yet; the route is tomorrow-ready but unstarted.",
         "nextMove": "Tomorrow, log each real phone attempt in the execution log and count output only after a voicemail or live handoff actually completes."
-      },
-      {
-        "key": "holidayHoursProofRoute",
-        "label": "Holiday-hours proof route",
-        "channel": "holiday-hours-proof-route",
-        "priority": 13,
-        "readinessCheckedAt": "2026-07-01T12:33:23-06:00",
-        "executionCheckedAt": "2026-07-01T12:33:24-06:00",
-        "status": "fully-ready",
-        "ready": true,
-        "approvalGated": false,
-        "approvalGateReason": "none",
-        "fullyReady": true,
-        "started": false,
-        "blockedOnlyStart": false,
-        "blockedRoutes": 0,
-        "skippedRoutes": 0,
-        "frontierDepleted": false,
-        "routeClassBlocked": false,
-        "hasProof": false,
-        "proofLabel": "completed holiday-hours proof-page route",
-        "attemptsLogged": 0,
-        "primaryTargets": 3,
-        "reserveTargets": 1,
-        "topTarget": "Judd Orthodontics",
-        "note": "No holiday-hours proof-route attempts are logged yet; the method is researched but unstarted.",
-        "nextMove": "Tomorrow, start with Judd Orthodontics, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
       },
       {
         "key": "homepageCtaClarityProofRoute",
@@ -6309,33 +6282,6 @@
         "topTarget": "Judd Orthodontics",
         "note": "No service-fit-clarity proof-route attempts are logged yet; the method is researched but unstarted.",
         "nextMove": "Tomorrow, start with Judd Orthodontics, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
-      },
-      {
-        "key": "pinterestSupport",
-        "label": "Pinterest support pins",
-        "channel": "pinterest-support",
-        "priority": 16,
-        "readinessCheckedAt": "2026-07-01T12:13:11-06:00",
-        "executionCheckedAt": "2026-07-01T11:32:02-06:00",
-        "status": "fully-ready",
-        "ready": true,
-        "approvalGated": true,
-        "approvalGateReason": "Pinterest posting is auth-gated on this machine",
-        "fullyReady": true,
-        "started": false,
-        "blockedOnlyStart": false,
-        "blockedRoutes": 0,
-        "skippedRoutes": 0,
-        "frontierDepleted": false,
-        "routeClassBlocked": false,
-        "hasProof": false,
-        "proofLabel": "completed or posted support pin",
-        "attemptsLogged": 0,
-        "primaryTargets": 4,
-        "reserveTargets": 2,
-        "topTarget": "SUB-5",
-        "note": "No Pinterest support attempts are logged yet; the method is packed but unstarted.",
-        "nextMove": "Tomorrow, verify Pinterest account/session access, post the 4 direct listing pins first, and log exact pin URLs or the first blocker."
       },
       {
         "key": "websiteLiveChat",
@@ -6525,6 +6471,60 @@
         "topTarget": "Judd Orthodontics",
         "note": "Micro-audit proof routes were checked, but no completed page-backed route attempt is logged yet.",
         "nextMove": "Keep the pass honest: do not count drafted pages, skips, or blocked routes as output, and only log a completed attempt once the live route itself is actually used."
+      },
+      {
+        "key": "holidayHoursProofRoute",
+        "label": "Holiday-hours proof route",
+        "channel": "holiday-hours-proof-route",
+        "priority": 13,
+        "readinessCheckedAt": "2026-07-01T12:39:48-06:00",
+        "executionCheckedAt": "2026-07-01T12:39:47-06:00",
+        "status": "blocked-in-flight",
+        "ready": true,
+        "approvalGated": false,
+        "approvalGateReason": "none",
+        "fullyReady": true,
+        "started": true,
+        "blockedOnlyStart": true,
+        "blockedRoutes": 1,
+        "skippedRoutes": 0,
+        "frontierDepleted": false,
+        "routeClassBlocked": false,
+        "hasProof": false,
+        "proofLabel": "completed holiday-hours proof-page route",
+        "attemptsLogged": 1,
+        "primaryTargets": 3,
+        "reserveTargets": 1,
+        "topTarget": "Burnett Law Office",
+        "note": "Holiday-hours proof routes were checked, but no completed native-route attempt is logged yet.",
+        "nextMove": "Keep the lane honest: opened forms, page views, and unsent drafts do not count."
+      },
+      {
+        "key": "pinterestSupport",
+        "label": "Pinterest support pins",
+        "channel": "pinterest-support",
+        "priority": 16,
+        "readinessCheckedAt": "2026-07-01T12:33:25-06:00",
+        "executionCheckedAt": "2026-07-01T12:33:25-06:00",
+        "status": "blocked-in-flight",
+        "ready": true,
+        "approvalGated": true,
+        "approvalGateReason": "Pinterest posting is auth-gated on this machine",
+        "fullyReady": true,
+        "started": true,
+        "blockedOnlyStart": true,
+        "blockedRoutes": 1,
+        "skippedRoutes": 0,
+        "frontierDepleted": false,
+        "routeClassBlocked": false,
+        "hasProof": false,
+        "proofLabel": "completed or posted support pin",
+        "attemptsLogged": 1,
+        "primaryTargets": 4,
+        "reserveTargets": 2,
+        "topTarget": "SUB-5",
+        "note": "Pinterest support routes were checked, but no completed pin attempt is logged yet.",
+        "nextMove": "Keep the pass honest: do not count staged images, caption drafts, or blocked account/session checks as output."
       },
       {
         "key": "linkedinLightConnect",
@@ -6827,13 +6827,13 @@
     }
   },
   "holidayHoursProofRouteReadiness": {
-    "checkedAt": "2026-07-01T12:33:23-06:00",
+    "checkedAt": "2026-07-01T12:39:48-06:00",
     "summary": {
-      "status": "researched-tonight / route-support-built / not-yet-attempted",
+      "status": "researched-tonight / first-hard-block-captured / Judd-browser-path-blocked",
       "ready": true,
       "fullyReady": true,
-      "note": "The holiday-hours proof route is now packed with visible target notes, opener variants, explicit route branching, and a live local proof-page draft, so tomorrow can test one fresh high-ticket route without drifting back into stale email copy or ad-libbed route choices.",
-      "nextMove": "Tomorrow, attempt at most 3 native-route sends, start with the cleanest contact-form or business-run chat path, keep the branching guide open, use the proof page as the only link when the route allows it, fall back to the no-link or ultra-short opener when needed, and skip any target where the holiday-hours / after-hours gap is not actually visible.",
+      "note": "The holiday-hours proof route has fresh blocker truth on judd orthodontics; keep that blocker logged once and reopen from Burnett Law Office instead of retrying the same blocked surface.",
+      "nextMove": "Do not retry blocked targets in the same pass. Reopen the route from Burnett Law Office, keep the pass capped at 3 total attempts, and log only a real send or the next hard blocker.",
       "primaryTargets": 3,
       "reserveTargets": 1,
       "ownerVisibleTargets": 3,
@@ -6852,7 +6852,11 @@
       "hasVariants": true,
       "hasBranchingGuide": true,
       "branchModeCount": 4,
-      "topTarget": "Judd Orthodontics",
+      "blockedTargetCount": 1,
+      "blockedTargets": [
+        "judd orthodontics"
+      ],
+      "topTarget": "Burnett Law Office",
       "reserveTarget": "Haus of Confidence",
       "topProofPage": "https://ferrisbueller69.github.io/ferris-public-previews/holiday-hours-proof/index.html"
     },
@@ -6861,8 +6865,8 @@
         "name": "Judd Orthodontics",
         "website": "https://www.juddorthodontics.com/",
         "ownerProof": "public site exposes `Dr. Jason Judd`",
-        "routeProof": "public site is consultation-led and exposes a clean website contact path alongside public office-hours framing",
-        "route": "contact form first; website chat only if tomorrow's widget still loads as a clearly business-run route",
+        "routeProof": "public site is consultation-led and still exposes contact + hours, but the live browser-native recheck on 2026-07-01 hit `Invalid Captcha` on the direct contact form and the homepage console showed `Drift: Skipping Widget since Headless Browser was detected`",
+        "route": "skip for now on this browser-native stack; do not retry Judd in the same pass unless a non-headless / captcha-clear route is actually visible later",
         "proofPage": "https://ferrisbueller69.github.io/ferris-public-previews/holiday-hours-proof/index.html",
         "draftNote": "Quick thought after looking at Judd's public consult surface: one small holiday-hours / after-hours expectation gap could cool good ortho leads before staff reconnects. I mocked up the cleanup angle here: [proof-page-link]. If useful, happy to show the exact first fix I'd make.",
         "copyReady": true,
@@ -6873,7 +6877,8 @@
         "variantReady": true,
         "proofPagePublicUrl": "https://ferrisbueller69.github.io/ferris-public-previews/holiday-hours-proof/index.html",
         "needsProofPageLink": true,
-        "proofLinkReady": true
+        "proofLinkReady": true,
+        "blockedInExecution": true
       },
       {
         "name": "Burnett Law Office",
@@ -6891,7 +6896,8 @@
         "variantReady": true,
         "proofPagePublicUrl": "https://ferrisbueller69.github.io/ferris-public-previews/holiday-hours-proof/index.html",
         "needsProofPageLink": true,
-        "proofLinkReady": true
+        "proofLinkReady": true,
+        "blockedInExecution": false
       },
       {
         "name": "Scottsdale Med Spa",
@@ -6909,7 +6915,8 @@
         "variantReady": true,
         "proofPagePublicUrl": "https://ferrisbueller69.github.io/ferris-public-previews/holiday-hours-proof/index.html",
         "needsProofPageLink": true,
-        "proofLinkReady": true
+        "proofLinkReady": true,
+        "blockedInExecution": false
       }
     ],
     "reserve": {
@@ -7885,21 +7892,34 @@
     ]
   },
   "holidayHoursProofRouteExecution": {
-    "checkedAt": "2026-07-01T12:33:24-06:00",
+    "checkedAt": "2026-07-01T12:39:47-06:00",
     "summary": {
-      "status": "not-started",
-      "attemptsLogged": 0,
+      "status": "first-hard-block-captured",
+      "attemptsLogged": 1,
       "completedAttempts": 0,
       "confirmedSkips": 0,
-      "blockedRoutes": 0,
-      "started": false,
+      "blockedRoutes": 1,
+      "started": true,
       "hasCompletedAttempt": false,
       "topCompletedTarget": "none",
       "lastCompletedTarget": "none",
-      "note": "No holiday-hours proof-route attempts are logged yet; the method is researched but unstarted.",
-      "nextMove": "Tomorrow, start with Judd Orthodontics, keep the pass capped at 3 route attempts, and log only real completed sends or blockers."
+      "note": "Holiday-hours proof routes were checked, but no completed native-route attempt is logged yet.",
+      "nextMove": "Keep the lane honest: opened forms, page views, and unsent drafts do not count."
     },
-    "entries": []
+    "entries": [
+      {
+        "target": "Judd Orthodontics",
+        "header": "2026-07-01 12:38 MDT — Judd Orthodontics",
+        "routeUsed": "contact form",
+        "result": "blocked",
+        "routeProof": "direct form route `https://ap.inceptionchiro.com/widget/form/Q06lx2nkXvjDBLK6rmMx` kept the filled fields visible after submit and surfaced `Invalid Captcha`; homepage console also showed `Drift: Skipping Widget since Headless Browser was detected`, so no clean browser-native fallback was usable in this pass",
+        "proofPageUsed": "ferris-team/holiday-hours-proof-page.html",
+        "notes": "Contact-form submit blocked by invalid captcha, and homepage chat was headless-skipped instead of business-usable.",
+        "attemptCompleted": false,
+        "skipped": false,
+        "blocked": true
+      }
+    ]
   },
   "homepageCtaClarityProofRouteExecution": {
     "checkedAt": "2026-07-01T12:33:24-06:00",
@@ -8968,316 +8988,316 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-07-01 12:37 MDT",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-30 20:41 MDT",
-        "ageMinutes": 957,
-        "ageText": "15h 57m",
+        "ageMinutes": 962,
+        "ageText": "16h 2m",
         "status": "stale"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-07-01 11:31 MDT",
-        "ageMinutes": 67,
-        "ageText": "1h 7m",
+        "ageMinutes": 72,
+        "ageText": "1h 12m",
         "status": "fresh"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-07-01T12:33:19-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-07-01T12:33:20-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-07-01T12:33:21-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "storefrontAuthSession": {
         "label": "storefront auth/session",
         "timestamp": "2026-07-01T12:33:21-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "unknown"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-07-01T12:33:16-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "blocked"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-07-01T12:37:03-06:00",
-        "ageMinutes": 1,
-        "ageText": "1m",
+        "ageMinutes": 6,
+        "ageText": "6m",
         "status": "fresh"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-07-01T12:33:22-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "websiteLiveChatReadiness": {
         "label": "website live-chat readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "websiteLiveChatExecution": {
         "label": "website live-chat execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "consultIntakeProofRouteReadiness": {
         "label": "consult/intake proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "holidayHoursProofRouteReadiness": {
         "label": "holiday-hours proof-route readiness",
-        "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "timestamp": "2026-07-01T12:39:48-06:00",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteReadiness": {
         "label": "homepage CTA-clarity proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "responseWindowProofRouteReadiness": {
         "label": "response-window proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "pricingClarityProofRouteReadiness": {
         "label": "pricing-clarity proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteReadiness": {
         "label": "path-choice clarity proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "serviceFitClarityProofRouteReadiness": {
         "label": "service-fit clarity proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "gbpReputationProofRouteReadiness": {
         "label": "GBP reputation proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "arrivalClarityProofRouteReadiness": {
         "label": "arrival-clarity proof-route readiness",
         "timestamp": "2026-07-01T12:33:23-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
-        "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "timestamp": "2026-07-01T12:39:48-06:00",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "consultIntakeProofRouteExecution": {
         "label": "consult/intake proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "holidayHoursProofRouteExecution": {
         "label": "holiday-hours proof-route execution",
-        "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "timestamp": "2026-07-01T12:39:47-06:00",
+        "ageMinutes": 3,
+        "ageText": "3m",
         "status": "fresh"
       },
       "homepageCtaClarityProofRouteExecution": {
         "label": "homepage CTA-clarity proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "responseWindowProofRouteExecution": {
         "label": "response-window proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "pricingClarityProofRouteExecution": {
         "label": "pricing-clarity proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "pathChoiceClarityProofRouteExecution": {
         "label": "path-choice clarity proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "serviceFitClarityProofRouteExecution": {
         "label": "service-fit clarity proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "gbpReputationProofRouteExecution": {
         "label": "GBP reputation proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "arrivalClarityProofRouteExecution": {
         "label": "arrival-clarity proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-07-01T12:33:24-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-07-01T12:33:25-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-07-01T12:33:25-06:00",
-        "ageMinutes": 5,
-        "ageText": "5m",
+        "ageMinutes": 10,
+        "ageText": "10m",
         "status": "fresh"
       }
     }
