@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage CTA clarity for consult-led local businesses</title>
+  <style>
+    :root {
+      --bg: #08111f;
+      --panel: #101b2d;
+      --card: #15243a;
+      --line: #2a4365;
+      --text: #eef4ff;
+      --muted: #b2c4df;
+      --accent: #7dd3fc;
+      --accent2: #86efac;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #102240 0%, var(--bg) 58%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap { width: min(980px, calc(100% - 32px)); margin: 0 auto; }
+    .hero, .card { background: rgba(16,27,45,.92); border: 1px solid var(--line); border-radius: 22px; }
+    .hero { padding: 36px 28px; box-shadow: 0 24px 60px rgba(0,0,0,.24); margin: 34px 0 22px; }
+    .eyebrow { color: var(--accent); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; }
+    h1 { margin: 10px 0 14px; font-size: clamp(32px, 4vw, 50px); line-height: 1.05; }
+    h2 { margin: 0 0 12px; font-size: clamp(22px, 3vw, 30px); }
+    p { margin: 0 0 14px; }
+    .muted { color: var(--muted); }
+    .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 22px 0; }
+    .card { padding: 22px; }
+    .tag { display: inline-block; margin-bottom: 10px; padding: 6px 10px; border-radius: 999px; background: rgba(125,211,252,.12); color: var(--accent); font-size: 12px; font-weight: 700; }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 8px 0; }
+    .example { background: rgba(8,17,31,.72); border: 1px solid rgba(134,239,172,.25); border-radius: 18px; padding: 18px; }
+    .example strong { color: var(--accent2); }
+    .cta { margin: 26px 0 40px; padding: 24px; text-align: center; background: linear-gradient(135deg, rgba(125,211,252,.14), rgba(134,239,172,.12)); border: 1px solid rgba(125,211,252,.28); border-radius: 22px; }
+    .btn { display: inline-block; margin-top: 12px; padding: 12px 18px; border-radius: 999px; color: #04101f; background: linear-gradient(135deg, var(--accent), var(--accent2)); text-decoration: none; font-weight: 800; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Ferris Automations proof-page concept</div>
+      <h1>Turn a vague first step into a clearer, safer next move.</h1>
+      <p class="muted">For consult-led local businesses, a cold visitor often decides in the first screen whether the next step feels obvious and trustworthy. The fix is sometimes smaller than a redesign: sharpen the CTA and the one trust cue beside it.</p>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <span class="tag">Before</span>
+        <h2>The homepage is fine, but the next step feels generic.</h2>
+        <p class="muted">The business looks legitimate, but the CTA reads like filler and the trust cue next to it does not calm the visitor fast enough. A good lead can still hesitate.</p>
+      </section>
+      <section class="card">
+        <span class="tag">After</span>
+        <h2>The first next step feels specific and confidence-building.</h2>
+        <p class="muted">Tighten the CTA wording, clarify what happens after someone reaches out, and put one believable trust cue next to the button or form. No fake urgency. No giant rebuild.</p>
+      </section>
+    </div>
+
+    <section class="card example">
+      <h2>Mini example</h2>
+      <p><strong>Instead of:</strong> <span class="muted">Contact us today</span></p>
+      <p><strong>Use:</strong> <span class="muted">Request your consult — we'll point you to the fastest next step.</span></p>
+      <p><strong>Trust cue beside it:</strong> <span class="muted">Short reply-time or consult-expectation line written like a human, not a template.</span></p>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Why this matters</h2>
+        <ul>
+          <li>The cold visitor does not know the internal process yet.</li>
+          <li>Clearer CTA wording reduces hesitation before contact.</li>
+          <li>One trust cue beside the CTA can do more than another paragraph lower on the page.</li>
+          <li>This is a focused conversion fix, not a full redesign pitch.</li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>What Ferris is actually offering</h2>
+        <ul>
+          <li>A small homepage CTA / trust-strip cleanup concept.</li>
+          <li>No fake analytics or pretend case-study numbers.</li>
+          <li>No claim that live work has already been done.</li>
+          <li>One exact first fix if the owner wants to see it.</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="cta">
+      <h2>Want the exact first fix?</h2>
+      <p class="muted">If the angle fits your business, Ferris can show the first homepage CTA / trust-strip change we'd make before touching anything bigger.</p>
+      <a class="btn" href="#">Send the first-fix mockup</a>
+    </section>
+  </div>
+</body>
+</html>
