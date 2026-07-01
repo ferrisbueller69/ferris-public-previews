@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastUpdated": "2026-07-01 08:37 MDT",
-    "generatedAt": "2026-07-01T08:38:01-06:00",
+    "generatedAt": "2026-07-01T08:38:15-06:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -765,9 +765,9 @@
     }
   ],
   "pulseNotes": [
+    "2026-07-01 08:37 MDT: Re-ran `check_runtime_health.py`; runtime-health.json refreshed to 3/3 healthy, the published preview still matches local state at 0s lag, recent `published:` lines are still landing, and the live-source endpoint is healthy, so the control layer stays watch-only green.",
     "2026-07-01 08:11 MDT: Re-ran `check_runtime_health.py`; runtime-health.json refreshed to 3/3 healthy, the published preview still matches local state at 0s lag, recent `published:` lines are still landing, and the live-source endpoint is healthy, so the control layer stays watch-only green.",
-    "2026-07-01 06:34 MDT: Fresh direct HTTP re-probes confirmed Kettle Restaurant still returns 200 with the live title `Home - Kettle Restaurant` plus the exact ordering / carryout / delivery meta, and El Charro Café still returns 200 with the `El Charro Café - Nationwide Shipping - The Nation’s Oldest Mexican Restaurant` title plus `Nationwide Shipping with Goldbelly`, so the top Tucson website-redesign rows stay live and the next move remains send prep on the validated queue.",
-    "2026-07-01 06:19 MDT: Fresh direct HTTP probe confirmed Mandarin Grill still returns 200 with the live title `Mandarin Grill | Your Go-to No Nonsense Chinese Eatery | Lunch Specials Available`, the lunch/dinner specials meta, the `Your Go-To for No-Nonsense Chinese Eatery in Tucson` H1, and live `Menu` / `Order Online` nav, so the Mandarin row stays anchored to the freshest lunch/dinner specials clue."
+    "2026-07-01 06:34 MDT: Fresh direct HTTP re-probes confirmed Kettle Restaurant still returns 200 with the live title `Home - Kettle Restaurant` plus the exact ordering / carryout / delivery meta, and El Charro Café still returns 200 with the `El Charro Café - Nationwide Shipping - The Nation’s Oldest Mexican Restaurant` title plus `Nationwide Shipping with Goldbelly`, so the top Tucson website-redesign rows stay live and the next move remains send prep on the validated queue."
   ],
   "discovery": {
     "checkedAt": "2026-07-01T08:20:38-06:00",
