@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-24 16:04 MDT",
-    "generatedAt": "2026-08-24T16:18:51-07:00",
+    "lastUpdated": "2026-08-24 17:24 MDT",
+    "generatedAt": "2026-08-24T16:24:16-07:00",
     "sources": [
       "/Users/levikritzik/Library/CloudStorage/Dropbox/Shared/ferris/dashboard/operator-mesh-status.md",
       "/Users/levikritzik/.openclaw/workspace/ferris-team/current-state.md",
@@ -20,7 +20,7 @@
       "/Users/levikritzik/.openclaw/workspace/ferris-control-center/data/skill-registry.json"
     ],
     "freshness": {
-      "staleSourceCount": 42,
+      "staleSourceCount": 41,
       "staleSources": [
         {
           "key": "currentState",
@@ -175,12 +175,6 @@
         {
           "key": "nonEmailMethodBoard",
           "label": "non-email method board",
-          "age": "6d 10h",
-          "status": "stale"
-        },
-        {
-          "key": "nativeConsultExecution",
-          "label": "native consult execution",
           "age": "6d 10h",
           "status": "stale"
         },
@@ -499,11 +493,11 @@
     "nativeConsultPrimaryTargets": 5,
     "nativeConsultReserveTargets": 1,
     "nativeConsultTopTarget": "Chapter One Wellness",
-    "nativeConsultExecutionCheckedAt": "2026-08-18T06:28:14-06:00",
-    "nativeConsultExecutionStatus": "Chapter One Wellness recheck stayed structurally blocked; TMA Med Spa / Torstveit Medical Aesthetics remains the latest verified owner-facing consult submit with visible thank-you confirmation",
-    "nativeConsultAttemptsLogged": 13,
-    "nativeConsultCompletedAttempts": 2,
-    "nativeConsultConfirmedSubmits": 2,
+    "nativeConsultExecutionCheckedAt": "2026-08-24T17:24:01-06:00",
+    "nativeConsultExecutionStatus": "Chapter One Wellness repeated the same structural tel/mailto/AI-chat blocker; Haus of Confidence is now the latest verified owner-facing native consult submit with visible thank-you confirmation",
+    "nativeConsultAttemptsLogged": 14,
+    "nativeConsultCompletedAttempts": 3,
+    "nativeConsultConfirmedSubmits": 3,
     "nativeConsultLiveConnections": 0,
     "nativeConsultBlockedRoutes": 11,
     "nativeConsultExecutionStarted": true,
@@ -534,7 +528,7 @@
     },
     "newestSentLocalDay": "2026-08-17",
     "todayLocalDay": "2026-08-24",
-    "newestSentAgeMinutes": 10111,
+    "newestSentAgeMinutes": 10117,
     "newestSentAgeText": "7d 0h",
     "verifiedOutputFlat": true,
     "pressureStatus": "flat",
@@ -581,11 +575,11 @@
     "nativeConsultMethodTopTarget": "Chapter One Wellness",
     "nativeConsultMethodNote": "The native consult/text route is packed, branch-ready, and tomorrow-ready as a second non-email method, but the live CTA should still be re-verified in-browser before any route attempt counts.",
     "nativeConsultMethodNextMove": "Tomorrow, execute the pack top-to-bottom with a hard cap of 5 visible route attempts, prefer the primary note only when the native route stays clean, drop to the no-link or ultra-short branch when the surface tightens, skip patient-intake theater fast, and count output only after the route attempt itself is completed and logged.",
-    "nativeConsultExecutionStatus": "Chapter One Wellness recheck stayed structurally blocked; TMA Med Spa / Torstveit Medical Aesthetics remains the latest verified owner-facing consult submit with visible thank-you confirmation",
+    "nativeConsultExecutionStatus": "Chapter One Wellness repeated the same structural tel/mailto/AI-chat blocker; Haus of Confidence is now the latest verified owner-facing native consult submit with visible thank-you confirmation",
     "nativeConsultExecutionStarted": true,
-    "nativeConsultExecutionAttemptsLogged": 13,
-    "nativeConsultExecutionCompletedAttempts": 2,
-    "nativeConsultExecutionConfirmedSubmits": 2,
+    "nativeConsultExecutionAttemptsLogged": 14,
+    "nativeConsultExecutionCompletedAttempts": 3,
+    "nativeConsultExecutionConfirmedSubmits": 3,
     "nativeConsultExecutionLiveConnections": 0,
     "nativeConsultExecutionBlockedRoutes": 11,
     "nativeConsultExecutionTopCompletedTarget": "Haus of Confidence",
@@ -967,7 +961,7 @@
   },
   "timeboxBrief": {
     "window": "daytime",
-    "localTime": "2026-08-24 17:18 MDT",
+    "localTime": "2026-08-24 17:24 MDT",
     "rule": "Run the cleanest ready non-email/native route first, pivot immediately if it blocks, and keep seller-side merch in support mode until auth truth is clean again.",
     "headline": "Service-fit clarity proof route → Judd Orthodontics",
     "primary": "Run Service-fit clarity proof route → Judd Orthodontics first; Flat high-ticket output plus auth-gated merch means the next clean non-email/native route outranks more seller-tab grinding.",
@@ -8010,12 +8004,12 @@
     }
   },
   "nativeConsultExecution": {
-    "checkedAt": "2026-08-18T06:28:14-06:00",
+    "checkedAt": "2026-08-24T17:24:01-06:00",
     "summary": {
-      "status": "Chapter One Wellness recheck stayed structurally blocked; TMA Med Spa / Torstveit Medical Aesthetics remains the latest verified owner-facing consult submit with visible thank-you confirmation",
-      "attemptsLogged": 13,
-      "completedAttempts": 2,
-      "confirmedSubmits": 2,
+      "status": "Chapter One Wellness repeated the same structural tel/mailto/AI-chat blocker; Haus of Confidence is now the latest verified owner-facing native consult submit with visible thank-you confirmation",
+      "attemptsLogged": 14,
+      "completedAttempts": 3,
+      "confirmedSubmits": 3,
       "liveConnections": 0,
       "confirmedSkips": 0,
       "blockedRoutes": 11,
@@ -8024,7 +8018,7 @@
       "hasVerifiedSubmit": true,
       "hasLiveConnection": false,
       "topCompletedTarget": "Haus of Confidence",
-      "lastCompletedTarget": "TMA Med Spa / Torstveit Medical Aesthetics",
+      "lastCompletedTarget": "Chapter One Wellness -> Haus of Confidence",
       "note": "Native consult execution has real route output logged; keep counting only completed attempts and visible route proof.",
       "nextMove": "Keep the batch bounded, log one entry per real route attempt, and stop early if route quality degrades or the live CTA turns misleading."
     },
@@ -8197,6 +8191,19 @@
         "connectedLive": false,
         "skipped": false,
         "blocked": true
+      },
+      {
+        "target": "Chapter One Wellness -> Haus of Confidence",
+        "route": "`Chapter One homepage + /contact recheck -> one allowed pivot to Haus contact page Contact Form / REQUEST A FREE CONSULTATION`",
+        "proofPage": "`https://ferrisbueller69.github.io/missed-call-booking-text-kit-small-businesses/`",
+        "result": "confirmed-submit",
+        "routeProof": "rechecked `https://www.chapteronewellness.com/` and `https://www.chapteronewellness.com/contact` in-browser on 2026-08-24 and verified the same structural blocker again: homepage `CALL/TEXT` and `Call/Text` links still resolve only to `tel:` routes, the contact page still exposes only phone `928.813.2522`, fax `928.492.1024`, email `chapteronewellness@gmail.com`, location, `GET DIRECTIONS`, and a `Chat with AI` button, with no owner-facing business form or visible submit path. Because that repeated the old blocked behavior, Hermes demoted Chapter One and used the one allowed cleaner pivot from the frozen shortlist on `https://hausofconfidence.com/contact/`. The live page still exposed the Growth99 owner-facing `Contact Form` iframe with required `First Name`, `Last Name`, `Email Address`, `Phone Number`, and `How can we help?` fields plus submit button `REQUEST A FREE CONSULTATION`. Hermes filled the honest sender payload (`Levi`, `Kritzik`, `kritzferris@gmail.com`, `3035524463`) with the packed native-consult note and proof-page link, clicked submit once, and the route redirected to `https://hausofconfidence.com/thank-you/` with visible confirmation copy `Thank you for getting touch!` and `We appreciate you reaching us out. One of our team members will get back to you shortly.`",
+        "notes": "Scottsdale Med Spa stayed behind the cleaner pivot because the frozen-shortlist history already showed website-native contact as phone/email-only plus booking-only `Book Online`, while Haus still had the clearest approval-free browser-native confirmation path. One real route attempt landed; no second pivot was used.",
+        "attemptCompleted": true,
+        "confirmed": true,
+        "connectedLive": false,
+        "skipped": false,
+        "blocked": false
       }
     ]
   },
@@ -10188,315 +10195,315 @@
       "mesh": {
         "label": "operator mesh",
         "timestamp": "2026-08-24 16:04 MST",
-        "ageMinutes": 74,
-        "ageText": "1h 14m",
+        "ageMinutes": 80,
+        "ageText": "1h 20m",
         "status": "fresh"
       },
       "currentState": {
         "label": "current state",
         "timestamp": "2026-06-30 20:41 MDT",
-        "ageMinutes": 78997,
+        "ageMinutes": 79003,
         "ageText": "54d 20h",
         "status": "stale"
       },
       "storefrontStatus": {
         "label": "storefront status",
         "timestamp": "2026-08-11 20:04 MDT",
-        "ageMinutes": 18554,
+        "ageMinutes": 18560,
         "ageText": "12d 21h",
         "status": "stale"
       },
       "emailWatch": {
         "label": "outreach watch",
         "timestamp": "2026-08-18T06:28:10-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "publicMetadata": {
         "label": "public metadata",
         "timestamp": "2026-08-18T06:28:10-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "liveSurfaces": {
         "label": "live surfaces",
         "timestamp": "2026-08-18T06:28:11-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "storefrontAuthSession": {
         "label": "storefront auth/session",
         "timestamp": "2026-08-18T06:28:11-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "unknown"
       },
       "fulfillment": {
         "label": "fulfillment logger",
         "timestamp": "2026-08-18T06:28:00-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "blocked"
       },
       "runtimeHealth": {
         "label": "control runtime",
         "timestamp": "2026-08-18T11:34:41-06:00",
-        "ageMinutes": 8984,
+        "ageMinutes": 8989,
         "ageText": "6d 5h",
         "status": "stale"
       },
       "merchExpansion": {
         "label": "merch expansion",
         "timestamp": "2026-08-18T06:28:12-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "contactFormReadiness": {
         "label": "contact-form readiness",
         "timestamp": "2026-08-18T06:28:12-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "websiteLiveChatReadiness": {
         "label": "website live-chat readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "contactFormExecution": {
         "label": "contact-form execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "websiteLiveChatExecution": {
         "label": "website live-chat execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "nativeConsultReadiness": {
         "label": "native consult readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "instagramDmReadiness": {
         "label": "instagram dm readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "facebookDmReadiness": {
         "label": "facebook dm readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "linkedinLightConnectReadiness": {
         "label": "linkedin light-connect readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "microAuditProofRouteReadiness": {
         "label": "micro-audit proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "consultIntakeProofRouteReadiness": {
         "label": "consult/intake proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "holidayHoursProofRouteReadiness": {
         "label": "holiday-hours proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "homepageCtaClarityProofRouteReadiness": {
         "label": "homepage CTA-clarity proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "responseWindowProofRouteReadiness": {
         "label": "response-window proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "pricingClarityProofRouteReadiness": {
         "label": "pricing-clarity proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "pathChoiceClarityProofRouteReadiness": {
         "label": "path-choice clarity proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "serviceFitClarityProofRouteReadiness": {
         "label": "service-fit clarity proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "gbpReputationProofRouteReadiness": {
         "label": "GBP reputation proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "arrivalClarityProofRouteReadiness": {
         "label": "arrival-clarity proof-route readiness",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "nonEmailMethodBoard": {
         "label": "non-email method board",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "nativeConsultExecution": {
         "label": "native consult execution",
-        "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
-        "ageText": "6d 10h",
-        "status": "stale"
+        "timestamp": "2026-08-24T17:24:01-06:00",
+        "ageMinutes": 0,
+        "ageText": "0m",
+        "status": "fresh"
       },
       "consultIntakeProofRouteExecution": {
         "label": "consult/intake proof-route execution",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "holidayHoursProofRouteExecution": {
         "label": "holiday-hours proof-route execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "homepageCtaClarityProofRouteExecution": {
         "label": "homepage CTA-clarity proof-route execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "responseWindowProofRouteExecution": {
         "label": "response-window proof-route execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "pricingClarityProofRouteExecution": {
         "label": "pricing-clarity proof-route execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "pathChoiceClarityProofRouteExecution": {
         "label": "path-choice clarity proof-route execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "serviceFitClarityProofRouteExecution": {
         "label": "service-fit clarity proof-route execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "gbpReputationProofRouteExecution": {
         "label": "GBP reputation proof-route execution",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "arrivalClarityProofRouteExecution": {
         "label": "arrival-clarity proof-route execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "instagramDmExecution": {
         "label": "instagram dm execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "facebookDmExecution": {
         "label": "facebook dm execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "linkedinLightConnectExecution": {
         "label": "linkedin light-connect execution",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "microAuditProofRouteExecution": {
         "label": "micro-audit proof-route execution",
         "timestamp": "2026-08-18T06:28:13-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "skillOutput": {
         "label": "skill output",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       },
       "skillRegistry": {
         "label": "skill registry",
         "timestamp": "2026-08-18T06:28:14-06:00",
-        "ageMinutes": 9290,
+        "ageMinutes": 9296,
         "ageText": "6d 10h",
         "status": "stale"
       }
